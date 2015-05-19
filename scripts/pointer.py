@@ -1,25 +1,50 @@
 #!/usr/bin/python
+"""Usage: pointer.py [-bt] <offset>
 
-import sys
+Calculates the pointer value for a given offset for Game Boy roms.
 
-if (len(sys.argv) < 2):
-    print('ERROR: Please provide an offset to calculate a pointer to.')
-    exit()
+Arguments
+    <offset>    Offset for which to compute the pointer
 
-pointer = sys.argv[1]
-pointer = "0x" + pointer[-4:]
-pointer = int(pointer, base=16)
+Options:
+    -b --bigendian   Use big endian mode
+    -t --threebyte       Calculate 3 byte pointer
 
-if (pointer >= 0x0000 and pointer <= 0x3FFF):
-    pointer += 0x4000
-elif(pointer >= 0x8000 and pointer <= 0xBFFF):
-    pointer -= 0x4000
-elif(pointer >= 0xC000 and pointer <= 0xFFFF):
-    pointer -= 0x8000
+"""
+from math import floor
+from docopt import docopt
 
-pointer_str = hex(pointer)
-pointer_little_endian = "0x" + pointer_str[4:6] + pointer_str[2:4]
 
-pointer = int(pointer_little_endian, base=16)
+def get_2byte_pointer(offset, big_endian=False):
+    offset = "0x" + offset[-4:]
+    offset = int(offset, base=16)
+    offset = (offset % 0x4000) + 0x4000
 
-print('The pointer is: %s' % hex(pointer))
+    pointer_str = hex(offset)
+    if (not big_endian):
+        pointer_str = "0x" + pointer_str[4:6] + pointer_str[2:4]
+
+    pointer = int(pointer_str, base=16)
+
+    return pointer
+
+
+def get_3byte_pointer(offset):
+    two_byte_pointer = get_2byte_pointer(offset, big_endian=True)
+    offset = int(offset, base=16)
+    bank_number = floor(offset / 0x4000)
+    pointer = (bank_number*0x4000) + (two_byte_pointer - 0x4000)
+    return pointer
+
+if __name__ == '__main__':
+    arguments = docopt(__doc__, version='1.0')
+
+    offset = arguments["<offset>"]
+
+    pointer = None
+    if arguments["--threebyte"]:
+        pointer = get_3byte_pointer(offset)
+        print("{0:0{1}X}".format(pointer, 6))
+    else:
+        pointer = get_2byte_pointer(offset, big_endian=arguments["--bigendian"])
+        print("{0:0{1}X}".format(pointer, 4))
