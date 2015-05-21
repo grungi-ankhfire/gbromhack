@@ -14,7 +14,7 @@ from math import floor
 from docopt import docopt
 
 if __name__ == '__main__':
-    arguments = docopt(__doc__, version='1.0')
+    arguments = docopt(__doc__, version='1.0', options_first=True)
 
     x = int(arguments["<x>"])
     y = int(arguments["<y>"])

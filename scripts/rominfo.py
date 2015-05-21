@@ -17,7 +17,7 @@ def check_nintendo_logo():
     nintendo_logo = "CE ED 66 66 CC 0D 00 0B 03 73 00 83 00 0C 00 0D "\
                     "00 08 11 1F 88 89 00 0E DC CC 6E E6 DD DD D9 99 "\
                     "BB BB 67 63 6E 0E EC CC DD DC 99 9F BB B9 33 3E"
-    nintendo_logo_bytes = bytes.fromhex(nintendo_logo)    
+    nintendo_logo_bytes = bytes.fromhex(nintendo_logo)
 
     rom.seek(0x104)
     nintendo_logo_rom = rom.read(48)
@@ -58,7 +58,7 @@ def get_cartridge_type():
 def get_rom_size():
     rom_sizes = {
         b'\x00': " 32KB (no ROM banking)",
-        b'\x01': " 64KB (4 banks)", 
+        b'\x01': " 64KB (4 banks)",
         b'\x02': "128KB (8 banks)",
         b'\x03': "256KB (16 banks)",
         b'\x04': "512KB (32 banks)",
@@ -70,13 +70,13 @@ def get_rom_size():
         b'\x54': "1.5MB (96 banks)",
     }
     rom.seek(0x0148)
-    return(rom_sizes[rom.read(1)])    
+    return(rom_sizes[rom.read(1)])
 
 
 def get_ram_size():
     ram_sizes = {
         b'\x00': "None",
-        b'\x01': "2KB", 
+        b'\x01': "2KB",
         b'\x02': "8KB",
         b'\x03': "32KB (4 banks of 8KB)",
     }
@@ -112,7 +112,7 @@ if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
     rom = open(arguments["<romfile>"], 'rb')
-    
+
     print('Cartridge name ................ %s' % get_cartridge_name())
     print('Nintendo logo ................. %s' % check_nintendo_logo())
     print('Cartridge type ................ %s' % get_cartridge_type())
