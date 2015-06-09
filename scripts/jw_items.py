@@ -1,5 +1,7 @@
 #!/usr/bin/python
-"""Usage: jw_items.py <romfile> <offset> [<tablefile>]
+# -*- coding:utf-8 -*-
+"""Usage: jw_items.py info <romfile> <offset> [<tablefile>]
+          jw_items.py list <romfile> <offset> [<tablefile>]
 
 Display information about Jungle Wars items.
 
@@ -17,7 +19,10 @@ rom = None
 table = None
 
 ITEM_TYPES = {
-    b'\x80': '?Weapon (Boy)',
+    b'\x40': 'Weapon (Mio)',
+    b'\x41': 'Armour - Body (Mio)',
+    b'\x80': 'Weapon (Boy)',
+    b'\x90': '?Weapon (Boy)',
     b'\x81': 'Armour - Body (Boy)',
 }
 
@@ -25,22 +30,17 @@ EQUIPMENT_EFFECTS = {
     b'\x00': 'None',
     b'\x01': 'Atk 2',
     b'\x02': 'Atk 7',
-    b'\x03': '?Atk 11',
-    b'\x04': '?Atk 19',
+    b'\x03': 'Atk 12',
+    b'\x04': 'Atk 20',
     b'\x05': 'Atk 8 Def 5 Spd 10',
-    b'\x10': '?Atk 49',
+    b'\x06': 'Atk 40',
+    b'\x07': 'Atk 50',
+    b'\x10': 'Atk 50, Blotted MP',
     b'\x11': 'Def 4',
 }
 
 
-def parse_item(offset):
-    rom.seek(offset)
-    item_type = ITEM_TYPES[rom.read(1)]
-    byte2 = rom.read(1)
-    equipment_effect = EQUIPMENT_EFFECTS[rom.read(1)]
-    purchase_price = ord(rom.read(1))
-    byte5 = rom.read(1)
-
+def read_item_name():
     name = bytearray()
     cur_byte = rom.read(1)
     while(cur_byte != b'\xFF'):
@@ -50,12 +50,60 @@ def parse_item(offset):
     if table:
         name = table.convert_bytearray(name)
 
-    print('Item name: %s' % name)
-    print('Item type: %s' % item_type)
-    print('Equipment effect: %s' % equipment_effect)
-    print('Purchase price: %s' % purchase_price)
-    print('Selling price: %s' % floor(purchase_price*0.75))
-    print('Info bytes (2, 5): %s %s' % (byte2, byte5))
+    return name
+
+
+def parse_item(offset=None):
+    if offset is not None:
+        rom.seek(offset)
+    item_type = rom.read(1)
+    try:
+        item_type = ITEM_TYPES[item_type]
+    except:
+        item_type = str(hex(ord(item_type)))
+    byte2 = rom.read(1)
+    equipment_effect = rom.read(1)
+    try:
+        equipment_effect = EQUIPMENT_EFFECTS[equipment_effect]
+    except:
+        equipment_effect = str(hex(ord(equipment_effect)))
+    purchase_price = int.from_bytes(rom.read(2),
+                                    byteorder='little',
+                                    signed=False)
+
+    name = read_item_name()
+
+    item = {
+        'name': name,
+        'item_type': item_type,
+        'purchase_price': purchase_price,
+        'equipment_effect': equipment_effect,
+        'byte2': byte2,
+        'byte_count': 5 + len(name),
+    }
+
+    return item
+
+
+def extract_list(offset):
+    rom.seek(offset)
+    print('%17s %-20s %20s %10s : %-12s' % ('Range',
+                                            'Type',
+                                            'Effect',
+                                            'Price',
+                                            'Name'))
+    for i in range(87):
+        item = parse_item()
+        length = item['byte_count']
+        print("%s - %s %-20s %20s %10s : %-12s" % (hex(offset),
+                                                   hex(offset+length),
+                                                   item['item_type'],
+                                                   item['equipment_effect'],
+                                                   item['purchase_price'],
+                                                   item['name']))
+        offset += length + 1
+
+
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
@@ -64,4 +112,15 @@ if __name__ == '__main__':
     if (arguments['<tablefile>']):
         table = TranslationTable(arguments['<tablefile>'])
 
-    parse_item(offset)
+    if arguments['info']:
+        item = parse_item(offset)
+
+        print('Item name: %s' % item['name'])
+        print('Item type: %s' % item['item_type'])
+        print('Equipment effect: %s' % item['equipment_effect'])
+        print('Purchase price: %s' % item['purchase_price'])
+        print('Selling price: %s' % floor(item['purchase_price']*0.75))
+        print('Byte 2): %s' % item['byte2'])
+
+    elif arguments['list']:
+        extract_list(offset)
