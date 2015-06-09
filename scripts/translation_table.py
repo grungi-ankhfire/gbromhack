@@ -12,14 +12,17 @@ class TranslationTable(object):
     table = {}
 
     def __init__(self, filename):
-        f = open(filename, 'r')
+        f = open(filename, 'r', encoding="utf8")
         for line in f:
             tokens = line.split('=')
             self.table[int(tokens[0], base=16)] = tokens[1].rstrip('\n')
         f.close()
 
     def convert_byte(self, b):
-        return self.table[b]
+        if b in self.table:
+            return self.table[b]
+        else:
+            return str(b)
 
     def convert_bytearray(self, ba):
         result = ""
