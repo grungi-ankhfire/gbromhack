@@ -7,12 +7,13 @@
     http://transcorp.romhacking.net/scratchpad/Table%20File%20Format.txt
 """
 
+
 class TranslationTable(object):
 
     table = {}
 
     def __init__(self, filename):
-        f = open(filename, 'r', encoding="utf8")
+        f = open(filename, 'r')
         for line in f:
             tokens = line.split('=')
             self.table[int(tokens[0], base=16)] = tokens[1].rstrip('\n')

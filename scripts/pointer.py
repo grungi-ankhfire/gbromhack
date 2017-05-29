@@ -25,7 +25,6 @@ def get_2byte_pointer(offset, big_endian=False):
         pointer_str = "0x" + pointer_str[4:6] + pointer_str[2:4]
 
     pointer = int(pointer_str, base=16)
-
     return pointer
 
 
@@ -33,8 +32,9 @@ def get_3byte_pointer(offset):
     two_byte_pointer = get_2byte_pointer(offset, big_endian=True)
     offset = int(offset, base=16)
     bank_number = floor(offset / 0x4000)
-    pointer = (bank_number*0x4000) + (two_byte_pointer - 0x4000)
-    return pointer
+    pointer = (bank_number * 0x4000) + (two_byte_pointer - 0x4000)
+    return int(pointer)
+
 
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
@@ -47,6 +47,7 @@ if __name__ == '__main__':
         pointer = get_3byte_pointer(offset)
         print("{0:0{1}X}".format(pointer, 6))
     else:
-        pointer = get_2byte_pointer(offset, big_endian=arguments["--bigendian"])
+        pointer = get_2byte_pointer(
+            offset, big_endian=arguments["--bigendian"])
         print("{0:0{1}X}".format(pointer, 4))
     print()

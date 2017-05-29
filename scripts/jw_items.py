@@ -43,7 +43,7 @@ EQUIPMENT_EFFECTS = {
 def read_item_name():
     name = bytearray()
     cur_byte = rom.read(1)
-    while(cur_byte != b'\xFF'):
+    while (cur_byte != b'\xFF'):
         name += cur_byte
         cur_byte = rom.read(1)
 
@@ -67,9 +67,10 @@ def parse_item(offset=None):
         equipment_effect = EQUIPMENT_EFFECTS[equipment_effect]
     except:
         equipment_effect = str(hex(ord(equipment_effect)))
-    purchase_price = int.from_bytes(rom.read(2),
-                                    byteorder='little',
-                                    signed=False)
+    #purchase_price = int.from_bytes(rom.read(2),
+    #                                byteorder='little',
+    #                                signed=False)
+    purchase_price = int(''.join(reversed(rom.read(2))).encode('hex'), 16)
 
     name = read_item_name()
 
@@ -87,20 +88,14 @@ def parse_item(offset=None):
 
 def extract_list(offset):
     rom.seek(offset)
-    print('%17s %-20s %20s %10s : %-12s' % ('Range',
-                                            'Type',
-                                            'Effect',
-                                            'Price',
+    print('%17s %-20s %20s %10s : %-12s' % ('Range', 'Type', 'Effect', 'Price',
                                             'Name'))
     for i in range(87):
         item = parse_item()
         length = item['byte_count']
-        print("%s - %s %-20s %20s %10s : %-12s" % (hex(offset),
-                                                   hex(offset+length),
-                                                   item['item_type'],
-                                                   item['equipment_effect'],
-                                                   item['purchase_price'],
-                                                   item['name']))
+        print("%s - %s %-20s %20s %10s : %-12s" %
+              (hex(offset), hex(offset + length), item['item_type'],
+               item['equipment_effect'], item['purchase_price'], item['name']))
         offset += length + 1
 
 
@@ -111,7 +106,7 @@ if __name__ == '__main__':
     offset = int(arguments["<offset>"], base=16)
     if (arguments['<tablefile>']):
         table = TranslationTable(arguments['<tablefile>'])
-
+        print('\xe3\x80\x8c')
     if arguments['info']:
         item = parse_item(offset)
 
@@ -119,7 +114,7 @@ if __name__ == '__main__':
         print('Item type: %s' % item['item_type'])
         print('Equipment effect: %s' % item['equipment_effect'])
         print('Purchase price: %s' % item['purchase_price'])
-        print('Selling price: %s' % floor(item['purchase_price']*0.75))
+        print('Selling price: %s' % floor(item['purchase_price'] * 0.75))
         print('Byte 2): %s' % item['byte2'])
 
     elif arguments['list']:
