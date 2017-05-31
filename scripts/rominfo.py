@@ -2,7 +2,7 @@
 """Usage: rominfo.py <romfile>
 
 Display information about GB roms.
-The info is taken from the "PAN Doc".
+The info is taken from the "PAN Doc" and other sources.
 
 Arguments
     <romfile>   The rom file to open

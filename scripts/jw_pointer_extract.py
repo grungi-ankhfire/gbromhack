@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
-"""Usage: jw_items.py info <romfile> <offset> [<tablefile>]
-          jw_items.py list <romfile> <offset> [<tablefile>]
+"""Usage: jw_pointer_extract.py info <romfile> <offset> [<tablefile>]
+          jw_pointer_extract.py list <romfile> <offset> [<tablefile>]
 
-Display information about Jungle Wars items.
+Try and extract pointers and script.
 
 Arguments
     <romfile>   The rom file to open
@@ -40,23 +40,34 @@ EQUIPMENT_EFFECTS = {
 }
 
 
-def read_item_name():
-    """Read an item name from the rom, and translate with a table if any."""
-    name = bytearray()
+def read_script():
+    script = bytearray()
     cur_byte = rom.read(1)
     while (cur_byte != b'\xFF'):
-        name += cur_byte
+        script += cur_byte
         cur_byte = rom.read(1)
 
     if table:
-        name = table.convert_bytearray(name)
+        script = table.convert_bytearray(script)
 
-    return name
+    return script
 
 
-def parse_item(offset=None):
+def parse_next_pointer(offset=None):
     if offset is not None:
         rom.seek(offset)
+
+    b = rom.read(1)
+    while b != b'\x21':
+        b = rom.read(1)
+
+    pointer = int(''.join(reversed(rom.read(2))).encode('hex'), 16)
+
+    rom.seek(0x4000 + pointer)
+
+    return read_script()
+
+    return
     item_type = rom.read(1)
     try:
         item_type = ITEM_TYPES[item_type]
@@ -102,17 +113,13 @@ if __name__ == '__main__':
 
     rom = open(arguments["<romfile>"], 'rb')
     offset = int(arguments["<offset>"], base=16)
+
     if (arguments['<tablefile>']):
         table = TranslationTable(arguments['<tablefile>'])
-    if arguments['info']:
-        item = parse_item(offset)
 
-        print('Item name: %s' % item['name'])
-        print('Item type: %s' % item['item_type'])
-        print('Equipment effect: %s' % item['equipment_effect'])
-        print('Purchase price: %s' % item['purchase_price'])
-        print('Selling price: %s' % floor(item['purchase_price'] * 0.75))
-        print('Byte 2): %s' % item['byte2'])
+    if arguments['info']:
+        script_line = parse_next_pointer(offset)
+        print(script_line)
 
     elif arguments['list']:
         extract_list(offset)
