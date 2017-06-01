@@ -68,7 +68,7 @@ def parse_item(offset=None):
         equipment_effect = EQUIPMENT_EFFECTS[equipment_effect]
     except KeyError:
         equipment_effect = str(hex(ord(equipment_effect)))
-    purchase_price = int(''.join(reversed(rom.read(2))).encode('hex'), 16)
+    purchase_price = int.from_bytes(rom.read(2), byteorder='little')
 
     name = read_item_name()
 
