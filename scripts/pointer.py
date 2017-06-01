@@ -36,18 +36,20 @@ def get_3byte_pointer(offset):
     return int(pointer)
 
 
+class ROMPointer(object):
+    def __init__(self, offset, big_endian=False):
+        self.offset = offset
+        self.two_bytes = get_2byte_pointer(offset, big_endian=big_endian)
+        self.three_bytes = get_3byte_pointer(offset)
+
+
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
     offset = arguments["<offset>"]
 
-    pointer = None
-    print()
+    pointer = ROMPointer(offset, big_endian=arguments["--bigendian"])
     if arguments["--threebyte"]:
-        pointer = get_3byte_pointer(offset)
-        print("{0:0{1}X}".format(pointer, 6))
+        print("{0:0{1}X}".format(pointer.three_bytes, 6))
     else:
-        pointer = get_2byte_pointer(
-            offset, big_endian=arguments["--bigendian"])
-        print("{0:0{1}X}".format(pointer, 4))
-    print()
+        print("{0:0{1}X}".format(pointer.two_bytes, 4))
