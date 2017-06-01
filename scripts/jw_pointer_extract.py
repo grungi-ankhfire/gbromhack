@@ -2,6 +2,8 @@
 # -*- coding:utf-8 -*-
 """Usage: jw_pointer_extract.py info <romfile> <offset> [<tablefile>]
           jw_pointer_extract.py list <romfile> <offset> [<tablefile>]
+          jw_pointer_extract.py script <romfile> <offset> [<tablefile>]
+          jw_pointer_extract.py seek <romfile> <offset> [<tablefile>]
 
 Try and extract pointers and script.
 
@@ -61,7 +63,7 @@ def parse_next_pointer(offset=None):
     while b != b'\x21':
         b = rom.read(1)
 
-    pointer = int(''.join(reversed(rom.read(2))).encode('hex'), 16)
+    pointer = int.from_bytes(rom.read(2), byteorder='little')
 
     rom.seek(0x4000 + pointer)
 
@@ -108,6 +110,31 @@ def extract_list(offset):
         offset += length + 1
 
 
+def extract_script(offset):
+    rom.seek(offset)
+
+    for i in range(100):
+        location = int(rom.tell() - offset)
+        pointer = location.to_bytes(2, byteorder='little')
+        pointer_print = int.from_bytes(pointer, byteorder='big')
+        print('{0:#06x} {1:#06x} {2}'.format(location, pointer_print,
+                                             read_script()))
+
+
+def look_for_potential_pointers(pointer):
+    potential_candidates = []
+    while True:
+        b = rom.read(1)
+        if not b:
+            break
+
+        if b == b'\x21':
+            if int.from_bytes(rom.read(2), byteorder='big') == pointer:
+                potential_candidates.append(hex(rom.tell() - 2))
+
+    print(potential_candidates)
+
+
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
@@ -118,8 +145,15 @@ if __name__ == '__main__':
         table = TranslationTable(arguments['<tablefile>'])
 
     if arguments['info']:
+        # Example offset : 0xD90F
         script_line = parse_next_pointer(offset)
         print(script_line)
 
     elif arguments['list']:
         extract_list(offset)
+
+    elif arguments['script']:
+        extract_script(offset)
+
+    elif arguments['seek']:
+        look_for_potential_pointers(offset)
