@@ -11,12 +11,16 @@
 class TranslationTable(object):
 
     table = {}
+    inverse_table = {}
 
     def __init__(self, filename):
         f = open(filename, 'r', encoding="utf8")
         for line in f:
             tokens = line.split('=')
-            self.table[int(tokens[0], base=16)] = tokens[1].rstrip('\n')
+            hexcode = int(tokens[0], base=16)
+            symbol = tokens[1].rstrip('\n')
+            self.table[hexcode] = symbol
+            self.inverse_table[symbol] = hexcode
         f.close()
 
     def convert_byte(self, b):
@@ -29,4 +33,16 @@ class TranslationTable(object):
         result = ""
         for b in ba:
             result += self.convert_byte(b)
+        return result
+
+    def convert_script(self, script):
+        result = b''
+        token = ''
+        for character in script:
+            token += character
+            print(token)
+            if token in self.inverse_table:
+                result += bytes([self.inverse_table[token]])
+                print(bytes([self.inverse_table[token]]))
+                token = ''
         return result
