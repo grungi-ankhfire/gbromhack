@@ -40,9 +40,7 @@ class TranslationTable(object):
         token = ''
         for character in script:
             token += character
-            print(token)
             if token in self.inverse_table:
                 result += bytes([self.inverse_table[token]])
-                print(bytes([self.inverse_table[token]]))
                 token = ''
         return result

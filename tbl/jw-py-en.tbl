@@ -8,6 +8,7 @@
 07=7
 08=8
 09=9
+0A=「
 0B=.
 0C=!
 0D=?
@@ -99,8 +100,9 @@
 F0=<var0>
 F1=<var1>
 F2=<var2>
-FE=[END]
+FE=<FE>
 FEFE=<br>
 FEFF=<end>
-FF=<ff>
+FF=<FF>
 F8=<var8>
+FD=<FD>
