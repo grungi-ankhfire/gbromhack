@@ -6,10 +6,9 @@ Try and extract map data.
 
 Arguments
     <romfile>   The rom file to open
-    <index>     The index of the map
+    <index>     The index of the map, 999 for whole bank
 
 """
-from math import floor
 from docopt import docopt
 import os
 
@@ -174,6 +173,8 @@ def print_ascii_map(map_data):
     w = map_data['header']['width']
     h = map_data['header']['height']
 
+    print(map_data)
+
     for row in range(h):
         line = ""
         for col in range(int(w / 2)):
@@ -198,7 +199,7 @@ if __name__ == '__main__':
         for i in index:
             try:
                 map_data = read_map(i)
-                #print(map_data)
+                # print(map_data)
                 print_ascii_map(map_data)
                 print("\n\n")
             except:

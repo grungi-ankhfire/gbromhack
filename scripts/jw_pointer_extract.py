@@ -13,6 +13,7 @@ Arguments
     <tablefile> Translation table to use
 
 """
+
 from math import floor
 from docopt import docopt
 from translation_table import TranslationTable
