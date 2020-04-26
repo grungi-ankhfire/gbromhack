@@ -1,0 +1,1 @@
+To use the provided scripts, please place an unmodified dump of the Jungle Wars ROM named "jw_original.gb" here.
