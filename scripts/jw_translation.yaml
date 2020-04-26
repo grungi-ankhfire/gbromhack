@@ -1,3 +1,106 @@
+in_place:
+  
+  - location: 0x30991
+    original: ""
+    translation: " Talk"
+
+  - location: 0x33950
+    original:    " ジャングルのしょを つくる"
+    translation: " New Jungle   "
+
+  - location: 0x33967
+    original:    " ぼうけんを する"
+    translation: " Continue"
+
+  - location: 0x33972
+    original:    " ジャングルのしょを けす "
+    translation: " Clear Jungle "
+
+  - location: 0x33981
+    original:    " そくどを かえる"
+    translation: " Text spd"
+
+  - location: 0x33993
+    original:    " ぼうけんを する"
+    translation: " Continue"  
+
+  - location: 0x3399E
+    original:    " ジャングルのしょを つくる"
+    translation: " New Jungle   "
+
+  - location: 0x339AD
+    original:    " ジャングルのしょを うつす"
+    translation: " Copy Jungle  "
+
+  - location: 0x339BC
+    original:    " ジャングルのしょを けす "
+    translation: " Clear Jungle "
+
+  - location: 0x339CB
+    original:    " そくどを かえる"
+    translation: " Text spd"
+
+  - location: 0x339DD
+    original:    " ジャングルのしょ <var0>"
+    translation: " Jungle <var0>  "
+
+  - location: 0x339F1
+    original:    " ジャングルのしょ <var0>"
+    translation: " Jungle <var0>  "
+
+  - location: 0x339FD
+    original:    " ジャングルのしょ <var0>"
+    translation: " Jungle <var0>  "
+
+  - location: 0x33A11
+    original:    " ジャングルのしょ <var0>"
+    translation: " Jungle <var0>  "
+
+  - location: 0x33A1D
+    original:    " ジャングルのしょ <var0>"
+    translation: " Jungle <var0>  "
+
+  - location: 0x33A29
+    original:    " ジャングルのしょ <var0>"
+    translation: " Jungle <var0>  "
+
+  - location: 0x33A3D
+    original:    " ジャングルのしょ <var1>"
+    translation: " Jungle <var1>  "
+
+  - location: 0x33A59
+    original:    " ジャングルのしょ <var1>"
+    translation: " Jungle <var1>  "
+
+  - location: 0x33A6D
+    original:    " ジャングルのしょ <var1>"
+    translation: " Jungle <var1>  "
+
+  - location: 0x33A89
+    original:    " ジャングルのしょ <var1>"
+    translation: " Jungle <var1>  "
+
+  - location: 0x33A9D
+    original:    " ジャングルのしょ <var1>"
+    translation: " Jungle <var1>  "
+
+  - location: 0x33AB1
+    original:    " ジャングルのしょ <var1>"
+    translation: " Jungle <var1>  "
+
+  - location: 0x33ACC
+    original:    "いいかな?"
+    translation: "Okay?"
+
+  - location: 0x33AD2
+    original:    " いいよ"
+    translation: " Yes"
+
+  - location: 0x33AD8
+    original:    " やだよ"
+    translation: " No!"
+
+
 combat:
 
   - location: 0x20908
