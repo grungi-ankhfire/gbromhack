@@ -85,6 +85,7 @@ if __name__ == '__main__':
     script = data["script"]
     combat = data["combat"]
     combat_wide = data["combat_wide"]
+    in_place = data["in_place"]
 
     messages = [
         TextString(0x1A581,
@@ -109,6 +110,12 @@ if __name__ == '__main__':
             messages.append(TextString(m['pointer_location'],
                                        m['translation'])
                             )
+
+    for m in in_place:
+        offset = m["location"]
+        message_bytes = table.convert_script(m["translation"])
+        rom.seek(offset)
+        rom.write(message_bytes)
 
     message_index = 0
     total_length = 0

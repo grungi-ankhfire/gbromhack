@@ -1,104 +1,216 @@
 in_place:
-  
-  - location: 0x30991
-    original: ""
-    translation: " Talk"
 
-  - location: 0x33950
-    original:    " ジャングルのしょを つくる"
-    translation: " New Jungle   "
+  - location: 0x33951
+    original:    "ジャングルのしょを つくる"
+    translation: "New Jungle   "
 
-  - location: 0x33967
-    original:    " ぼうけんを する"
-    translation: " Continue"
+  - location: 0x33968
+    original:    "ぼうけんを する"
+    translation: "Continue"
 
-  - location: 0x33972
-    original:    " ジャングルのしょを けす "
-    translation: " Clear Jungle "
+  - location: 0x33973
+    original:    "ジャングルのしょを けす "
+    translation: "Clear Jungle "
 
-  - location: 0x33981
-    original:    " そくどを かえる"
-    translation: " Text spd"
+  - location: 0x33982
+    original:    "そくどを かえる"
+    translation: "Text spd"
 
-  - location: 0x33993
-    original:    " ぼうけんを する"
-    translation: " Continue"  
+  - location: 0x33994
+    original:    "ぼうけんを する"
+    translation: "Continue"  
 
-  - location: 0x3399E
-    original:    " ジャングルのしょを つくる"
-    translation: " New Jungle   "
+  - location: 0x3399F
+    original:    "ジャングルのしょを つくる"
+    translation: "New Jungle   "
 
-  - location: 0x339AD
-    original:    " ジャングルのしょを うつす"
-    translation: " Copy Jungle  "
+  - location: 0x339AE
+    original:    "ジャングルのしょを うつす"
+    translation: "Copy Jungle  "
 
-  - location: 0x339BC
-    original:    " ジャングルのしょを けす "
-    translation: " Clear Jungle "
+  - location: 0x339BD
+    original:    "ジャングルのしょを けす "
+    translation: "Clear Jungle "
 
-  - location: 0x339CB
-    original:    " そくどを かえる"
-    translation: " Text spd"
+  - location: 0x339CC
+    original:    "そくどを かえる"
+    translation: "Text spd"
 
-  - location: 0x339DD
-    original:    " ジャングルのしょ <var0>"
-    translation: " Jungle <var0>  "
+  - location: 0x339DE
+    original:    "ジャングルのしょ <var0>"
+    translation: "Jungle <var0>  "
 
-  - location: 0x339F1
-    original:    " ジャングルのしょ <var0>"
-    translation: " Jungle <var0>  "
+  - location: 0x339F2
+    original:    "ジャングルのしょ <var0>"
+    translation: "Jungle <var0>  "
 
-  - location: 0x339FD
-    original:    " ジャングルのしょ <var0>"
-    translation: " Jungle <var0>  "
+  - location: 0x339FE
+    original:    "ジャングルのしょ <var0>"
+    translation: "Jungle <var0>  "
 
-  - location: 0x33A11
-    original:    " ジャングルのしょ <var0>"
-    translation: " Jungle <var0>  "
+  - location: 0x33A12
+    original:    "ジャングルのしょ <var0>"
+    translation: "Jungle <var0>  "
 
-  - location: 0x33A1D
-    original:    " ジャングルのしょ <var0>"
-    translation: " Jungle <var0>  "
+  - location: 0x33A1E
+    original:    "ジャングルのしょ <var0>"
+    translation: "Jungle <var0>  "
 
-  - location: 0x33A29
-    original:    " ジャングルのしょ <var0>"
-    translation: " Jungle <var0>  "
+  - location: 0x33A2A
+    original:    "ジャングルのしょ <var0>"
+    translation: "Jungle <var0>  "
 
-  - location: 0x33A3D
-    original:    " ジャングルのしょ <var1>"
-    translation: " Jungle <var1>  "
+  - location: 0x33A3E
+    original:    "ジャングルのしょ <var1>"
+    translation: "Jungle <var1>  "
 
-  - location: 0x33A59
-    original:    " ジャングルのしょ <var1>"
-    translation: " Jungle <var1>  "
+  - location: 0x33A5A
+    original:    "ジャングルのしょ <var1>"
+    translation: "Jungle <var1>  "
 
-  - location: 0x33A6D
-    original:    " ジャングルのしょ <var1>"
-    translation: " Jungle <var1>  "
+  - location: 0x33A6E
+    original:    "ジャングルのしょ <var1>"
+    translation: "Jungle <var1>  "
 
-  - location: 0x33A89
-    original:    " ジャングルのしょ <var1>"
-    translation: " Jungle <var1>  "
+  - location: 0x33A8A
+    original:    "ジャングルのしょ <var1>"
+    translation: "Jungle <var1>  "
 
-  - location: 0x33A9D
-    original:    " ジャングルのしょ <var1>"
-    translation: " Jungle <var1>  "
+  - location: 0x33A9E
+    original:    "ジャングルのしょ <var1>"
+    translation: "Jungle <var1>  "
 
-  - location: 0x33AB1
-    original:    " ジャングルのしょ <var1>"
-    translation: " Jungle <var1>  "
+  - location: 0x33AB2
+    original:    "ジャングルのしょ <var1>"
+    translation: "Jungle <var1>  "
 
   - location: 0x33ACC
     original:    "いいかな?"
     translation: "Okay?"
 
-  - location: 0x33AD2
-    original:    " いいよ"
-    translation: " Yes"
+  - location: 0x33AD3
+    original:    "いいよ"
+    translation: "Yes"
 
-  - location: 0x33AD8
-    original:    " やだよ"
-    translation: " No!"
+  - location: 0x33AD9
+    original:    "やだよ"
+    translation: "No!"
+
+  - location: 0x33AE5
+    original:    "もじひょうじそくど"
+    translation: "Txt speed"
+
+  - location: 0x33AF0
+    original:    "はやい"
+    translation: "Fst"
+
+  - location: 0x33AF6
+    original:    "ふつう"
+    translation: "Med"
+
+  - location: 0x33AFC
+    original:    "おそい"
+    translation: "Slw" 
+
+  - location: 0x33B08
+    original:    ' なまえをいれてく"たさい ****'
+    translation: " Enter name  **** " 
+
+  - location: 0x33B23
+    original:    ' あいうえお はひふへほ ゃゅょっ'
+    translation: " A B C D E F !?-."
+
+  - location: 0x33B36
+    original:    ' かきくけこ まみむめも'
+    translation: " G H I J K L"
+
+  - location: 0x33B44
+    original:    ' さしすせそ や ゆ よ " ° '
+    translation: " M N O P Q R     "
+
+  - location: 0x33B57
+    original:    ' たちつてと らリるれろ !?ー*'
+    translation: " S T U V W X     "
+
+  - location: 0x33B6A
+    original:    ' なにぬねの わ を ん カタカナ'
+    translation: " Y Z         lowr"
+
+  - location: 0x33B7D
+    original:    ' 0123456789  おわリ'
+    translation: " 0123456789  END"
+
+  - location: 0x33B95
+    original:    '<FE> アイウエオ ハヒフへホ ャュョッ<FE><FE> カキクケコ マミムメモ ァィェ<FE><FE> サシスセソ ヤ ユ ヨ " ° <FE><FE> タチツテト ラリルレロ !?ー*<FE><FE> ナニヌネノ ワ ヲ ン ひら"かな<FE><FE> 0123456789  おわリ<FE><FF>'
+    translation: '<FE> a b c d e f !?-.<FE><FE> g h i j k l<FE><FE> m n o p q r<FE><FE> s t u v w x<FE><FE> y z         UPPR<FE><FE> 0123456789  END<FE><FF>'
+
+  - location: 0x33CAF
+    original:    'はなす<FE><FE> しらャる<FE> 77マンド<FF>'
+    translation: "Talk<FE> Look<FE> Menu<FF>"
+
+  - location: 0x33E03
+    original:    "きろく しますか?"
+    translation: "Save?    "
+
+  - location: 0x33E0E
+    original:    "いいよ"
+    translation: "Yes"
+
+  - location: 0x33E14
+    original:    "やだよ"
+    translation: "No!"
+
+  - location: 0x3371A
+    original:    "もちもの"
+    translation: "Item"
+
+  - location: 0x33720
+    original:    "つよさ"
+    translation: "Stat"
+
+  - location: 0x33726
+    original:    "じゅもん"
+    translation: "Mgic"
+
+  - location: 0x3372C
+    original:    "さがす"
+    translation: "Srch"
+
+  - location: 0x33738
+    original:    "だれの?"
+    translation: "Who?"
+
+  - location: 0x334DB
+    original:    "じゅもん"
+    translation: "Mgic"
+
+  - location: 0x338E5
+    original:    "つかう"
+    translation: "Use"
+
+  - location: 0x338EA
+    original:    "そうび"
+    translation: "Eqp"
+
+  - location: 0x338EF
+    original:    "わたす"
+    translation: "Giv"
+
+  - location: 0x338F4
+    original:    "すてる"
+    translation: "Thr"
+
+  - location: 0x33909
+    original:    "だれに?"
+    translation: "Who?" 
+
+  - location: 0x33753
+    original:    "レベル"
+    translation: "Lvl" 
+
+  - location: 0x337E2
+    original:    "けいけんち"
+    translation: "Exp. " 
 
 
 combat:
@@ -1131,23 +1243,23 @@ script:
 
   - location: 0x20000
     original: '<var1>は<FE><var2>を つかった!<FF>'
-    pointer_location: 0
-    translation: TODO_0x20000
+    pointer_location: 0x24C6
+    translation: "<var1> used <var2>!"
 
   - location: 0x2000b
     original: '<var1>は たから[A9]こを しらべた!<FF>'
-    pointer_location: 0
-    translation: TODO_0x2000b
+    pointer_location: 0x210B
+    translation: "<var1> found a treasure chest!"
 
   - location: 0x2001b
     original: <var2>をみつけた!<FF>
-    pointer_location: 0
-    translation: TODO_0x2001b
+    pointer_location: 0x205E
+    translation: "<var2> was inside!"
 
   - location: 0x20023
     original: 'しかし なにも おこらなかった!<FF>'
-    pointer_location: 0
-    translation: TODO_0x20023
+    pointer_location: 0x16809
+    translation: "But nothing happened!"
 
   - location: 0x20034
     original: 'しかし もちものが いっ[E0]いびす.<FD>どこかび うるか<FE>すてるかしてください.<FF>'
@@ -1156,8 +1268,8 @@ script:
 
   - location: 0x2005b
     original: '<var2>は すてられません.<FF>'
-    pointer_location: 0
-    translation: TODO_0x2005b
+    pointer_location: 0x2478
+    translation: "Cannot throw <var2> away."
 
   - location: 0x20067
     original: 'もちものが いっ[E0]いびす.<FF>'
@@ -1201,13 +1313,13 @@ script:
 
   - location: 0x200eb
     original: '<var1>は<FE><var2>を もちなおした.<FF>'
-    pointer_location: 0
-    translation: TODO_0x200eb
+    pointer_location: 0x26D7
+    translation: "<var1> got the <var2>."
 
   - location: 0x200f9
     original: '<var0>は<FE>きのみを さがせない.<FF>'
-    pointer_location: 0
-    translation: TODO_0x200f9
+    pointer_location: 0x22E5
+    translation: "<var0> could not find any fruit."
 
   - location: 0x20108
     original: 'サスしは きのみを<FE>さがしに びかけた.<FF>'
@@ -1231,13 +1343,13 @@ script:
 
   - location: 0x20149
     original: 'じゅもんを つかえるひとが<FE>だれも いない.<FF>'
-    pointer_location: 0
-    translation: TODO_0x20149
+    pointer_location: 0x275B
+    translation: "There is no one who can use magic."
 
   - location: 0x20160
     original: '<var1>は<FE>なにも もってない.<FF>'
-    pointer_location: 0
-    translation: TODO_0x20160
+    pointer_location: 0x23A1
+    translation: "<var1> does not have anything."
 
   - location: 0x2016e
     original: 'サスしは まだ<FE>きのみを もってない.<FF>'
@@ -1306,8 +1418,8 @@ script:
 
   - location: 0x20242
     original: '<var1>は <var2>を<FE>そうびした!<FF>'
-    pointer_location: 0
-    translation: TODO_0x20242
+    pointer_location: 0x25A3
+    translation: "<var1> wears <var2>!"
 
   - location: 0x2024f
     original: '<var1>は <var2>を<FE>そうびびきない!<FF>'
@@ -1336,9 +1448,9 @@ script:
     translation: TODO_0x202db
 
   - location: 0x20303
-    original: '<var1>は <var2>の<FE>そうびを はホした!<FF>'
-    pointer_location: 0
-    translation: TODO_0x20303
+    original: '<var1>は <var2>の<FE>そうびを はずした!<FF>'
+    pointer_location: 0x257D
+    translation: "<var1> took <var2> off!"
 
   - location: 0x20314
     original: '<var0>は<FE>[F9][6F]を てにいれた!<FF>'
@@ -1357,13 +1469,13 @@ script:
 
   - location: 0x20342
     original: しゅびリょくが<FE><var8>あがった!<FF>
-    pointer_location: 0
-    translation: TODO_0x20342
+    pointer_location: 0x25E5
+    translation: "Defense rose by <var8>!"
 
   - location: 0x20351
     original: しゅびリょくが<FE><var8>さがった!<FF>
-    pointer_location: 0
-    translation: TODO_0x20351
+    pointer_location: 0x25E0
+    translation: "Defense dropped by <var8>!"
 
   - location: 0x20360
     original: す[A9]やさが<FE><var8>あがった!<FF>
@@ -1467,13 +1579,13 @@ script:
 
   - location: 0x20481
     original: 'そこには だれもいない.<FF>'
-    pointer_location: 0
-    translation: TODO_0x20481
+    pointer_location: 0x20BC
+    translation: "There is no one here."
 
   - location: 0x2048e
     original: なにもなかった.<FF>
-    pointer_location: 0
-    translation: TODO_0x2048e
+    pointer_location: 0x20AA
+    translation: "There was nothing there."
 
   - location: 0x20497
     original: 'ジャングルの あさが きました.[FC]<var0>は あしもとを しらべた.<FE>みホが ながれていて とおれない!<FD>どこかに
