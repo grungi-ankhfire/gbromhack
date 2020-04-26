@@ -75,7 +75,7 @@ if __name__ == '__main__':
         if arguments['--font']:
             offset = FONT_AREA_START
         else:
-            offset = arguments['<start>']
+            offset = int(arguments['<start>'], base=16)
  
         patch_path = arguments['<patchfile>']
 
