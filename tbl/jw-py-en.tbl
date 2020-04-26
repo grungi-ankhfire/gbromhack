@@ -39,6 +39,8 @@
 27=X
 28=Y
 29=Z
+2A='
+2B=,
 42=-
 43="
 44=°
@@ -100,9 +102,13 @@
 F0=<var0>
 F1=<var1>
 F2=<var2>
+F3=<F3>
+F4=<F4>
 FE=<FE>
 FEFE=<br>
 FEFF=<end>
 FF=<FF>
 F8=<var8>
 FD=<FD>
+CF=<CF>
+FC=<FC>
