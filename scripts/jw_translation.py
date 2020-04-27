@@ -36,7 +36,91 @@ class TextString:
         self.max_length = max_length
 
     def prepare(self):
+        """ Returns the text, ready to be written in the ROM.
+
+        Assumptions:
+        <var0> is 4 characters long
+        <var1> is 4 characters long
+        <F4> is 8 characters
+        """
+
         words = self.text.split()
+        lines = [l.strip() for l in self.text.split("<br>")]
+
+        prepared_text = ""
+        self.length = 0
+        line_num = 0
+        for line in range(len(lines)):
+            words = lines[line].split()
+            cur_line_length = 0
+            for i in range(len(words)):
+                word = words[i]
+                word_length = len(word)
+
+                if word.find("<var0>") != -1:
+                    word_length -= 6  # Don't count "<var0>"
+                    word_length += 4  # Count the actual length
+
+                if word.find("<var1>") != -1:
+                    word_length -= 6
+                    word_length += 4
+
+                if word.find("<var2>") != -1:
+                    word_length -= 6
+                    word_length += 4
+
+                if word.find("<var8>") != -1:
+                    word_length -= 6
+                    word_length += 4
+
+                if word.find("<var9>") != -1:
+                    word_length -= 6
+                    word_length += 4
+
+                if word.find("<F4>") != -1:
+                    word_length -= 6
+                    word_length += 8
+
+                if word.find("<FC>") != -1:
+                    word_length -= 4
+                    word_length += 1
+
+                if i == 0:
+                    prepared_text += word
+                    self.length += word_length
+                    cur_line_length += word_length
+
+                else:
+                    if cur_line_length + 1 + word_length <= self.max_length:
+                        prepared_text += " " + word
+                        self.length += word_length + 1
+                        cur_line_length += word_length + 1
+                    else:
+                        if line_num % 2 == 0:
+                            prepared_text += "<FE>"
+                        else:
+                            prepared_text += "<FD>"
+                        line_num += 1
+                        self.length += 1
+                        cur_line_length = 0
+                
+                        prepared_text += word
+                        self.length += word_length
+                        cur_line_length += word_length
+
+            if line < len(lines) - 1:
+                if line_num % 2 == 0:
+                    prepared_text += "<FE>"
+                else:
+                    prepared_text += "<FD>"
+            else:
+                prepared_text += "<FF>"
+            self.length += 1
+            line_num += 1
+            cur_line_length = 0
+        print(prepared_text)
+        return prepared_text
+
         cur_line_length = 0
         prepared_text = ""
         self.length = 0
@@ -61,6 +145,7 @@ class TextString:
 
         prepared_text += "<FF>"
         self.length += 1
+        print(prepared_text)
         return prepared_text
 
 

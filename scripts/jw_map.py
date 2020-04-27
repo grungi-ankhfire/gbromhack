@@ -82,19 +82,20 @@ def read_map(index):
     # --- Load_Map (0D:4100)
     FFBB = read_bytes(1)
     FFBC = read_bytes(1)
+    bytes_to_read = 0xff * FFBC + FFBB
 
     # This is supposed to be FFB2 & FFB1
     HL_ram = rom.tell()
 
     rom.seek(8, os.SEEK_CUR)
 
-    reading = True
     map_data['decoded'] = []
 
     hl_read = rom.tell()
 
     c = 0
-    while reading:
+    odd_byte = True
+    while bytes_to_read > 0:
         # --- Start_Decompressing_Next_Map_Byte (0D:4119)
         rom.seek(hl_read)
         byte_a = read_bytes(1)
@@ -102,16 +103,12 @@ def read_map(index):
 
         added = ""
 
-        b_counter = 8
-
-        while b_counter > 0:
+        for _ in range(8):
 
             new_a = (byte_a * 2) & 0xFF
             if byte_a * 2 > 0xFF:
-                byte_a = new_a
                 c += 1
             else:
-                byte_a = new_a
                 HL_ram4126 = rom.tell()
                 rom.seek(HL_ram + (c >> 1))
                 a = read_bytes(1)
@@ -121,7 +118,7 @@ def read_map(index):
                 # --- jr_00d_413d
                 a = a & 0x0F
 
-                if FFBB & 0x01 == 0:
+                if odd_byte:
                     map_data['decoded'].append(a)
                 else:
                     # --- 0d:4146
@@ -131,17 +128,11 @@ def read_map(index):
                     added += format(a, 'x') + " "
 
                 # --- jr_00d_4154
-                if FFBB > 0:
-                    FFBB -= 1
-                else:
-                    FFBB = 0xFF
-                    FFBC -= 1
-                if FFBB | FFBC == 0:
-                    reading = False
-                else:
-                    c = 0
+                bytes_to_read -= 1
+                odd_byte = not odd_byte
+                c = 0
                 rom.seek(HL_ram4126)
-            b_counter -= 1
+            byte_a = new_a
 
         # print(added)
     return map_data
@@ -173,14 +164,15 @@ def print_ascii_map(map_data):
     w = map_data['header']['width']
     h = map_data['header']['height']
 
-    print(map_data)
+    print(map_data['header'])
+    #print(map_data)
 
     for row in range(h):
         line = ""
         for col in range(int(w / 2)):
             line += format(map_data['decoded'][col + row * w // 2], '02x')
-        print(prettify_line(line))
-        #print(line)
+        #print(prettify_line(line))
+        print(line)
 
 
 if __name__ == '__main__':
