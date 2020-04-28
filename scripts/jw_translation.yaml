@@ -6,50 +6,50 @@ combat:
     translation: <var1><br>attacks!
 
   0x2091a:
-    original: "[F4]に<FE><var8>ダメージ!!<FF>"
+    original: "<enemy>に<FE><amount>ダメージ!!<FF>"
     pointer_location: 0x1337a
-    translation: '<F4><br><var8> dmg!!'
+    translation: '<enemy><br><amount> dmg!!'
 
   0x20954:
-    original: "[F4]は<FE>ちからつきた!<FF>"
+    original: "<enemy>は<FE>ちからつきた!<FF>"
     pointer_location: 0x13e71
-    translation: <F4><br>defeated!
+    translation: <enemy><br>defeated!
 
   0x20af2:
-    original: "[F4]は<FE>にげだした!<FF>"
+    original: "<enemy>は<FE>にげだした!<FF>"
     pointer_location: 0x119a8
-    translation: <F4><br>fled!
+    translation: <enemy><br>fled!
 
   0x20ed7:
-    original: <var1>は<FE><var8>ダメージうけた!<FF>
+    original: <var1>は<FE><amount>ダメージうけた!<FF>
     pointer_location: 0x133a6
-    translation: '<var1><br><var8> dmg!'
+    translation: '<var1><br><amount> dmg!'
 
   0x20f2c:
-    original: "[F4]は<FE>けリを いれた!<FF>"
+    original: "<enemy>は<FE>けリを いれた!<FF>"
     pointer_location: 0x1348f
-    translation: <F4><br>hits!
+    translation: <enemy><br>hits!
 
   0x20fff:
-    original: "[F4]は<FE><var8>ダメージうけた!<FF>"
+    original: "<enemy>は<FE><amount>ダメージうけた!<FF>"
     pointer_location: 0x0
-    translation: '<F4><br><var8> dmg!'
+    translation: '<enemy><br><amount> dmg!'
 
   0x215e2:
-    original: "[F3]たちは<FE>いなくなった!![FC][F3]は いなくなった!![FC]ボーイたちの<FE>せんせい こうげき!!<FF>"
+    original: "<var3>たちは<FE>いなくなった!![FC]<var3>は いなくなった!![FC]ボーイたちの<FE>せんせい こうげき!!<FF>"
     pointer_location: 0x115f6
     translation: '<F3> and the others are gone!!'
 
   0x21664:
-    original: "[F4]の<FE>こうげき!<FF>"
+    original: "<enemy>の<FE>こうげき!<FF>"
     pointer_location: 0x12079
-    translation: <F4><br>attacks!
+    translation: <enemy><br>attacks!
 
 
 combat_wide:
 
   0x2159f:
-    original: "[F3]が あらわれたっ!<FF>"
+    original: "<var3>が あらわれたっ!<FF>"
     pointer_location: 0x10fbe
     translation: '<F3> appears!'
 
@@ -311,7 +311,7 @@ script:
     translation: '「Even if you grabbed a pair of pants you cannot just hold on to them you know?<br>「You also have to wear them!'
 
   0x04078:
-    original: '「よーし.じゃあ けさも げんきよく<FE> ジャングルの みまわリに いこう!<FD>「さいきん わるい やつらが<FE> あ[A9]れまわって いるらしいミ.<FD>「きを つけて みまわリを<FE> しなくちゃな.では れっつ ゴ!<FF>'
+    original: '「よーし.じゃあ けさも げんきよく<FE> ジャングルの みまわリに いこう!<FD>「さいきん わるい やつらが<FE> あばれまわって いるらしいミ.<FD>「きを つけて みまわリを<FE> しなくちゃな.では れっつ ゴ!<FF>'
     pointer_location: 0xd922
     translation: '「Alright. Then let us walk around the jungle this morning!<br>「It seems there are bad guys running around. I have got to keep my eyes open and watch out for them.'
 
@@ -421,12 +421,12 @@ script:
     translation: TODO_0x45e0
 
   0x0466d:
-    original: '「なに? おまえが<FE> パパを たすけに いくとな?<FD>「うーむ*****.<FD>「おまえも ジャングルパパのむすこ.<FD> もってうまれた そのちからを<FE> せいちょう させていけ[A9]<FD> もしかしたら ゴートだんに<FE> かてるかも しれん.<FD>「いや きっと かてるように<FE> なるに ちがいない.<FD>「ここに 20ゴールドある.<FE> これを もって<FD> なにか みを まもる<FE> ぶきを かいなさい.<FD>「がん[A9]って くるんだよ.<FD>「うらないオババが<FE> ちからに なって くれるだろう.<FF>'
+    original: '「なに? おまえが<FE> パパを たすけに いくとな?<FD>「うーむ*****.<FD>「おまえも ジャングルパパのむすこ.<FD> もってうまれた そのちからを<FE> せいちょう させていけば<FD> もしかしたら ゴートだんに<FE> かてるかも しれん.<FD>「いや きっと かてるように<FE> なるに ちがいない.<FD>「ここに 20ゴールドある.<FE> これを もって<FD> なにか みを まもる<FE> ぶきを かいなさい.<FD>「がんばって くるんだよ.<FD>「うらないオババが<FE> ちからに なって くれるだろう.<FF>'
     pointer_location: 0x0
     translation: TODO_0x466d
 
   0x04753:
-    original: '「おまえも ジャングルパパのむすこ.<FE> がん[A9]って くるんだよ.<FD>「うらないオババが<FE> ちからに なって くれるだろう.<FF>'
+    original: '「おまえも ジャングルパパのむすこ.<FE> がんばって くるんだよ.<FD>「うらないオババが<FE> ちからに なって くれるだろう.<FF>'
     pointer_location: 0x0
     translation: TODO_0x4753
 
@@ -451,7 +451,7 @@ script:
     translation: TODO_0x4899
 
   0x04907:
-    original: '「へんだよ.へんだよ.<FD>「ひがしの しまに いく<FE> ほらあなが みホでたし なんだ.<FD>「ぼくは はねが あるから<FE> とおって きたけど<FD> あるいては とおれないよ.<FD>「どこかに はしに なるような<FE> ものが あれ[A9] いいけどなあ.<FF>'
+    original: '「へんだよ.へんだよ.<FD>「ひがしの しまに いく<FE> ほらあなが みホでたし なんだ.<FD>「ぼくは はねが あるから<FE> とおって きたけど<FD> あるいては とおれないよ.<FD>「どこかに はしに なるような<FE> ものが あれば いいけどなあ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x4907
 
@@ -466,7 +466,7 @@ script:
     translation: TODO_0x4997
 
   0x049bb:
-    original: 'サスし<FE>「ちくしょう! ちくしょう!<FD>「サッサと サーカスでも なんでも<FE> うリと[A9]して くれっ!<FD>「わーん! リラー!******<FF>'
+    original: 'サスし<FE>「ちくしょう! ちくしょう!<FD>「サッサと サーカスでも なんでも<FE> うリとばして くれっ!<FD>「わーん! リラー!******<FF>'
     pointer_location: 0x0
     translation: TODO_0x49bb
 
@@ -481,7 +481,7 @@ script:
     translation: TODO_0x4b9b
 
   0x04c48:
-    original: '「ジャングルてつどうは<FE> げんざい きゅうピッチで<FD> けんせつちゅうです.<FD>「いま し[A9]らく おまちください.<FF>'
+    original: '「ジャングルてつどうは<FE> げんざい きゅうピッチで<FD> けんせつちゅうです.<FD>「いま しばらく おまちください.<FF>'
     pointer_location: 0x0
     translation: TODO_0x4c48
 
@@ -531,17 +531,17 @@ script:
     translation: TODO_0x5008
 
   0x050ee:
-    original: '「しンくん がん[A9]ってね!<FE> みんなも がん[A9]って!!<FF>'
+    original: '「しンくん がんばってね!<FE> みんなも がんばって!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x50ee
 
   0x0510a:
-    original: '「ジャングルボーイさん<FE> いろいろ あリがとうございました.<FD>「たいへんでしょうが<FE> がん[A9]って くださいね.<FD>「はやく おとうさんに<FE> あえると いいですね.<FF>'
+    original: '「ジャングルボーイさん<FE> いろいろ あリがとうございました.<FD>「たいへんでしょうが<FE> がんばって くださいね.<FD>「はやく おとうさんに<FE> あえると いいですね.<FF>'
     pointer_location: 0x0
     translation: TODO_0x510a
 
   0x0515b:
-    original: '「ゴートだんの モグラたちは<FE> このむらの そとで<FD> メチャメチャに aナを ほって<FE> すみついて います.<FD>「ボスの aラーニも<FE> その aナの ひとつに います.<FD>「でも aラーニは<FE> ひみつの へやを もっていて<FD> きけんな ときは すぐに<FE> そこへ はいって しまうそうです.<FD>「できるだけ たくさんの なかまで<FE> いったほうが いいですね.<FD>「ぼくが つよけれ[A9]<FE> おとも できたのに ごめんね.<FF>'
+    original: '「ゴートだんの モグラたちは<FE> このむらの そとで<FD> メチャメチャに aナを ほって<FE> すみついて います.<FD>「ボスの aラーニも<FE> その aナの ひとつに います.<FD>「でも aラーニは<FE> ひみつの へやを もっていて<FD> きけんな ときは すぐに<FE> そこへ はいって しまうそうです.<FD>「できるだけ たくさんの なかまで<FE> いったほうが いいですね.<FD>「ぼくが つよければ<FE> おとも できたのに ごめんね.<FF>'
     pointer_location: 0x0
     translation: TODO_0x515b
 
@@ -626,7 +626,7 @@ script:
     translation: TODO_0x567a
 
   0x056cc:
-    original: '「あっ! しンだ! がん[A9]ってねー!<FD> はやく いっしょに<FE> あそべると いいね.<FF>'
+    original: '「あっ! しンだ! がんばってねー!<FD> はやく いっしょに<FE> あそべると いいね.<FF>'
     pointer_location: 0x0
     translation: TODO_0x56cc
 
@@ -681,7 +681,7 @@ script:
     translation: TODO_0x5942
 
   0x05a24:
-    original: '「あリがとう! ジャングルボーイ!<FD>「さあ むすこをつれて<FE> aラーニを たおしてきて くれ!<FD>「モグラの aナは せまくて<FE> わたしには むかない.<FD>「でも しンだったら じゅうぶんに<FE> たたかって くれる はホだ.<FD>「aラーニを たおしたら<FE> また ここに よってくれ.<FD>「なにか おれいを しないと<FE> わたしのきが おさまらないからね.<FD>「しン! がん[A9]って<FE> おてつだい させて いただけよ!<FD> とリをとる わなに きをつけろ!<FF>'
+    original: '「あリがとう! ジャングルボーイ!<FD>「さあ むすこをつれて<FE> aラーニを たおしてきて くれ!<FD>「モグラの aナは せまくて<FE> わたしには むかない.<FD>「でも しンだったら じゅうぶんに<FE> たたかって くれる はホだ.<FD>「aラーニを たおしたら<FE> また ここに よってくれ.<FD>「なにか おれいを しないと<FE> わたしのきが おさまらないからね.<FD>「しン! がんばって<FE> おてつだい させて いただけよ!<FD> とリをとる わなに きをつけろ!<FF>'
     pointer_location: 0x0
     translation: TODO_0x5a24
 
@@ -696,7 +696,7 @@ script:
     translation: TODO_0x5ca3
 
   0x05cbf:
-    original: 'テン<FE>「ジャングルボーイ<FD> ほんとうに あリがとう.<FD> がん[A9]ってくれ!!<FF>'
+    original: 'テン<FE>「ジャングルボーイ<FD> ほんとうに あリがとう.<FD> がんばってくれ!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x5cbf
 
@@ -741,7 +741,7 @@ script:
     translation: TODO_0x5e54
 
   0x05ecc:
-    original: '「いま このしまでは<FE> たいへんなことが おきてんだよ.<FD>「ふリつ[A1]くあめで あちこちが<FE> みホでたしに なっているんだマ.<FD>「いやーもう oント たいへんだよ.<FD>「せんろは ながされるし<FE> みホうみの そ[A9]の むらは<FD> みホに つかっちゃったって<FE> はなしだしねえ.<FF>'
+    original: '「いま このしまでは<FE> たいへんなことが おきてんだよ.<FD>「ふリつ[A1]くあめで あちこちが<FE> みホでたしに なっているんだマ.<FD>「いやーもう oント たいへんだよ.<FD>「せんろは ながされるし<FE> みホうみの そばの むらは<FD> みホに つかっちゃったって<FE> はなしだしねえ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x5ecc
 
@@ -771,7 +771,7 @@ script:
     translation: TODO_0x6090
 
   0x060a5:
-    original: '「わたし きょんです.<FD>「おにいちゃんが きたの たんこうへ<FE> しょう[A9]いを しに いったのですが<FD> まだ かえって こないんです.<FD>「どくのぬまちで わるいことに<FE> なってなけれ[A9] いいんですけど.<FF>'
+    original: '「わたし きょんです.<FD>「おにいちゃんが きたの たんこうへ<FE> しょうばいを しに いったのですが<FD> まだ かえって こないんです.<FD>「どくのぬまちで わるいことに<FE> なってなければ いいんですけど.<FF>'
     pointer_location: 0x0
     translation: TODO_0x60a5
 
@@ -801,7 +801,7 @@ script:
     translation: TODO_0x6262
 
   0x06274:
-    original: 「がん[A9]れよ.ジャングルボーイ.<FF>
+    original: 「がんばれよ.ジャングルボーイ.<FF>
     pointer_location: 0x0
     translation: TODO_0x6274
 
@@ -811,7 +811,7 @@ script:
     translation: TODO_0x6285
 
   0x062ae:
-    original: '「このさきの しまに<FE> たんこうが あんだけどよ.<FD>「このあめで らく[A9]んが おこって<FE> たくさんの こうふが<FD> いきうめに なったらしいミ.<FD>「わしは たすけに いってくるで<FE> ほいじゃな.<FF>'
+    original: '「このさきの しまに<FE> たんこうが あんだけどよ.<FD>「このあめで らくばんが おこって<FE> たくさんの こうふが<FD> いきうめに なったらしいミ.<FD>「わしは たすけに いってくるで<FE> ほいじゃな.<FF>'
     pointer_location: 0x0
     translation: TODO_0x62ae
 
@@ -861,7 +861,7 @@ script:
     translation: TODO_0x6512
 
   0x06534:
-    original: '「おっ! きたな!<FD> みんなは まだ いきているようだ.<FE>「この むこうへさえ いけれ[A9]なあ.<FF>'
+    original: '「おっ! きたな!<FD> みんなは まだ いきているようだ.<FE>「この むこうへさえ いければなあ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x6534
 
@@ -876,7 +876,7 @@ script:
     translation: TODO_0x6588
 
   0x065a6:
-    original: '「やった! たすかったミっ!<FD> そっちへ いけ[A9] いいんだな?<FF>'
+    original: '「やった! たすかったミっ!<FD> そっちへ いけば いいんだな?<FF>'
     pointer_location: 0x0
     translation: TODO_0x65a6
 
@@ -936,7 +936,7 @@ script:
     translation: TODO_0x6b0a
 
   0x06b5f:
-    original: '「えー!? マルコじいさんに<FE> しょくリょうと くすリを<FD> とどけて きたのー!?<FD>「すごいじゃん!! どうやったの?<FD> ロープで きから きへ<FE> わたって いった?<FD>「あんた ジャングルパパみたいな<FE> ことすんのね.<FD>「ジャングルパパ? しってるわよ.<FD> いつも おかあさんに<FE> はなしを きいてるもの.<FD>「わたしの お[A9]あさんは<FE> ジャングルパパの すんでいるむらの<FD> すぐちかくに すんでいるのよ.<FD>「うらないオババってきいたことない?<FF>'
+    original: '「えー!? マルコじいさんに<FE> しょくリょうと くすリを<FD> とどけて きたのー!?<FD>「すごいじゃん!! どうやったの?<FD> ロープで きから きへ<FE> わたって いった?<FD>「あんた ジャングルパパみたいな<FE> ことすんのね.<FD>「ジャングルパパ? しってるわよ.<FD> いつも おかあさんに<FE> はなしを きいてるもの.<FD>「わたしの おばあさんは<FE> ジャングルパパの すんでいるむらの<FD> すぐちかくに すんでいるのよ.<FD>「うらないオババってきいたことない?<FF>'
     pointer_location: 0x0
     translation: TODO_0x6b5f
 
@@ -946,7 +946,7 @@ script:
     translation: TODO_0x6c3d
 
   0x06c65:
-    original: 'ミオ<FE>「え? そう わたしが<FD> ここらでは ゆうめいな でじんの<FE> ミオだけど***<FD> なマ わたしのことを しってんの?<FD>「えー!?<FE> あんたが ジャングルボーイなの!?<FD> まーだ こどもじゃなーい!!<FD>「うーん***かんがえちゃうわね.<FD>「まあ いいわ.<FE>「ジャングルボーイ <var0>くん.<FD> わたしを とかいに つれてって.<FD>「お[A9]あちゃんが ジャングルボーイに<FD> とかいまで つれてってもらえって<FE> わたしに いったのよ.<FD>「わたしは とおくでも<FE> お[A9]あちゃんと はなしができるの.<FD>「あんたたちも とかいへ<FE> いきたいんでしょう?<FD>「わたしも とかいで<FE> おとうさんを さがしたいの.<FD>「とかいまで つれてってよ.[FC]「おかあさんは とかいにいる<FE> わたしの おとうさんに あいたくて<FD> でょうきに なっちゃったのよ.<FD>「わたし とかいで おとうさんを<FE> さがしたいの! たのむわよ![FC]「あリがとう!!<FD>「わたし お[A9]あちゃんにならった<FE> じゅもんが つかえるわ.<FD>「ゴートだんの わるいうわさは<FE> きいているけど<FD> そんなの わたしの じゅもんなら<FE> へっちゃらよ!<FF>'
+    original: 'ミオ<FE>「え? そう わたしが<FD> ここらでは ゆうめいな でじんの<FE> ミオだけど***<FD> なマ わたしのことを しってんの?<FD>「えー!?<FE> あんたが ジャングルボーイなの!?<FD> まーだ こどもじゃなーい!!<FD>「うーん***かんがえちゃうわね.<FD>「まあ いいわ.<FE>「ジャングルボーイ <var0>くん.<FD> わたしを とかいに つれてって.<FD>「おばあちゃんが ジャングルボーイに<FD> とかいまで つれてってもらえって<FE> わたしに いったのよ.<FD>「わたしは とおくでも<FE> おばあちゃんと はなしができるの.<FD>「あんたたちも とかいへ<FE> いきたいんでしょう?<FD>「わたしも とかいで<FE> おとうさんを さがしたいの.<FD>「とかいまで つれてってよ.[FC]「おかあさんは とかいにいる<FE> わたしの おとうさんに あいたくて<FD> でょうきに なっちゃったのよ.<FD>「わたし とかいで おとうさんを<FE> さがしたいの! たのむわよ![FC]「あリがとう!!<FD>「わたし おばあちゃんにならった<FE> じゅもんが つかえるわ.<FD>「ゴートだんの わるいうわさは<FE> きいているけど<FD> そんなの わたしの じゅもんなら<FE> へっちゃらよ!<FF>'
     pointer_location: 0x0
     translation: TODO_0x6c65
 
@@ -971,7 +971,7 @@ script:
     translation: TODO_0x6eba
 
   0x06f37:
-    original: '「はしが ながされてるから<FE> aスランがわの むこうぎしには<FD> いけないんだよ.<FD>「どこかで ロープを てにいれて<FE> ジャングルパパや サルのように<FD> ロープを つたって<FE> わたるしかないな.<FD>「そういえ[A9] このむらにも<FE> ながいロープが あったはホなのに<FD> どこへ いっちゃったんだろう?<FD> ちゃんと はこのなかに<FE> はいっていた はホなんだけどなあ.<FF>'
+    original: '「はしが ながされてるから<FE> aスランがわの むこうぎしには<FD> いけないんだよ.<FD>「どこかで ロープを てにいれて<FE> ジャングルパパや サルのように<FD> ロープを つたって<FE> わたるしかないな.<FD>「そういえば このむらにも<FE> ながいロープが あったはホなのに<FD> どこへ いっちゃったんだろう?<FD> ちゃんと はこのなかに<FE> はいっていた はホなんだけどなあ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x6f37
 
@@ -981,7 +981,7 @@ script:
     translation: TODO_0x6fe9
 
   0x07033:
-    original: 'マルコじい<FE>「たすかったよ.<FD> おまえさんは<FE> ジャングルボーイじゃな.<FD> パパに よう にとるのう.<FD>「わしは ジャングルパパに<FD> へビつかいの わざを<FE> おしえたことが あるんじゃ.<FD>「おまえさんにも へビつかいのわざを<FE> おしえてやろう.<FD>「なーに むホかしくはないミ.<FD> この へビつかいのふえを<FE> もっていきさえすれ[A9] いいのじゃ.<FD>「このふえは ねるのふえ.<FD> このふえを つかうと<FE> たいていのへビは ねてしまう.<FD>「ほかにも おどるのふえや<FE> まきつくのふえが あるが<FD> あんまリいみは ないじゃろ.<FD>「この ねるのふえが こわくて<FE> へビどもは このマルコのいえを<FD> みホのなかに とじこめて<FE> しまったのじゃよ.<FF>'
+    original: 'マルコじい<FE>「たすかったよ.<FD> おまえさんは<FE> ジャングルボーイじゃな.<FD> パパに よう にとるのう.<FD>「わしは ジャングルパパに<FD> へビつかいの わざを<FE> おしえたことが あるんじゃ.<FD>「おまえさんにも へビつかいのわざを<FE> おしえてやろう.<FD>「なーに むホかしくはないミ.<FD> この へビつかいのふえを<FE> もっていきさえすれば いいのじゃ.<FD>「このふえは ねるのふえ.<FD> このふえを つかうと<FE> たいていのへビは ねてしまう.<FD>「ほかにも おどるのふえや<FE> まきつくのふえが あるが<FD> あんまリいみは ないじゃろ.<FD>「この ねるのふえが こわくて<FE> へビどもは このマルコのいえを<FD> みホのなかに とじこめて<FE> しまったのじゃよ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x7033
 
@@ -1081,7 +1081,7 @@ script:
     translation: TODO_0x7658
 
   0x07681:
-    original: 'へビおう<FE>「すみません.ゆるしてください.<FD>「あんまリ マルコじじいが<FE> へビのふえで からかうもんだから<FD> つい にくったらしくなって<FD> アピーニ*ゴートの わるだくみに<FE> のって しまいました.<FD>「むらの みホも<FE> ひかせるように します.<FD>「もう こんなことは しませんので<FE> いのち[A9]かリは おたすけを***.<FF>'
+    original: 'へビおう<FE>「すみません.ゆるしてください.<FD>「あんまリ マルコじじいが<FE> へビのふえで からかうもんだから<FD> つい にくったらしくなって<FD> アピーニ*ゴートの わるだくみに<FE> のって しまいました.<FD>「むらの みホも<FE> ひかせるように します.<FD>「もう こんなことは しませんので<FE> いのちばかリは おたすけを***.<FF>'
     pointer_location: 0x0
     translation: TODO_0x7681
 
@@ -1096,7 +1096,7 @@ script:
     translation: TODO_0x7773
 
   0x0777c:
-    original: "[71][6A][6C][6F][6B]ス スス[69]xコミトカ<FE>ャナルミトスク[FC]オモッ[6B]xチロx しル[6B]スハサキ<FE> ツし コチ[6B]oサキ[FC]ナコミニ[6B]ス ムlニタナキ<FF>"
+    original: "M[6A][6C][6F][6B]ス スス[69]xコミトカ<FE>ャナルミトスク[FC]オモッ[6B]xチロx しル[6B]スハサキ<FE> ツし コチ[6B]oサキ[FC]ナコミニ[6B]ス ムlニタナキ<FF>"
     pointer_location: 0x0
     translation: TODO_0x777c
 
@@ -1111,7 +1111,7 @@ script:
     translation: TODO_0x77cb
 
   0x077d7:
-    original: "[71][6A][6C][6F][6B]スし[69]ナラ ャナロoサ[6B]ナキ<FF>"
+    original: "M[6A][6C][6F][6B]スし[69]ナラ ャナロoサ[6B]ナキ<FF>"
     pointer_location: 0x0
     translation: TODO_0x77d7
 
@@ -1121,12 +1121,12 @@ script:
     translation: TODO_0x77eb
 
   0x07935:
-    original: '    ジャングルの れきし<FE><FD> ジャングルは このまちよリ ホっと<FD>ふるく 300ねんも まえから さか<FD>えていた.3けんじゃと よ[A9]れた 3<FD>できの かしこい どうぶつに ひきい<FD>られた どうぶつたちは にんげんには<FD>およでも つかない ふしぎな ちから<FD>を もっていた.<FD> それは 1000ねん いじょうも<FD>まえに いまの さ[A9]くちほうに すん<FD>でいた でんせつの こだいじんたちの<FD>のこした ちからだと いわれている.<FD> しかし このまちが さかえはじめた<FD>ころから ジャングルでは にんげんと<FD>どうぶつたちとの いざこざが たえな<FD>く なって しまった.<FD> いくにんかの ひとでとは どうぶつ<FD>たちと ともに いきて いくことを<FD>えらで ジャングルに とどまった.<FD> その にんげんたちの なかで いち<FD>[A9]んの しんらいを にんげんからも<FD>どうぶつからも うけている じんぶつ<FD>が あの ジャングルパパ である.<FF>'
+    original: '    ジャングルの れきし<FE><FD> ジャングルは このまちよリ ホっと<FD>ふるく 300ねんも まえから さか<FD>えていた.3けんじゃと よばれた 3<FD>できの かしこい どうぶつに ひきい<FD>られた どうぶつたちは にんげんには<FD>およでも つかない ふしぎな ちから<FD>を もっていた.<FD> それは 1000ねん いじょうも<FD>まえに いまの さばくちほうに すん<FD>でいた でんせつの こだいじんたちの<FD>のこした ちからだと いわれている.<FD> しかし このまちが さかえはじめた<FD>ころから ジャングルでは にんげんと<FD>どうぶつたちとの いざこざが たえな<FD>く なって しまった.<FD> いくにんかの ひとでとは どうぶつ<FD>たちと ともに いきて いくことを<FD>えらで ジャングルに とどまった.<FD> その にんげんたちの なかで いち<FD>ばんの しんらいを にんげんからも<FD>どうぶつからも うけている じんぶつ<FD>が あの ジャングルパパ である.<FF>'
     pointer_location: 0x0
     translation: TODO_0x7935
 
   0x07ad1:
-    original: '    こだいの ひとでと<FE><FD> いまから 1000ねん いじょうも<FD>まえに さ[A9]くで さかえた たみ.<FD> ふしぎな とうや なミの ちじょう<FD>えや かみの ミうなどを のこして<FD>ほろでて しまった.<FD> いまとなっては どんな ぶんめいを<FD>つくリあげて いたか わからないが<FD>じゅもんや かホかホの しん[E1]てきな<FD>わざが はったつして いたらしい.<FF>'
+    original: '    こだいの ひとでと<FE><FD> いまから 1000ねん いじょうも<FD>まえに さばくで さかえた たみ.<FD> ふしぎな とうや なミの ちじょう<FD>えや かみの ミうなどを のこして<FD>ほろでて しまった.<FD> いまとなっては どんな ぶんめいを<FD>つくリあげて いたか わからないが<FD>じゅもんや かホかホの しん[E1]てきな<FD>わざが はったつして いたらしい.<FF>'
     pointer_location: 0x0
     translation: TODO_0x7ad1
 
@@ -1156,7 +1156,7 @@ script:
     translation: '<var1> used <var2>!'
 
   0x2000b:
-    original: '<var1>は たから[A9]こを しらべた!<FF>'
+    original: '<var1>は たからばこを しらべた!<FF>'
     pointer_location: 0x210b
     translation: '<var1> found a treasure chest!'
 
@@ -1201,7 +1201,7 @@ script:
     translation: TODO_0x2008f
 
   0x200a8:
-    original: '<var0>は かべを しらべた!<FD>スコップがあれ[A9] くホせそうだ!<FF>'
+    original: '<var0>は かべを しらべた!<FD>スコップがあれば くホせそうだ!<FF>'
     pointer_location: 0x0
     translation: TODO_0x200a8
 
@@ -1281,7 +1281,7 @@ script:
     translation: TODO_0x201a8
 
   0x201b2:
-    original: "[F9][E9]イントの けいけんちを<FE>てにいれた!!<FF>"
+    original: "<gold>[E9]イントの けいけんちを<FE>てにいれた!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x201b2
 
@@ -1291,12 +1291,12 @@ script:
     translation: TODO_0x201c8
 
   0x201d6:
-    original: ' [6E][72]が [F7]あがった!!<FF>'
+    original: ' HPが [F7]あがった!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x201d6
 
   0x201e3:
-    original: ' [71][72]が [F7]あがった!!<FF>'
+    original: ' MPが [F7]あがった!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x201e3
 
@@ -1311,7 +1311,7 @@ script:
     translation: TODO_0x201fe
 
   0x2020d:
-    original: ' す[A9]やさが [F7]あがった!!<FF>'
+    original: ' すばやさが [F7]あがった!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x2020d
 
@@ -1361,37 +1361,37 @@ script:
     translation: '<var1> took <var2> off!'
 
   0x20314:
-    original: '<var0>は<FE>[F9]Gを てにいれた!<FF>'
+    original: '<var0>は<FE><gold>Gを てにいれた!<FF>'
     pointer_location: 0x2085
-    translation: '<var0> got <var9>G!'
+    translation: '<var0> got <gold>G!'
 
   0x20322:
-    original: こうげきリょくが<FE><var8>あがった!<FF>
+    original: こうげきリょくが<FE><amount>あがった!<FF>
     pointer_location: 0x0
     translation: TODO_0x20322
 
   0x20332:
-    original: こうげきリょくが<FE><var8>さがった!<FF>
+    original: こうげきリょくが<FE><amount>さがった!<FF>
     pointer_location: 0x0
     translation: TODO_0x20332
 
   0x20342:
-    original: しゅでリょくが<FE><var8>あがった!<FF>
+    original: しゅでリょくが<FE><amount>あがった!<FF>
     pointer_location: 0x25e5
-    translation: 'Defense rose by <var8>!'
+    translation: 'Defense rose by <amount>!'
 
   0x20351:
-    original: しゅでリょくが<FE><var8>さがった!<FF>
+    original: しゅでリょくが<FE><amount>さがった!<FF>
     pointer_location: 0x25e0
-    translation: 'Defense dropped by <var8>!'
+    translation: 'Defense dropped by <amount>!'
 
   0x20360:
-    original: す[A9]やさが<FE><var8>あがった!<FF>
+    original: すばやさが<FE><amount>あがった!<FF>
     pointer_location: 0x0
     translation: TODO_0x20360
 
   0x2036d:
-    original: す[A9]やさが<FE><var8>さがった!<FF>
+    original: すばやさが<FE><amount>さがった!<FF>
     pointer_location: 0x0
     translation: TODO_0x2036d
 
@@ -1421,17 +1421,17 @@ script:
     translation: TODO_0x203b0
 
   0x203be:
-    original: "[F3]を かいしんさせた!<FF>"
+    original: "<var3>を かいしんさせた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x203be
 
   0x203ca:
-    original: "[F3]を やっつけた!!<FF>"
+    original: "<var3>を やっつけた!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x203ca
 
   0x203d5:
-    original: "[F3]を たおした!!<FF>"
+    original: "<var3>を たおした!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x203d5
 
@@ -1501,7 +1501,7 @@ script:
     translation: TODO_0x20497
 
   0x204e3:
-    original: '<var0>は てがみを よんだ.<FE>「あいする ボーイ.<FD> おまえが このてがみを よむときは<FE> わたしの みに なにかが<FD> おこった ときだろう.<FD> だが この きけんな ジャングルで<FE> へいわを まもリつ[A1]けるには<FD> そのくらいの ことには くじけない<FE> ゆうかんな こころが ひつようだ.<FD> おまえは わたしの むすこ<FD> ジャングルパパの むすこ<FD> ジャングルボーイだ!!<FD> おまえは ジャングルのへいわのため<FE> たたかいつ[A1]けね[A9] ならない.<FD> くるしく つらい たたかいだろうが<FE> ボーイ!<FD> あとのことは たのんだミ!!<FF>'
+    original: '<var0>は てがみを よんだ.<FE>「あいする ボーイ.<FD> おまえが このてがみを よむときは<FE> わたしの みに なにかが<FD> おこった ときだろう.<FD> だが この きけんな ジャングルで<FE> へいわを まもリつ[A1]けるには<FD> そのくらいの ことには くじけない<FE> ゆうかんな こころが ひつようだ.<FD> おまえは わたしの むすこ<FD> ジャングルパパの むすこ<FD> ジャングルボーイだ!!<FD> おまえは ジャングルのへいわのため<FE> たたかいつ[A1]けねば ならない.<FD> くるしく つらい たたかいだろうが<FE> ボーイ!<FD> あとのことは たのんだミ!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x204e3
 
@@ -1546,7 +1546,7 @@ script:
     translation: TODO_0x20762
 
   0x2076e:
-    original: 'さ[A9]くに<FE>ラッパのおとが ひできわたる***<FF>'
+    original: 'さばくに<FE>ラッパのおとが ひできわたる***<FF>'
     pointer_location: 0x0
     translation: TODO_0x2076e
 
@@ -1556,7 +1556,7 @@ script:
     translation: TODO_0x20785
 
   0x207ae:
-    original: '<var0>は てがみを よんだ.<FD>「*?![OF]***.*!!.[OF]?<FE> ****!?[72][72]..<FD><var0>には よめなかった!<FF>'
+    original: '<var0>は てがみを よんだ.<FD>「*?![OF]***.*!!.[OF]?<FE> ****!?PP..<FD><var0>には よめなかった!<FF>'
     pointer_location: 0x0
     translation: TODO_0x207ae
 
@@ -1591,7 +1591,7 @@ script:
     translation: TODO_0x20925
 
   0x20947:
-    original: "[F4]は<FE>みを かわした!!<FF>"
+    original: "<enemy>は<FE>みを かわした!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20947
 
@@ -1636,22 +1636,22 @@ script:
     translation: TODO_0x209c9
 
   0x209d7:
-    original: "[F4]は<FE>ねむって しまった!!<FF>"
+    original: "<enemy>は<FE>ねむって しまった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x209d7
 
   0x209e6:
-    original: "[F4]は<FE>ねむっている!<FF>"
+    original: "<enemy>は<FE>ねむっている!<FF>"
     pointer_location: 0x0
     translation: TODO_0x209e6
 
   0x209f1:
-    original: "[F4]は<FE>おきあがった!<FF>"
+    original: "<enemy>は<FE>おきあがった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x209f1
 
   0x209fc:
-    original: "[F4]の<FE>じゅもんを<FE>ふうじこめた!!<FF>"
+    original: "<enemy>の<FE>じゅもんを<FE>ふうじこめた!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x209fc
 
@@ -1676,7 +1676,7 @@ script:
     translation: TODO_0x20a43
 
   0x20a53:
-    original: "[F4]の<FE>しゅでリょくを<FE>さげた!!<FF>"
+    original: "<enemy>の<FE>しゅでリょくを<FE>さげた!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20a53
 
@@ -1686,47 +1686,47 @@ script:
     translation: TODO_0x20a64
 
   0x20a76:
-    original: "[F4]の<FE>[71][72]を [F6]すいとった!<FF>"
+    original: "<enemy>の<FE>MPを [F6]すいとった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20a76
 
   0x20a85:
-    original: "[F4]には<FE>[71][72]が ない!<FF>"
+    original: "<enemy>には<FE>MPが ない!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20a85
 
   0x20a91:
-    original: "[F4]は<FE>こんらんした!!<FF>"
+    original: "<enemy>は<FE>こんらんした!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20a91
 
   0x20a9d:
-    original: "[F4]は<FE>[F4]を<FE>こうげきした!!<FF>"
+    original: "<enemy>は<FE><enemy>を<FE>こうげきした!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20a9d
 
   0x20aac:
-    original: "[F4]は<FE>[F5]をとなえた!<FF>"
+    original: "<enemy>は<FE>[F5]をとなえた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20aac
 
   0x20ab7:
-    original: '<var1>の<FE>[6E][72]が かいふくした!<FF>'
+    original: '<var1>の<FE>HPが かいふくした!<FF>'
     pointer_location: 0x0
     translation: TODO_0x20ab7
 
   0x20ac6:
-    original: "[F4]の<FE>[6E][72]が かいふくした!<FF>"
+    original: "<enemy>の<FE>HPが かいふくした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20ac6
 
   0x20ad5:
-    original: "[F4]は<FE>とつマんおどリだした!<FF>"
+    original: "<enemy>は<FE>とつマんおどリだした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20ad5
 
   0x20ae4:
-    original: "[F4]は<FE>おどリまくっている!<FF>"
+    original: "<enemy>は<FE>おどリまくっている!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20ae4
 
@@ -1771,32 +1771,32 @@ script:
     translation: TODO_0x20b6b
 
   0x20b78:
-    original: "[F4]は<FE>よって しまった!!<FF>"
+    original: "<enemy>は<FE>よって しまった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20b78
 
   0x20b86:
-    original: "[F4]は<FE>マタタビに よっている<FF>"
+    original: "<enemy>は<FE>マタタビに よっている<FF>"
     pointer_location: 0x0
     translation: TODO_0x20b86
 
   0x20b95:
-    original: "[F4]は<FE>とであがった!!<FF>"
+    original: "<enemy>は<FE>とであがった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20b95
 
   0x20ba1:
-    original: "[F4]は<FE>くちを おさえている!<FF>"
+    original: "<enemy>は<FE>くちを おさえている!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20ba1
 
   0x20bb0:
-    original: "[F4]は<FE>すべった!!<FF>"
+    original: "<enemy>は<FE>すべった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20bb0
 
   0x20bba:
-    original: "[F4]は<FE>ころんでいる!<FF>"
+    original: "<enemy>は<FE>ころんでいる!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20bba
 
@@ -1811,27 +1811,27 @@ script:
     translation: TODO_0x20bd3
 
   0x20bdd:
-    original: '<var1>は<FE>さけでごえを あげた![FC][F4]は<FE>ビビった!<FF>'
+    original: '<var1>は<FE>さけでごえを あげた![FC]<enemy>は<FE>ビビった!<FF>'
     pointer_location: 0x0
     translation: TODO_0x20bdd
 
   0x20bf5:
-    original: "[F9]の ゴールドを<FE>てにいれた!<FF>"
+    original: "<gold>の ゴールドを<FE>てにいれた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20bf5
 
   0x20c05:
-    original: "[F4]は<FE>こうげきリょくが<FE><var8>さがった!<FF>"
+    original: "<enemy>は<FE>こうげきリょくが<FE><amount>さがった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20c05
 
   0x20c18:
-    original: "[F4]は<FE>ビビっている!<FF>"
+    original: "<enemy>は<FE>ビビっている!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20c18
 
   0x20c23:
-    original: "[F4]は<FE>げんきを とリもどした<FF>"
+    original: "<enemy>は<FE>げんきを とリもどした<FF>"
     pointer_location: 0x0
     translation: TODO_0x20c23
 
@@ -1846,7 +1846,7 @@ script:
     translation: TODO_0x20c3d
 
   0x20c55:
-    original: "[F4]は<FE>ころんでしまった!!<FF>"
+    original: "<enemy>は<FE>ころんでしまった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20c55
 
@@ -1856,12 +1856,12 @@ script:
     translation: TODO_0x20c63
 
   0x20c79:
-    original: "[F4]の<FE>こうげき!!<FF>"
+    original: "<enemy>の<FE>こうげき!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20c79
 
   0x20c83:
-    original: 'サスしは ミオを<FE>か[A9]った!!<FF>'
+    original: 'サスしは ミオを<FE>かばった!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x20c83
 
@@ -1886,7 +1886,7 @@ script:
     translation: TODO_0x20cc4
 
   0x20cd3:
-    original: 'サスしは<FE>[F4]の<FE>くちを ふさいだ!<FF>'
+    original: 'サスしは<FE><enemy>の<FE>くちを ふさいだ!<FF>'
     pointer_location: 0x0
     translation: TODO_0x20cd3
 
@@ -1901,7 +1901,7 @@ script:
     translation: TODO_0x20cf9
 
   0x20d0d:
-    original: 'サスしは いしを<FE>けと[A9]した!!<FF>'
+    original: 'サスしは いしを<FE>けとばした!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x20d0d
 
@@ -1956,7 +1956,7 @@ script:
     translation: TODO_0x20dc8
 
   0x20ddb:
-    original: 'サスしは ボーイの<FE>あせを ふいた!<FE>「がん[A9]ってね!<FF>'
+    original: 'サスしは ボーイの<FE>あせを ふいた!<FE>「がんばってね!<FF>'
     pointer_location: 0x0
     translation: TODO_0x20ddb
 
@@ -2011,7 +2011,7 @@ script:
     translation: TODO_0x20e97
 
   0x20ee4:
-    original: '<var1>は す[A9]やく<FE>みを かわした!!<FF>'
+    original: '<var1>は すばやく<FE>みを かわした!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x20ee4
 
@@ -2026,37 +2026,37 @@ script:
     translation: TODO_0x20f04
 
   0x20f14:
-    original: "[F4]は<FE>かみついて きた!<FF>"
+    original: "<enemy>は<FE>かみついて きた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20f14
 
   0x20f21:
-    original: "[F4]は<FE>ひっ[E0]たいた!<FF>"
+    original: "<enemy>は<FE>ひっ[E0]たいた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20f21
 
   0x20f38:
-    original: "[F4]は<FE>パンチを くらわした!<FF>"
+    original: "<enemy>は<FE>パンチを くらわした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20f38
 
   0x20f47:
-    original: "[F4]は<FE>とでかかって きた!<FF>"
+    original: "<enemy>は<FE>とでかかって きた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20f47
 
   0x20f55:
-    original: "[F4]は<FE>しっ[E4]をふリまわした!<FF>"
+    original: "<enemy>は<FE>しっ[E4]をふリまわした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20f55
 
   0x20f64:
-    original: "[F4]の<FE>たいあたリっ!!<FF>"
+    original: "<enemy>の<FE>たいあたリっ!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20f64
 
   0x20f70:
-    original: "[F4]は<FE>まきついて きた!<FF>"
+    original: "<enemy>は<FE>まきついて きた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20f70
 
@@ -2071,22 +2071,22 @@ script:
     translation: TODO_0x20f8c
 
   0x20f9a:
-    original: "[F4]は<FE>ムチを ふるった!<FF>"
+    original: "<enemy>は<FE>ムチを ふるった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20f9a
 
   0x20fa7:
-    original: "[F4]の<FE>せおいなげ!!<FF>"
+    original: "<enemy>の<FE>せおいなげ!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20fa7
 
   0x20fb2:
-    original: "[F4]は<FE>くさリをブンまわした!<FF>"
+    original: "<enemy>は<FE>くさリをブンまわした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20fb2
 
   0x20fc1:
-    original: "[F4]の<FE>きょうき こうげきっ!<FF>"
+    original: "<enemy>の<FE>きょうき こうげきっ!<FF>"
     pointer_location: 0x0
     translation: TODO_0x20fc1
 
@@ -2156,7 +2156,7 @@ script:
     translation: TODO_0x210ba
 
   0x210c9:
-    original: 'どくの き[A9]で<FE>かみついた!<FF>'
+    original: 'どくの きばで<FE>かみついた!<FF>'
     pointer_location: 0x0
     translation: TODO_0x210c9
 
@@ -2166,17 +2166,17 @@ script:
     translation: TODO_0x210d8
 
   0x210e6:
-    original: 'どく[A9]リで<FE>つんつん した!<FF>'
+    original: 'どくばリで<FE>つんつん した!<FF>'
     pointer_location: 0x0
     translation: TODO_0x210e6
 
   0x210f5:
-    original: "[F4]は<FE>どくぎリを<FE>まきちらした!<FF>"
+    original: "<enemy>は<FE>どくぎリを<FE>まきちらした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x210f5
 
   0x21106:
-    original: "[F4]は<FE>あぶない しせんで<FE>ゆうわく してきた!<FF>"
+    original: "<enemy>は<FE>あぶない しせんで<FE>ゆうわく してきた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21106
 
@@ -2201,12 +2201,12 @@ script:
     translation: TODO_0x2114d
 
   0x21158:
-    original: "[F4]は<FE>ぶんしん した!<FF>"
+    original: "<enemy>は<FE>ぶんしん した!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21158
 
   0x21164:
-    original: "[F4]は<FE>おならを した!<FF>"
+    original: "<enemy>は<FE>おならを した!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21164
 
@@ -2221,7 +2221,7 @@ script:
     translation: TODO_0x21188
 
   0x21194:
-    original: "[F4]は<FE>しっ[E4]のはリで<FE>つんつん した!<FF>"
+    original: "<enemy>は<FE>しっ[E4]のはリで<FE>つんつん した!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21194
 
@@ -2231,7 +2231,7 @@ script:
     translation: TODO_0x211a8
 
   0x211b6:
-    original: "[F4]の<FE>でんげき こうげきっ!<FF>"
+    original: "<enemy>の<FE>でんげき こうげきっ!<FF>"
     pointer_location: 0x0
     translation: TODO_0x211b6
 
@@ -2251,7 +2251,7 @@ script:
     translation: TODO_0x211e7
 
   0x211f7:
-    original: "[F4]は<FE>ほのおを はいた!<FF>"
+    original: "<enemy>は<FE>ほのおを はいた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x211f7
 
@@ -2261,12 +2261,12 @@ script:
     translation: TODO_0x21204
 
   0x21217:
-    original: "[F4]は<FE>ふぶきを おこした!!<FF>"
+    original: "<enemy>は<FE>ふぶきを おこした!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21217
 
   0x21226:
-    original: '「[C9]acー!!<FE>[F4]は<FE>おおごえで ほえた!!<FF>'
+    original: '「[C9]acー!!<FE><enemy>は<FE>おおごえで ほえた!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x21226
 
@@ -2296,22 +2296,22 @@ script:
     translation: TODO_0x2127c
 
   0x2128b:
-    original: '「へンlーン!<FE>[F4]は<FE>あくやくタイ[C9]ーに<FE>へんしん した!<FF>'
+    original: '「へンlーン!<FE><enemy>は<FE>あくやくタイ[C9]ーに<FE>へんしん した!<FF>'
     pointer_location: 0x0
     translation: TODO_0x2128b
 
   0x212a9:
-    original: '「へンlーン!<FE>[F4]は<FE>パンチカン[C9]ルーに<FE>へんしん した!<FF>'
+    original: '「へンlーン!<FE><enemy>は<FE>パンチカン[C9]ルーに<FE>へんしん した!<FF>'
     pointer_location: 0x0
     translation: TODO_0x212a9
 
   0x212c7:
-    original: "[F4]は<FE>なかまを よでだした!<FF>"
+    original: "<enemy>は<FE>なかまを よでだした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x212c7
 
   0x212d6:
-    original: "[F4]が<FE>あらわれた!!<FF>"
+    original: "<enemy>が<FE>あらわれた!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x212d6
 
@@ -2346,17 +2346,17 @@ script:
     translation: TODO_0x2132a
 
   0x2133e:
-    original: "[F4]は<FE>こうげきリょくが<FE>あがった!!<FF>"
+    original: "<enemy>は<FE>こうげきリょくが<FE>あがった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x2133e
 
   0x21351:
-    original: "[F4]の<FE>マカチャクが とけた!<FF>"
+    original: "<enemy>の<FE>マカチャクが とけた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21351
 
   0x21360:
-    original: "[F4]には<FE>すでに かかっていた!<FF>"
+    original: "<enemy>には<FE>すでに かかっていた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21360
 
@@ -2371,12 +2371,12 @@ script:
     translation: TODO_0x21381
 
   0x21390:
-    original: "[F4]は<FE>しゅでリょくが<FE>あがった!!<FF>"
+    original: "<enemy>は<FE>しゅでリょくが<FE>あがった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21390
 
   0x213a2:
-    original: "[F4]の<FE>aナクが とけた!<FF>"
+    original: "<enemy>の<FE>aナクが とけた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x213a2
 
@@ -2411,12 +2411,12 @@ script:
     translation: TODO_0x213f3
 
   0x21402:
-    original: "[F4]は<FE>やくそうを つかった!<FF>"
+    original: "<enemy>は<FE>やくそうを つかった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21402
 
   0x21411:
-    original: '「よいしょ!よいしょ!<FE>[F4]は<FE>しこを ふみだした!<FF>'
+    original: '「よいしょ!よいしょ!<FE><enemy>は<FE>しこを ふみだした!<FF>'
     pointer_location: 0x0
     translation: TODO_0x21411
 
@@ -2426,37 +2426,37 @@ script:
     translation: TODO_0x2142b
 
   0x2143d:
-    original: "[F4]は<FE>ようすを するどく<FE>うかがって いる!<FF>"
+    original: "<enemy>は<FE>ようすを するどく<FE>うかがって いる!<FF>"
     pointer_location: 0x0
     translation: TODO_0x2143d
 
   0x21454:
-    original: "[F4]は<FE>まっかな かおをして<FE>ちからを ためている!<FF>"
+    original: "<enemy>は<FE>まっかな かおをして<FE>ちからを ためている!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21454
 
   0x2146e:
-    original: "[F4]は<FE>ようすを みている!<FF>"
+    original: "<enemy>は<FE>ようすを みている!<FF>"
     pointer_location: 0x0
     translation: TODO_0x2146e
 
   0x2147c:
-    original: "[F4]は<FE>しおを まいた!<FF>"
+    original: "<enemy>は<FE>しおを まいた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x2147c
 
   0x21488:
-    original: "[F4]は<FE>みを まもった!<FF>"
+    original: "<enemy>は<FE>みを まもった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21488
 
   0x21494:
-    original: "[F4]は<FE>けを さかだて<FE>みを まもった!<FF>"
+    original: "<enemy>は<FE>けを さかだて<FE>みを まもった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21494
 
   0x214a8:
-    original: <var1>も<FE><var8>ダメージうけた!<FF>
+    original: <var1>も<FE><amount>ダメージうけた!<FF>
     pointer_location: 0x0
     translation: TODO_0x214a8
 
@@ -2471,17 +2471,17 @@ script:
     translation: TODO_0x214c4
 
   0x214d0:
-    original: "[F4]は<FE>きもちの わるい<FE>おどリを おどった!<FF>"
+    original: "<enemy>は<FE>きもちの わるい<FE>おどリを おどった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x214d0
 
   0x214e7:
-    original: 'カキーン!<FE>[F4]は<FE>なげられれた きのみを<FE>うちかえした!<FF>'
+    original: 'カキーン!<FE><enemy>は<FE>なげられれた きのみを<FE>うちかえした!<FF>'
     pointer_location: 0x0
     translation: TODO_0x214e7
 
   0x21504:
-    original: 'バlッ!<FE>[F4]は<FE>きのみを うけとめた!<FF>'
+    original: 'バlッ!<FE><enemy>は<FE>きのみを うけとめた!<FF>'
     pointer_location: 0x0
     translation: TODO_0x21504
 
@@ -2491,32 +2491,32 @@ script:
     translation: TODO_0x21518
 
   0x21528:
-    original: "[F3]たちは<FE>こうさんした!![FC][F3]は こうさんした!![FC]<var8>[E9]イントの けいけんちと[FC][FA][6F]を てにいれた!!<FF>"
+    original: "<var3>たちは<FE>こうさんした!![FC]<var3>は こうさんした!![FC]<amount>[E9]イントの けいけんちと[FC][FA][6F]を てにいれた!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21528
 
   0x2155c:
-    original: "[F3]は あやまって[FC][F3]たちは あやまって<FE>ジャングルへ かえっていった.<FF>"
+    original: "<var3>は あやまって[FC]<var3>たちは あやまって<FE>ジャングルへ かえっていった.<FF>"
     pointer_location: 0x0
     translation: TODO_0x2155c
 
   0x21580:
-    original: しかし<FE>[F4]は<FE>きがつかない!!<FF>
+    original: しかし<FE><enemy>は<FE>きがつかない!!<FF>
     pointer_location: 0x0
     translation: TODO_0x21580
 
   0x21590:
-    original: "[F4]は<FE>いまごろ きがついた!<FF>"
+    original: "<enemy>は<FE>いまごろ きがついた!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21590
 
   0x215aa:
-    original: "[F3]たちは<FE>とつマん おそいかかってきたっ!<FF>"
+    original: "<var3>たちは<FE>とつマん おそいかかってきたっ!<FF>"
     pointer_location: 0x0
     translation: TODO_0x215aa
 
   0x215c0:
-    original: "[F3]たちは<FE>まだ こちらに き[A1]いていないっ!<FF>"
+    original: "<var3>たちは<FE>まだ こちらに き[A1]いていないっ!<FF>"
     pointer_location: 0x0
     translation: TODO_0x215c0
 
@@ -2526,12 +2526,12 @@ script:
     translation: TODO_0x215d7
 
   0x215e2:
-    original: "[F3]たちは<FE>いなくなった!![FC][F3]は いなくなった!![FC]ボーイたちの<FE>せんせい こうげき!!<FF>"
+    original: "<var3>たちは<FE>いなくなった!![FC]<var3>は いなくなった!![FC]ボーイたちの<FE>せんせい こうげき!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x215e2
 
   0x2160f:
-    original: "[F4]は<FE>もう いなかった!!<FF>"
+    original: "<enemy>は<FE>もう いなかった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x2160f
 
@@ -2541,7 +2541,7 @@ script:
     translation: TODO_0x2161d
 
   0x2162c:
-    original: "[F4]には<FE>こうかがなかった!!<FF>"
+    original: "<enemy>には<FE>こうかがなかった!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x2162c
 
@@ -2551,7 +2551,7 @@ script:
     translation: TODO_0x2163b
 
   0x21648:
-    original: '「へンlーン!<FE>[F4]は<FE>どすこいカバに<FE>へんしん した!<FF>'
+    original: '「へンlーン!<FE><enemy>は<FE>どすこいカバに<FE>へんしん した!<FF>'
     pointer_location: 0x0
     translation: TODO_0x21648
 
@@ -2561,7 +2561,7 @@ script:
     translation: TODO_0x2166d
 
   0x21679:
-    original: 'しンは くち[A9]しで<FE>つっついた!!<FF>'
+    original: 'しンは くちばしで<FE>つっついた!!<FF>'
     pointer_location: 0x0
     translation: TODO_0x21679
 
@@ -2596,7 +2596,7 @@ script:
     translation: TODO_0x216d4
 
   0x216e2:
-    original: "[F4]は<FE>こんらんしている!!<FF>"
+    original: "<enemy>は<FE>こんらんしている!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x216e2
 
@@ -2606,7 +2606,7 @@ script:
     translation: TODO_0x216f0
 
   0x216ff:
-    original: "[F4]の<FE>こんらんが とけた!!<FF>"
+    original: "<enemy>の<FE>こんらんが とけた!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x216ff
 
@@ -2631,12 +2631,12 @@ script:
     translation: TODO_0x21749
 
   0x2175d:
-    original: "[F4]に<FE>つめが つきささった!<FF>"
+    original: "<enemy>に<FE>つめが つきささった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x2175d
 
   0x2176c:
-    original: "[F4]を<FE>つかまえた!!<FF>"
+    original: "<enemy>を<FE>つかまえた!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x2176c
 
@@ -2656,7 +2656,7 @@ script:
     translation: TODO_0x217a8
 
   0x217b9:
-    original: "[F4]は<FE>みがまえている!!<FF>"
+    original: "<enemy>は<FE>みがまえている!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x217b9
 
@@ -2681,27 +2681,27 @@ script:
     translation: TODO_0x21823
 
   0x21832:
-    original: "[F4]は<FE>あみに かかっている!<FF>"
+    original: "<enemy>は<FE>あみに かかっている!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21832
 
   0x21841:
-    original: "[F4]は<FE>あみから はいだした!<FF>"
+    original: "<enemy>は<FE>あみから はいだした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21841
 
   0x21850:
-    original: "[F4]は<FE>あなに<FE>はまって しまった!<FF>"
+    original: "<enemy>は<FE>あなに<FE>はまって しまった!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21850
 
   0x21862:
-    original: "[F4]は<FE>あなに<FE>はまって うごけない!<FF>"
+    original: "<enemy>は<FE>あなに<FE>はまって うごけない!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21862
 
   0x21875:
-    original: "[F4]は<FE>あなから<FE>ぬけだした!<FF>"
+    original: "<enemy>は<FE>あなから<FE>ぬけだした!<FF>"
     pointer_location: 0x0
     translation: TODO_0x21875
 
@@ -2711,7 +2711,7 @@ script:
     translation: TODO_0x21884
 
   0x2188f:
-    original: "[F4]は<FE>ボしッとしている<FF>"
+    original: "<enemy>は<FE>ボしッとしている<FF>"
     pointer_location: 0x0
     translation: TODO_0x2188f
 
@@ -2721,12 +2721,12 @@ script:
     translation: TODO_0x2189b
 
   0x218ab:
-    original: "[71][72]がたリない!!<FF>"
+    original: "MPがたリない!!<FF>"
     pointer_location: 0x0
     translation: TODO_0x218ab
 
   0x218b5:
-    original: '「いいもの みっけ!!<FD>[F3]は<FE><var2>を おとしていった!<FF>'
+    original: '「いいもの みっけ!!<FD><var3>は<FE><var2>を おとしていった!<FF>'
     pointer_location: 0x0
     translation: TODO_0x218b5
 
@@ -2736,12 +2736,12 @@ script:
     translation: TODO_0x218d0
 
   0x218df:
-    original: 'せんせいか[A9]の せんせいこうげき!<FF>'
+    original: 'せんせいかばの せんせいこうげき!<FF>'
     pointer_location: 0x0
     translation: TODO_0x218df
 
   0x218f1:
-    original: '<var1>の<FE>[71][72]が かいふくした!<FF>'
+    original: '<var1>の<FE>MPが かいふくした!<FF>'
     pointer_location: 0x0
     translation: TODO_0x218f1
 
@@ -2852,7 +2852,7 @@ script:
     translation: TODO_0x21bd6
 
   0x21bef:
-    original: '「ここは どうぐやです.<FE> どんな ごようですか?[FC]「いらっしゃい.<FE> ここは ぶんぼうぐやだ.<FD> どんな ようだい?[FC]「ここは でょういんです.<FE> どんな ごようですか?[FC]「きマつの ちリょうですね.<FE> どなたを ちリょう しますか?[FC]「[FA][6F]に なリますが<FE> よろしいでしょうか?[FC]<var1>は かいふくした![FC]「し[C9]の ちリょうですね.[FC]「1[6F]で [6E][72]と[71][72]が<FE> 3 かいふくします.<FD>「マんぶで [FA][6F]に なリますが<FE> よろしいでしょうか?[FC]「どくの ちリょう"てすね.[FC]「<var1>さんは<FE> きマつしています.<FF>'
+    original: '「ここは どうぐやです.<FE> どんな ごようですか?[FC]「いらっしゃい.<FE> ここは ぶんぼうぐやだ.<FD> どんな ようだい?[FC]「ここは でょういんです.<FE> どんな ごようですか?[FC]「きマつの ちリょうですね.<FE> どなたを ちリょう しますか?[FC]「[FA][6F]に なリますが<FE> よろしいでしょうか?[FC]<var1>は かいふくした![FC]「し[C9]の ちリょうですね.[FC]「1[6F]で HPとMPが<FE> 3 かいふくします.<FD>「マんぶで [FA][6F]に なリますが<FE> よろしいでしょうか?[FC]「どくの ちリょう"てすね.[FC]「<var1>さんは<FE> きマつしています.<FF>'
     pointer_location: 0x0
     translation: TODO_0x21bef
 
@@ -2897,7 +2897,7 @@ script:
     translation: TODO_0x21d7f
 
   0x21d94:
-    original: '「よくたすかったわね.<FE> ひこうきが おちたんですって?<FD>「あなたは し[C9]は ない?<FE> あったら ちリょうして あげるわ.[FC]「ここは ほけんしつです.<FE> どんな ごようですか?[FC]「いらっしゃいませー!<FE> ここは オcムの やどやです.<FD> ひと[A9]ん <var8>ゴールドですが<FE> おとまリに なリますか?[FC]「それでは どうミ ごゆっくリ.<FF>'
+    original: '「よくたすかったわね.<FE> ひこうきが おちたんですって?<FD>「あなたは し[C9]は ない?<FE> あったら ちリょうして あげるわ.[FC]「ここは ほけんしつです.<FE> どんな ごようですか?[FC]「いらっしゃいませー!<FE> ここは オcムの やどやです.<FD> ひとばん <amount>ゴールドですが<FE> おとまリに なリますか?[FC]「それでは どうミ ごゆっくリ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x21d94
 
@@ -2917,7 +2917,7 @@ script:
     translation: TODO_0x21e66
 
   0x21e7b:
-    original: '「いらっしゃいませ.<FE> ここは やどやです.<FD>「ひと[A9]ん <var8>ゴールドですが<FE> おとまリに なリますか?[FC]「では ごゆっくリ.<FF>'
+    original: '「いらっしゃいませ.<FE> ここは やどやです.<FD>「ひとばん <amount>ゴールドですが<FE> おとまリに なリますか?[FC]「では ごゆっくリ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x21e7b
 
@@ -2962,7 +2962,7 @@ script:
     translation: TODO_0x22093
 
   0x22172:
-    original: '「ゴートだんの ほんきょちは<FE> とかいの ちかくの しまらしい.<FD>「きたに ながれる aスランがわを<FE> ホっと くだっていくと<FD> ほくとうの ほうに うみがあって<FE> うみのそ[A9]に みなとまちが ある.<FD>「そこから とかいへ<FE> わたれるじゃろう.<FF>'
+    original: '「ゴートだんの ほんきょちは<FE> とかいの ちかくの しまらしい.<FD>「きたに ながれる aスランがわを<FE> ホっと くだっていくと<FD> ほくとうの ほうに うみがあって<FE> うみのそばに みなとまちが ある.<FD>「そこから とかいへ<FE> わたれるじゃろう.<FF>'
     pointer_location: 0x0
     translation: TODO_0x22172
 
@@ -3007,12 +3007,12 @@ script:
     translation: TODO_0x22445
 
   0x2247b:
-    original: '「いらっしゃいませ.こちらは<FE> こどもふく うリ[A9]で ございます.[FC]「にゅうじょうリょう 50[6F]です.<FE> おはいリに なリますか?[FC]「あリがとうございます.<FF>'
+    original: '「いらっしゃいませ.こちらは<FE> こどもふく うリばで ございます.[FC]「にゅうじょうリょう 50[6F]です.<FE> おはいリに なリますか?[FC]「あリがとうございます.<FF>'
     pointer_location: 0x0
     translation: TODO_0x2247b
 
   0x224ca:
-    original: '「いらっしゃい! いらっしゃい!<FD> ほんじつは くだものが<FE> とく[A9]いだよ!<FD>「おにいさん! なにが いるの?[FC]「[FB]ですね.<FE> おおまけに まけて [F9][6F]![FC]「あら? おかねが たリないね!<FE> また こんどね.<FF>'
+    original: '「いらっしゃい! いらっしゃい!<FD> ほんじつは くだものが<FE> とくばいだよ!<FD>「おにいさん! なにが いるの?[FC]「[FB]ですね.<FE> おおまけに まけて <gold>[6F]![FC]「あら? おかねが たリないね!<FE> また こんどね.<FF>'
     pointer_location: 0x0
     translation: TODO_0x224ca
 
@@ -3032,7 +3032,7 @@ script:
     translation: TODO_0x2254f
 
   0x22562:
-    original: '「んー おにいさんも うまいねえ.<FE> それなら [F9][6F]で どうだい?[FC]「これでどうだい! [F9][6F]だ![FC]「なんだい? ひやかしかい?<FF>'
+    original: '「んー おにいさんも うまいねえ.<FE> それなら <gold>[6F]で どうだい?[FC]「これでどうだい! <gold>[6F]だ![FC]「なんだい? ひやかしかい?<FF>'
     pointer_location: 0x0
     translation: TODO_0x22562
 
@@ -3067,7 +3067,7 @@ script:
     translation: TODO_0x226a6
 
   0x226d2:
-    original: '「このむらの きたの やまのうえに<FE> いっけんの いえがある.<FD>「そこに すんどる じいさんは<FE> もう ええとしなんじゃが<FD> むかしの ことに くわしくての.<FD>「なにか ききたいことがあれ[A9]<FE> たホねて みんさいや.<FD>「わかいうちは よく いっしょに<FE> [A9]んどで ぎぐを やったもんじゃ.<FF>'
+    original: '「このむらの きたの やまのうえに<FE> いっけんの いえがある.<FD>「そこに すんどる じいさんは<FE> もう ええとしなんじゃが<FD> むかしの ことに くわしくての.<FD>「なにか ききたいことがあれば<FE> たホねて みんさいや.<FD>「わかいうちは よく いっしょに<FE> ばんどで ぎぐを やったもんじゃ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x226d2
 
@@ -3077,12 +3077,12 @@ script:
     translation: TODO_0x22763
 
   0x227be:
-    original: '「おお どうくつを ぬけてきたのか?<FE> おきゃくは ひさしぶリじゃわい.<FD>「おや このむすめさんは<FE> うらないおババの まごじゃと?<FD>「そうじゃったか***<FE> はなしは きいたことが あるよ.<FD>「おまえの ごリょうしんは<FE> それは それは なかのいい<FD> こいでとどうし じゃった.<FD>「じゃが うらないババには<FE> むすめが とかいそだちの おとこと<FD> いっしょに なるのが<FE> どうしても がまん ならんでのう.<FD>「そうこうしとるうちに<FE> おまえのパパは ようじができて<FD> とかいに かえらね[A9]<FE> ならなくなってしもうた.<FD>「なくなく わかれた そのあとで<FE> おまえのママは おなかのなかに<FD> こどもが いることに<FE> き[A1]いたんじゃ.<FD>「うらないババの いえを でたと<FE> きいたのは そのすぐあとじゃった.<FD>「***そうか おかあさんは<FE> いま でょうきなのか.<FD>「おんなでひとつで<FE> むすめを ここまで そだてて**<FD>「くろう なさったんじゃろうのう.<FF>'
+    original: '「おお どうくつを ぬけてきたのか?<FE> おきゃくは ひさしぶリじゃわい.<FD>「おや このむすめさんは<FE> うらないおババの まごじゃと?<FD>「そうじゃったか***<FE> はなしは きいたことが あるよ.<FD>「おまえの ごリょうしんは<FE> それは それは なかのいい<FD> こいでとどうし じゃった.<FD>「じゃが うらないババには<FE> むすめが とかいそだちの おとこと<FD> いっしょに なるのが<FE> どうしても がまん ならんでのう.<FD>「そうこうしとるうちに<FE> おまえのパパは ようじができて<FD> とかいに かえらねば<FE> ならなくなってしもうた.<FD>「なくなく わかれた そのあとで<FE> おまえのママは おなかのなかに<FD> こどもが いることに<FE> き[A1]いたんじゃ.<FD>「うらないババの いえを でたと<FE> きいたのは そのすぐあとじゃった.<FD>「***そうか おかあさんは<FE> いま でょうきなのか.<FD>「おんなでひとつで<FE> むすめを ここまで そだてて**<FD>「くろう なさったんじゃろうのう.<FF>'
     pointer_location: 0x0
     translation: TODO_0x227be
 
   0x22968:
-    original: '「ぼく きょうは おるす[A9]んなの.<FD>「このあいださあ<FE> みなみのほうに いったら<FD> きに かこまれた ところに<FE> ひみつの ジャングルが あったよ.<FD>「ぼくは おっかなくって<FE> もどって きちゃったんだけどね.<FF>'
+    original: '「ぼく きょうは おるすばんなの.<FD>「このあいださあ<FE> みなみのほうに いったら<FD> きに かこまれた ところに<FE> ひみつの ジャングルが あったよ.<FD>「ぼくは おっかなくって<FE> もどって きちゃったんだけどね.<FF>'
     pointer_location: 0x0
     translation: TODO_0x22968
 
@@ -3107,12 +3107,12 @@ script:
     translation: TODO_0x22ade
 
   0x22b9f:
-    original: 'マリーナ<FE>「ああ! あなたたちは あのわにを<FD> たおせたのですね.<FD> わたしは あのわにに<FE> かんしされてたのです.<FD>「おねがいが あるんです!<FD> わたしの こどもを<FE> たすけて ください!<FD>「わたしの こどもは<FE> ゴートだんの にんげんたちに<FD> つかまって しまったのです.<FD>「かわいそうに あのこは<FE> そのときの しょっくで<FD> いしになって しまいました.<FD>「あのこをつかまえた ふなのリたちは<FE> とおくに ふきと[A9]されてしまい<FD> いしになった わたしのこ だけを<FE> のせた ふねは***<FD> いまでは ゆうれいせんと なって<FE> うみを さまよっているのです.<FD>「それでも アピーニ*ゴートは<FE> わたしたちを みせものに<FD> したい らしくって<FD> はやく こどもを<FE> もとに もどせって<FD> わたしを おどすんです.<FD>「また つかまって<FE> みせものに なる ぐらいだったら<FD> いまのままのほうが<FE> まだ ましですが***<FD>「でも ひとリさまよう わがこも<FE> かわいそうで かわいそうで***<FD>「ゆうれいせんは いま<FD> きたの とうだいの ちかくを<FE> さまよっています.<FD>「ときどき とうだいの うえから<FE> ふねが みえるんだそうです.<FD>「おねがいです!<FE> そのふねを みつけて<FD> いしに なってしまった<FE> わたしの こどもを<FD> うみに かえしてください!<FF>'
+    original: 'マリーナ<FE>「ああ! あなたたちは あのわにを<FD> たおせたのですね.<FD> わたしは あのわにに<FE> かんしされてたのです.<FD>「おねがいが あるんです!<FD> わたしの こどもを<FE> たすけて ください!<FD>「わたしの こどもは<FE> ゴートだんの にんげんたちに<FD> つかまって しまったのです.<FD>「かわいそうに あのこは<FE> そのときの しょっくで<FD> いしになって しまいました.<FD>「あのこをつかまえた ふなのリたちは<FE> とおくに ふきとばされてしまい<FD> いしになった わたしのこ だけを<FE> のせた ふねは***<FD> いまでは ゆうれいせんと なって<FE> うみを さまよっているのです.<FD>「それでも アピーニ*ゴートは<FE> わたしたちを みせものに<FD> したい らしくって<FD> はやく こどもを<FE> もとに もどせって<FD> わたしを おどすんです.<FD>「また つかまって<FE> みせものに なる ぐらいだったら<FD> いまのままのほうが<FE> まだ ましですが***<FD>「でも ひとリさまよう わがこも<FE> かわいそうで かわいそうで***<FD>「ゆうれいせんは いま<FD> きたの とうだいの ちかくを<FE> さまよっています.<FD>「ときどき とうだいの うえから<FE> ふねが みえるんだそうです.<FD>「おねがいです!<FE> そのふねを みつけて<FD> いしに なってしまった<FE> わたしの こどもを<FD> うみに かえしてください!<FF>'
     pointer_location: 0x0
     translation: TODO_0x22b9f
 
   0x22de0:
-    original: '「ふね?***ゆうれいせんの<FE> はなしを しらないのかい?<FD>「みんな こわがって ふねをだそう<FE> なんてやつは いないよ.<FD>「ロープさえ あれ[A9]<FE> あのタルに むすでつけて<FD> おれが ゆうれいせんに<FE> わたって やるのによう.<FD>「こわくないかって?<FD>「おれは まち いち[A9]んの<FE> ふなのリだマ.<FF>'
+    original: '「ふね?***ゆうれいせんの<FE> はなしを しらないのかい?<FD>「みんな こわがって ふねをだそう<FE> なんてやつは いないよ.<FD>「ロープさえ あれば<FE> あのタルに むすでつけて<FD> おれが ゆうれいせんに<FE> わたって やるのによう.<FD>「こわくないかって?<FD>「おれは まち いちばんの<FE> ふなのリだマ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x22de0
 
@@ -3192,7 +3192,7 @@ script:
     translation: TODO_0x2327a
 
   0x232c0:
-    original: '「ゆうれいせんも いなくなって<FE> これで ゴートだんさえ<FD> いなくなって くれれ[A9]<FE> よのなか へいわなのになあ.<FF>'
+    original: '「ゆうれいせんも いなくなって<FE> これで ゴートだんさえ<FD> いなくなって くれれば<FE> よのなか へいわなのになあ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x232c0
 
@@ -3237,7 +3237,7 @@ script:
     translation: TODO_0x23463
 
   0x23493:
-    original: '「にんぎょを つかまえたのは<FE> おれたちだよ.<FD> でも いしに なった にんぎょに<FE> ふっと[A9]されて***.<FD>「あんなに こわいめに あったのは<FE> はじめてだ.<FF>'
+    original: '「にんぎょを つかまえたのは<FE> おれたちだよ.<FD> でも いしに なった にんぎょに<FE> ふっとばされて***.<FD>「あんなに こわいめに あったのは<FE> はじめてだ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23493
 
@@ -3267,112 +3267,112 @@ script:
     translation: TODO_0x236ce
 
   0x23705:
-    original: '「では ミオ.<FE> がん[A9]るのじゃ.<FF>'
+    original: '「では ミオ.<FE> がんばるのじゃ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23705
 
   0x23717:
-    original: '「そのまえに いまおまえが つかえる<FE> じゅもんの せつめいじゃ.<FD>「まホ ニナ.<FD> これは てきひとリに こうかのある<FE> ひのたまの じゅもんじゃ.<FD>「ひの じゅもんは<FD> たいていの てきには<FE> こうかが あるじゃろう.<FD>「[71][72]を 2 つかうミ.<FD>「それから ピニ.<FD> からだを げんきにする<FE> じゅもんじゃ.<FD>「みかた ひとリの [6E][72]を<FD> 50[E9]イントぐらい<FE> かいふくすることが できる.<FD>「[71][72]を 5 つかうミ.<FD>「あたらしく おしえる じゅもんは<FE> マチャニじゃ.<FD>「てき 1グループの<FE> しゅでリょくを さげるミ.<FD>「なんどでも かけることが できるが<FE> 0よリ さげることは できんな.<FD>「[71][72]を 3 つかうミ.<FF>'
+    original: '「そのまえに いまおまえが つかえる<FE> じゅもんの せつめいじゃ.<FD>「まホ ニナ.<FD> これは てきひとリに こうかのある<FE> ひのたまの じゅもんじゃ.<FD>「ひの じゅもんは<FD> たいていの てきには<FE> こうかが あるじゃろう.<FD>「MPを 2 つかうミ.<FD>「それから ピニ.<FD> からだを げんきにする<FE> じゅもんじゃ.<FD>「みかた ひとリの HPを<FD> 50[E9]イントぐらい<FE> かいふくすることが できる.<FD>「MPを 5 つかうミ.<FD>「あたらしく おしえる じゅもんは<FE> マチャニじゃ.<FD>「てき 1グループの<FE> しゅでリょくを さげるミ.<FD>「なんどでも かけることが できるが<FE> 0よリ さげることは できんな.<FD>「MPを 3 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23717
 
   0x23851:
-    original: '「あたらしく おしえる じゅもんは<FE> パスカニじゃ.<FD>「どくを きれいに する<FE> げどくの じゅもんじゃ.<FD>「[71][72]を 2 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> パスカニじゃ.<FD>「どくを きれいに する<FE> げどくの じゅもんじゃ.<FD>「MPを 2 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23851
 
   0x23894:
-    original: '「あたらしく おしえる じゅもんは<FE> nリオじゃ.<FD>「てき 1グループに こうかのある<FE> こおリの じゅもんじゃ.<FD>「こおリの じゅもんは<FD> みホや そのちかくにすむ てきに<FE> こうかが あるのじゃ.<FD>「[71][72]を 4つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> nリオじゃ.<FD>「てき 1グループに こうかのある<FE> こおリの じゅもんじゃ.<FD>「こおリの じゅもんは<FD> みホや そのちかくにすむ てきに<FE> こうかが あるのじゃ.<FD>「MPを 4つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23894
 
   0x23905:
-    original: '「あたらしく おしえる じゅもんは<FE> aマチャニじゃ.<FD>「みかた マんたいの<FE> しゅでリょくを あげる.<FD>「[71][72]を 4 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> aマチャニじゃ.<FD>「みかた マんたいの<FE> しゅでリょくを あげる.<FD>「MPを 4 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23905
 
   0x23947:
-    original: '「あたらしく おしえる じゅもんは<FE> ルパじゃ.<FD>「てき 1グループに こうかのある<FE> ほのおの じゅもんじゃ.<FD>「ほのおの じゅもんも<FD> たいていの てきに<FE> こうかが ある.<FD>「[71][72]を 4 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> ルパじゃ.<FD>「てき 1グループに こうかのある<FE> ほのおの じゅもんじゃ.<FD>「ほのおの じゅもんも<FD> たいていの てきに<FE> こうかが ある.<FD>「MPを 4 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23947
 
   0x239ae:
-    original: '「あたらしく おしえる じゅもんは<FE> プニニじゃ.<FD>「てき 1グループを<FE> ねむらせることが できる.<FD>「[71][72]を 3 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> プニニじゃ.<FD>「てき 1グループを<FE> ねむらせることが できる.<FD>「MPを 3 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x239ae
 
   0x239ef:
-    original: '「あたらしく おしえる じゅもんは<FE> aルピーじゃ.<FD>「どうくつなどの なかから<FE> いリぐちまで でることが できる.<FD>「[71][72]を 6 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> aルピーじゃ.<FD>「どうくつなどの なかから<FE> いリぐちまで でることが できる.<FD>「MPを 6 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x239ef
 
   0x23a38:
-    original: '「あたらしく おしえる じゅもんは<FE> ピチカピニじゃ.<FD>「みかた ひとリの [6E][72]を<FD> 80[E9]イントぐらい<FE> かいふくすることが できる.<FD>「[71][72]を 10 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> ピチカピニじゃ.<FD>「みかた ひとリの HPを<FD> 80[E9]イントぐらい<FE> かいふくすることが できる.<FD>「MPを 10 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23a38
 
   0x23a8b:
-    original: '「あたらしく おしえる じゅもんは<FE> ニニャじゃ.<FD>「てきひとリに こうかのある<FE> ひのたまの じゅもんじゃ.<FD>「ニナと おなじ しゅるいじゃが<FE> ホっと つよい じゅもんじゃ.<FD>「[71][72]を 5 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> ニニャじゃ.<FD>「てきひとリに こうかのある<FE> ひのたまの じゅもんじゃ.<FD>「ニナと おなじ しゅるいじゃが<FE> ホっと つよい じゅもんじゃ.<FD>「MPを 5 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23a8b
 
   0x23af2:
-    original: '「あたらしく おしえる じゅもんは<FE> サマニじゃ.<FD>「てき 1グループの じゅもんを<FE> ふうじることが できる.<FD>「[71][72]を 3 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> サマニじゃ.<FD>「てき 1グループの じゅもんを<FE> ふうじることが できる.<FD>「MPを 3 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23af2
 
   0x23b38:
-    original: '「あたらしく おしえる じゅもんは<FE> ルパニじゃ.<FD>「てき 1グループに こうかのある<FE> ほのおの じゅもんじゃ.<FD>「ルパの 2[A9]いぐらいの<FE> こうかが ある.<FD>「[71][72]を 10 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> ルパニじゃ.<FD>「てき 1グループに こうかのある<FE> ほのおの じゅもんじゃ.<FD>「ルパの 2ばいぐらいの<FE> こうかが ある.<FD>「MPを 10 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23b38
 
   0x23b97:
-    original: '「あたらしく おしえる じゅもんは<FE> ラチャパじゃ.<FD>「てきひとリから<FE> [71][72]を すいとる じゅもんじゃ.<FD>「[71][72]は つかわんミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> ラチャパじゃ.<FD>「てきひとリから<FE> MPを すいとる じゅもんじゃ.<FD>「MPは つかわんミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23b97
 
   0x23bd9:
-    original: '「あたらしく おしえる じゅもんは<FE> クムムじゃ.<FD>「てき 1グループに こうかのある<FE> いか[A1]ちの じゅもんじゃ.<FD>「かみなリの じゅもんは<FE> たいていの てきに きくが<FD> みホにすむ どうぶつには<FE> とくに よくきくのじゃ.<FD>「[71][72]を 15 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> クムムじゃ.<FD>「てき 1グループに こうかのある<FE> いか[A1]ちの じゅもんじゃ.<FD>「かみなリの じゅもんは<FE> たいていの てきに きくが<FD> みホにすむ どうぶつには<FE> とくに よくきくのじゃ.<FD>「MPを 15 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23bd9
 
   0x23c5a:
-    original: '「あたらしく おしえる じゅもんは<FE> マカチャクじゃ.<FD>「みかた ひとリの こうげきリょくを<FE> ドドーンと あげる じゅもんじゃ.<FD>「[71][72]を 12 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> マカチャクじゃ.<FD>「みかた ひとリの こうげきリょくを<FE> ドドーンと あげる じゅもんじゃ.<FD>「MPを 12 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23c5a
 
   0x23caa:
-    original: '「あたらしく おしえる じゅもんは<FE> aナクじゃ.<FD>「みかた ひとリに こうかがあリ<FD> そのひとに かけられた じゅもんを<FE> てきに はねかえす じゅもんじゃ.<FD>「[71][72]を 10 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> aナクじゃ.<FD>「みかた ひとリに こうかがあリ<FD> そのひとに かけられた じゅもんを<FE> てきに はねかえす じゅもんじゃ.<FD>「MPを 10 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23caa
 
   0x23d09:
-    original: '「あたらしく おしえる じゅもんは<FE> パチャピニじゃ.<FD>「みかた ひとリの [6E][72]を<FD> かんマんに<FE> かいふくすることが できるミ.<FD>「[71][72]を 20 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> パチャピニじゃ.<FD>「みかた ひとリの HPを<FD> かんマんに<FE> かいふくすることが できるミ.<FD>「MPを 20 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23d09
 
   0x23d59:
-    original: '「あたらしく おしえる じゅもんは<FE> チリnリオじゃ.<FD>「てき 1グループに こうかのある<FE> こおリの じゅもんじゃ.<FD>「nリオよリ うんと つよく<FD> みホに かんけいのある てきに<FE> よく きくのじゃ.<FD>「[71][72]を 15 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> チリnリオじゃ.<FD>「てき 1グループに こうかのある<FE> こおリの じゅもんじゃ.<FD>「nリオよリ うんと つよく<FD> みホに かんけいのある てきに<FE> よく きくのじゃ.<FD>「MPを 15 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23d59
 
   0x23dce:
-    original: '「あたらしく おしえる じゅもんは<FE> カマルパニじゃ.<FD>「てき マんたいに こうかのある<FE> ほのおの じゅもんじゃ.<FD>「[71][72]を 20 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> カマルパニじゃ.<FD>「てき マんたいに こうかのある<FE> ほのおの じゅもんじゃ.<FD>「MPを 20 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23dce
 
   0x23e17:
-    original: '「あたらしく おしえる じゅもんは<FE> aリaピニじゃ.<FD>「みかた マんいんの [6E][72]を<FD> かんマんに<FE> かいふくすることが できるのじゃ.<FD>「[71][72]を 50 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> aリaピニじゃ.<FD>「みかた マんいんの HPを<FD> かんマんに<FE> かいふくすることが できるのじゃ.<FD>「MPを 50 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23e17
 
   0x23e6a:
-    original: '「あたらしく おしえる じゅもんは<FE> クムクムじゃ.<FD>「てき マんたいに こうかのある<FE> いか[A1]ちの じゅもんじゃ.<FD>「このじゅもんが さいきょうの<FE> こうげきじゅもん じゃな.<FD>「[71][72]を 30 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> クムクムじゃ.<FD>「てき マんたいに こうかのある<FE> いか[A1]ちの じゅもんじゃ.<FD>「このじゅもんが さいきょうの<FE> こうげきじゅもん じゃな.<FD>「MPを 30 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23e6a
 
   0x23ed2:
-    original: '「あたらしく おしえる じゅもんは<FE> カパカパラじゃ.<FD>「てき 1グループを<FE> こんらんさせる じゅもんじゃ.<FD>「なにが おこるか<FE> わしにも わからん.<FD>「[71][72]を 10 つかうミ.<FF>'
+    original: '「あたらしく おしえる じゅもんは<FE> カパカパラじゃ.<FD>「てき 1グループを<FE> こんらんさせる じゅもんじゃ.<FD>「なにが おこるか<FE> わしにも わからん.<FD>「MPを 10 つかうミ.<FF>'
     pointer_location: 0x0
     translation: TODO_0x23ed2
 
@@ -3402,7 +3402,7 @@ script:
     translation: TODO_0x23f44
 
   0x23f50:
-    original: 'ニ[A5]ダ[C7][F5][F3]a[B7]タ[BF]マ<FD>タしa<FE>か[E0]ニ[F7][74]<FD>[75][7A]ド<FE>ト タ<FE>ト[AF]ょ[BB]かムト<FE>a[E9]タぶ[74]<FE>aプド[F4]トゅ[C5][F5]ド<FF>'
+    original: 'ニ[A5]ダ[C7][F5]<var3>a[B7]タ[BF]マ<FD>タしa<FE>か[E0]ニ[F7][74]<FD>[75][7A]ド<FE>ト タ<FE>ト[AF]ょ[BB]かムト<FE>a[E9]タぶ[74]<FE>aプド<enemy>トゅ[C5][F5]ド<FF>'
     pointer_location: 0x0
     translation: TODO_0x23f50
 
@@ -3412,7 +3412,7 @@ script:
     translation: TODO_0x23f86
 
   0x23f8a:
-    original: "[70][DF]ト[7C][B5]<FD>[C6][EE]お<FE>ダねっ<FD>[C5][FB]テ[B7]ド[B9]°[CC]ドムか[BB]タ[DD]ト[DF]い[DF]か<FE>a[DF]ド[ED]か[6E]ス[F4]a[C8]ニ<FD>ニ[D7]!ート[FC]お<FE>ト<FF>"
+    original: "[70][DF]ト[7C][B5]<FD>[C6][EE]お<FE>ダねっ<FD>[C5][FB]テ[B7]ド[B9]°[CC]ドムか[BB]タ[DD]ト[DF]い[DF]か<FE>a[DF]ド[ED]かHス<enemy>a[C8]ニ<FD>ニ[D7]!ート[FC]お<FE>ト<FF>"
     pointer_location: 0x0
     translation: TODO_0x23f8a
 
