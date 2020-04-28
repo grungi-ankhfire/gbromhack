@@ -3,6 +3,7 @@
 """Usage: jw_script.py dump <romfile> <start> <end> [<tablefile>] [<outputfile>]
           jw_script.py yaml_dump <romfile> <start>  <end>  [<tablefile>] [<outputfile>]
           jw_script.py insert <scriptfile> <romfile> <start> <end> <tablefile>
+          jw_script.py yaml_convert <oldfile> <outputfile>
 
 Helping script for manipulating Jungle Wars text.
 
@@ -13,10 +14,13 @@ Arguments
     <tablefile>  Translation table to use
     <scriptfile> File containing a Unicode script
     <outputfile> File in which to dump the script
+    <oldfile>    File using the old YAML schema to convert
 """
 from docopt import docopt
 from translation_table import TranslationTable
 import pyaml
+import yaml
+
 
 rom = None
 table = None
@@ -41,7 +45,7 @@ def yaml_dump_script(offset, end_offset):
 
     script = dict()
 
-    messages = []
+    messages = {}
 
     message = dict()
 
@@ -49,19 +53,19 @@ def yaml_dump_script(offset, end_offset):
     message_bytes = bytearray()
 
     cur_byte = rom.read(1)
-    message["location"] = hex(offset)
+    message_offset = hex(offset)
     while(offset != end_offset):
         message_bytes += cur_byte
-        if int.from_bytes(cur_byte, 'little') == int('FF', base=16):
+        if int.from_bytes(cur_byte, 'little') == int('FF', base=16) or int.from_bytes(cur_byte, 'little') == int('FC', base=16) :
             if table:
                 message["original"] = table.convert_bytearray(message_bytes)
             else:
                 message["original"] = message_bytes.copy()
-            message["translation"] = "TODO_" + message["location"]
+            message["translation"] = "TODO_" + message_offset
             message["pointer_location"] = 0
-            messages.append(message.copy())
+            messages[message_offset] = message.copy()
             message_bytes.clear()
-            message["location"] = hex(offset)
+            message_offset = hex(offset)
 
         cur_byte = rom.read(1)
         offset += 1
@@ -80,8 +84,13 @@ def insert_script(offset, end_offset, script):
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
-    offset = int(arguments["<start>"], base=16)
-    end_offset = int(arguments["<end>"], base=16)
+    offset = None
+    end_offset = None
+
+    if arguments['<start>']:
+        offset = int(arguments["<start>"], base=16)
+    if arguments['<end>']:
+        end_offset = int(arguments["<end>"], base=16)
     if (arguments['<tablefile>']):
         table = TranslationTable(arguments['<tablefile>'])
 
@@ -100,10 +109,10 @@ if __name__ == '__main__':
         script = yaml_dump_script(offset, end_offset)
         if arguments['<outputfile>']:
             f = open(arguments['<outputfile>'], 'w', encoding='utf-8')
-            f.write(pyaml.dump(script, indent=2, vspacing=[2, 1]))
+            f.write(pyaml.dump(script, indent=2, vspacing=[2, 1], width=float("inf")))
             f.close()
         else:
-            print(pyaml.p(script))
+            print(pyaml.dump(script, indent=2, vspacing=[2, 1], width=float("inf")))
 
     if arguments['insert']:
         rom = open(arguments["<romfile>"], 'rb+')
@@ -111,3 +120,28 @@ if __name__ == '__main__':
         script = f.read()
         f.close()
         insert_script(offset, end_offset, script)
+
+    if arguments['yaml_convert']:
+
+        input_file = open(arguments["<oldfile>"], encoding='utf-8')
+        content = yaml.load(input_file, Loader=yaml.FullLoader)
+
+        data = dict()
+
+        for section in content:
+            data[section] = dict()
+            for element in content[section]:
+                location = "{0:#07x}".format(element["location"])
+                while location in data[section]:
+                    location += "_"
+                data[section][location] = dict()
+                for key, value in element.items():
+                    if key != "location":
+                        if type(value) is int:
+                            data[section][location][key] = hex(value)
+                        else:
+                            data[section][location][key] = value
+
+        f = open(arguments['<outputfile>'], 'w', encoding='utf-8')
+        f.write(pyaml.dump(data, indent=2, vspacing=[2, 1], width=float("inf")))
+        f.close()

@@ -23,6 +23,28 @@ import datetime
 MAX_LENGTH = 17
 
 
+# Encodes the actual length represented by "special bytes in text"
+SPECIAL_BYTES = {
+    "<var0>": 4,          # F0
+    "<character>": 4,     # F0
+    "<var1>": 4,          # F1
+    "<var2>": 8,          # F2
+    "<item>": 8,          # F2
+    "<var3>": 4,          # F3
+    "<var4>": 8,          # F4
+    "<enemy>": 8,         # F4
+    "<var5>": 4,          # F5
+    "<var6>": 4,          # F6
+    "<var7>": 4,          # F7
+    "<var8>": 4,          # F8
+    "<amount>": 4,        # F8
+    "<var9>": 4,          # F9
+    "<gold>": 4,          # F9
+    "<price>": 4,         # FA
+    "<FC>": 1,            # FC
+}
+
+
 class TextString:
 
     def __init__(self, pointer_address, text, max_length=MAX_LENGTH):
@@ -57,33 +79,10 @@ class TextString:
                 word = words[i]
                 word_length = len(word)
 
-                if word.find("<var0>") != -1:
-                    word_length -= 6  # Don't count "<var0>"
-                    word_length += 4  # Count the actual length
-
-                if word.find("<var1>") != -1:
-                    word_length -= 6
-                    word_length += 4
-
-                if word.find("<var2>") != -1:
-                    word_length -= 6
-                    word_length += 4
-
-                if word.find("<var8>") != -1:
-                    word_length -= 6
-                    word_length += 4
-
-                if word.find("<var9>") != -1:
-                    word_length -= 6
-                    word_length += 4
-
-                if word.find("<F4>") != -1:
-                    word_length -= 6
-                    word_length += 8
-
-                if word.find("<FC>") != -1:
-                    word_length -= 4
-                    word_length += 1
+                for b in SPECIAL_BYTES:
+                    if word.find(b) != -1:
+                        word_length -= len(b)
+                        word_length += SPECIAL_BYTES[b]
 
                 if i == 0:
                     prepared_text += word
@@ -103,7 +102,7 @@ class TextString:
                         line_num += 1
                         self.length += 1
                         cur_line_length = 0
-                
+
                         prepared_text += word
                         self.length += word_length
                         cur_line_length += word_length
@@ -177,57 +176,59 @@ if __name__ == '__main__':
                    "A morning in the Jungle.<FC>")
     ]
 
-    for m in combat:
+    for m in combat.values():
         if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
             messages.append(TextString(m['pointer_location'],
                                        m['translation'],
                                        max_length=10)
                             )
 
-    for m in combat_wide:
+    for m in combat_wide.values():
         if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
             messages.append(TextString(m['pointer_location'],
                                        m['translation'])
                             )
 
-    for m in script:
+    for m in script.values():
         if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
             messages.append(TextString(m['pointer_location'],
                                        m['translation'])
                             )
+            print(m["translation"])
 
     for m in in_place:
-        offset = m["location"]
-        message_bytes = table.convert_script(m["translation"])
+        offset = m
+        message_bytes = table.convert_script(in_place[m]["translation"])
         rom.seek(offset)
         rom.write(message_bytes)
 
     message_index = 0
     total_length = 0
+    data_bank = 0x11
 
     for m in messages:
         m.binary_text = table.convert_script(m.prepare())
 
-        m.new_bank = b'\x11'
-        m.new_pointer = total_length.to_bytes(2, "little")
+        m.new_bank = data_bank
+        m.new_pointer = total_length
         total_length += m.length
+
+        # Code to flow over to the next bank, might be bugged!
+        if total_length > 0x4000:
+            data_bank += 1
+            m.new_bank = data_bank
+            m.new_pointer = 0
+            total_length = m.length
+
         rom.seek(m.pointer_address)
         rom.write((message_index * 3).to_bytes(2, "little"))
 
         rom.seek(0x10 * 0x4000 + 0x1000 + message_index * 0x03)
-        rom.write(m.new_bank)
-        rom.write(m.new_pointer)
+        rom.write((m.new_bank).to_bytes(1, "little"))
+        rom.write((m.new_pointer).to_bytes(2, "little"))
 
-        rom.seek(int.from_bytes(m.new_bank, "little") * 0x4000 + int.from_bytes(m.new_pointer, "little"))
+        rom.seek(m.new_bank * 0x4000 + m.new_pointer)
         rom.write(m.binary_text)
         message_index += 1
 
     rom.close()
-
-# Need:
-#   The old pointer adress (where the pointer is in the ROM)
-#   The new script
-#  
-# Insert the  
-# Write new pointer in rom in place of the old one
-#
