@@ -23,6 +23,19 @@ import shutil
 import datetime
 
 
+class HexInt(int):
+    pass
+
+
+def representer(dumper, data):
+    return yaml.ScalarNode('tag:yaml.org,2002:int', "{0:#0{1}x}".format(data, 7))
+
+
+pyaml.add_representer(HexInt, representer)
+
+
+
+
 MAX_LENGTH = 17
 
 
@@ -120,7 +133,7 @@ class TextString:
             self.length += 1
             line_num += 1
             cur_line_length = 0
-        print(prepared_text)
+        # print(prepared_text)
         return prepared_text
 
         cur_line_length = 0
@@ -147,7 +160,7 @@ class TextString:
 
         prepared_text += "<FF>"
         self.length += 1
-        print(prepared_text)
+        # print(prepared_text)
         return prepared_text
 
 
@@ -163,7 +176,8 @@ if __name__ == '__main__':
 
         if not arguments["--no-backup"]:
             # Make a backup of the rom file in case...
-            shutil.copy(arguments["<romfile>"], arguments["<romfile>"] + ".backup." + datetime.datetime.now().strftime(format="%Y%m%d_%H_%M_%S"))
+            now = datetime.datetime.now().strftime(format="%Y%m%d_%H_%M_%S")
+            shutil.copy(arguments["<romfile>"], arguments["<romfile>"] + ".backup." + now)
 
         rom = open(arguments["<romfile>"], 'rb+')
 
@@ -198,7 +212,6 @@ if __name__ == '__main__':
                 messages.append(TextString(m['pointer_location'],
                                            m['translation'])
                                 )
-                print(m["translation"])
 
         for m in in_place:
             offset = m
@@ -249,7 +262,6 @@ if __name__ == '__main__':
         data_new = yaml.load(file2, Loader=yaml.FullLoader)
         file2.close()
 
-
         for section2 in data_new:
             for loc2 in data_new[section2]:
                 found = False
@@ -258,26 +270,68 @@ if __name__ == '__main__':
                 for section1 in data_existing:
                     if loc2 in data_existing[section1]:
                         found = True
-                        #found_element = data_existing[section1][loc2]
+                        # found_element = data_existing[section1][loc2]
                         found_section = section1
+                        break
 
                 if found:
-                    print("\n\n")
-                    print(loc2)
-                    print(data_existing[section1][loc2])
-                    print("\n------------\n")
-                    print(data_new[section2][loc2])
-                    print("\n\n")
+
+                    element1 = data_existing[section1][loc2]
+                    element2 = data_new[section2][loc2]
+
+                    if data_existing[section1][loc2] != data_new[section2][loc2]:
+                        if (section1 == "script" and
+                                element1["translation"][0:4] == "TODO" and
+                                element1["pointer_location"] == 0):
+
+                            data_existing[section1][loc2] = element2
+                        else:
+                            if element1["original"] != element2["original"]:
+                                print("\n\n")
+                                print(hex(loc2) + " - Changes in the original string:")
+                                print("1 OLD : " + element1["original"])
+                                print("2 NEW : " + element2["original"])
+                                keep = input("Which to keep? (1/[2]) ")
+                                if keep.strip() == "1":
+                                    pass
+                                else:
+                                    element1["original"] = element2["original"]
+
+                            if element1['pointer_location'] == 0 and element2['pointer_location'] != 0:
+                                element1['pointer_location'] == element2['pointer_location']
+                            elif element1['pointer_location'] != 0 and element2['pointer_location'] != 0:
+                                print("\n\n")
+                                print(hex(loc2) + " - Different pointer locations found:")
+                                print("1 OLD : " + element1["original"])
+                                print("2 NEW : " + element2["original"])
+                                keep = input("Which to keep? (1/[2]) ")
+                                if keep.strip() == "1":
+                                    pass
+                                else:
+                                    element1["pointer_location"] = element2["pointer_location"]
+
+                            if element1["translation"][0:4] == "TODO" and element2["translation"][0:4] != "TODO":
+                                element1["translation"] = element2["translation"]
+                            elif element1['translation'][0:4] != "TODO" and element2['translation'][0:4] != "TODO":
+                                print("\n\n")
+                                print(hex(loc2) + " - Different translations found:")
+                                print("1 OLD : " + element1["original"])
+                                print("2 NEW : " + element2["original"])
+                                keep = input("Which to keep? (1/[2]) ")
+                                if keep.strip() == "1":
+                                    pass
+                                else:
+                                    element1["translation"] = element2["translation"]
+
                 else:
                     pass
                     # data_existing["script"][loc2] = section2[loc2]
 
+        outfile = None
+        if arguments["<outputfile>"]:
+            outfile = open(arguments['<outputfile>'], 'w', encoding='utf-8')
+        else:
+            outfile = open(arguments['<existing>'], 'w', encoding='utf-8')
 
-        # outfile = None
-        # if arguments["<outputfile>"]:
-        #     outfile = open(arguments['<outputfile>'], 'w', encoding='utf-8')
-        # else:
-        #     outfile = open(arguments['<existing>'], 'w', encoding='utf-8')
-
-        # outfile.write(pyaml.dump(data, indent=2, vspacing=[2, 1], width=float("inf")))
-        # outfile.close()
+        outfile.write(pyaml.dump(data_existing, indent=2, vspacing=[2, 1], width=float("inf")))
+        outfile.close()
