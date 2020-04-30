@@ -276,9 +276,17 @@ in_place:
     original: "<FE> アイウエオ ハヒフへホ ャュョッ<FE><FE> カキクケコ マミムメモ ァィェ<FE><FE> サシスセソ ヤ ユ ヨ \" ° <FE><FE> タチツテト ラリルレロ !?ー*<FE><FE> ナニヌネノ ワ ヲ ン ひら\"かな<FE><FE> 0123456789  おわリ<FE><FF>"
     translation: "<FE> a b c d e f !?-.<FE><FE> g h i j k l<FE><FE> m n o p q r<FE><FE> s t u v w x<FE><FE> y z         UPPR<FE><FE> 0123456789  END<FE><FF>"
 
+  !!int 0x33cee:
+    original: "かうよ<FE><FE> うるよ<FF>"
+    translation: "Buy<FE><FE>Sell<FF>"  
+
   !!int 0x33caf:
     original: "はなす<FE><FE> しらャる<FE> 77マンド<FF>"
     translation: "Talk<FE> Look<FE> Menu<FF>"
+
+  !!int 0x33d3F:
+    original: "つぎへ"
+    translation: "Nxt"
 
   !!int 0x33e03:
     original: "きろく しますか?"
@@ -292,6 +300,13 @@ in_place:
     original: " やだよ"
     translation: " No!"
 
+  !!int 0x33CD3:
+    original: " いいよ"
+    translation: " Yes"
+
+  !!int 0x33cd8:
+    original: " やだよ"
+    translation: " No!"
 
 script:
 
@@ -338,13 +353,13 @@ script:
   !!int 0x04195:
     original: "「どうも さっき きたのが<FE> ゴートだんの ボスの むすめで<FD> なまえを アピーニ*ゴートと<FE> いう らしい.<FD>「わしは ただの としよりじゃから<FE> くわしいことは しらんのじゃが<FD> うらないオババならしっとるだろう.<FF>"
     pointer_location: 0x26c98
-    translation: "「Apparently the daugther of the Goat family's Bosu who was just here is called Apini Goat.<br>「I am just an old man, so I don't know the details, but the old fortune teller probably would."
+    translation: "「Apparently the daugther of the Goat family's boss who was just here is called Apini Goat.<br>「I am just an old man, so I don't know the details, but the old fortune teller probably would."
 
   !!int 0x04203:
     original: "「うらないオババは このよのことは<FE> なんでも しっているのよ.<FD>「うらないオババの うちは<FE> このむらを でて みなみの ほうへ<FD> あるいて いったところよ.<FF>"
     pointer_location: 0x26c33
     translation: "「The old fortune teller knows everything about this place.<br>「Her home is outside the jungle, just to the south of our village."
-
+ 
   !!int 0x04254:
     original: "「ここは <character>の むらです.<FE>「いだいな ジャングルパパの むすこ<FD> そう! あなたが うまれたときに<FE> あなたの なまえを とって<FD> <character>の むらと<FE> なづけられたのです.<FF>"
     pointer_location: 0x26c2f
@@ -367,13 +382,13 @@ script:
 
   !!int 0x04392:
     original: "うらないオババ<FE>「あ まて もうひとつ<FD> はなしが あるぞ.<FD>「ぼうけんの とちゅうで<FE> やすみたく なったら<FD> どこでも いいから<FE> スタートボタンを おしなさい.<FD>「そこまでの ぼうけんが<FD> ジャングルの しょに<FE> きろく できるぞ.<FD>「やすんで ちからを たくわえるのも<FE> ひとつの ほうほう じゃからな.<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x04392"
+    pointer_location: 0x1b91d
+    translation: "Fortune teller<br>「Wait, there is another thing we need to talk about.<br>「When you want to rest in the middle of your adventure, press the START button.<br>「That way you can record your adventures in the jungle up to that point.<br>「Having a good rest is also a way to do it."
 
   !!int 0x0442f:
     original: "「もう あらわれるころじゃと<FE> おもうておった.<FD>「わたしが うらないオババじゃ.<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x0442f"
+    pointer_location: 0x0ea4e
+    translation: "「I figured you'd show up by now.<br>「I am the old fortune teller."
 
   !!int 0x04459:
     original: "「そこの ドアをあけると<FE> ひみつの ジャングルが あるんだ.<FD>「でも カギは<FE> どこに あるんだろう?<FF>"
@@ -1507,8 +1522,8 @@ script:
 
   !!int 0x205e9:
     original: "<character>たちは<FE>いずみのみずをのんだ.<FD>うほうほ! げんきになった!<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x205e9"
+    pointer_location: 0x0e703
+    translation: "<character> and the others drank the spring water.<br>Woah! They feel better!"
 
   !!int 0x20609:
     original: "<character>は いずみのみずをのんだ.<FD>うほうほ! げんきになった!<FF>"
@@ -2947,28 +2962,28 @@ script:
 
   !!int 0x22010:
     original: "「さいきん ジャングルでは<FE> ゴートだんという やつらが<FD> わるさを している らしいの.<FD>「やつらは どうぶつたちを<FE> つかまえて とかいに うりつける<FD> みつりょうそしき なんじゃが<FD> その てさきには<FD> なぜか どうぶつたちまでが<FE> つかわれとるらしい.<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x22010"
+    pointer_location: 0x1bc3b
+    translation: "「Recently, the Goat clan has been seen in the jungle doing bad things.<br>「They seem to be capturing and selling animals! But no one knows what they are using these animal for."
 
   !!int 0x22093:
     original: "「ゴートだんとは にんげんと<FE> どうぶつが けったくした<FD> おそろしい みつりょうそしきじゃ.<FD>「ゆうかい おどし ぬすみ**<FE> ありとあらゆる わるいことを<FD> やっとる ようじゃの.<FD>「だが なぜ どうぶつたちが<FE> にんげんの てさきに なったのか<FD> それは よくわからんのじゃがのう.<FD>「ボスは カーマック*ゴートという<FE> あくどい にんげんじゃよ.<FD>「おまえさんたちを おそったのは<FE> この カーマックのむすめ<FD> アピーニ*ゴートじゃな.<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x22093"
+    pointer_location: 0x1bc3f
+    translation: "「The Goat clan is a mysterious group that threatens both humans and animals.<br>「Kidnapping, menacing, stealing... They seem to be doing all sorts of evil deeds.<br>「But I don't know how those animals became the pawns of the humans.<br>「Their boss is a mean animal called Carmack Goat.<br>「The one you met earlier was the daugther of Carmack, Apini Goat."
 
   !!int 0x22172:
     original: "「ゴートだんの ほんきょちは<FE> とかいの ちかくの しまらしい.<FD>「きたに ながれる アスランがわを<FE> ずっと くだっていくと<FD> ほくとうの ほうに うみがあって<FE> うみのそばに みなとまちが ある.<FD>「そこから とかいへ<FE> わたれるじゃろう.<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x22172"
+    pointer_location: 0x1bc3d
+    translation: "「The Goat clan's headquarter seems to be in the city.<br>「If you follow the Aslan river to the north, you will find a town on the coast in the northeast.<br>「From there, you should be able to cross the sea."
 
   !!int 0x221ed:
     original: "「わたしの むすめが<FE> りンキーじまの みずうみのむらに<FD> すんで いるんじゃが<FD> びょうきで たおれて おるんじゃ.<FD>「まごむすめの ミオが<FE> ひっしで かんびょうしとるが<FD> よく ならんようじゃ.<FD>「わたしは もう トシで<FE> あしこしが ダメでのう.<FD>「かわりに みてきて くれんか?<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x221ed"
+    pointer_location: 0x1bc41
+    translation: "「My daughter, who lives in a seaside village on Rinky island, has contracted a grave illness.<br>「My granddaughter Mio is doing her best to take care of her, but her state does not seem to be improving.<br>「I am old, and my legs are no good anymore.<br>「Could you go check up on her in my stead?"
 
   !!int 0x2227e:
     original: "うらないオババ<FE>「また きておくれ.<FD> おまえさんら じゃったら<FE> なんでも おしえてやろう.<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x2227e"
+    pointer_location: 0x1b923
+    translation: "Fortune teller<br>「Come again. I will tell you guys anything you want to know."
 
   !!int 0x222ae:
     original: "うらないオババ<FE>「また きておくれ.<FD> おまえさん じゃったら<FE> なんでも おしえてやろう.<FF>"
@@ -2987,13 +3002,13 @@ script:
 
   !!int 0x223b6:
     original: " 1さいきんのこと 3ほんきょち<FE> 2ゴートだん   4そのたのこと<FC>"
-    pointer_location: 0x00000
-    translation: "TODO_0x223b6"
+    pointer_location: 0x1affb
+    translation: "_1_Main___3_HQ<br>_2_Goat___4Current"
 
   !!int 0x2242b:
     original: "うらないオババ<FE>「なんの はなしを ききたいかね?<FF>"
-    pointer_location: 0x00000
-    translation: "TODO_0x2242b"
+    pointer_location: 0x1b90a
+    translation: "Fortune teller<br>「What would you like to know?"
 
   !!int 0x22445:
     original: "「おや もちものが いっぱいじゃな.<FD>「どこかで なにか もちものを<FE> うるか すてるか してきておくれ.<FF>"
