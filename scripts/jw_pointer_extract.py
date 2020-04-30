@@ -4,16 +4,21 @@
           jw_pointer_extract.py list <romfile> <offset> [<tablefile>]
           jw_pointer_extract.py script <romfile> <offset> [<tablefile>]
           jw_pointer_extract.py seek <romfile> <offset> [<tablefile>]
+          jw_pointer_extract.py guess <romfile> <translation>
 
 Try and extract pointers and script.
 
 Arguments
-    <romfile>   The rom file to open
-    <offset>    The offset in hex of the item
-    <tablefile> Translation table to use
+    <romfile>     The rom file to open
+    <offset>      The offset in hex of the item
+    <tablefile>   Translation table to use
+    <translation> YAML file containing translation to guess pointer for
 
 """
 
+import pyaml
+import re
+import yaml
 from math import floor
 from docopt import docopt
 from translation_table import TranslationTable
@@ -136,11 +141,51 @@ def look_for_potential_pointers(pointer):
     print(potential_candidates)
 
 
+def guess_pointer(location):
+
+    pointer = None
+    if 0x4000 <= location <= 0x8000:
+        pointer = location - 0x4000 + 1
+    elif 0x20000 <= location <= 0x24000:
+        pointer = location - 0x7 * 0x4000 + 1
+    elif 0x2C000 <= location <= 0x30000:
+        pointer = location + 0x4000 - 0x0a * 0x4000 + 1
+    elif 0x38000 <= location <= 0x3C000:
+        pointer = location + 0x8000 - 0x0d * 0x4000 + 1
+
+    if pointer:
+        pointer = pointer.to_bytes(2, "little")
+    return pointer
+
+
+def guess_translation_pointers(rom, translation):
+    translation_file = open(translation, encoding='utf-8')
+    data = yaml.safe_load(translation_file)
+    translation_file.close()
+
+    rom_data = rom.read()
+
+    results = dict()
+
+    for location in data["script"]:
+        pointer = guess_pointer(location)
+        if not pointer:
+            continue
+        found_sure = ["{0:#0{1}x}".format((m.start() + 1), 7) for m in re.finditer(re.escape(b'\x21' + pointer), rom_data)]
+        # found_maybe = ["{0:#0{1}x}".format((m.start()), 7) for m in re.finditer(pointer, rom_data)]
+        # found_maybe = [p for p in found_maybe if p not in found_sure]
+        if found_sure:
+            results["{0:#0{1}x}".format(location, 7)] = {"confident": found_sure}  # , "guess": found_maybe}
+
+    print(pyaml.dump(results, indent=2, vspacing=[2, 1], width=float("inf")))
+
+
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
     rom = open(arguments["<romfile>"], 'rb')
-    offset = int(arguments["<offset>"], base=16)
+    if arguments["<offset>"]:
+        offset = int(arguments["<offset>"], base=16)
 
     if (arguments['<tablefile>']):
         table = TranslationTable(arguments['<tablefile>'])
@@ -158,3 +203,9 @@ if __name__ == '__main__':
 
     elif arguments['seek']:
         look_for_potential_pointers(offset)
+
+    elif arguments['guess']:
+        translation = arguments["<translation>"]
+        guess_translation_pointers(rom, translation)
+
+    rom.close()

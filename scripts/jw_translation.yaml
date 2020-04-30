@@ -3429,3 +3429,1453 @@ script:
     original: "°239に239あ<FF>"
     pointer_location: 0x00000
     translation: "TODO_0x23fc2"
+
+  !!int 0x2e52c:
+    original: "「でんせつのひょう ランバじいさんの<FE> はなしは きいたかね?<FD>「このむらの きたの ウルクやまの<FE> ちょうじょうに すんでいるんだ.<FD>「もう 200さいぐらいの としだが<FE> まだ ピンピンしてるよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e52c"
+
+  !!int 0x2e590:
+    original: "「ランバじいさんは ひょうだけど<FE> やさしい おじいさんだ.<FD>「ウルクやまでは<FE> まぼろしに きを つけろ!<FD>「ウルクやまが あまりに たかいので<FD> くうきが うすすぎて<FE> へんな まぼろしを みるんだよ.<FD>「それから いざというときの ために<FE> ロープも あったほうが いいな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e590"
+
+  !!int 0x2e61d:
+    original: "「ランバじいさんと カメのナンさんが<FE> しんゆうだって きいたことがある.<FD>「なんでも 3にんで ジャングルを<FE> きりひらいた らしいよ.<FD>「うん? ということは もうひとり<FE> しんゆうが いるはずだね.<FD>「そのひとは いったい だれだろう?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e61d"
+
+  !!int 0x2e697:
+    original: "「ウルクやまには<FE> いりぐちが 3つあるんだ.<FD>「どの いりぐちから はいっても<FE> おたからが いっぱいだって.<FD>「ウルクやまには<FE> まぼろしが でるから<FD> みんな おっかながって<FD> おたからを なげすてて<FE> にげるんだってさ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e697"
+
+  !!int 0x2e70a:
+    original: "「わるいうわさを きいたんだ.<FE> あの ジャングルパパが<FD> ゴートだんに つかまって<FE> ころされて しまったって.<FD>「え? きみ<FE> ジャングルパパの むすこかい?<FD>「ひ ひどいこと いっちゃたな***<FE> だ だいじょうぶだよ.<FD>「ジャングルパパは そう かんたんに<FE> しんだり しないさ.<FD>「ただの うわさだろ.<FE> うわさ うわさ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e70a"
+
+  !!int 0x2e7b1:
+    original: "ランバじいさん<FE>「きたな! ジャングルボーイ!<FD> まっとったぞ!<FD>「いま おまえも しっとる<FE> わしの テンを ここへ よんだ.<FD>「この てがみを もって<FD> テンと いっしょに<FE> カメのしまの ナンに あいにいけ.<FD>「そしたら あいつが<FE> なんとかして くれるだろう.<FD>「ほんとうは これは わしらが<FE> やらねば ならんことなのだ.<FD>「だが としよりの わしらには<FE> もう どうすることも できん.<FD>「ジャングルパパに<FE> たのもうとも おもったが<FD> たのめんように なってしもうた.<FD>「ジャングルボーイ!! いまや<FE> おまえの わかさと ちからだけが<FD> すべての たよりじゃ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e7b1"
+
+  !!int 0x2e8d2:
+    original: "ケン<FE>「ハーッ ハーッ ハーッ<FD>「ランバじいさん!<FD> ここは くうきが うすくて<FE> たいへんだって いって<FD> とうさんは このごようを<FE> ぼくに たのみました.<FD>「ぼくで おやくに たてますか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e8d2"
+
+  !!int 0x2e934:
+    original: "ランバじいさん<FE>「おう! ケンが きたか.<FD>「おまえさん この 3にんを<FE> カメじままで おくって いけるか?<FD>「なら けっこうじゃ.<FE> さっそく とんでいって くれ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e934"
+
+  !!int 0x2e989:
+    original: "ケン<FE>「<character>さん<FD> また おあいできて うれしいです.<FD>「じゃ さっそく のってください.<FE> いきますよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e989"
+
+  !!int 0x2e9be:
+    original: "ランバじいさん<FE>「ケン!! ボーイを おろしたら<FD> すぐに とびたって かえるんだぞ.<FD>「かめの しまは いま<FE> ゴートだんで いっぱいじゃ.<FD>「やつらの てっぽうで ねらわれたら<FE> ちょっと めんどうに なるからな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2e9be"
+
+  !!int 0x2ea2c:
+    original: "「じゃあ <character> よろしくたのむ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ea2c"
+
+  !!int 0x2ea3c:
+    original: "ランバじいさん<FE>「ごくろうじゃったな<FD>「では この てがみを もって<FD> テンと いっしょに<FE> カメのしまの ナンに あいにいけ<FD>「そしたら あいつが<FE> なんとかして くれるだろう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ea3c"
+
+  !!int 0x2ea97:
+    original: "ランバじいさん<FD>「うーむ どうしたんじゃ?<FE> また ケンを よぶかね?<FC>"
+    pointer_location: 0
+    translation: "TODO_0x2ea97"
+
+  !!int 0x2eabb:
+    original: "「かれに のせていって もらって<FE> がんばってくれ.<FD>「おまえさんだけが<FE> たよりじゃからな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2eabb"
+
+  !!int 0x2eaeb:
+    original: "「そうか***<FE> とにかく がんばってくれ.<FD>「おまえさんだけが<FE> たよりじゃからな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2eaeb"
+
+  !!int 0x2eb17:
+    original: "ナン<FD>「すまん! ここの カメたちは<FE> みんな むくち なんじゃ.<FD>「それに ゴートだんが<FE> ウロウロ しとるからのう.<FD>「よそものとは はなすなと<FE> きつく いって あるんじゃよ.<FD>「てがみは うけとったぞ.<FE> ここから きたに みえるしま.<FD> あれが カーマックのすむ<FE> サークラルとうじゃ.<FD>「そらから いこうとして<FD> てっぽうで うちおとされても<FE> しょうがない.<FD>「でも うみから じゃったら<FE> いけるじゃろう.<FD>「そこで ちょっと まっておいで<FE> わたれるように してあげよう.<FD>「カーマックは にんげんの<FE> かわを かぶった あくまじゃ.<FD>「カーマックの やぼうを うちくだき<FD> ジャングルに へいわを<FE> とりもどしてくれ!<FD>「ああ*** あのじけんが なければ<FE> あいつも ああは ならんかった.<FD>「じゃが くやんでも しょうがない.<FE> あとのことは たのんだぞ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2eb17"
+
+  !!int 0x2ec9e:
+    original: "ナン<FD>「だれの しょうかいで<FE> ここに こられたのかな?<FD>「なにか てがみとか<FE> おもちでは ないかね?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ec9e"
+
+  !!int 0x2ecd3:
+    original: "「ぼくたち カーマックの やりかたに<FE> はんたいして います.<FD>「いまは ちかに もぐって<FE> ぼくたちの せいりょくを<FD> ひろげようと している<FE> ところ なんですよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ecd3"
+
+  !!int 0x2ed28:
+    original: "「ここは ゴートだんの<FE> ひみつの くうこうなのだ.<FD>「ひみつを しられたからには<FE> しんで もらおう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ed28"
+
+  !!int 0x2ed5d:
+    original: "「ここは ゴートだんの<FE> ひみつの みなとさ.<FD>「ひみつを しった やつは<FE> いきては かえれないのさ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ed5d"
+
+  !!int 0x2ed92:
+    original: "パルカ*ゴート<FE>「ここは とおさん!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ed92"
+
+  !!int 0x2eda6:
+    original: "クイール*ゴート<FE>「とおさねえぞ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2eda6"
+
+  !!int 0x2edb8:
+    original: "パンパ*ゴート<FE>「ここは とおせんぼじゃ.<FD>「なんか わしら<FE> こればっかり いっとるなあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2edb8"
+
+  !!int 0x2ede7:
+    original: "かまわに*ゴート<FE>「もう いいよ とおっても.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ede7"
+
+  !!int 0x2edff:
+    original: "「ジャングルボーイ!<FE> たすけに きてくれたのか!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2edff"
+
+  !!int 0x2ee19:
+    original: "「ありがとう ボーイ!<FD> たいちょうは べつの ところに<FE> とじこめられて いるらしいぞ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ee19"
+
+  !!int 0x2ee47:
+    original: "「たいちょうは もっと おくの<FE> へやに つれて いかれたよ.<FD>「この ろうかを まっすぐ<FE> すすんで いった ところだ.<FD>「ところで ケガは ないかい?<FE> あったら みてあげるよ.<FC>"
+    pointer_location: 0
+    translation: "TODO_0x2ee47"
+
+  !!int 0x2eea3:
+    original: "「きみたちか? こんなところまで<FE> たいしたもんだ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2eea3"
+
+  !!int 0x2eebe:
+    original: "「おお! かわいそうに!!<FE> きぜつしている***<FD>「いま いいものをあげよう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2eebe"
+
+  !!int 0x2eee7:
+    original: "たいちょうは いのちのきのみを<FE><var1>に のませた.<FD><var1>は げんきに なった!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2eee7"
+
+  !!int 0x2ef0d:
+    original: "ミオ<FE>「おとうさん!<FD>「わたし マりアの むすめです!<FE> ミオです!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ef0d"
+
+  !!int 0x2ef30:
+    original: "たいちょう<FE>「いま なんて いった!?<FD>「マりア! わたしの あいするひと!<FD> きみは マりアのむすめ.<FD> そして わたしの むすめなのか?<FD>「おお! なんてことだ!<FD> こんなところで むすめに<FE> あえるなんて!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ef30"
+
+  !!int 0x2ef9b:
+    original: "サスケ<FE>「アニキ! いきましょうぜ.<FD>「せっかく おやこが あえたんだ.<FE> ここは そっと しておいて<FD> カーマックは オイラたちだけで<FE> やっつけましょう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2ef9b"
+
+  !!int 0x2efeb:
+    original: "ミオ<FE>「おとうさん!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2efeb"
+
+  !!int 0x2eff6:
+    original: "たいちょう<FE>「ミオ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2eff6"
+
+  !!int 0x2f001:
+    original: "たいちょう<FE>「きをつけて いきなさい.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f001"
+
+  !!int 0x2f015:
+    original: "ミオ<FE>「<character>! まって!<FD>「あんたたちだけで カーマックが<FE> たおせると おもってんの?<FD>「しんぱいしないで!<FE> あたしも いくわよ!<FD>「おとこたちだけで いこうなんて<FD> そんな カッコいいこと<FE> させないわよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f015"
+
+  !!int 0x2f07f:
+    original: "ジャングルパパ<FE>「ボーイ!! きたのか!?<FD>「わたしは たったいま すきを みて<FE> にげだして きたところだ.<FD>「なに?<FE> しんだと おもっていたって?<FD>「ハッハッハ!<FE> わたしは ジャングルパパだ.<FD>「かんたんに やられは せんよ.<FD>「じつは ゴートだんの ほんきょちが<FE> どこにあるか わからなかったので<FD> わざと つかまえられて<FE> ここまで きたのだ.<FD>「おまえも よく ここまで<FE> たどりついたな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f07f"
+
+  !!int 0x2f14b:
+    original: "パパ<FE>「ん? きみが ミオくんか.<FD>「ボーイが せわに なったようだね.<FD>「きみの パパも このなかに<FE> つかまっているはずだ.<FD>「わたしが ここで みはっているから<FE> <character> たすけてきなさい.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f14b"
+
+  !!int 0x2f1ac:
+    original: "「さて カーマックは どこだろう?<FE> てわけして さがしてみよう.<FD>「わたしは こっちへ いく.<FE> ボーイは そっちへ いけ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f1ac"
+
+  !!int 0x2f1ec:
+    original: "ジャングルパパ<FE>「いたか? ボーイ.<FD>「まだ みつからんか.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f1ec"
+
+  !!int 0x2f20b:
+    original: "アピーニ<FE>「ホホホホホ!<FD>「おどろいた? わたしたちは<FE> 3つごだったのよ.<FD>「わたしが アピーニ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f20b"
+
+  !!int 0x2f23e:
+    original: "アンカース<FE>「わたしが アンカースよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f23e"
+
+  !!int 0x2f252:
+    original: "アンカール<FE>「そして わたしが アンカールよ.<FD>「3にん まとめての こうげき.<FE> うけてみるが いいわ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f252"
+
+  !!int 0x2f288:
+    original: "アピーニ<FE>「こりずに またきたの?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f288"
+
+  !!int 0x2f29a:
+    original: "アピーニ<FE>「パパ! にげて!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f29a"
+
+  !!int 0x2f2a9:
+    original: "アンカース<FE>「つよいわね あんたたち!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f2a9"
+
+  !!int 0x2f2bd:
+    original: "アンカール<FE>「パパは その とびらの むこうよ.<FD>「あんたたち なんか パパに<FE> やられちゃえば いいんだわ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f2bd"
+
+  !!int 0x2f2f5:
+    original: "カーマック<FE>「ボーイ! ついに ここまできたか.<FD>「わたしが ゴートだんの しゅりょう<FE> カーマック*ゴートさまじゃ.<FD> むすめの かたき!<FE> わが ちからを うけてみよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f2f5"
+
+  !!int 0x2f34c:
+    original: "カーマック<FE>「ひるまずに やってきたか ボーイ<FD>「しかし わしの ほんとうのすがたに<FE> かつことが できるかな?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f34c"
+
+  !!int 0x2f385:
+    original: "カーマック<FE>「つよい! つよいな ボーイ!<FD>「しかし わしの ほんとうのすがたに<FE> かつことが できるかな?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f385"
+
+  !!int 0x2f3bc:
+    original: "カーマック<FD>「これが わたしの<FE> ほんとうの すがただ.<FD>「わたしは この 2つの すがたを<FE> つかいわけて<FD> にんげんどもも どうぶつたちも<FE> あやつって いたのだ.<FD>「わたしは 137ねん いきてきた.<FD> 80ねんまえ<FE> わたしは やぎの おうさまだった.<FD>「わたしは この サークラルとうと<FE> いまの カメのしまと<FD> このあたり いったいを<FE> おさめていた.<FD>「しかし このしまで<FE> あの いまわしい きんが<FD> とれはじめると<FE> すべてが おわって しまったのだ.<FD>「わたしの ぶかたちは<FE> あるものは にんげんに つかまり<FD> きんを はこぶ どれいになり<FE> あるものは ここを にげだし<FD> ながれ さすらう たみと<FE> なって しまった.<FD>「わたしの あいする ものたちは<FE> いなくなって しまった.<FD>「わたしの あいする このしまは<FE> あれほうだいに なってしまった.<FD>「そのとき わたしは きめたのだ.<FD> ぜったいに にんげんに<FE> ふくしゅう してやると.<FD>「そのためには つよい ちからを<FE> もたなくては だめだと.<FD>「わたしは じぶんの まほうを<FE> きたえぬき<FD> ゴートだんを つくり<FD> どうぶつたちと<FE> にんげんども さえ しはいした.<FD>「わたしのなは カーマック<FE> すべてを しはいするものだ.<FD>「わたしの もくてきは<FE> もうすぐ かなう.<FD>「じゃまするやつは ゆるさん!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f3bc"
+
+  !!int 0x2f610:
+    original: "「じつは きょうりゅうじまの<FE> きょうりゅうたちは<FD> たいまつさえ もってれば<FE> へいきなんでさ.<FD>「でも だんながたくらい<FE> おつよければ<FD> かんけい ないでげしょう.<FD>「まあ おきをつけなすって.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f610"
+
+  !!int 0x2f675:
+    original: "カーマック<FE>「うおーーっ!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f675"
+
+  !!int 0x2f684:
+    original: "「す すごい!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f684"
+
+  !!int 0x2f68d:
+    original: "「すさまじい つよさだな ボーイ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f68d"
+
+  !!int 0x2f69f:
+    original: "「わたしが かなわなかった<FE> おまえの その はてしないちからは<FD> いったい どこから きているのだ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f69f"
+
+  !!int 0x2f6d3:
+    original: "「ジャングルを あいする こころか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f6d3"
+
+  !!int 0x2f6e6:
+    original: "「ひとや どうぶつたちを<FE> いつくしむ こころか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f6e6"
+
+  !!int 0x2f700:
+    original: "「それとも<FE> さらに おおいなる<FD> すべての ものへの<FE> つよい あいか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f700"
+
+  !!int 0x2f726:
+    original: "「まけたよ ジャングルボーイ<FE> <character>!!<FD>「おまえは こころに<FE> つばさを もっている.<FD>「じゆうを もとめ ひとを あいする<FE> つよい つばさだ.<FD>「ほんとうに つよいこころは<FE> うらみの ような<FD> うしろむきの かんがえの ものには<FE> えることが できないのだな.<FD>「わたしも ひとを うらむ こころは<FE> すてて しまうことに しよう.<FD>「こころに つばさを ひろげ<FE> ほんとうに つよく そだてて<FD> みんなの ために<FE> はたらくことに するよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f726"
+
+  !!int 0x2f807:
+    original: "「おお!! かわいそうに!<FD> きみの ともだちが<FE> きぜつして しまっている.<FD>「わたしの せいだ.<FE> わたしが なおして あげよう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f807"
+
+  !!int 0x2f84b:
+    original: "パパ<FE>「よくやったぞ ボーイ!<FD>「これで おまえも りっぱな<FE> ジャングルの まもりてだ!!<FD>「ああ おまえの このすがた<FD> おまえの ママに<FE> みせて やりたかったなあ!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f84b"
+
+  !!int 0x2f8a3:
+    original: "マクドフ<FE>「がんばったね <character>くん.<FD>「ミオの ことも<FE> ほんとうに ごくろうだった.<FD>「この かんしゃの きもち***<FE> なんといって いいやら.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f8a3"
+
+  !!int 0x2f8ed:
+    original: "サスケ<FE>「やったね! アニキ!!<FD>「アニキに ついてきて<FE> おいらも はなが たかいや.<FD>「さあ じゃあ おいらも<FD> りラが まってる ジャングルへ<FE> はやく かーえろっと!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f8ed"
+
+  !!int 0x2f945:
+    original: "ミオ<FE>「ありがとう <character>くん!<FD>「みんな あなたが<FE> がんばってくれた おかげよ.<FD>「また どこかで あいたいね!<FD> そして また こんな ぼうけんを<FE> <character>くんと したいな!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f945"
+
+  !!int 0x2f99c:
+    original: "ツチカ<FE>「わたしは また もとのなまえ<FD> やぎの ツチカに もどります.<FD>「こんどは このまほうや じゅもんを<FD> ジャングルの ために<FE> やくだてて いきますよ.<FD>「ジャングルボーイ!<FE> きみの ことは わすれませんよ!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2f99c"
+
+  !!int 0x2fa0c:
+    original: "テン<FE>「よくやった <character>!<FD> ジャングルに へいわが もどって<FE> よかったな.<FD>「おいわいに わたしが みんなを<FE> つれて かえって あげよう.<FD>「さあ のってくれ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x2fa0c"
+
+  !!int 0x38000:
+    original: "「!? どこから はいって<FE> きたのかね きみたち?<FD>「まさか ひょうりゅうしてきた<FE> わけじゃ ないだろうな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38000"
+
+  !!int 0x38038:
+    original: "「ジャングルいきの ふねは<FD> ゆうれいせんの おかげで<FE> ずっと けっこうしたままなんだよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38038"
+
+  !!int 0x38067:
+    original: "「いらっしゃいませ.<FD> ジャングルいきの ふねは<FE> まもなく しゅっこうです.<FD>「きっぷを おかいもとめください.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38067"
+
+  !!int 0x380a1:
+    original: "「あら まあ!? いったい どこから<FE> はいってきたの!?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x380a1"
+
+  !!int 0x380bf:
+    original: "「ふねは ずっと でていないのよ.<FD> ジャングルに いくのなら<FE> ほかのほうほうを つかわないと.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x380bf"
+
+  !!int 0x380f1:
+    original: "「こんなに りっぱな<FE> とうだいが あるというのに<FD> ふねが うごけんかったら<FE> なんにもならんな.<FD>「のう そうおもわんか おわかいの.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x380f1"
+
+  !!int 0x38137:
+    original: "「ここからの うみの ながめって<FE> とっても すてき***.<FD>「ああ もし あなたが<FE> ここに いてくれたら***.<FD>「***うるさいわね!<FD> せっかく ひとが ロマンチックな<FE> きぶんに ひたってるっていうのに.<FD>「え? ふね!? しらないわよ!<FD> でも たしか ジャングルまで<FE> ひこうきが とぶことに<FD> なったらしいわよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38137"
+
+  !!int 0x381dc:
+    original: "「こちらは こんいんとどけの<FE> まどぐちで ございます.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x381dc"
+
+  !!int 0x381f9:
+    original: "「こちらは りこんとどけの<FE> まどぐちで ございます.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x381f9"
+
+  !!int 0x38215:
+    original: "「わたしたちは ジャングルの<FE> ちょうさたい.<FD>「ゴートだん という そしきが<FD> ジャングルで あくじを<FE> はたらいて いるらしい.<FD>「われわれは その ちょうさのために<FE> そしきされたのだ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38215"
+
+  !!int 0x38276:
+    original: "たいちょう<FD>「ほう!? きみたちは<FE> ジャングルから やってきたのか.<FD>「***なんだと!?<FD> その りラっていう<FE> おさるの おんなのこは<FD> ゴートだんに ゆうかいされたのか!<FD> それは なんとかしないと***.<FD>「***わかった.<FD> では そのりラって こを<FE> ジャングルに つれていく やくめは<FD> よろこんで ひきうけよう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38276"
+
+  !!int 0x3831c:
+    original: "「あまり むちゃを しないでくれよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3831c"
+
+  !!int 0x3832f:
+    original: "「おお たすけだせたのか.<FE> よかった よかった.<FD>「きみが りラか.<FE> たいへんだったね.<FD>「さあ ジャングルボーイ こんどは<FE> サスケくんを たすけてあげてくれ.<FD>「もう しんぱいは いらないよ.<FD> わたしたちが ジャングルまで<FE> つれて かえって あげるからね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3832f"
+
+  !!int 0x383b6:
+    original: "「つぎの でんしゃは サーカスが<FE> おわったら はっしゃします.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x383b6"
+
+  !!int 0x383d7:
+    original: "「サーカス もう みた?<FD> おサルさんが<FE> すごい にんきなんだ!<FD>「ぼくなんか もう<FE> 5かいも みちゃった!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x383d7"
+
+  !!int 0x38410:
+    original: "「ひーん! もらしちゃったよー!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38410"
+
+  !!int 0x38421:
+    original: "「うちの こったら!<FD> いまから デパートに いくって<FE> いうのに***<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38421"
+
+  !!int 0x38446:
+    original: "「おっ! なんだ てめえら!<FE> おれたちは ぎんこうごうとうだぞ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38446"
+
+  !!int 0x38468:
+    original: "「ガキが でしゃばると ケガするぜ!<FE> さっさと かねを だしな!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38468"
+
+  !!int 0x3848b:
+    original: "「こら ぼうず!<FD> おれが なくこも だまる<FE> ぎんこうごうとうの ボスさまだ!<FD>「せいぎの みかたの<FE> まねごとなら おうちで やんな!<FD>「どうしても やるのか?<FD> では おじさんたちが<FE> こどもが おとなに さからうと<FD> どうなるか おしえてやらあ!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3848b"
+
+  !!int 0x3850c:
+    original: "「お おい まった!<FE> かんべんしてくれよ!<FD>「わかった わるかったよ もう<FE> ごうとうなんて しねえからよ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3850c"
+
+  !!int 0x38544:
+    original: "「あ ありがとう! きみたちの<FE> おかげで たすかったよ!<FD>「おれいに このおかねを<FE> うけとってくれ!<FD>「いやー ほんとに なんて<FE> ゆうかんな しょうねんたちなんだ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38544"
+
+  !!int 0x3859a:
+    original: "ぎんこうごうとうを やっつけた!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3859a"
+
+  !!int 0x385ac:
+    original: "「ぎんこうごうとうは<FE> にげていったよ.<FD>「きみが ゆうきを ふりしぼって<FE> たたかって くれたからさ.<FD>「おれいに このおかねを<FE> うけとってくれ!<FD>「いやー ほんとに なんて<FE> ゆうかんな しょうねんたちなんだ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x385ac"
+
+  !!int 0x38619:
+    original: "<character>は 2000G もらった!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38619"
+
+  !!int 0x38628:
+    original: "「いやー ほんとに なんて<FE> ゆうかんな しょうねんたちなんだ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38628"
+
+  !!int 0x38649:
+    original: "「きみたちは このぎんこうを<FE> すくった えいゆうだよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38649"
+
+  !!int 0x38666:
+    original: "「ほんとうに ありがとう!<FE> かっこ よかったわよ.<FD>「ところで ごうとうを やっつけた<FD> きねんに うちの ぎんこうに<FE> よきん しません?<FD>「***あ そう.いいの.<FE> ふーん***.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38666"
+
+  !!int 0x386c5:
+    original: "「あっ! あなた ごうとうを<FE> やっつけた ひとでしょ?<FD>「ほかのひとは あなたのこと<FE> わすれちゃった みたいね.<FD>「とかいの ひとは<FE> いそがしいからねー.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x386c5"
+
+  !!int 0x38716:
+    original: "「もう すこしの ところで<FD> わしの なけなしの へそくりまで<FE> もっていかれる ところじゃった!<FD>「なんと おれいを<FE> いったら よいやら!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38716"
+
+  !!int 0x3875e:
+    original: "「おや? どなたさんじゃったかのう.<FE> かわった かっこうを してなさる.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3875e"
+
+  !!int 0x38784:
+    original: "「うちの デパートは しにせなんだ.<FD> どうぶつを つれて はいっちゃ<FE> こまるよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38784"
+
+  !!int 0x387af:
+    original: "「あっ!<FE> サーカスの サルくんですね.<FD>「かっこよかったですよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x387af"
+
+  !!int 0x387d1:
+    original: "「すみません.びょうきのひとを<FE> デパートに いれてもらっては<FD> こまるんですけど***<FE>「しやくしょに<FD> いむしつが ありますので<FE> みてもらって ください.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x387d1"
+
+  !!int 0x38822:
+    original: "「いらっしゃいませ.<FE> ごゆっくり どうぞ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38822"
+
+  !!int 0x38839:
+    original: "「いらっしゃいませ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38839"
+
+  !!int 0x38844:
+    original: "「なにか おさがしですか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38844"
+
+  !!int 0x38852:
+    original: "「きょうは だれも<FE> かって くれないなあ.<FD>「みんな サーカスを<FE> みに きてるんだろうな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38852"
+
+  !!int 0x38882:
+    original: "「あくせさりー うりばは どこかな?<FE> かのじょへの おくりもの なんだ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38882"
+
+  !!int 0x388a8:
+    original: "「ママー! ママー! わーん!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x388a8"
+
+  !!int 0x388b9:
+    original: "「うちの こどもが いないんです.<FE> さがして くれますか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x388b9"
+
+  !!int 0x388d8:
+    original: "「え!? うちの こども いました?<FE> そうですか ありがとうございます.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x388d8"
+
+  !!int 0x388fe:
+    original: "「ジャングルウオーズ<FE> アニメビデオも はつばいちゅう!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x388fe"
+
+  !!int 0x3891c:
+    original: "「ジャングルウオーズ おとずかん<FE> はつばいちゅう!!<FD>「シングルCD*ゲームつきCDも<FE> はつばいちゅうです!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3891c"
+
+  !!int 0x38956:
+    original: "「いらっしゃいませー!<FE> なんめいさまでしょうか?<FD>「***もうしわけありません.<FD> ぺットは なかに いれないように<FE> して いただきたいんですが.<FD>「***は? ともだち?<FD> ***そうですか***.<FD>「じゃ こうしましょう.<FE> ハダカじゃ ちょっとこまるので<FD> したの うりばで こどもふくを<FE> かってきて くださいよ.<FD>「そしたら にんげんと みわけが<FE> つかないので オーケーですよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38956"
+
+  !!int 0x38a1c:
+    original: "「いらっしゃいませー!<FE> なんめいさまでしょうか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38a1c"
+
+  !!int 0x38a36:
+    original: "「あたしたち デートちゅうなの.<FE> うらやましいでしょ!<FD>「しょくじの あとは<FE> サーカスを みにいくのよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38a36"
+
+  !!int 0x38a6d:
+    original: "「しかし あの しにせデパートも<FE> やることが せこいよな.<FD>「サーカスを みるためには<FD> デパートのなかを とおらなきゃ<FE> いけなく なってるんだものな.<FD>「うりばの まえを とおると<FE> つい かいたく なっちゃうんだよ.<FD>「とくに デートちゅうは<FE> たいへんだぜ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38a6d"
+
+  !!int 0x38af4:
+    original: "「ありがとう ございました.<FE> また どうぞ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38af4"
+
+  !!int 0x38b0c:
+    original: "「このこには どんな ふくが<FE> にあうかしらね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38b0c"
+
+  !!int 0x38b25:
+    original: "「おねがいだから がっこうで<FE> わらわれない ふくに してよ!<FD>「だって ママ<FE> しゅみ わるいんだもん!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38b25"
+
+  !!int 0x38b5b:
+    original: "「いらっしゃいませ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38b5b"
+
+  !!int 0x38b66:
+    original: "「いらっしゃいませ.こちらは<FE> ぼうし うりばで ございます.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38b66"
+
+  !!int 0x38b86:
+    original: "「わ わしが ぼうしを かうのは<FE> はげ かくしの ためじゃ ないぞ!<FD> ごかい せんといて もらおう!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38b86"
+
+  !!int 0x38bbb:
+    original: "「さあ よってらっしゃい<FE> みてらっしゃい!<FD>「たのしい たのしい<FE> サーカスだよ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38bbb"
+
+  !!int 0x38be6:
+    original: "「にゅうじょうりょう 50Gです.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38be6"
+
+  !!int 0x38bf8:
+    original: "サスケ<FE>「り***りラ!?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38bf8"
+
+  !!int 0x38c06:
+    original: "しかし よくみると それは<FD>ぬいぐるみを かぶった<FE>にんげんだった.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38c06"
+
+  !!int 0x38c29:
+    original: "「わるいね.<FE> サインは しない しゅぎなんだ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38c29"
+
+  !!int 0x38c42:
+    original: "「となりの やつが<FE> なんて いってるか しらないけど<FD> このぼくが このサーカスの<FE> さいこうの スターさ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38c42"
+
+  !!int 0x38c7a:
+    original: "「んー? しんいりか?<FE> ちがう? まあいいや.<FD>「ここにいる やつらは ほとんどが<FE> ねっからの とかいそだち.<FD>「いっぺん あの ライトを<FE> あびちまったんで<FD> もう やせいに もどるなんて<FE> かんがえてない やつらばかりさ.<FD>「もっとも なかには そうでない<FE> やつも いるかもなあ***.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38c7a"
+
+  !!int 0x38d0f:
+    original: "りラ<FE>「***サスケ!? あなたなの?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38d0f"
+
+  !!int 0x38d23:
+    original: "サスケ<FE>「りラ!<FD> いま たすけてあげるからね!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38d23"
+
+  !!int 0x38d3c:
+    original: "りラ<FE>「サスケ***.<FD> ***! だめ!<FD> みまわりの ひとが くるわ!<FE> にげて!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38d3c"
+
+  !!int 0x38d68:
+    original: "サスケ<FE>「きみを おいて いけるもんか!<FD>「そうだ!<FE> ぼくの この ふくを きて!<FD>「きみのかわりに ぼくが<FE> オりの なかに はいるから!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38d68"
+
+  !!int 0x38db0:
+    original: "サスケ<FE>「はやく いくんだ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38db0"
+
+  !!int 0x38dbf:
+    original: "りラ<FE>「ありがとう たすけてくれて***.<FD>「これで また ジャングルに<FE> かえれるのよね.<FD>「でも*** ほんとは ちょっと<FE> もったいないな***.<FD>「サーカスでは おいしいものが<FE> いっぱい たべられたし***<FD>「それに なんといっても<FE> あの はくしゅと かんせい!<FD>「ああ あたし もう******.<FD>「***ごめんなさい.<FE> いまのは ほんの じょうだんよ.<FD>「ほんきにして***ないわよね?<FE> ホホホホホ***.<FD>「じゃあ ちょっと しんぱいだけど<FE> サスケを よろしく!<FD>「ちゃんと たすけて あげてね.<FD>「ひとあしさきに ジャングルに<FE> かえって まってるから!<FD>「じゃあね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38dbf"
+
+  !!int 0x38ee9:
+    original: "「ああ いそがしい!<FD>「まったく! どうぶつたちの てが<FE> たりない ときは<FD> わたしたちまで ぬいぐるみに<FE> はいんなきゃ ならないんだから!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38ee9"
+
+  !!int 0x38f32:
+    original: "「ママー! あついよー!<FE> この ぬいぐるみ ぬいでいい?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x38f32"
+
+  !!int 0x38f50:
+    original: "だんちょう<FE>「こらっ! うちの はながたスターを<FD> つれだしたのは おまえたちだな!<FD>「ん? なんだって!?<FD>「***そうか あのこは<FD> むりやり ジャングルから<FE> つれてこられた こだったのか.<FD>「うちは もともと<FE> どうぶつえん なんかの<FD> とかいそだちの どうぶつしか<FE> つかわない しゅぎなんだよ.<FD>「***しかし ジャングルそだちには<FE> みえなかった けどなあ.<FD>「あんなに たのしそうに えんぎを<FE> するこは はじめて だったんだが.<FD>「いやー あのこは<FE> てんせいの スターだったよ***.<FD>「ところで たのみが あるんだが.<FD>「あのこは うちの<FE> だいスター だったんだ.<FD>「いなくなって ほんとうに<FE> こまって いるんだよ.<FD>「せめて すこしの あいだだけでも<FD> かわりに サーカスで<FE> はたらいて もらえない だろうか?<FD>「いろいろ じじょうは あるだろうが<FE> な! たのむよ!<FC>"
+    pointer_location: 0
+    translation: "TODO_0x38f50"
+
+  !!int 0x390e0:
+    original: "「そんなこと いわずに<FE> たすけると おもってさ!!<FC>"
+    pointer_location: 0
+    translation: "TODO_0x390e0"
+
+  !!int 0x390fb:
+    original: "「そうか! ありがとう.<FE> じゃあ さっそく!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x390fb"
+
+  !!int 0x39113:
+    original: "「どうも ありがとう.たすかったよ.<FE> ところで もういっかい どうかね?<FC>"
+    pointer_location: 0
+    translation: "TODO_0x39113"
+
+  !!int 0x39139:
+    original: "「じゃあ また<FE> きが むいたら たのむよ.<FD> これは ほんの おれいだ.<FD><character>は 200Gを てにいれた!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39139"
+
+  !!int 0x3916f:
+    original: "「じゃあ また<FE> きが むいたら たのむよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3916f"
+
+  !!int 0x39186:
+    original: "「このあいだは たすかったよ.<FE> ところで もういっかい どうだね?<FC>"
+    pointer_location: 0
+    translation: "TODO_0x39186"
+
+  !!int 0x391a9:
+    original: "「きゃー きゃー!<FE> どいてちょうだい にげるんだから!<FD>「え? そこらへんを うろつき<FE> まわってるのよ.ライオンが!!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x391a9"
+
+  !!int 0x391e8:
+    original: "「うえーん ママー まってよー.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x391e8"
+
+  !!int 0x391f9:
+    original: "「あんたら えきを でちゃいかんぞ!<FE> ライオンに くわれても ええのか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x391f9"
+
+  !!int 0x3921f:
+    original: "「いつに なったら<FE> でんしゃが くるんだよー!<FD>「はやく にげださないと!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3921f"
+
+  !!int 0x39246:
+    original: "「ライオンが にげだしたので<FD> ひこうじょうは<FE> つかえなく なっちゃったの.<FD>「ああ! もし いま ライオンが<FE> このえきに はいってきたら!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39246"
+
+  !!int 0x3928f:
+    original: "「ひえっ! く くわないでくれー!<FD>「おれは おなかは でてるが<FE> にくは うまくないぞー!<FD>「***なんだ.<FE> ライオンじゃ ないのか.<FD>「おどかさないで くれよ.<FE> こんな ときにさ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3928f"
+
+  !!int 0x392ee:
+    original: "「ライオンが つかまったんだってな!<FD>「ふー いちじは どうなる ことかと<FE> おもったよ.やれやれ***.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x392ee"
+
+  !!int 0x39324:
+    original: "「あーあ ひこうきが<FE> うごかないって いうのに<FD> なんで ここに いなきゃ<FE> ならないんだろう.<FD>「はやく ぶじに<FE> いえに かえれますように***.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39324"
+
+  !!int 0x39371:
+    original: "「ライオンが つかまって<FD> ぶじに いえに かえれると<FE> おもったら<FD> ひこうきが うごきだして<FE> しごとが めちゃハードだよー.<FD>「こんな もんだよな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39371"
+
+  !!int 0x393bf:
+    original: "「ここは くうこうカウンター.<FE> チケットは ここで かえますが<FD> げんざい このくうこうは<FE> へいさ されています.<FD>「あーん! なんで わたしが<FE> こんな こわい ところに<FD> いなきゃ なんないのよ.<FF>"
+    pointer_location: 0x0e921
+    translation: "TODO_0x393bf"
+
+  !!int 0x39426:
+    original: "「あら おかねが たりないわよ.<FD>「ジャングルに かえれないんじゃあ<FE> たいへんよね.<FD>「どこかで アルバイトでも<FE> してきたら?<FD>「きみは からだが かるそうだし<FE> うしろの おサルさんも いるから<FD> サーカスにでも はたらきに いけば<FE> いいかもよ.<FF>"
+    pointer_location: 0x1b8a5
+    translation: "TODO_0x39426"
+
+  !!int 0x394a6:
+    original: "「この さわぎが かたづくまでは<FE> ひこうきは とべないわよ.<FD>「おきゃくが こわがって<FE> みんな きゃんせる しちゃうもの.<FF>"
+    pointer_location: 0x0e2c6
+    translation: "TODO_0x394a6"
+
+  !!int 0x394e6:
+    original: "「さあまた しごと がんばらなきゃ.<FE> わたし じつは パイロットなの.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x394e6"
+
+  !!int 0x3950b:
+    original: "「ゴートだんが みつゆ してきた<FE> ライオンが にげだしたんだ.<FD>「おかげで まちじゅう<FE> おおさわぎだよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3950b"
+
+  !!int 0x39542:
+    original: "「われわれは ちょうさたいの<FE> こうはつたい.<FD>「せんぱつたいは ぶじ ジャングルに<FE> むかったのです.<FD>「ジャングルそだちの あの<FE> りラって サルを つれてね.<FD>「だが われわれは ライオンさわぎで<FE> しゅっぱつ できないのです.<FD>「たいちょうは なかまと いっしょに<FE> ライオンを さがしに いってます.<FD>「わたしたちは ライオンを<FE> つかまえたときの ための<FD> じゅんびを しているんです.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39542"
+
+  !!int 0x3960a:
+    original: "「ライオンを つかまえに<FE> いった ひとたちは ぶじかなあ?<FD>「としょかんの ちかくの<FE> こうえんの いけの なかの<FD> ちいさな しまに<FE> むかったって はなしだけど.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3960a"
+
+  !!int 0x3965f:
+    original: "「ライオンの いっけんが かたづいて<FE> やっと ひとあんしんだよ.<FD>「まったく どうぶつの みつゆなんて<FE> やめて ほしいよなあ.<FD>「どうぶつたちだって<FE> かわいそう だよね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3965f"
+
+  !!int 0x396b8:
+    original: "「もし わたしが<FE> ライオンを つかまえたら***.<FD>「え?<FE> なにを かんがえてるのかって?<FD>「だって ライオンを つかまえると<FD> しちょうさんが しょうきんを<FE> くれるって はなしなんですもん.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x396b8"
+
+  !!int 0x3971c:
+    original: "「せっかく ひみつの ぶきやで<FE> かいものまで して<FD> ライオンを つかまえに いこうと<FE> おもってたのに!<FD>「あんたたち なんかに<FE> さきを こされるなんてね.<FD>「え? ひみつの ぶきや?<FE> あるえきで うわさを きいたのよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3971c"
+
+  !!int 0x3978f:
+    original: "しちょう<FE>「わたしは このまちの しちょうだ.<FD>「にげた ライオンの はなしは<FE> きいたかね?<FD>「もし ライオンを<FE> つかまえてくれる ひとが いたら<FD> おれいを させて もらうんだが.<FF>"
+    pointer_location: 0x0e2d7
+    translation: "TODO_0x3978f"
+
+  !!int 0x397ed:
+    original: "しちょう<FE>「きみが ライオンを つかまえた<FD> ジャングルボーイだね.<FD>「きみの なかまたちも<FE> たいしたもんだ.<FD>「ほんとうに たすかったよ.<FD>「かんしゃの しるしだ.<FE> うけとって くれるね?<FD><character>たちは<FE>1000Gを てにいれた!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x397ed"
+
+  !!int 0x39862:
+    original: "しちょう<FE>「ライオンは マクドフさんが<FD> つれて いったんだね?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39862"
+
+  !!int 0x39883:
+    original: "ミオ<FE>「マクドフさん ですって?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39883"
+
+  !!int 0x39894:
+    original: "しちょう<FE>「どうしたんだ とつぜん?<FD>「マクドフさんは ちょうさたいの<FE> たいちょうさんだよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39894"
+
+  !!int 0x398c4:
+    original: "ミオ<FE>「パパの なまえだわ***.<FD> パパよ! まちがいなく<FE> ママに きいた パパの なまえよ!<FD>「なんてことなの!<FD> あの たいちょうさんが<FE> さがしていた パパだったなんて!<FD>「<character>!<FE> ジャングルに もどりましょう!<FD>「わたし どうしても<FE> パパに あいたい!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x398c4"
+
+  !!int 0x3994b:
+    original: "「マクドフさんは わたしが もっとも<FE> しんらいするひとの ひとりだ.<FD>「むすめさんが いるって はなしは<FE> きいたことが なかったが<FD> りっぱな むすめさんじゃないか.<FD>「はやく パパにあえると いいな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3994b"
+
+  !!int 0x399b3:
+    original: "「あー むずかしい ほんばかり<FE> よんでたら<FD> あたまが クラクラしてきた.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x399b3"
+
+  !!int 0x399da:
+    original: "「としょかんの うらに<FD> いけの なかの しまへいく<FE> トンネルが あるの.<FD>「でも あそこは<FE> きけんな ばしょだって<FD> ちいさいころ おしえられたわ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x399da"
+
+  !!int 0x39a28:
+    original: "「マンガが ないよー!<FE> つまんないよー!<FD>「ねえ ママ! はやく かえろう!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39a28"
+
+  !!int 0x39a50:
+    original: "ライオン<FE>「!!***とうとう<FD> みつかって しまったか***.<FD>「いやだ!!<FD> おれは みせもの なんか<FE> ぜったいに なりたくない!<FD>「どんなことを しても<FE> ジャングルに もどるんだ!<FD>「じゃまする やつらを<FE> たおして でも!<FF>"
+    pointer_location: 0x0eeed
+    translation: "TODO_0x39a50"
+
+  !!int 0x39ac6:
+    original: "ライオン<FE>「ううう***.<FD>「にるなり やくなり すきに しろ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39ac6"
+
+  !!int 0x39ae7:
+    original: "サスケ<FE>「ちがうんだってば.<FD>「ぼくたちは きみを ジャングルに<FE> もどしてあげるために きたんだよ.<FD>「きみを むりやり<FE> とかいまで つれてきたのは<FD> ゴートだんという わるものの<FE> そしきなんだ.<FD>「ぼくは サルのサスケ.<FD> この ジャングルボーイと<FE> ミオと いっしょに<FD> ゴートだんと たたかっているんだ.<FD>「それに とかいの ひとたちも<FE> ゴートだんの わるさを しって<FD> ちょうさたいを ジャングルに<FE> はけん するんだ.<FD>「その ちょうさたいの ひとに<FD> ジャングルへ<FE> つれて かえって もらえるように<FD> たのんで あげるからさ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39ae7"
+
+  !!int 0x39bfa:
+    original: "ライオン<FE>「そうだったのか***.<FD>「そうとも しらずに<FE> おそいかかったり して***.<FD>「ケガは なかったかい?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39bfa"
+
+  !!int 0x39c35:
+    original: "たいちょう<FE>「はなしは きいたよ.<FD>「さあ ライオンくん.<FD> わたしと いっしょに<FE> ジャングルへ もどろう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39c35"
+
+  !!int 0x39c6d:
+    original: "ミオ<FE>「あれ? たいちょうさん.<FD> どうぶつごが はなせるんですか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39c6d"
+
+  !!int 0x39c90:
+    original: "たいちょう<FD>「まえに ながく ジャングルに<FE> いたことが あるんだ.<FD>「そのとき あるひとに<FE> おしえて もらったんだよ.<FD>「もう ずいぶん むかしのはなしだ.<FD> 10ねんいじょうも<FE> まえの はなしだよ***.<FD>「じゃあ ライオンくん いこうか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39c90"
+
+  !!int 0x39d0d:
+    original: "ライオン<FE>「いろいろ めいわくを かけたね.<FD>「さきに かえって まってるから<FD> ジャングルに もどってきたら<FE> いっしょに あそぼうな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39d0d"
+
+  !!int 0x39d53:
+    original: "たいちょう<FE>「ジャングルボーイくん.<FD> しちょうさんが はなしが あるって<FE> いってたよ.<FD>「しちょうの いえへ いってごらん.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39d53"
+
+  !!int 0x39d94:
+    original: "ライオンを ジャングルに<FE>かえすことが できた!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39d94"
+
+  !!int 0x39dad:
+    original: "ミオ<FE>「だめっ!<FD> このままじゃ かえれないわ.<FD>「まだ パパを<FE> みつけて ないじゃない!<FD>「パパを みつけるまでは<FE> わたし かえらないわよ!<FD>「<character>! おねがいだから<FE> さいごまで つきあってよ!<FF>"
+    pointer_location: 0x0e92a
+    translation: "TODO_0x39dad"
+
+  !!int 0x39e12:
+    original: "「こちらは ツインたわービルで<FE> ございます.<FD>「でも きょうは おやすみですよ.<FF>"
+    pointer_location: 0x0e917
+    translation: "TODO_0x39e12"
+
+  !!int 0x39e3c:
+    original: "「ああ いそがしい! いそがしい!<FE>「いまどきの ビジネスマンは<FD> こどもの はなしなど<FE> きいてる ひまは ないのだ.<FD>「きょうは やすみだと いうのに<FE> ああ いが いたい***.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39e3c"
+
+  !!int 0x39e99:
+    original: "「ああ いそがしい! いそがしい!<FE>「いまどきの ビジネスウーマンは<FD> こどもの はなしなんて<FE> きいてる ひまはないのよ.<FD>「きょうは やすみだと いうのに<FE> ああ こしが いたい***.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39e99"
+
+  !!int 0x39ef9:
+    original: "「まったく きょうは かいしゃが<FE> やすみだってのに.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39ef9"
+
+  !!int 0x39f15:
+    original: "「ん!? おまえは どろぼうか!?<FD> と いわれて そうですって<FE> こたえるやつは いないわな.<FD>「このビルは<FE> きょうは やすみなんだから<FD> あんまり ウロウロ<FE> するんじゃないよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39f15"
+
+  !!int 0x39f72:
+    original: "「ことしは やすみが<FE> ぜんぜん なかったなあ.<FD>「みんなが しめきりを<FE> まもってくれれば いいんだけど.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39f72"
+
+  !!int 0x39fa9:
+    original: "「どこに いくの?<FE> ぼくも でんしゃに のりたいなあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x39fa9"
+
+  !!int 0x39fc6:
+    original: "「はなしかけないで ください<FE> おきゃくさん!<FD>「ああ どうしよう.<FE> また わからなく なっちゃった.<FD>「はじめから やりなおしだわ.<FF>"
+    pointer_location: 0x0e91c
+    translation: "TODO_0x39fc6"
+
+  !!int 0x3a00b:
+    original: "「なに やってんのかしらね もう.<FE> はやくしてよ.<FD> これから かえって<FE> サスぺンスドラマを みるんだから.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a00b"
+
+  !!int 0x3a044:
+    original: "「ママー! バナナ かってー!<FD>「くりと マンゴーと<FE> それから パパイアも かって!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a044"
+
+  !!int 0x3a070:
+    original: "「ああ もう うるさいわね.<FD>「こどもづれで かいものなんて<FE> くるもんじゃないわ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a070"
+
+  !!int 0x3a09b:
+    original: "「したの スーパーの くだものは<FE> しんせんで ひょうばん いいわよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a09b"
+
+  !!int 0x3a0bf:
+    original: "「ふーっ!! くだものを<FE> たべすぎ ちゃったー!<FD>「くだものは ビタミンが たっぷりで<FE> からだに いいんだよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a0bf"
+
+  !!int 0x3a0f9:
+    original: "「いやいや おどろいたの なんの!<FE> えっ!? なんのはなしかって?<FD>「このあいだ そこの がっこうに<FE> ひこうきが ふじちゃく したんだ.<FD>「へんな やつらが のってたぜ.<FD> きみ みたいな かっこうの ひとも<FE> のってたなあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a0f9"
+
+  !!int 0x3a16d:
+    original: "「あーら ぼうや かわいいわね.<FE> あ でも がっこうは どうしたの?<FD>「きょう がっこうは<FE> やすみじゃないと おもうけど.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a16d"
+
+  !!int 0x3a1ad:
+    original: "「ほけんに はいりませんか?<FE> え? いらない?<FD>「ここの ひとたち<FE> みんな はいって くれましたよ.<FD>「このあいだ ちかくに<FE> ひこうきが ふじちゃく したんで<FD> すこし こわく なっちゃったんじゃ<FE> ないですかねー.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a1ad"
+
+  !!int 0x3a21d:
+    original: "「おむかいは ジャングルちょうさたい<FE> たいちょうさんの おうちよ.<FD>「たいちょうさんは どくしんなの.<FD> なんでも ずっと すきなひとがいて<FE> わすれられないそうよ.<FD>「ちょっと もったいないわね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a21d"
+
+  !!int 0x3a282:
+    original: "「どこか わるいのかい?<FE> みてあげようか?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a282"
+
+  !!int 0x3a299:
+    original: "「こうけつあつで いしゃに<FE> さけを とめられて しまった.<FD>「おれも としなんだなあ***.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a299"
+
+  !!int 0x3a2c9:
+    original: "「ねえねえ ぼく ちゅうしゃなんて<FE> されないよね?<FD>「もし されたら おもいっきり<FE> ないて やるから!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a2c9"
+
+  !!int 0x3a300:
+    original: "「あたし じょゆうよ.<FD> いまひょうばんの サスぺンスドラマ<FE> みたこと あるでしょ?<FD>「えっ!? しらない!?<FE> トップじょゆうの このわたしを?<FD>「あんた テレビ みたこと あるの?<FD> ジャングルには テレビが ない?<FD>「なあんだ おのぼりさんだったのね.<FE> じゃあ いいわ.よろしくね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a300"
+
+  !!int 0x3a393:
+    original: "「ねえ そこの かのじょー<FE> かわいいじゃない!<FD>「うちの じむしょで<FE> じょゆう めざさない?<FD>「スりーサイズ いくつ?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a393"
+
+  !!int 0x3a3d1:
+    original: "「はやく きゅうしょく じかんに<FE> ならないかなあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a3d1"
+
+  !!int 0x3a3ec:
+    original: "「こらこら じゅぎょうちゅうだぞ.<FD>「ん? みかけない かおだな.<FE> なんくみの せいとだ?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a3ec"
+
+  !!int 0x3a41b:
+    original: "「わ! きゅうに はなしかけるから<FD> ゲームオーバーに<FE> なっちゃったじゃないか!<FD>「あ ぼくが じゅぎょうちゅうに<FE> ゲームボーイ やってるの<FD> せんせいには ないしょだよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a41b"
+
+  !!int 0x3a474:
+    original: "「このまえ グラウンドに<FE> ひこうきが おりてきたんだ.<FD>「でも すぐまた とんでったよ.<FE> うそじゃないよ.ほんとうさ.<FD>「だって ぼく こんなもの<FE> ひろったんだもの.<FD>「きみだけに みせて あげるよ.<FF>"
+    pointer_location: 0x0e259
+    translation: "TODO_0x3a474"
+
+  !!int 0x3a4dc:
+    original: "<character>は<FE>パパのメモを てに いれた!<FF>"
+    pointer_location: 0x0e26e
+    translation: "TODO_0x3a4dc"
+
+  !!int 0x3a4ee:
+    original: "「ぼくがひろった メモは<FE> きみの パパの メモだったの?<FD> ふーん***そうかあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a4ee"
+
+  !!int 0x3a519:
+    original: "「ひこうきに のってたひと?<FE> ちらっと みたけど***.<FD>「そうだ! たしか きみみたいな<FE> かっこうをした ひとが いたわね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a519"
+
+  !!int 0x3a55b:
+    original: "「でも もちものが いっぱいだね.<FE> だから あげない.<FF>"
+    pointer_location: 0x0e264
+    translation: "TODO_0x3a55b"
+
+  !!int 0x3a578:
+    original: "「あのねー はなびと パチンコ<FE> かうんだよー!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a578"
+
+  !!int 0x3a592:
+    original: "「ふっふっふ.<FE> わしは なぞの ろうじん.<FD>「すごい ぶきを うっとる<FE> なぞの みせを おしえてやろう.<FD>「だんちの ちかくの ビルに いき<FE> としよりに はなしをきくのじゃ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a592"
+
+  !!int 0x3a5ed:
+    original: "「ここのところ てつや ばっかしだ.<FE> ***ふあーあ***.<FD>「うちは ゲームを つくっている<FE> かいしゃなんだよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a5ed"
+
+  !!int 0x3a629:
+    original: "「ぼくは アルバイトなんです.<FD>「もう いっしゅうかんも<FE> いえに かえって ないや.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a629"
+
+  !!int 0x3a655:
+    original: "「グーグー スースー<FD> グーグー スースー<FD>「はっ! いけないっ!<FD> とんでもない ところで<FE> ねちゃったわ!<FD>「あー はずかしい.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a655"
+
+  !!int 0x3a698:
+    original: "「ふっふっふ.<FE> わしは なぞの ろうじん.<FD>「えきで じょうほうを きいてから<FE> またくるが いいぞ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a698"
+
+  !!int 0x3a6cd:
+    original: "「ハーハーハー! ああ つかれた!<FD>「ふっふっふ.<FE> わしは なぞの ろうじん.<FD>「よく ここが わかったのう.<FE> ほっほっほ!<FD>「ここは ぶきやじゃ.<FE> なにに するかね?<FC>"
+    pointer_location: 0
+    translation: "TODO_0x3a6cd"
+
+  !!int 0x3a725:
+    original: "「きみも ここの かそうパーテイに<FE> さんか するのかい?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a725"
+
+  !!int 0x3a743:
+    original: "「うちは いっかそろって<FE> ターザンの かっこうなのよ.<FD>「どう? かんじ でてる?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a743"
+
+  !!int 0x3a76e:
+    original: "「やや! あんたがたも<FE> おなじような かっこうじゃな!<FD>「うーん<FE> しんせんみが うすれてしまう.<FD>「おねがいじゃ.べつの かっこうに<FE> して もらえんかのう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a76e"
+
+  !!int 0x3a7c0:
+    original: "「ぼく ジャングルボーイだよ.<FE> まね すんなよー.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a7c0"
+
+  !!int 0x3a7db:
+    original: "「いくら かそうの ためとはいえ<FE> ぬいぐるみは しっぱいだったな.<FD>「あついし りょうりは まともに<FE> くえないしさ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a7db"
+
+  !!int 0x3a818:
+    original: "「さっきから みんなが かみを<FE> たべさせようと するんだ!<FD>「もう いいかげんに してくれ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a818"
+
+  !!int 0x3a848:
+    original: "「げげ! おなじ ぬいぐるみの<FE> やつが いる!<FD>「せっかく かわった サルを<FE> かんがえついたのに.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a848"
+
+  !!int 0x3a87c:
+    original: "「きゃくしつがかりって<FE> らくじゃ ないわよ.<FD>「だれか さいふごと チップを<FE> おいていって くれないかしら.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a87c"
+
+  !!int 0x3a8b5:
+    original: "「あたしは りゅうこう さっかよ.<FD>「このホテルに かんづめに なって<FE> もう いっかげつ.つらいわ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a8b5"
+
+  !!int 0x3a8e9:
+    original: "「せんせー! まだですかー?<FE> はやく かいて くださいよー.<FD>「まったく ねてばっかり<FE> いるんだから.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a8e9"
+
+  !!int 0x3a91f:
+    original: "「いらっしゃいませ.<FE> どうぞ ごゆっくり おくつろぎを.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a91f"
+
+  !!int 0x3a93d:
+    original: "「かそうパーテイは みてきたかい?<FE> よく あんなこと やるよな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a93d"
+
+  !!int 0x3a95f:
+    original: "「みんな パーテイかいじょうに<FE> いっちゃって バーは ひまだわ.<FD>「しごとないから らくで いいけど.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a95f"
+
+  !!int 0x3a994:
+    original: "「すごいっ! すごいよねーっ!!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a994"
+
+  !!int 0x3a9a5:
+    original: "「かっこいいなあ!<FD> ぼくも サーカスの スター<FE> めざそうかなあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a9a5"
+
+  !!int 0x3a9c8:
+    original: "「ブラボー! ブラボー!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a9c8"
+
+  !!int 0x3a9d5:
+    original: "「わくわくっ!<FE> つぎは どんなのが でるのかな?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a9d5"
+
+  !!int 0x3a9ef:
+    original: "「ここは ナンのとう.<FD>「むかし こだいの たみが つくり<FD> 3びきの けんじゃが<FE> それぞれ まもった<FD> 3つの とうの ひとつです.<FD>「とうの ちかを つたっていけば<FD> べつの とうに<FE> たどりつくことが できます.<FD>「となりの とうは さばくの なかに<FE> あるそうですね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3a9ef"
+
+  !!int 0x3aa7b:
+    original: "「ジャングルいきの ひこうきが<FE> ふじちゃく したんですってね?<FD>「のってたひとに<FE> ケガは なかったそうよ.<FD> よかったわね.<FF>"
+    pointer_location: 0x0e30a
+    translation: "TODO_0x3aa7b"
+
+  !!int 0x3aabc:
+    original: "パンパ*ゴート<FE>「うるさい ガキどもだ.<FD>「わたしを パンパ*ゴートさまと<FE> しっての ろうぜきか?<FF>"
+    pointer_location: 0x0eef5
+    translation: "TODO_0x3aabc"
+
+  !!int 0x3aaef:
+    original: "「たすけにきて くれたんだよね?<FE> いじめに きたんじゃ ないよね?<FD> わーい! うれしいな!<FD>「ぼく ゴートだんに<FE> つかまっちゃったの.<FD>「さばくを わたるときの<FE> にもつはこびを やらされてたんだ.<FD>「きみたちも さばくを わたるの?<FE> じゃあ ぼくが おてつだいするよ.<FD>「これは ぼくを よぶための<FE> ラッパだよ.<FD>「もし ぼくが<FE> みんなと はぐれたときには<FD> この ラッパを ふいてね.<FF>"
+    pointer_location: 0x0e318
+    translation: "TODO_0x3aaef"
+
+  !!int 0x3abb8:
+    original: "<character>は ラッパを てにいれた!<FF>"
+    pointer_location: 0x0e328
+    translation: "TODO_0x3abb8"
+
+  !!int 0x3abc7:
+    original: "ゴンタ<FE>「じゆうに なれて うれしいな.<FD> さきに そとに いってるからね.<FF>"
+    pointer_location: 0x0e33a
+    translation: "TODO_0x3abc7"
+
+  !!int 0x3abee:
+    original: "「ちょうさたいの ひとたちは<FE> パニアチルむらへ いったよ.<FD>「パニアチルむらは<FE> ハーサむらの みなみにあるよ.<FD>「ランバのとうの まえを とおって<FD> ひがしの ほうへ<FE> あるいて いくのさ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3abee"
+
+  !!int 0x3ac50:
+    original: "「さばくには じめんに おおきなえが<FE> かいて あるんだよ.<FD>「あんな おおきなえ<FE> だれが かいたのかなあ?<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3ac50"
+
+  !!int 0x3ac88:
+    original: "「さばくを こえるのは たいへんだ.<FD>「はいえなや ジャッカルも いるし<FD> とちゅうに オアシスが なければ<FE> しんじゃう とこだぜ.<FD>「オアシスには うまいみずが<FE> たんとあるぞ.<FD> ビールは うってないけどな.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3ac88"
+
+  !!int 0x3acf4:
+    original: "「ほーほほほ!<FE> わたしは クレオパトラ.<FD>「なんぜんねんもの ねんげつを へて<FE> また このよに ふっかつした<FD> せかいいちの びじょよ!<FD>「***はっ! いけない!<FE> また ねぼけちゃった みたい.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3acf4"
+
+  !!int 0x3ad5a:
+    original: "「ちょうさたいの ひとたちは<FE> にしに むかったよ.<FD>「いまごろは オアシスの<FE> あたりじゃ ないかなあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3ad5a"
+
+  !!int 0x3ad90:
+    original: "「オアシスには わかがえりの<FE> いずみが あるそうよ.<FD>「わたし それを きいて<FE> とかいから やってきたの.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3ad90"
+
+  !!int 0x3adc8:
+    original: "「ぼくは りょこうしゃの<FE> てんじょういん.<FD>「さばくと オアシスの ツアーの<FE> せきにんしゃです.<FD>「さばくには さそりもいるし<FE> ゴートだん だって あばれてるのに<FD> みんな いったい なにをかんがえて<FE> こんなところに くるんでしょう.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3adc8"
+
+  !!int 0x3ae42:
+    original: "「オアシスには わかがえりの<FE> いずみが あるそうじゃな.<FD>「わしも わかがえって<FD> きれいな おねえさんがたに<FE> もてようと おもっとるんじゃ.<FD> ほっほっほっほっほ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3ae42"
+
+  !!int 0x3ae98:
+    original: "「さばくの えの まんなかに<FE> へんなあなが あったよ.<FD>「ぼくは はねが あるから<FE> おっこちなかったけどさ.<FD>「でも あそこの あな<FE> なんか ありそうだぜっ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3ae98"
+
+  !!int 0x3aeeb:
+    original: "「あなたが サスケさん?<FD>「りラちゃんは<FE> おうちに かえったわよ.<FD>「わたしのことは しんぱいしないで<FE> がんばんなさいって<FD> つたえてほしいって いわれたわ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3aeeb"
+
+  !!int 0x3af3d:
+    original: "「スーパーじしゃくは<FE> てに いれたかい?<FD>「あれは もってるだけで<FD> てっぽうの たまを<FE> あたりにくく するものなのさ.<FD>「このあたりに すむ<FE> かねもちの どうぶつたちは<FD> みんな もってるぜ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3af3d"
+
+  !!int 0x3afa2:
+    original: "「さばくのオアシスで みずあび***<FE> あたしって ぜいたくな カバだわ.<FD>「もう にどと<FE> ここから でたくない***<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3afa2"
+
+  !!int 0x3afdf:
+    original: "「このあたりの かんこうめいしょは<FE> なんといっても ちじょうえ.<FD>「さらに そのきたに あるといわれる<FE> でんせつの モアイぞうだね.<FD>「しかも モアイぞうには<FD> ふるくから いいつたえのある<FE> とてつもない ざいほうが<FD> かくされている らしいよ.<FD>「モアイぞうの まえを しらべると<FE> いりぐちが みつかるんだって.<FD>「でも モアイぞうは たくさんあって<FD> どこが いりぐちだか<FE> いまだに わかって ないのさ.<FD>「そのことを かきしるした<FE> こもんじょも いまでは<FD> どこにあるのか わからないしね.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3afdf"
+
+  !!int 0x3b0de:
+    original: "「はるか むかしの<FE> たみが のこしたもの.<FD>「あの きょだいな ちじょうえ.<FE> でんせつの モアイぞう.<FD>「しかし のこされたものは<FE> それだけなので あろうか.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b0de"
+
+  !!int 0x3b131:
+    original: "「ちょうさたいの ひとたちは<FE> モアイぞうの ちょうさにいったわ.<FD>「でも そのすぐあとから<FE> ゴートだんの アピーニたちが<FD> それをきいて おっかけてったの.<FD>「ちょうさたいの ひとたち<FE> だいじょうぶかしら.<FD> しんぱいだわ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b131"
+
+  !!int 0x3b1a5:
+    original: "「この オアシスの みずは<FE> ただの みずなんだよ.<FD>「でも わかがえりの みずだって<FE> うわさが ながれちゃって<FD> みんな ここに やってくるのさ.<FD>「あの いやな アピーニ*ゴートも<FE> のんで いったってさ.ははは***<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b1a5"
+
+  !!int 0x3b216:
+    original: "「しーーーっ!!<FE> みんなに ないしょに しといてね.<FD>「じつは ぼく さっき<FE> オアシスのみずに おしっこしたの.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b216"
+
+  !!int 0x3b251:
+    original: "「この おくに なにがいるのか<FE> しってるのかい?<FD>「オー ブルブル***<FD>「わるいことは いわない.<FE> ひきかえした ほうが いいよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b251"
+
+  !!int 0x3b296:
+    original: "「アピーニ*ゴートでさえ<FE> ここには よりつかないんだよ.<FD>「やめたほうが いいと おもうよ.<FD>「え? ちょうさたい?<FE> あ! もしかしたら<FD> その アピーニ*ゴートが<FE> おいかけていた ひとたちかな?<FD>「おそろいの たんけんようのふくを<FE> きていた ひとたちでしょ?<FD>「さばくの にしの<FE> ツチカの むらの ほうへ<FD> あるいて いったけど すぐあとを<FE> アピーニが おっかけてったよ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b296"
+
+  !!int 0x3b358:
+    original: "せいなるライオン<FE>「このクロスが ほしいのか?<FD>「みたところ じゃあくなこころを<FE> もっているわけでは ないようだな.<FD>「しかし この クロスの ぬしに<FE> なるためには<FD> ほんとうの ゆうかんな こころが<FE> ひつようなのだ.<FD>「わたしが ためして あげよう.<FD> かかって きなさい.<FF>"
+    pointer_location: 0x0ef06
+    translation: "TODO_0x3b358"
+
+  !!int 0x3b3e6:
+    original: "せいなるライオン<FE>「よくぞ このわたしに かちえたな!<FD>「しかし どうくつは もうひとつ.<FE> クロスも もうひとつ ある.<FD>「2つが そろわねば<FE> おまえの みらいは ひらけまい.<FD>「もうひとつの どうくつで<FD> わたしの きょうだいが<FE> おまえを まっている.<FD>「こころして かかられよ!<FF>"
+    pointer_location: 0x0f349
+    translation: "TODO_0x3b3e6"
+
+  !!int 0x3b477:
+    original: "せいなるライオン<FE>「おまえが わがきょうだいを<FD> たおした おとこか.<FD>「ちいさいのに なかなか やるな.<FD>「おもしろい.<FD> ひさびさに やりがいの ある<FE> たたかいに なりそうだな.<FF>"
+    pointer_location: 0x0ef0b
+    translation: "TODO_0x3b477"
+
+  !!int 0x3b4d4:
+    original: "せいなるライオン<FE>「みごとだ!<FD>「これで 2つの クロスが<FE> そろったな.<FD>「これで おまえの ゆくてをはばむ<FE> いまわしい とびらがひらくだろう.<FD>「おまえは でんせつの<FD> せいなる ライオンを<FE> たおした おとこだ.<FD>「このことを ほこりに<FE> けっして くじけず たたかえよ!<FF>"
+    pointer_location: 0x0f36e
+    translation: "TODO_0x3b4d4"
+
+  !!int 0x3b561:
+    original: "せいなるライオンを たおした<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b561"
+
+  !!int 0x3b570:
+    original: "ゴンタ<FE>「<character> ほんとうに ありがとう.<FD> おかげで おうちに かえれるよ.<FD>「さばくに きたら ラッパで<FE> また ぼくを よんでよ.<FD>「すぐに やってきて またきみたちを<FE> のせていって あげるよ.<FD>「じゃあね! がんばって!!<FF>"
+    pointer_location: 0x0e35e
+    translation: "TODO_0x3b570"
+
+  !!int 0x3b5e3:
+    original: "「ここは ツチカの むら.<FD> ツチカとは のにさく<FE> はなの ことです.<FD>「むかし ツチカという なまえの<FE> とても かしこい やぎがいました.<FD>「そのかたが あいした とうが<FD> このむらの みなみに のこされた<FE> ツチカのとうです.<FD>「その とうの ちかくに あるので<FE> このむらも ツチカむら なのです.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b5e3"
+
+  !!int 0x3b67e:
+    original: "「ツチカのとうには<FE> のろいが かかっている.<FD>「のろいを とくのには<FE> モアイの どうくつの***<FF>"
+    pointer_location: 0x0e383
+    translation: "TODO_0x3b67e"
+
+  !!int 0x3b6b1:
+    original: " 2つの ひほうが ひつようなんだ.<FE>「モアイは さばくのなかに あるよ.<FD> さばくに もどって<FE> ひほうを とって こなくちゃね.<FF>"
+    pointer_location: 0x0e397
+    translation: "TODO_0x3b6b1"
+
+  !!int 0x3b6f4:
+    original: " 2つの ひほうが ひつようなんだ.<FE> ひとつじゃ こうかが ないんだよ.<FF>"
+    pointer_location: 0x0e39c
+    translation: "TODO_0x3b6f4"
+
+  !!int 0x3b71a:
+    original: " なんだ! きみ もってるじゃない.<FF>"
+    pointer_location: 0x0e392
+    translation: "TODO_0x3b71a"
+
+  !!int 0x3b72d:
+    original: "「とかいから ちょうさたいの ひとが<FE> このむらに きたわ.<FD>「きたの とうだいに むかったけど<FE> だれも かえって こないのよ.<FD>「きたの とうだいからは<FD> ゴートだんの ほんきょちの しまが<FE> みえるからって.<FD>「みんな あぶないからって<FE> とめたんだけどねえ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b72d"
+
+  !!int 0x3b7b3:
+    original: "「おれは ゴートだんだ!<FE> はっはっはっはっ!<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b7b3"
+
+  !!int 0x3b7cb:
+    original: "「ゴートだんの まねを するなんて<FE> はずかしい やつだなあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3b7cb"
+
+  !!int 0x3b7eb:
+    original: "「でんせつの 3びきの けんじゃの<FE> はなしを しっとるかの?<FD> ジャングルいち かしこい<FE> 3びきの はなしじゃ.<FD>「きいて みるかの?<FC>"
+    pointer_location: 0x0e3ba
+    translation: "TODO_0x3b7eb"
+
+  !!int 0x3b831:
+    original: "「むかし むかし<FE> もう100ねんいじょうも まえに<FD> ジャングルを おさめていた<FE> どうぶつのおうさまたちが おった.<FD>「カメの ナン.<FD> ひょうの ランバ.<FD> そして やぎの ツチカじゃ.<FD>「かれらは こだいのたみが のこした<FE> ぶんめいの なごりを ほりおこし<FD> じゅもんや のろいや<FE> しんぴの ちからを みにつけた.<FD>「ジャングルに のこる 3つの とう<FD> あれは こだいのたみが<FE> のこしたものを<FD> かれらが つくりなおした もの.<FD>「かれらは じぶんが おさめていた<FE> くにと くにを つなぐために<FD> そのとうを つかったのじゃ.<FD>「だが かれら 3びきの おうも<FD> あるものは すみかを かえ<FE> あるものは いんきょし<FD> あるものは ゆくえが<FE> わからなくなってしまった.<FD>「ツチカと よばれた やぎの おう<FD> のろいの とう ツチカの<FE> しょゆうしゃ.<FD>「かれは どこに いって<FE> しまったのじゃろう.<FF>"
+    pointer_location: 0x0e3c3
+    translation: "TODO_0x3b831"
+
+  !!int 0x3b9cc:
+    original: "「そうか***<FF>"
+    pointer_location: 0x0e3c8
+    translation: "TODO_0x3b9cc"
+
+  !!int 0x3b9d4:
+    original: "「なにか こまったことが あるの?<FD> そしたら ひょうの ランバじいに<FE> きいて みたら?<FC>"
+    pointer_location: 0x0e3a6
+    translation: "TODO_0x3b9d4"
+
+  !!int 0x3ba02:
+    original: "「ランバじいさんは<FE> 3びきの けんじゃの いっぴきよ.<FD> なにか いいほうほうを<FE> かんがえて くれると おもうわ.<FD>「ランバじいさんは<FE> きょうりゅうじまの<FD> だいさんみゃくの うえに<FE> すんでるんですって.<FD>「きょうりゅうじまはね<FD> こだいの きょうりゅうたちが<FE> いっぱい すんでるの.<FD>「ツチカの とうの うえなら<FE> きょうりゅうじまが みえるそうよ.<FD>「あそこまで いけば<FE> きょうりゅうじま まで<FD> いく ほうほうも<FE> わかるんじゃ ないかしら?<FD>「あ でも そういえば<FD> ツチカの とうって<FE> のろいが かかって いるんだっけ?<FF>"
+    pointer_location: 0x0e3af
+    translation: "TODO_0x3ba02"
+
+  !!int 0x3bb13:
+    original: "「いじわるっ!!<FF>"
+    pointer_location: 0x0e3b4
+    translation: "TODO_0x3bb13"
+
+  !!int 0x3bb1c:
+    original: "「ぎゃっ!! みつかっちゃった!<FD> なんだ.こどもたちと サルかあ.<FD>「ぼくたちね カメの しまから<FE> いえで してきたの.<FD>「ぼくはウサギと きょうそうするのが<FE> ゆめなんだもの.<FD>「ぼくは こうみえても<FE> たんきょりの せんしゅなのさ.<FD>「なのに ちょうろうの ナンさまは<FD> カメは カメの しまから<FE> でちゃあいけないって いうの.<FD> カメいがいの ひととも<FE> くちを きいちゃ いけないって.<FD>「いまの カメのしまには<FE> カメと ゴートだんしか いないから<FD> くちを きかなくても いいけどさ.<FD>「ぼく ゴートだんが<FE> だいきらい なんだもん.<FD>「ナンさまは ゴートだんと<FE> たたかわないのかなあ.<FF>"
+    pointer_location: 0x0e3d8
+    translation: "TODO_0x3bb1c"
+
+  !!int 0x3bc4c:
+    original: "「わたしは おとうとに つきあって<FE> ここまで きたんだけど***<FD> でも このジャングルには<FE> ウサギは いないんですって?<FD>「あーあ.かえったら ナンさまに<FE> おこられちゃうな.<FD>「えっ? カメのしまには<FE> どういくのかって?<FD>「こないほうが いいわよ.<FE> しまは ゴートだんで いっぱいだし<FD> カメたちは だれも<FE> あいてをしてくれないと おもうわ.<FD>「かめの おうさま ナンさまが<FE> よそものを きらってるの.<FD>「ナンさまと はなしが できるのは<FD> きょうりゅうじまに すむ<FE> ひょうの ランバじいさん だけよ.<FF>"
+    pointer_location: 0x0e3e8
+    translation: "TODO_0x3bc4c"
+
+  !!int 0x3bd51:
+    original: "「わたしたちは このとうだいから<FD> ゴートだんの ほんきょち<FE> サークラルとうを みはるよう<FD> めいれい されたのだ.<FD>「たいちょうたちは このとうを<FE> おりていったが<FD> そのあと すぐに<FE> ひめいが きこえた.<FD>「たいちょうたちに<FD> なにか わるいことが<FE> おきてなければ いいが***<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3bd51"
+
+  !!int 0x3bde2:
+    original: "「サークラルとうには<FD> ゴートだんの ひこうきや ふねが<FE> ひんぱんに でいりしている.<FD>「おもてから ちかづくのは ムりだ.<FD> ちかくの カメの しまから<FD> いける ほうほうが あれば<FE> いいのだがなあ.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3bde2"
+
+  !!int 0x3be4a:
+    original: "クイール*ゴート<FE>「のろいの とびらは どうしたのだ?<FD>「まさか クロスを 2つとも!?<FD> おそろしい やつらだな.<FD>「え? おれか? おれさまは<FD> ハゲタカに はこんで もらって<FE> ここで みはりを していたのさ.<FD>「アピーニ*ゴートさまの<FE> いちの こぶん.<FD> クイール*ゴートさまとは<FE> おれさまの ことだあ.<FF>"
+    pointer_location: 0x0ef20
+    translation: "TODO_0x3be4a"
+
+  !!int 0x3bee9:
+    original: "クイール*ゴート<FE>「おみそれしやした だんながた.<FD>「こいつは むささびのマントです.<FD>「あっしが このとうを おりるときに<FE> いつもつかってる しろものでさあ.<FD>「こいつが あると<FE> そらを かっくうできるって やつで<FD> そうびしなくても もってるだけで<FE> こうかが ありますぜ.<FD>「おわびに これを さしあげますので<FE> いのちばかりは ごかんべんを.<FF>"
+    pointer_location: 0x0f394
+    translation: "TODO_0x3bee9"
+
+  !!int 0x3bf9b:
+    original: "「いのちばかりは ごかんべんを.<FF>"
+    pointer_location: 0
+    translation: "TODO_0x3bf9b"
