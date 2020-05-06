@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 """Usage: jw_translation.py insert [--no-backup] <romfile> <inputfile> <tablefile>
           jw_translation.py merge <existing> <inputfile> [<outputfile>]
+          jw_translation.py insert_windows [--no-backup] <romfile> <inputfile> <tablefile>
 
 Helping script for manipulating Jungle Wars text.
 
@@ -21,6 +22,7 @@ import pyaml
 import yaml
 import shutil
 import datetime
+from jw_win import JWWindow
 
 
 class HexInt(int):
@@ -32,8 +34,6 @@ def representer(dumper, data):
 
 
 pyaml.add_representer(HexInt, representer)
-
-
 
 
 MAX_LENGTH = 17
@@ -167,6 +167,95 @@ class TextString:
 rom = None
 table = None
 
+
+def insert_translation(rom_file, translation_data, table):
+
+    script = translation_data["script"]
+    combat = translation_data["combat"]
+    combat_wide = translation_data["combat_wide"]
+    in_place = translation_data["in_place"]
+
+    messages = [TextString(0x1A581, "A morning in the Jungle.<FC>")]
+
+    for msg_set in [script, combat, combat_wide]:
+        for m in msg_set.values():
+            if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
+                messages.append(TextString(m['pointer_location'],
+                                           m['translation'],
+                                           max_length=10)
+                                )
+
+    for m in in_place:
+        offset = m
+        message_bytes = table.convert_script(in_place[m]["translation"])
+        rom_file.seek(offset)
+        rom_file.write(message_bytes)
+
+    message_index = 0
+    total_length = 0
+    data_bank = 0x11
+
+    for m in messages:
+        m.binary_text = table.convert_script(m.prepare())
+
+        m.new_bank = data_bank
+        m.new_pointer = total_length
+        total_length += m.length
+
+        # Code to flow over to the next bank, might be bugged!
+        if total_length > 0x4000:
+            data_bank += 1
+            m.new_bank = data_bank
+            m.new_pointer = 0
+            total_length = m.length
+
+        rom_file.seek(m.pointer_address)
+        rom_file.write((message_index * 3).to_bytes(2, "little"))
+
+        rom_file.seek(0x10 * 0x4000 + 0x1000 + message_index * 0x03)
+        rom_file.write((m.new_bank).to_bytes(1, "little"))
+        rom_file.write((m.new_pointer).to_bytes(2, "little"))
+
+        rom_file.seek(m.new_bank * 0x4000 + m.new_pointer)
+        rom_file.write(m.binary_text)
+        message_index += 1
+
+
+def insert_windows(rom_file, windows_data, table):
+
+    POINTERS_START_FULLSCREEN = 0x1F * 0x4000
+    POINTERS_START_OVERLAY = 0x1F * 0x4000 + 0x500
+    DATA_START = 0x1F * 0x4000 + 0x1000
+
+    total_size = 0
+
+    for win_id in windows_data["fullscreen"]:
+        data = windows_data["fullscreen"][win_id]
+        win = JWWindow()
+        win.from_yaml(data, win_id)
+        rom_file.seek(POINTERS_START_FULLSCREEN + win.id * 2)
+        rom.write((0x5000 + total_size).to_bytes(2, "little"))
+        rom.seek(DATA_START + total_size)
+        rom.write(win.recompute_header())
+        total_size += 6
+        translation = table.convert_script(win.translation)
+        rom.write(translation)
+        total_size += len(translation)
+
+    for win_id in windows_data["overlay"]:
+        data = windows_data["overlay"][win_id]
+        win = JWWindow()
+        win.from_yaml(data, win_id)
+        rom_file.seek(POINTERS_START_OVERLAY + (win.id - 0x80) * 2)
+        rom.write((0x5000 + total_size).to_bytes(2, "little"))
+        rom.seek(DATA_START + total_size)
+        rom.write(win.recompute_header())
+        total_size += 6
+        translation = table.convert_script(win.translation)
+        rom.write(translation)
+        total_size += len(translation)
+
+
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
@@ -183,70 +272,28 @@ if __name__ == '__main__':
 
         translation_file = open(arguments["<inputfile>"], encoding='utf-8')
         data = yaml.load(translation_file, Loader=yaml.FullLoader)
+        translation_file.close()
 
-        script = data["script"]
-        combat = data["combat"]
-        combat_wide = data["combat_wide"]
-        in_place = data["in_place"]
+        insert_translation(rom, data, table)
 
-        messages = [
-            TextString(0x1A581,
-                       "A morning in the Jungle.<FC>")
-        ]
+        rom.close()
 
-        for m in combat.values():
-            if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
-                messages.append(TextString(m['pointer_location'],
-                                           m['translation'],
-                                           max_length=10)
-                                )
+    elif arguments["insert_windows"]:
 
-        for m in combat_wide.values():
-            if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
-                messages.append(TextString(m['pointer_location'],
-                                           m['translation'])
-                                )
+        table = TranslationTable(arguments['<tablefile>'])
 
-        for m in script.values():
-            if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
-                messages.append(TextString(m['pointer_location'],
-                                           m['translation'])
-                                )
+        if not arguments["--no-backup"]:
+            # Make a backup of the rom file in case...
+            now = datetime.datetime.now().strftime(format="%Y%m%d_%H_%M_%S")
+            shutil.copy(arguments["<romfile>"], arguments["<romfile>"] + ".backup." + now)
 
-        for m in in_place:
-            offset = m
-            message_bytes = table.convert_script(in_place[m]["translation"])
-            rom.seek(offset)
-            rom.write(message_bytes)
+        rom = open(arguments["<romfile>"], 'rb+')
 
-        message_index = 0
-        total_length = 0
-        data_bank = 0x11
+        translation_file = open(arguments["<inputfile>"], encoding='utf-8')
+        data = yaml.load(translation_file, Loader=yaml.FullLoader)
+        translation_file.close()
 
-        for m in messages:
-            m.binary_text = table.convert_script(m.prepare())
-
-            m.new_bank = data_bank
-            m.new_pointer = total_length
-            total_length += m.length
-
-            # Code to flow over to the next bank, might be bugged!
-            if total_length > 0x4000:
-                data_bank += 1
-                m.new_bank = data_bank
-                m.new_pointer = 0
-                total_length = m.length
-
-            rom.seek(m.pointer_address)
-            rom.write((message_index * 3).to_bytes(2, "little"))
-
-            rom.seek(0x10 * 0x4000 + 0x1000 + message_index * 0x03)
-            rom.write((m.new_bank).to_bytes(1, "little"))
-            rom.write((m.new_pointer).to_bytes(2, "little"))
-
-            rom.seek(m.new_bank * 0x4000 + m.new_pointer)
-            rom.write(m.binary_text)
-            message_index += 1
+        insert_windows(rom, data, table)
 
         rom.close()
 
@@ -255,11 +302,11 @@ if __name__ == '__main__':
         # jw_translation.py merge <existing> <inputfile> [<outputfile>]
 
         file1 = open(arguments["<existing>"], encoding='utf-8')
-        data_existing = yaml.load(file1, Loader=yaml.FullLoader)
+        data_existing = yaml.load_safe(file1, Loader=yaml.FullLoader)
         file1.close()
 
         file2 = open(arguments["<inputfile>"], encoding='utf-8')
-        data_new = yaml.load(file2, Loader=yaml.FullLoader)
+        data_new = yaml.load_safe(file2, Loader=yaml.FullLoader)
         file2.close()
 
         for section2 in data_new:

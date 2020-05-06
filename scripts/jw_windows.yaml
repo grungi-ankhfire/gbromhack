@@ -1,0 +1,266 @@
+fullscreen:
+
+  !!int 0x12:
+    bg_map: 1
+    dim_x: 0x09
+    dim_y: 0x09
+    location: 0x33749
+    original_header: 0x0709069d009c
+    original_text: " もちもの<FE> つよさ<FE><FE> じゅもん<FE> さがす<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: " Items<FE><FE> Status<FE> Magic<FE><FE> Search<FF>"
+
+  !!int 0x13:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x337eb
+    original_header: 0x070a4a9d249c
+    original_text: "<FD>だれの?<FD><FD><character><FE><FD><FD><character><FE><FD><FD><character><FD><FF>"
+    pos_x: 4
+    pos_y: 1
+    translation: "<FD>Who?<FD><FD><character><FE><FD><FD><character><FE><FD><FD><character><FD><FF>"
+
+  !!int 0x14:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x12
+    location: 0x3380b
+    original_header: 0x1412339e009c
+    original_text: "<FD><character>  レべル <var1>  <var3><FD>HP <item>/<item>  ちから<FD>MP <item>/<item>     <var6>            ちりょく<FD>               <var6>こうげきりょく     たいりょく<FD>     <item>       <var6>しゅびりょく      すばやさ<FD>     <item>       <var6><FD><var7>  <var7><FD><var7>  <var7><FD>   けいけんち <gold><FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "<character> Level <var1>  <var3><FD>HP <item>/<item>  Str.<FD>MP <item>/<item>     <var6>            Int.<FD>               <var6>Attack      End.<FD>     <item>       <var6>Defense     Speed<FD>     <item>       <var6><FD><var7>  <var7><FD><var7>  <var7><FD>Experience <gold><FD><FF>"
+
+  !!int 0x16:
+    bg_map: 1
+    dim_x: 0x0b
+    dim_y: 0x0e
+    location: 0x33839
+    original_header: 0x0b0eb29d089c
+    original_text: "<FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD><FF>"
+    pos_x: 8
+    pos_y: 0
+    translation: "<FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD><FF>"
+
+  !!int 0x1d:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x08
+    location: 0x33928
+    original_header: 0x1408339e409d
+    original_text: "<FE><FE><FE><FE><FE><FE><FF>"
+    pos_x: 0
+    pos_y: 10
+    translation: "<FE><FE><FE><FE><FE><FE><FF>"
+
+  !!int 0x1e:
+    bg_map: 1
+    dim_x: 0x0a
+    dim_y: 0x03
+    location: 0x33931
+    original_header: 0x0a03539c0a9c
+    original_text: "<price>G<FF>"
+    pos_x: 10
+    pos_y: 0
+    translation: "<price>G<FF>"
+
+  !!int 0x20:
+    bg_map: 0
+    dim_x: 0x10
+    dim_y: 0x04
+    location: 0x33960
+    original_header: 0x10046f980098
+    original_text: "<FE> ジャングルのしょを つくる<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "<FE> New Jungle<FF>"
+
+  !!int 0x21:
+    bg_map: 0
+    dim_x: 0x10
+    dim_y: 0x08
+    location: 0x3398c
+    original_header: 0x1008ef980098
+    original_text: "<FE> ぼうけんを する<FE><FE> ジャングルのしょを けす<FE><FE> そくどを かえる<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "<FE> Continue<FE><FE> Clear Jungle<FE><FE> Text speed<FE><FF>"
+
+  !!int 0x22:
+    bg_map: 0
+    dim_x: 0x10
+    dim_y: 0x0c
+    location: 0x339d6
+    original_header: 0x100c6f990098
+    original_text: "<FE> ぼうけんを する<FE><FE> ジャングルのしょを つくる<FE> ジャングルのしょを うつす<FE> ジャングルのしょを けす<FE><FE> そくどを かえる<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "<FE> Continue<FE><FE> New Jungle<FE><FE> Copy Jungle<FE><FE> Clear Jungle<FE><FE> Text speed<FE><FF>"
+
+  !!int 0x23:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x04
+    location: 0x339ea
+    original_header: 0x0d04b3994799
+    original_text: "<FD> ジャングルのしょ <character><FD><FF>"
+    pos_x: 7
+    pos_y: 10
+    translation: "<FD> Jungle <character><FD><FF>"
+
+  !!int 0x24:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x06
+    location: 0x33a0a
+    original_header: 0x0d06f3994799
+    original_text: "<FD> ジャングルのしょ <character><FD> ジャングルのしょ <character><FD><FF>"
+    pos_x: 7
+    pos_y: 10
+    translation: "<FD> Jungle <character><FD><FD> Jungle <character><FD><FF>"
+
+  !!int 0x25:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x08
+    location: 0x33a36
+    original_header: 0x0d08339a4799
+    original_text: "<FD> ジャングルのしょ <character><FD> ジャングルのしょ <character><FD> ジャングルのしょ <character><FD><FF>"
+    pos_x: 7
+    pos_y: 10
+    translation: "<FD> Jungle <character><FD><FD> Jungle <character><FD><FD> Jungle <character><FD><FF>"
+
+  !!int 0x26:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x06
+    location: 0x33a52
+    original_header: 0x0d0610996498
+    original_text: "<FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD><FF>"
+    pos_x: 4
+    pos_y: 3
+    translation: "<FD> Jungle <var1><FD><FD>  <item>  L<var3><FD><FF>"
+
+  !!int 0x27:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x0a
+    location: 0x33a82
+    original_header: 0x0d0a90996498
+    original_text: "<FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD><FF>"
+    pos_x: 4
+    pos_y: 3
+    translation: "<FD> Jungle <var1><FD><FD>  <item>  L<var3><FD> Jungle <var1><FD><FD>  <item>  L<var3><FD><FF>"
+
+  !!int 0x28:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x0e
+    location: 0x33ac6
+    original_header: 0x0d0e109a6498
+    original_text: "<FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD><FF>"
+    pos_x: 4
+    pos_y: 3
+    translation: "<FD> Jungle <var1><FD><FD>  <item>  L<var3><FD> Jungle <var1><FD><FD>  <item>  L<var3><FD> Jungle <var1><FD><FD>  <item>  L<var3><FD><FF>"
+
+  !!int 0x29:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x07
+    location: 0x33ade
+    original_header: 0x07079299cc98
+    original_text: "いいかな?<FE> いいよ<FE><FE> やだよ<FE><FF>"
+    pos_x: 12
+    pos_y: 6
+    translation: "Okay?<FE> Yes<FE><FE> No!<FE><FF>"
+
+  !!int 0x2a:
+    bg_map: 0
+    dim_x: 0x0c
+    dim_y: 0x0a
+    location: 0x33b01
+    original_header: 0x0b0a339a0999
+    original_text: "<FE>もじひょうじそくど<FE> はやい<FE><FE> ふつう<FE><FE> おそい<FE><FF>"
+    pos_x: 8
+    pos_y: 8
+    translation: "<FE>Text speed<FE> Fast<FE><FE> Medium<FE><FE> Slow<FE><FF>"
+
+  !!int 0x2b:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x04
+    location: 0x33b1c
+    original_header: 0x140473980098
+    original_text: "<FE> なまえをいれてく\"たさい ****<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: " Please enter<FE> your name   ****<FF>"
+
+  !!int 0x2c:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x0e
+    location: 0x33b8f
+    original_header: 0x140e339a8098
+    original_text: "<FE> あいうえお はひふへほ ゃゅょっ<FE><FE> かきくけこ まみむめも<FE><FE> さしすせそ や ゆ よ \" ° <FE><FE> たちつてと らりるれろ !?ー*<FE><FE> なにぬねの わ を ん 133143133148<FE><FE> 0123456789  おわり<FE><FF>"
+    pos_x: 0
+    pos_y: 4
+    translation: "<FE> A B C D E F !?-.<FE><FE> G H I J K L<FE><FE> M N O P Q R<FE><FE> S T U V W X<FE><FE> Y Z         lowr<FE><FE> 0123456789  END<FE><FF>"
+
+  !!int 0x2d:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x0e
+    location: 0x33b8f
+    original_header: 0x140e339a8098
+    original_text: "<FE> あいうえお はひふへほ ゃゅょっ<FE><FE> かきくけこ まみむめも<FE><FE> さしすせそ や ゆ よ \" ° <FE><FE> たちつてと らりるれろ !?ー*<FE><FE> なにぬねの わ を ん 133143133148<FE><FE> 0123456789  おわり<FE><FF>"
+    pos_x: 0
+    pos_y: 4
+    translation: "<FE> a b c d e f !?-.<FE><FE> g h i j k l<FE><FE> m n o p q r<FE><FE> s t u v w x<FE><FE> y z         UPPR<FE><FE> 0123456789  END<FE><FF>"
+
+  !!int 0x33:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33731
+    original_header: 0x140a339e009d
+    original_text: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><FD><FD><FD><FF>"
+    pos_x: 0
+    pos_y: 8
+    translation: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><FD><FD><FD><FF>"
+
+overlay:
+  !!int 0x81:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x07
+    location: 0x33c93
+    original_header: 0x070798481868
+    original_text: " はなす<FE><FE> しらべる<FE> コマンド<FF>"
+    pos_x: 24
+    pos_y: -384
+    translation: " Talk<FE> Look<FE> Menu<FF>"
+
+  !!int 0x82:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x08
+    location: 0x33ca8
+    original_header: 0x1408a0986008
+    original_text: "<FE><FE><FE><FE><FE><FE><FF>"
+    pos_x: 0
+    pos_y: -1149
+    translation: "<FE><FE><FE><FE><FE><FE><FF>"
+
+  !!int 0x8f:
+    bg_map: 0
+    dim_x: 0x0b
+    dim_y: 0x08
+    location: 0x33ddf
+    original_header: 0x0b08a0986050
+    original_text: "<FE>きろく しますか?<FE> いいよ<FE><FE> やだよ<FF>"
+    pos_x: 0
+    pos_y: -573
+    translation: "Save yourprogress?<FE> Yes<FE><FE> No!<FF>"

@@ -91,7 +91,7 @@ def yaml_dump_script(offset, end_offset):
                 message["original"] = table.convert_bytearray(message_bytes)
             else:
                 message["original"] = message_bytes.copy()
-            message["translation"] = "TODOLet's Go_" + "{0:#0{1}x}".format(message_offset, 7)
+            message["translation"] = "TODO_" + "{0:#0{1}x}".format(message_offset, 7)
             message["pointer_location"] = 0
             messages[message_offset] = message.copy()
             message_bytes.clear()
