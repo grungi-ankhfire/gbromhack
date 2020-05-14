@@ -3,6 +3,8 @@
 """Usage: jw_translation.py insert [--no-backup] <romfile> <inputfile> <tablefile>
           jw_translation.py merge <existing> <inputfile> [<outputfile>]
           jw_translation.py insert_windows [--no-backup] <romfile> <inputfile> <tablefile>
+          jw_translation.py insert_enemies [--no-backup] <romfile> <inputfile> <tablefile>
+
 
 Helping script for manipulating Jungle Wars text.
 
@@ -177,12 +179,13 @@ def insert_translation(rom_file, translation_data, table):
 
     messages = [TextString(0x1A581, "A morning in the Jungle.<FC>")]
 
-    for msg_set in [script, combat, combat_wide]:
-        for m in msg_set.values():
+    for msg_set in [(script, 17), (combat, 10), (combat_wide, 17)]:
+        msg_len = msg_set[1]
+        for m in msg_set[0].values():
             if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
                 messages.append(TextString(m['pointer_location'],
                                            m['translation'],
-                                           max_length=10)
+                                           max_length=msg_len)
                                 )
 
     for m in in_place:
@@ -220,6 +223,8 @@ def insert_translation(rom_file, translation_data, table):
         rom_file.write(m.binary_text)
         message_index += 1
 
+    print("Wrote up to bank " + hex(data_bank))
+
 
 def insert_windows(rom_file, windows_data, table):
 
@@ -236,7 +241,11 @@ def insert_windows(rom_file, windows_data, table):
         rom_file.seek(POINTERS_START_FULLSCREEN + win.id * 2)
         rom.write((0x5000 + total_size).to_bytes(2, "little"))
         rom.seek(DATA_START + total_size)
-        rom.write(win.recompute_header())
+        force_header = data.get("force_header", None)
+        if force_header:
+            rom.write(force_header.to_bytes(6, "big"))
+        else:
+            rom.write(win.recompute_header())
         total_size += 6
         translation = table.convert_script(win.translation)
         rom.write(translation)
@@ -249,9 +258,34 @@ def insert_windows(rom_file, windows_data, table):
         rom_file.seek(POINTERS_START_OVERLAY + (win.id - 0x80) * 2)
         rom.write((0x5000 + total_size).to_bytes(2, "little"))
         rom.seek(DATA_START + total_size)
-        rom.write(win.recompute_header())
+        force_header = data.get("force_header", None)
+        if force_header:
+            rom.write(force_header.to_bytes(6, "big"))
+        else:
+            rom.write(win.recompute_header())
         total_size += 6
         translation = table.convert_script(win.translation)
+        rom.write(translation)
+        total_size += len(translation)
+
+def insert_enemies(rom_file, enemies_data, table):
+
+    POINTERS_START = 0x1E * 0x4000
+    DATA_START = 0x1E * 0x4000 + 0x1000
+
+    total_size = 0
+
+    for enemy_id in enemies_data["enemies"]:
+        data = enemies_data["enemies"][enemy_id]
+        rom_file.seek(POINTERS_START + enemy_id * 2)
+        rom.write((0x5000 + total_size).to_bytes(2, "little"))
+
+        rom.seek(DATA_START + total_size)
+        rom.write(data["original_header"].to_bytes(22, "big"))
+        total_size += 22
+        translation = table.convert_script(data["translated_name"])
+        rom.write(translation)
+        rom.seek(data["location"] + 22)
         rom.write(translation)
         total_size += len(translation)
 
@@ -294,6 +328,25 @@ if __name__ == '__main__':
         translation_file.close()
 
         insert_windows(rom, data, table)
+
+        rom.close()
+
+    elif arguments["insert_enemies"]:
+
+        table = TranslationTable(arguments['<tablefile>'])
+
+        if not arguments["--no-backup"]:
+            # Make a backup of the rom file in case...
+            now = datetime.datetime.now().strftime(format="%Y%m%d_%H_%M_%S")
+            shutil.copy(arguments["<romfile>"], arguments["<romfile>"] + ".backup." + now)
+
+        rom = open(arguments["<romfile>"], 'rb+')
+
+        translation_file = open(arguments["<inputfile>"], encoding='utf-8')
+        data = yaml.load(translation_file, Loader=yaml.FullLoader)
+        translation_file.close()
+
+        insert_enemies(rom, data, table)
 
         rom.close()
 

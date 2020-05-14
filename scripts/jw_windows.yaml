@@ -1,4 +1,124 @@
 fullscreen:
+  !!int 0x00:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33499
+    original_header: 0x140a339d009c
+    original_text: "<FE><FE><FE><FE><FE><FE><FE><FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "<FE><FE><FE><FE><FE><FE><FE><FE><FF>"
+
+  !!int 0x01:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x334a8
+    original_header: 0x070a269d009c
+    original_text: "<FE> こうげき<FE> もちもの<FE> さけぶ <FE> そのほか<FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "<FE> Atk <FE> Item<FE> Drnk<FE> More<FF>"
+
+  !!int 0x05:
+    bg_map: 1
+    dim_x: 0x0d
+    dim_y: 0x04
+    location: 0x3356a
+    original_header: 0x0d04709c049c
+    original_text: "<FE><var1>はどうする?<FE><FF>"
+    pos_x: 4
+    pos_y: 0
+    translation: "What will<FE><var1> do?<FE><FF>"
+
+  !!int 0x06:
+    bg_map: 1
+    dim_x: 0x0e
+    dim_y: 0x0a
+    location: 0x3356a
+    original_header: 0x0e0a339d069c
+    original_text: "<FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD><FD><FF>"
+    pos_x: 6
+    pos_y: 0
+    translation: "<FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD><FD><FF>"
+
+  !!int 0x07:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x33673
+    original_header: 0x070a2a9d049c
+    original_text: "<FE> にげる<FE><FE> ぼうぎょ<FE> つよさ<FE><FE> スピード<FF>"
+    pos_x: 4
+    pos_y: 0
+    translation: "<FE> Run<FE><FE> Defn<FE> Stat<FE> Sped<FF>"
+
+  !!int 0x08:
+    bg_map: 1
+    dim_x: 0x08
+    dim_y: 0x0a
+    location: 0x3368d
+    original_header: 0x080a339d0c9c
+    original_text: "<FD><character><FD> HP<item><FE><character><FD> HP<item><FD><FD><FD><FD><FD><FF>"
+    pos_x: 12
+    pos_y: 0
+    translation: "<FD><character><FD> HP<item><FE><character><FD> HP<item><FD><FD><FD><FD><FD><FF>"
+
+  !!int 0x09:
+    bg_map: 1
+    dim_x: 0x0b
+    dim_y: 0x0a
+    location: 0x335a4
+    original_header: 0x0b0a339d099c
+    original_text: "<FE>もじひょうじそくど<FE> はやい<FE><FE> ふつう<FE><FE> おそい<FE><FF>"
+    pos_x: 9
+    pos_y: 0
+    translation: "<FE>Msg speed<FE> Fast<FE><FE> Medium<FE><FE> Slow<FE><FF>"
+
+  !!int 0x0a:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x335c7
+    original_header: 0x140a339d009c
+    original_text: "<FD> <amount> <amount><FD> <amount> <amount><FD> <amount> <amount><FD> <amount> つぎへ<FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "<FD> <amount> <amount><FD> <amount> <amount><FD> <amount> <amount><FD> <amount> Nxt<FD><FF>"
+
+  !!int 0x0d:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x05
+    location: 0x3361f
+    original_header: 0x0705869c009c
+    original_text: " つかう<FE><FE> そうび<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: " Use<FE><FE> Eqp<FE><FF>"
+
+  !!int 0x0e:
+    bg_map: 1
+    dim_x: 0x0a
+    dim_y: 0x04
+    location: 0x33631
+    original_header: 0x0a046e9c059c
+    original_text: "<FE>よしいくぞう!<FE><FF>"
+    pos_x: 5
+    pos_y: 0
+    translation: "Let's dothis!<FF>"
+
+  !!int 0x0f:
+    bg_map: 1
+    dim_x: 0x0d
+    dim_y: 0x0a
+    location: 0x33641
+    original_header: 0x0d0a2c9d009c
+    original_text: "<FE><FE><FE><FE><FE><FE><FE><FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "<FE><FE><FE><FE><FE><FE><FE><FE><FF>"
 
   !!int 0x12:
     bg_map: 1
@@ -35,14 +155,36 @@ fullscreen:
 
   !!int 0x16:
     bg_map: 1
-    dim_x: 0x0b
-    dim_y: 0x0e
-    location: 0x33839
-    original_header: 0x0b0eb29d089c
-    original_text: "<FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD><FF>"
+    dim_x: 0x0c
+    dim_y: 0x12
+    location: 0x33867
+    original_header: 0x0c12339e089c
+    original_text: "<FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>      つぎへ<FD><FF>"
     pos_x: 8
     pos_y: 0
-    translation: "<FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD><FF>"
+    translation: "<FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>     Next<FD><FF>"
+
+  !!int 0x1a:
+    bg_map: 1
+    dim_x: 0x0a
+    dim_y: 0x09
+    location: 0x3368d
+    original_header: 0x0609cb9dc69c
+    original_text: " つかう<FE> そうび<FE> わたす<FE> すてる<FE> はい<FE><FE> いいえ<FF>"
+    pos_x: 6
+    pos_y: 6
+    translation: " Use<FE><FE> Equip<FE><FE> Give<FE><FE> Discard<FE> Yes<FE> No<FE><FF><FF>"
+
+  !!int 0x1b:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x3391b
+    original_header: 0x070a2f9e099d
+    original_text: "<FD>だれに?<FD><FD> <character><FE><FD> <character><FE><FD> <character><FD><FF>"
+    pos_x: 9
+    pos_y: 8
+    translation: "<FD>Who?<FD><FD> <character><FE><FD> <character><FE><FD> <character><FD><FF>"
 
   !!int 0x1d:
     bg_map: 1
@@ -220,6 +362,17 @@ fullscreen:
     pos_y: 4
     translation: "<FE> a b c d e f !?-.<FE><FE> g h i j k l<FE><FE> m n o p q r<FE><FE> s t u v w x<FE><FE> y z         UPPR<FE><FE> 0123456789  END<FE><FF>"
 
+  !!int 0x32:
+    bg_map: 1
+    dim_x: 0x0e
+    dim_y: 0x0a
+    location: 0x3355a
+    original_header: 0x0e0a339d069c
+    original_text: "<FD><character> L<var1> <var3>HP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD><FD><FD><FD><FD><FF>"
+    pos_x: 6
+    pos_y: 0
+    translation: "<FD><character> L<var1> <var3>HP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD><FD><FD><FD><FD><FF>"
+
   !!int 0x33:
     bg_map: 1
     dim_x: 0x14
@@ -249,6 +402,7 @@ overlay:
     dim_y: 0x08
     location: 0x33ca8
     original_header: 0x1408a0986008
+    force_header: 0x1408a0986008
     original_text: "<FE><FE><FE><FE><FE><FE><FF>"
     pos_x: 0
     pos_y: -1149
@@ -260,6 +414,7 @@ overlay:
     dim_y: 0x08
     location: 0x33ddf
     original_header: 0x0b08a0986050
+    force_header: 0x0b08a0986050
     original_text: "<FE>きろく しますか?<FE> いいよ<FE><FE> やだよ<FF>"
     pos_x: 0
     pos_y: -573

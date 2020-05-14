@@ -1,0 +1,470 @@
+enemies:
+
+  !!int 0x00:
+    id: 0
+    location: 0x30086
+    original_header: 0x1c30001c0804925f7d83000200000804010101011511
+    original_name: "きょうあくモグラ<FF>"
+    translated_name: "TODO0x00<FF>"
+
+  !!int 0x01:
+    id: 1
+    location: 0x300a5
+    original_header: 0x1c3c001e0605905f7d830001821e0004060606160606
+    original_name: "どくどくトカゲ<FF>"
+    translated_name: "TODO0x01<FF>"
+
+  !!int 0x02:
+    id: 2
+    location: 0x300c3
+    original_header: 0x0428000e0502925f7d800000000000003c3c3c3c3c3c
+    original_name: "サスケ<FF>"
+    translated_name: "SAS<FF>"
+
+  !!int 0x03:
+    id: 3
+    location: 0x300dd
+    original_header: 0xc14000aa3c20b61f7de4007a071d80890f030f034840
+    original_name: "ハンタ-<FF>"
+    translated_name: "Hunt<FF>"
+
+  !!int 0x04:
+    id: 4
+    location: 0x300f8
+    original_header: 0x54f000905214025f1db9800f00000089062c061c1706
+    original_name: "おとうとさそり<FF>"
+    translated_name: "TODO0x04<FF>"
+
+  !!int 0x05:
+    id: 5
+    location: 0x30116
+    original_header: 0x082000100a01825f1d81800180000000460147010547
+    original_name: "ハりせんぼん<FF>"
+    translated_name: "TODO0x05<FF>"
+
+  !!int 0x06:
+    id: 6
+    location: 0x30133
+    original_header: 0x0414000e0402025f7d81000080000080050101010101
+    original_name: "キ-キ-ねずみ<FF>"
+    translated_name: "TODO0x06<FF>"
+
+  !!int 0x07:
+    id: 7
+    location: 0x30151
+    original_header: 0x383800382409900f7d8d80010000008801012a11482a
+    original_name: "ピラニアン<FF>"
+    translated_name: "TODO0x07<FF>"
+
+  !!int 0x08:
+    id: 8
+    location: 0x3016d
+    original_header: 0x103000120a05025f7d830004019d8000010801080108
+    original_name: "ひとくいばな<FF>"
+    translated_name: "TODO0x08<FF>"
+
+  !!int 0x09:
+    id: 9
+    location: 0x3018a
+    original_header: 0x3070002e3a0820471c10000500000000410707410245
+    original_name: "どすこいカバ<FF>"
+    translated_name: "TODO0x09<FF>"
+
+  !!int 0x0a:
+    id: 10
+    location: 0x301a7
+    original_header: 0x3430002c1208b07f7d8b800500818144080108160801
+    original_name: "がらがらへビ<FF>"
+    translated_name: "TODO0x0a<FF>"
+
+  !!int 0x0b:
+    id: 11
+    location: 0x301c4
+    original_header: 0x30340030100da1df7d8e800280000190081d081d1d48
+    original_name: "しびれウナギ<FF>"
+    translated_name: "TODO0x0b<FF>"
+
+  !!int 0x0c:
+    id: 12
+    location: 0x301e1
+    original_header: 0x98c800681c1712077c190032021d8884490a04030403
+    original_name: "こぶん<FF>"
+    translated_name: "TODO0x0c<FF>"
+
+  !!int 0x0d:
+    id: 13
+    location: 0x301fb
+    original_header: 0x4878003c200ca24f7d8e0020000000880a030a110a40
+    original_name: "みつりょうしゃ<FF>"
+    translated_name: "TODO0x0d<FF>"
+
+  !!int 0x0e:
+    id: 14
+    location: 0x30219
+    original_header: 0x283800200c0c941f3d86000180000094430744124412
+    original_name: "ぼうそういのしし<FF>"
+    translated_name: "TODO0x0e<FF>"
+
+  !!int 0x0f:
+    id: 15
+    location: 0x30238
+    original_header: 0x58f0008242311467693c0015009e9980440446104304
+    original_name: "パンチカンガル-<FF>"
+    translated_name: "TODO0x0f<FF>"
+
+  !!int 0x10:
+    id: 16
+    location: 0x30257
+    original_header: 0x509800884422005f1da2002700918081140142140115
+    original_name: "ありじごく<FF>"
+    translated_name: "TODO0x10<FF>"
+
+  !!int 0x11:
+    id: 17
+    location: 0x30273
+    original_header: 0x5c780060c80cd1df1c04003c001300c40813161d1d11
+    original_name: "へビメタル<FF>"
+    translated_name: "TODO0x11<FF>"
+
+  !!int 0x12:
+    id: 18
+    location: 0x3028f
+    original_header: 0x7a0000f0646428afbea00f81019701a9484801104848
+    original_name: "いだてんチ-タ<FF>"
+    translated_name: "TODO0x12<FF>"
+
+  !!int 0x13:
+    id: 19
+    location: 0x302ad
+    original_header: 0x4918004c440d165f7d930008000001084d0304442948
+    original_name: "へんしんシマウマ<FF>"
+    translated_name: "TODO0x13<FF>"
+
+  !!int 0x14:
+    id: 20
+    location: 0x302cc
+    original_header: 0x2c3c0024190c864f7d8c8006029d8090031b031b0144
+    original_name: "すかしスカンク<FF>"
+    translated_name: "TODO0x14<FF>"
+
+  !!int 0x15:
+    id: 21
+    location: 0x302ea
+    original_header: 0x1490005e300b047f7c900004001a000444420001113e
+    original_name: "なまけもの<FF>"
+    translated_name: "TODO0x15<FF>"
+
+  !!int 0x16:
+    id: 22
+    location: 0x30306
+    original_header: 0x814000a83c1d503f3fbf80d3018a948c44014a44024a
+    original_name: "おどるがいこつ<FF>"
+    translated_name: "TODO0x16<FF>"
+
+  !!int 0x17:
+    id: 23
+    location: 0x30324
+    original_header: 0x6d20009c481ad03f3fe9002c00958144081606130608
+    original_name: "ガイコツへビ<FF>"
+    translated_name: "TODO0x17<FF>"
+
+  !!int 0x18:
+    id: 24
+    location: 0x30341
+    original_header: 0x397400fa872a967f7e900199011f891a4c2601260503
+    original_name: "ほえ-るオオカミ<FF>"
+    translated_name: "TODO0x18<FF>"
+
+  !!int 0x19:
+    id: 25
+    location: 0x30360
+    original_header: 0x34780038120d0a3b6d91800a008701001a031a031a01
+    original_name: "いねむりひつじ<FF>"
+    translated_name: "TODO0x19<FF>"
+
+  !!int 0x1a:
+    id: 26
+    location: 0x3037e
+    original_header: 0x0c1800100402825f7d810001011d8080490549050548
+    original_name: "スりがらす<FF>"
+    translated_name: "TODO0x1a<FF>"
+
+  !!int 0x1b:
+    id: 27
+    location: 0x3039a
+    original_header: 0xc25800421408b65f3d8a003200000105000315011611
+    original_name: "アラ-ニ*ゴ-ト<FF>"
+    translated_name: "TODO*x1b<FF>"
+
+  !!int 0x1c:
+    id: 28
+    location: 0x303b9
+    original_header: 0xca58a08241327afdf7f401b2001b2b8a4e2e0c4e4e4e
+    original_name: "アピ-ニ*ゴ-ト<FF>"
+    translated_name: "APIN*<FF>"
+
+  !!int 0x1d:
+    id: 29
+    location: 0x303d8
+    original_header: 0x51480064320c304f3ca90029009c8000010305060746
+    original_name: "わにわに<FF>"
+    translated_name: "TODO0x1d<FF>"
+
+  !!int 0x1e:
+    id: 30
+    location: 0x303f3
+    original_header: 0xaebc01047c0e025f1dd80264019e0084061c17060617
+    original_name: "あにやんさそり<FF>"
+    translated_name: "TODO0x1e<FF>"
+
+  !!int 0x1f:
+    id: 31
+    location: 0x30411
+    original_header: 0x408c005a3b1394477c96800d039d828d090309010903
+    original_name: "たけやりパンダ<FF>"
+    translated_name: "TODO0x1f<FF>"
+
+  !!int 0x20:
+    id: 32
+    location: 0x3042f
+    original_header: 0x348000301a1082477c0d0006812085890107162a4849
+    original_name: "はいいろバットン<FF>"
+    translated_name: "TODO0x20<FF>"
+
+  !!int 0x21:
+    id: 33
+    location: 0x3044e
+    original_header: 0x102400140803125f7d820002009d0084010305280103
+    original_name: "ズルぎつね<FF>"
+    translated_name: "TODO0x21<FF>"
+
+  !!int 0x22:
+    id: 34
+    location: 0x3046a
+    original_header: 0xb6d00088261a36077c4b0016079d8d060f490f2b0f43
+    original_name: "ぎんこうごうとう<FF>"
+    translated_name: "TODO0x22<FF>"
+
+  !!int 0x23:
+    id: 35
+    location: 0x30489
+    original_header: 0xb9d83ca0622adb7ba5d80220040680892d312f483230
+    original_name: "まじないし<FF>"
+    translated_name: "TODO0x23<FF>"
+
+  !!int 0x24:
+    id: 36
+    location: 0x304a5
+    original_header: 0x306201a45e8a309f3c6c071400134008010601062627
+    original_name: "ちらのザウルス<FF>"
+    translated_name: "TODO0x24<FF>"
+
+  !!int 0x25:
+    id: 37
+    location: 0x304c3
+    original_header: 0x65e0009c3f160a7f7d9380ad011e8095190319011903
+    original_name: "ながしめラクダ<FF>"
+    translated_name: "TODO0x25<FF>"
+
+  !!int 0x26:
+    id: 38
+    location: 0x304e1
+    original_header: 0xa10201082c95105f3c6204df039c8000253e02430226
+    original_name: "ジジクサイ<FF>"
+    translated_name: "TODO0x26<FF>"
+
+  !!int 0x27:
+    id: 39
+    location: 0x304fd
+    original_header: 0x412c005a2d20a09f3f9e00190083008c0b020b070b01
+    original_name: "せんせいカバ<FF>"
+    translated_name: "TODO0x27<FF>"
+
+  !!int 0x28:
+    id: 40
+    location: 0x3051a
+    original_header: 0xc08a01649e2c125f7dee02e4038200ad18030d040e01
+    original_name: "あくやくタイガ-<FF>"
+    translated_name: "TODO0x28<FF>"
+
+  !!int 0x29:
+    id: 41
+    location: 0x30539
+    original_header: 0xc9b800dc3c3216c7fc2003100c158b89050705480505
+    original_name: "ハゲタカ<FF>"
+    translated_name: "TODO0x29<FF>"
+
+  !!int 0x2a:
+    id: 42
+    location: 0x30554
+    original_header: 0xb2e400a6282f329f3d9001bc009a0088012601051111
+    original_name: "はらぺこはいえな<FF>"
+    translated_name: "TODO0x2a<FF>"
+
+  !!int 0x2b:
+    id: 43
+    location: 0x30573
+    original_header: 0xba78010ca420865f7dea01b1009e82800c0c42440c0c
+    original_name: "じゅうどうぐま<FF>"
+    translated_name: "TODO0x2b<FF>"
+
+  !!int 0x2c:
+    id: 44
+    location: 0x30591
+    original_header: 0xaa0000b0b42af07f3fd502a0050b000021211f052001
+    original_name: "さまようトりガラ<FF>"
+    translated_name: "TODO0x2c<FF>"
+
+  !!int 0x2d:
+    id: 45
+    location: 0x305b0
+    original_header: 0x40dc0054261a96477c9b8005009a0120270127000505
+    original_name: "くろひょう<FF>"
+    translated_name: "TODO0x2d<FF>"
+
+  !!int 0x2e:
+    id: 46
+    location: 0x305cc
+    original_header: 0x9b2000f0502e364f3efa00a8019f8824010527010527
+    original_name: "ムキムキらいおん<FF>"
+    translated_name: "TODO0x2e<FF>"
+
+  !!int 0x2f:
+    id: 47
+    location: 0x305eb
+    original_header: 0xa370294ecd15206b6474018c809d028c430735431239
+    original_name: "ばっふあろう<FF>"
+    translated_name: "TODO0x2f<FF>"
+
+  !!int 0x30:
+    id: 48
+    location: 0x30608
+    original_header: 0xb5e0008c1920945f7db581be050e8104050527010105
+    original_name: "ジャッカル<FF>"
+    translated_name: "TODO0x30<FF>"
+
+  !!int 0x31:
+    id: 49
+    location: 0x30624
+    original_header: 0xca592d1478407aefb7a003740c0043030b321903240c
+    original_name: "アンカ-ルゴ-ト<FF>"
+    translated_name: "TODO0x31<FF>"
+
+  !!int 0x32:
+    id: 50
+    location: 0x30643
+    original_header: 0xcaa92d1478407aefb78403f40c0043030b321903240c
+    original_name: "アンカ-スゴ-ト<FF>"
+    translated_name: "TODO0x32<FF>"
+
+  !!int 0x33:
+    id: 51
+    location: 0x30662
+    original_header: 0xcb212d1478407aefb7e803f40c0043030b331903240c
+    original_name: "アピ-ニ*ゴ-ト<FF>"
+    translated_name: "TODO0x33<FF>"
+
+  !!int 0x34:
+    id: 52
+    location: 0x30681
+    original_header: 0x62d000a03c2414a7918200ad029e8100041004100404
+    original_name: "ボクサ-キりン<FF>"
+    translated_name: "TODO0x34<FF>"
+
+  !!int 0x35:
+    id: 53
+    location: 0x3069f
+    original_header: 0x51481c6820188e596dad000f020981053e01313d0031
+    original_name: "かぜのマントヒヒ<FF>"
+    translated_name: "TODO0x35<FF>"
+
+  !!int 0x36:
+    id: 54
+    location: 0x306be
+    original_header: 0xd0b23c96410e306daee40064038fa04d34081d131d2d
+    original_name: "へビおう<FF>"
+    translated_name: "TODO0x36<FF>"
+
+  !!int 0x37:
+    id: 55
+    location: 0x306d9
+    original_header: 0xdf9840a08217a42bae800119039f208607102e110426
+    original_name: "パルカ*ゴ-ト<FF>"
+    translated_name: "TODO0x37<FF>"
+
+  !!int 0x38:
+    id: 56
+    location: 0x306f7
+    original_header: 0x4d200c742613166b6dc6001081190009442d05003911
+    original_name: "おらウ-タン<FF>"
+    translated_name: "TODO0x38<FF>"
+
+  !!int 0x39:
+    id: 57
+    location: 0x30714
+    original_header: 0x656000823f0b02473c420016029e1a8c023e00054c3e
+    original_name: "かいりきゴりラ<FF>"
+    translated_name: "TODO0x39<FF>"
+
+  !!int 0x3a:
+    id: 58
+    location: 0x30732
+    original_header: 0x22f8010e04aaa05f7c580217001401001f0520052105
+    original_name: "つばさりゅう<FF>"
+    translated_name: "TODO0x3a<FF>"
+
+  !!int 0x3b:
+    id: 59
+    location: 0x3074f
+    original_header: 0x2bfa0168e08334bf1c200f8401164004440725064646
+    original_name: "せびれりゅう<FF>"
+    translated_name: "TODO0x3b<FF>"
+
+  !!int 0x3c:
+    id: 60
+    location: 0x3076c
+    original_header: 0x3da20154a48cb2871c5c058c009b0000072612120707
+    original_name: "トりケラトプス<FF>"
+    translated_name: "TODO0x3c<FF>"
+
+  !!int 0x3d:
+    id: 61
+    location: 0x3078a
+    original_header: 0xd8b201046214204f1c5600a9039db8850a1106010526
+    original_name: "かまわに*ゴ-ト<FF>"
+    translated_name: "TODO0x3d<FF>"
+
+  !!int 0x3e:
+    id: 62
+    location: 0x307a9
+    original_header: 0xe8faa10e40a75b7fffe20496068ba11304272f363432
+    original_name: "せいなるライオン<FF>"
+    translated_name: "TODO0x3e<FF>"
+
+  !!int 0x3f:
+    id: 63
+    location: 0x307c8
+    original_header: 0xe3e618c46624b45d0e6803f3000008a72634250e2505
+    original_name: "パンパ*ゴ-ト<FF>"
+    translated_name: "TODO0x3f<FF>"
+
+  !!int 0x40:
+    id: 64
+    location: 0x307e6
+    original_header: 0xe6ba3d7818b1146b76e402bd0c00451a3b0a0105050a
+    original_name: "クイ-ル*ゴ-ト<FF>"
+    translated_name: "TODO0x40<FF>"
+
+  !!int 0x41:
+    id: 65
+    location: 0x30805
+    original_header: 0xd0af6990a03b4936b27017782800429b38340504333b
+    original_name: "カ-マックゴ-ト<FF>"
+    translated_name: "TODO0x41<FF>"
+
+  !!int 0x42:
+    id: 66
+    location: 0x30824
+    original_header: 0xffd3e19040b756ffff800000000063931e3022330310
+    original_name: "カ-マックゴ-ト<FF>"
+    translated_name: "TODO0x42<FF>"
