@@ -391,6 +391,7 @@ overlay:
     dim_y: 0x07
     location: 0x33c93
     original_header: 0x070798481868
+    force_header: 0x070798481868
     original_text: " はなす<FE><FE> しらべる<FE> コマンド<FF>"
     pos_x: 24
     pos_y: -384

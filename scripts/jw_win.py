@@ -17,6 +17,9 @@ import yaml
 from docopt import docopt
 from translation_table import TranslationTable
 
+# Example invocation
+# python jw_win.py extract roms\jw_original.gb 0x333fb 0x33499 ..\tbl\jw-py.tbl jw_wins.yaml
+
 # Example YAML :
 # 
 # windows:
@@ -134,6 +137,7 @@ def extract_windows(rom_file, start_offset, end_offset, table):
     win_id = 0
     for pointer in pointers:
         location = (0x0C - 1) * 0x4000 + pointer
+        rom_file.seek(location)
         header = rom_file.read(6)
 
         text = bytearray()

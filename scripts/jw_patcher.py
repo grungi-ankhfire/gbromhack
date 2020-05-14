@@ -114,6 +114,17 @@ def insert_windows_code(rom_file):
     rom_file.write(b'\x0c')
 
 
+def insert_windows_moved_routine(rom_file):
+
+    # Change bank
+    rom_file.seek(0x142f)
+    rom_file.write(b'\x1f')
+
+    # Change routine adress
+    rom_file.seek(0x1432)
+    rom_file.write(b'\x00\x47')
+
+
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
@@ -151,6 +162,7 @@ if __name__ == '__main__':
 
         rom = open(arguments["<romfile>"], 'rb+')
         insert_windows_code(rom)
+        insert_windows_moved_routine(rom)
         rom.close()
 
     elif arguments['apply_enemies']:

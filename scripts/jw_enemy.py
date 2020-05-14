@@ -72,6 +72,7 @@ def extract_ennemies(rom_file, start_offset, end_offset, table):
     enemy_id = 0
     for pointer in pointers:
         location = (0x0C - 1) * 0x4000 + pointer
+        rom_file.seek(location)
         header = rom_file.read(22)
 
         text = bytearray()

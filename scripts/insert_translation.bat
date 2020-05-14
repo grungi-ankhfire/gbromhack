@@ -6,16 +6,19 @@ cp roms/jw_original.gb roms/jw_patched.gb
 echo Patching in font...
 python jw_patcher.py apply --font patches/font.patch roms/jw_patched.gb
 
-echo Patching in code [1/4]
+echo Patching in code [1/5]
 python jw_patcher.py apply patches/extension_jump.patch roms/jw_patched.gb 0x0BAD
 
-echo Patching in code [2/4]
+echo Patching in code [2/5]
 python jw_patcher.py apply patches/extension_new_code.patch roms/jw_patched.gb 0x40000
 
-echo Patching in code [3/4]
+echo Patching in code [3/5]
+python jw_patcher.py apply patches/win_moved_code.patch roms/jw_patched.gb 0x7C700
+
+echo Patching in code [4/5]
 python jw_patcher.py apply_windows roms/jw_patched.gb
 
-echo Patching in code [4/4]
+echo Patching in code [5/5]
 python jw_patcher.py apply_enemies roms/jw_patched.gb
 
 
