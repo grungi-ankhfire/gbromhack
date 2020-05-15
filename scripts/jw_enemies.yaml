@@ -5,28 +5,28 @@ enemies:
     location: 0x30086
     original_header: 0x1c30001c0804925f7d83000200000804010101011511
     original_name: "きょうあくモグラ<FF>"
-    translated_name: "TODO0x00<FF>"
+    translated_name: "Bad mole<FF>"
 
   !!int 0x01:
     id: 1
     location: 0x300a5
     original_header: 0x1c3c001e0605905f7d830001821e0004060606160606
     original_name: "どくどくトカゲ<FF>"
-    translated_name: "TODO0x01<FF>"
+    translated_name: "Psn Lizrd<FF>"
 
   !!int 0x02:
     id: 2
     location: 0x300c3
     original_header: 0x0428000e0502925f7d800000000000003c3c3c3c3c3c
     original_name: "サスケ<FF>"
-    translated_name: "SAS<FF>"
+    translated_name: "Sasuke<FF>"
 
   !!int 0x03:
     id: 3
     location: 0x300dd
     original_header: 0xc14000aa3c20b61f7de4007a071d80890f030f034840
     original_name: "ハンタ-<FF>"
-    translated_name: "Hunt<FF>"
+    translated_name: "Hunter<FF>"
 
   !!int 0x04:
     id: 4
@@ -194,14 +194,14 @@ enemies:
     location: 0x3039a
     original_header: 0xc25800421408b65f3d8a003200000105000315011611
     original_name: "アラ-ニ*ゴ-ト<FF>"
-    translated_name: "TODO*x1b<FF>"
+    translated_name: "TODO0x1b<FF>"
 
   !!int 0x1c:
     id: 28
     location: 0x303b9
     original_header: 0xca58a08241327afdf7f401b2001b2b8a4e2e0c4e4e4e
     original_name: "アピ-ニ*ゴ-ト<FF>"
-    translated_name: "APIN*<FF>"
+    translated_name: "Apini Gt<FF>"
 
   !!int 0x1d:
     id: 29

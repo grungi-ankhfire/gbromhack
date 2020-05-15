@@ -26,6 +26,8 @@ from docopt import docopt
 FONT_AREA_START = 0x1EDAD
 FONT_AREA_END = 0x1F254
 
+# python jw_patcher.py create roms\jw_patched.gb 0x1EF0B 0x1EFC5 patches\overworld_font.patch
+
 
 def create_patch(rom_file, output_path, start, end):
     output_file = open(output_path, 'wb')
@@ -96,23 +98,6 @@ def insert_windows_code(rom_file):
     rom_file.seek(0x4000 * 0x6 + 0x270F)
     rom_file.write(b'\x48')
 
-    # Change clearing geometry (?)
-    # ID 0x12
-    rom_file.seek(0x4000 * 0xc + 0x3713)
-    rom_file.write(b'\x09')
-    rom_file.seek(0x4000 * 0xc + 0x3715)
-    rom_file.write(b'\x08')
-
-    # ID 0x1A
-    rom_file.seek(0x338DE)
-    rom_file.write(b'\x0a')
-    rom_file.seek(0x338E0)
-    rom_file.write(b'\xcf')
-
-    # ID 0x2A
-    rom_file.seek(0x4000 * 0xc + 0x3ADE)
-    rom_file.write(b'\x0c')
-
 
 def insert_windows_moved_routine(rom_file):
 
@@ -123,6 +108,22 @@ def insert_windows_moved_routine(rom_file):
     # Change routine adress
     rom_file.seek(0x1432)
     rom_file.write(b'\x00\x47')
+
+
+def insert_enemy_name_loading_redirection_code(rom_file):
+    rom_file.seek(0x0f95)
+    rom_file.write(b'\xC3\x00\x41')         # jp $4100
+    rom_file.write(b'\x3E\x0C')             # ld a, $0C
+    rom_file.write(b'\xC7')                 # rst $00
+    rom_file.write(b'\x00\x00\x00')         # nop; nop; nop;
+
+    rom_file.seek(0x1F * 0x4000 + 0x100)
+    rom_file.write(b'\xFA\x9B\xC5')         # ld a, [$c59b]
+    rom_file.write(b'\x3C')                 # inc a
+    rom_file.write(b'\xEA\x9B\xC5')         # ld [$c59b], a
+    rom_file.write(b'\x7E')                 # ld a, [hl]
+    rom_file.write(b'\x5F')                 # ld e, a
+    rom_file.write(b'\xC3\x98\x0F')         # jp $0f98
 
 
 if __name__ == '__main__':
@@ -167,5 +168,5 @@ if __name__ == '__main__':
 
     elif arguments['apply_enemies']:
         rom = open(arguments["<romfile>"], 'rb+')
-        insert_enemies_code(rom)
+        insert_enemy_name_loading_redirection_code(rom)
         rom.close()

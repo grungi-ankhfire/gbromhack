@@ -10,10 +10,11 @@
 
 class TranslationTable(object):
 
-    table = {}
-    inverse_table = {}
 
     def __init__(self, filename):
+        self.table = {}
+        self.inverse_table = {}
+
         f = open(filename, 'r', encoding="utf8")
         for line in f:
             tokens = line.split('=')

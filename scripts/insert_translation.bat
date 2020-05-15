@@ -3,8 +3,11 @@
 echo Copying original ROM before patching...
 cp roms/jw_original.gb roms/jw_patched.gb
 
-echo Patching in font...
-python jw_patcher.py apply --font patches/font.patch roms/jw_patched.gb
+rem echo Patching in font...
+rem python jw_patcher.py apply --font patches/font.patch roms/jw_patched.gb
+
+echo Patching in overworld font...
+python jw_patcher.py apply patches/overworld_font.patch roms/jw_patched.gb 0x1EDAD
 
 echo Patching in code [1/5]
 python jw_patcher.py apply patches/extension_jump.patch roms/jw_patched.gb 0x0BAD
@@ -30,8 +33,6 @@ python jw_translation.py insert --no-backup roms/jw_patched.gb jw_translation.ya
 
 echo Inserting enemy translation...
 python jw_translation.py insert_enemies --no-backup roms/jw_patched.gb jw_enemies.yaml ..\tbl\jw-py-en.tbl 
-
-
 
 
 echo All done!
