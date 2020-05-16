@@ -678,27 +678,27 @@ script:
   !!int 0x06870:
     original: "「まえに かわで<FE> てがみを ひろったんじゃ.<FD>「もうすてて しもうたし<FE> なかみも わすれて しもうた.<FD> わしも ボケてしもうたのう***<FD>「***<FD> ***<FD>「おおっ!! <FE> とつぜん おもいだしたぞっ!!<FD>  ボーイよ.とかいへ むかえ.<FD>  わたしは とかいへ<FE>  つれて いかれてるようだ.<FD> じゃった. <FD>「でも さしだしにんの なまえは<FE> やっぱり わすれて しもうたのう.<FF>"
     pointer_location: 0
-    translation: "I picked up a letter, washed up on the shore. But I threw it away and kind of forgot its content. Perhaps I’m starting to go senile. Hmmm… Oh, I remember now! ‘ Boy! Head to the city! They seem to be taking me there ’. I was that. But I forgot the sender’s name."
+    translation: "I picked up a letter, washed up on the shore. But I threw it away and kind of forgot its content. Perhaps I'm starting to go senile. Hmmm… Oh, I remember now! ' Boy! Head to the city! They seem to be taking me there '. I was that. But I forgot the sender's name."
 
   !!int 0x06934:
     original: "「え? いもうとの きょんに<FE> あったんですか?<FD> しんぱいしていた? そうですか.<FD>「どくのぬまちの なかに<FE> すごい ゆびわが あるときいて<FD> いって みちゃったんですよ.<FD>「きょんへの<FE> おみやげに しようとおもってね.<FD> そしたら このありさまです.<FF>"
     pointer_location: 0
-    translation: "What? You met my little sister, Kyon? She’s worried about me? I see… I heard there was a fabulous ring in the poison swamp, so I wanted to give it to her as a gift. And this is the result."
+    translation: "What? You met my little sister, Kyon? She's worried about me? I see… I heard there was a fabulous ring in the poison swamp, so I wanted to give it to her as a gift. And this is the result."
 
   !!int 0x069b6:
     original: "「あれ? あんたたち みないかおね.<FE> どこから きたの?<FD>「あ でも それよりさあ<FE> ひどいと おもわない?<FD>「この おおあめの おかげで<FE> わたしのところの おうちと<FD> へビつかいの マルコじいのうちが<FE> みずのなかに つかってしまったの.<FD>「うちには びょうきの おかあさんが<FE> ねてるって いうのにさあ<FD> もう たいへんなのよ.<FD>「でも もっと ひどいのが<FE> マルコじいさんの ところなの.<FD>「カンペキに みずにつかっちゃって<FD> だれも おうちに<FE> いけなく なっちゃったのよ.<FD>「じいさんは ながいあめで<FE> つうふうが わるくなっちゃって<FD> ねこんで いたのよね.<FD>「くすりも もって いけないし<FE> しょくりょうだって<FD> そろそろ なくなるころだって<FE> いうのにさあ.<FF>"
     pointer_location: 0x0df07
-    translation: "Ah? I’ve never seen you before. Where are you from? Well, can you believe how terrible things are? Because of the heavy rain, both my mother’s house and the old snake charmer Marco’s are flooded. Mom is sick and was resting at home. But old Marco has it worse. His place’s completely flooded, so no one can access. He suffers from gout, so he’s bed-ridden as well. We can’t bring him medicine and we’re also running out of food."
+    translation: "Ah? I've never seen you before. Where are you from? Well, can you believe how terrible things are? Because of the heavy rain, both my mother's house and the old snake charmer Marco's are flooded. Mom is sick and was resting at home. But old Marco has it worse. His place's completely flooded, so no one can access. He suffers from gout, so he's bed-ridden as well. We can't bring him medicine and we're also running out of food."
 
   !!int 0x06b0a:
     original: "ミオ<FE>「ちょっとーっ!!<FD> きぜつしてる おサルさんを<FE> おへやに いれないでよーっ!!<FD>「むらには<FE> びょういんが あるんだから<FD> ちゃんと なおしてから きてよね.<FF>"
     pointer_location: 0x0def7
-    translation: "Mio<br>「Hey! Don’t let that beast enter my room! There’s a hospital in the village where they can be attended appropriately."
+    translation: "Mio<br>「Hey! Don't let that beast enter my room! There's a hospital in the village where they can be attended appropriately."
 
   !!int 0x06b5f:
     original: "「えー!? マルコじいさんに<FE> しょくりょうと くすりを<FD> とどけて きたのー!?<FD>「すごいじゃん!! どうやったの?<FD> ロープで きから きへ<FE> わたって いった?<FD>「あんた ジャングルパパみたいな<FE> ことすんのね.<FD>「ジャングルパパ? しってるわよ.<FD> いつも おかあさんに<FE> はなしを きいてるもの.<FD>「わたしの おばあさんは<FE> ジャングルパパの すんでいるむらの<FD> すぐちかくに すんでいるのよ.<FD>「うらないオババってきいたことない?<FF>"
     pointer_location: 0x0df13
-    translation: "Eh? You’ve brought food and medicine to grampa Marco? Awesome! How did you do it? Using a rope between the trees? You resemble a lot of Jungle Papa. Yes, I know about him. My mom talks about him a lot. My grandma lives next to Jungle Papa’s village. Have you ever heard about the old fortune teller?"
+    translation: "Eh? You've brought food and medicine to grampa Marco? Awesome! How did you do it? Using a rope between the trees? You resemble a lot of Jungle Papa. Yes, I know about him. My mom talks about him a lot. My grandma lives next to Jungle Papa's village. Have you ever heard about the old fortune teller?"
 
   !!int 0x06c3d:
     original: "サスケ<FE>「そしたら このひとが<FD> アニキが いつもいってた<FE> ミオさんですか?<FF>"
@@ -708,7 +708,7 @@ script:
   !!int 0x06c65:
     original: "ミオ<FE>「え? そう わたしが<FD> ここらでは ゆうめいな びじんの<FE> ミオだけど***<FD> なぜ わたしのことを しってんの?<FD>「えー!?<FE> あんたが ジャングルボーイなの!?<FD> まーだ こどもじゃなーい!!<FD>「うーん***かんがえちゃうわね.<FD>「まあ いいわ.<FE>「ジャングルボーイ <character>くん.<FD> わたしを とかいに つれてって.<FD>「おばあちゃんが ジャングルボーイに<FD> とかいまで つれてってもらえって<FE> わたしに いったのよ.<FD>「わたしは とおくでも<FE> おばあちゃんと はなしができるの.<FD>「あんたたちも とかいへ<FE> いきたいんでしょう?<FD>「わたしも とかいで<FE> おとうさんを さがしたいの.<FD>「とかいまで つれてってよ.<FC>"
     pointer_location: 0x0df1f
-    translation: "Mio<br>「Yes, I’m the famous, beautiful Mio, but… how come you know about me? What!? You’re Jungle Boy? But you’re still a child! I’d have thought… Well, doesn’t matter. <character>. Let me go with you to the city. Grandma said you’re heading there. Yes, I can speak with her from a long distance. I’m looking for my lost father. Let’s go together!"
+    translation: "Mio<br>「Yes, I'm the famous, beautiful Mio, but… how come you know about me? What!? You're Jungle Boy? But you're still a child! I'd have thought… Well, doesn't matter. <character>. Let me go with you to the city. Grandma said you're heading there. Yes, I can speak with her from a long distance. I'm looking for my lost father. Let's go together!"
 
   !!int 0x06e4c:
     original: "ミオが なかまになった!!<FF>"
@@ -718,7 +718,7 @@ script:
   !!int 0x06e5a:
     original: "ミオ<FE>「おかあさんの おせわは<FD> もう びょういんの ひとに<FE> たのんで あるの.<FD>「さあ へビおうを<FE> やっつけに いくわよ!!<FF>"
     pointer_location: 0x0df42
-    translation: "Mio<br>「I asked the hospital staff to take care of my mother. So, let’s go defeat that Snake King!"
+    translation: "Mio<br>「I asked the hospital staff to take care of my mother. So, let's go defeat that Snake King!"
 
   !!int 0x06e9c:
     original: "「うーん*** うーん***<FE>「あなた*** あなた***<FF>"
@@ -733,7 +733,7 @@ script:
   !!int 0x06f37:
     original: "「はしが ながされてるから<FE> アスランがわの むこうぎしには<FD> いけないんだよ.<FD>「どこかで ロープを てにいれて<FE> ジャングルパパや サルのように<FD> ロープを つたって<FE> わたるしかないな.<FD>「そういえば このむらにも<FE> ながいロープが あったはずなのに<FD> どこへ いっちゃったんだろう?<FD> ちゃんと はこのなかに<FE> はいっていた はずなんだけどなあ.<FF>"
     pointer_location: 0
-    translation: "With the bridge destroyed, there’s no way to cross the Aslan river. With a rope, you could cross it jumping from tree to tree like the monkeys do. Now that we mention it, in this village there was a rope long enough. But where was it? Perhaps inside a box?"
+    translation: "With the bridge destroyed, there's no way to cross the Aslan river. With a rope, you could cross it jumping from tree to tree like the monkeys do. Now that we mention it, in this village there was a rope long enough. But where was it? Perhaps inside a box?"
 
   !!int 0x06fe9:
     original: "マルコじい<FE>「おや だれじゃな?<FD> みずは ひいたのか?<FD>「なに? みずの うえを こえて<FE> ここまで きてくれたのか.<FD>「いやー たすかったよ.<FF>"
@@ -743,17 +743,17 @@ script:
   !!int 0x07033:
     original: "マルコじい<FE>「たすかったよ.<FD> おまえさんは<FE> ジャングルボーイじゃな.<FD> パパに よう にとるのう.<FD>「わしは ジャングルパパに<FD> へビつかいの わざを<FE> おしえたことが あるんじゃ.<FD>「おまえさんにも へビつかいのわざを<FE> おしえてやろう.<FD>「なーに むずかしくはないぞ.<FD> この へビつかいのふえを<FE> もっていきさえすれば いいのじゃ.<FD>「このふえは ねるのふえ.<FD> このふえを つかうと<FE> たいていのへビは ねてしまう.<FD>「ほかにも おどるのふえや<FE> まきつくのふえが あるが<FD> あんまりいみは ないじゃろ.<FD>「この ねるのふえが こわくて<FE> へビどもは このマルコのいえを<FD> みずのなかに とじこめて<FE> しまったのじゃよ.<FF>"
     pointer_location: 0x0e00f
-    translation: ""Old Marco<br>「I’m saved! You’re Jungle Boy, don’t you? I'll teach you like I did your father. Long ago, I taught your father how to be a snake charmer. I’ll teach you too. It’s not that hard, really! You only need a flute like this. This is a Sleeping Flute. Most snakes will fall asleep if you use it on them. There are other flutes, but not as powerful as this one. The snakes fear it so much that they tried to sink my house."
+    translation: "Old Marco<br>「I'm saved! You're Jungle Boy, don't you? I'll teach you like I did your father. Long ago, I taught your father how to be a snake charmer. I'll teach you too. It's not that hard, really! You only need a flute like this. This is a Sleeping Flute. Most snakes will fall asleep if you use it on them. There are other flutes, but not as powerful as this one. The snakes fear it so much that they tried to sink my house."
 
   !!int 0x07170:
     original: "マルコじい<FE>「うーん はらがへった.<FD> なにか くえるものかなんか<FE> もっとらんかね?<FF>"
     pointer_location: 0x0dff4
-    translation: "Old Marco<br>「Ooooh, I’m hungry. Have some food you could spare?"
+    translation: "Old Marco<br>「Ooooh, I'm hungry. Have some food you could spare?"
 
   !!int 0x0719c:
     original: "マルコじい<FE>「へびつかいのふえで<FD> へビおうを やっつけて きてくれ.<FD>「そしたら このむらの みずも<FE> ひくだろうと おもうのじゃ.<FF>"
     pointer_location: 0
-    translation: "Old Marco<br>「With the Sleeping Flute you’ll be able to defeat the Snake King. After that, this village flooding won’t last long."
+    translation: "Old Marco<br>「With the Sleeping Flute you'll be able to defeat the Snake King. After that, this village flooding won't last long."
 
   !!int 0x071e0:
     original: "マルコじい<FE>「ありがとう.みずが ひいたので<FD> わしの つうふうも<FE> よくなったような きがするよ.<FF>"
@@ -773,12 +773,12 @@ script:
   !!int 0x072cf:
     original: "「え!? きみが じいさんに<FD> くすりと しょくりょうを<FE> とどけるって? むりだよ! むり!<FF>"
     pointer_location: 0x0e752
-    translation: "What!? You’re bringing food and medicine to the old man? That’s impossible!"
+    translation: "What!? You're bringing food and medicine to the old man? That's impossible!"
 
   !!int 0x072ff:
     original: "「**まあ どうしてもって いうなら<FE> やってみるだけ やってみな.<FD>「ロープが あるんだったら<FD> きと きの あいだを<FE> わたしてみるのが いいかな.<FD>「てごろな きの ところで<FE> ロープを つかって ごらん.<FF>"
     pointer_location: 0x0e75d
-    translation: "Well, if you’re sure about it, just try it. If you had a rope, you could cross going from tree to tree. You just have to use it in front of the trees."
+    translation: "Well, if you're sure about it, just try it. If you had a rope, you could cross going from tree to tree. You just have to use it in front of the trees."
 
   !!int 0x0736a:
     original: "<character>は<FE>くすりと しょくりょうの はいった<FD>ナップサックを もらった.<FF>"
@@ -788,27 +788,27 @@ script:
   !!int 0x0738d:
     original: "「みずを こえて いこうっていうのに<FD> そんなに にもつを もってちゃ<FE> きけんだよ.<FD>「あずかりしょに あずけてから<FE> またきておくれ.<FF>"
     pointer_location: 0x0e779
-    translation: "It’s dangerous to cross the waters carrying so many things! Leave them here and come back for them later."
+    translation: "It's dangerous to cross the waters carrying so many things! Leave them here and come back for them later."
 
   !!int 0x073d3:
     original: "「へー とどけて きたのかい?<FE> やるもんだねー.<FF>"
     pointer_location: 0x0e788
-    translation: "Oh, you managed to deliver them? I’m impressed."
+    translation: "Oh, you managed to deliver them? I'm impressed."
 
   !!int 0x073ed:
     original: "「へビおうは ジャングルの<FE> みずうみに ちかいところに<FD> すんでいるそうよ.<FD>「しかも ちかの くらーいところに.<FD>「おお いやだ.<FE> わたし へビって だいきらい!!<FF>"
     pointer_location: 0
-    translation: "The Snake King seems to live in a place near the lake. It’s quite an eerie place. Oh, how I hate that damn snake!"
+    translation: "The Snake King seems to live in a place near the lake. It's quite an eerie place. Oh, how I hate that damn snake!"
 
   !!int 0x07443:
     original: "「へビおうは こころをいれかえたの?<FD>「だったら すこしは すきに<FE> なって あげても いいけどさー.<FF>"
     pointer_location: 0
-    translation: "Did the Snake King change his ways? Then perhaps I’ll also change my mind about him, too..."
+    translation: "Did the Snake King change his ways? Then perhaps I'll also change my mind about him, too..."
 
   !!int 0x07477:
     original: "「へビおうは まあへビだけど<FD> そんなに わるいやつじゃ<FE> なかったんだよ.<FD>「あいつ おいのりで<FE> あめを ふらせることが できたんで<FD> ずいぶん みんなを<FE> たすけて きたんだ.<FD>「でも あいつ ゴートだんに<FE> はいった らしいんだよな.<FF>"
     pointer_location: 0
-    translation: "The Snake King wasn’t that bad as a person, after all. He could make the rain fall with his praying, and in the past that helped a lot of people. But it seems he ended up joining that Goat Gang."
+    translation: "The Snake King wasn't that bad as a person, after all. He could make the rain fall with his praying, and in the past that helped a lot of people. But it seems he ended up joining that Goat Gang."
 
   !!int 0x074f1:
     original: "「そうか! へビおうは<FE> ゴートだんを やめたのか!!<FD>「じゃ こんど いっしょに<FE> へビおどりでも やるかな.<FF>"
@@ -823,32 +823,32 @@ script:
   !!int 0x07562:
     original: "「ミオくん.<FE> おかあさんを なおすには<FD> おとうさんの ちからを かりるしか<FE> ほうほうが ないようじゃな.<FD>「るすのあいだ おかあさんの ことは<FE> わしが せきにんを もつよ.<FD>「あんしんして おとうさんを<FE> さがして きてくれよ.<FF>"
     pointer_location: 0x0e79a
-    translation: "Mio. It seems the only way to help your mother is with your father’s help. I’ll stay here and take care of her. So don’t worry, go look for him."
+    translation: "Mio. It seems the only way to help your mother is with your father's help. I'll stay here and take care of her. So don't worry, go look for him."
 
   !!int 0x075d9:
     original: "へビおう<FE>「あめよふれー! あめよふれー!<FD>「はしもながれた.せんろもながれた.<FE> マルコじじいも みずの なかだ.<FD>「あとすこしで みんな おぼれるぞ.<FE> ひっひっひっひ.<FD>「あめよふれー! あめよふれー!<FF>"
     pointer_location: 0x0ee85
-    translation: "Snake King<br>「Rain, fall! I command you! Destroy the bridge! Flood the railroad! Even Marco’s house! Soon, everyone will drown! Rain, fall!"
+    translation: "Snake King<br>「Rain, fall! I command you! Destroy the bridge! Flood the railroad! Even Marco's house! Soon, everyone will drown! Rain, fall!"
 
   !!int 0x07642:
     original: "ミオ<FE>「ちょっと! そうは させないわよ!<FF>"
     pointer_location: 0x0ee91
-    translation: "Mio<br>「STOP! We won’t let you do this!"
+    translation: "Mio<br>「STOP! We won't let you do this!"
 
   !!int 0x07658:
     original: "へビおう<FE>「ぎょっ! おまえらは なにもんだ?<FD> じゃまするな! でていけっ!!<FF>"
     pointer_location: 0x0ee99
-    translation: "Snake King<br>「Uh!? Who are you people? Don’t interfere! Leave!!"
+    translation: "Snake King<br>「Uh!? Who are you people? Don't interfere! Leave!!"
 
   !!int 0x07681:
     original: "へビおう<FE>「すみません.ゆるしてください.<FD>「あんまり マルコじじいが<FE> へビのふえで からかうもんだから<FD> つい にくったらしくなって<FD> アピーニ*ゴートの わるだくみに<FE> のって しまいました.<FD>「むらの みずも<FE> ひかせるように します.<FD>「もう こんなことは しませんので<FE> いのちばかりは おたすけを***.<FF>"
     pointer_location: 0x0f252
-    translation: "Snake King<br>「I’m sorry! Please forgive me! I felt threatened by the old Marco’s Sleep Flute and fell for the lies of Apini Goat. I’ll repair the damage caused to the village. So please, spare my life!"
+    translation: "Snake King<br>「I'm sorry! Please forgive me! I felt threatened by the old Marco's Sleep Flute and fell for the lies of Apini Goat. I'll repair the damage caused to the village. So please, spare my life!"
 
   !!int 0x07721:
     original: "へビおう<FE>「あっ! <character>さん!<FD>「いまは わたしも<FD> みずうみのむらの ひとたちと<FE> うまく やってます.<FD>「マルコじいさんの つうふうも<FE> だいぶいいようですよ.<FF>"
     pointer_location: 0x0ee9f
-    translation: "Snake King<br>「Ah, <character>! I’m getting along with the villagers here! Old Marco’s condition seems to be improving, too."
+    translation: "Snake King<br>「Ah, <character>! I'm getting along with the villagers here! Old Marco's condition seems to be improving, too."
 
   !!int 0x07773:
     original: "ヒフムヒスAナカ<FF>"
@@ -1008,12 +1008,12 @@ script:
   !!int 0x20128:
     original: "もう ここは さがしたよ.<FF>"
     pointer_location: 0x022e0
-    translation: "You’ve already checked this spot."
+    translation: "You've already checked this spot."
 
   !!int 0x20136:
     original: "ここには きのみが おちていないよ.<FF>"
     pointer_location: 0x022db
-    translation: "Didn’t find any fruit here."
+    translation: "Didn't find any fruit here."
 
   !!int 0x20149:
     original: "じゅもんを つかえるひとが<FE>だれも いない.<FF>"
@@ -1028,7 +1028,7 @@ script:
   !!int 0x2016e:
     original: "サスケは まだ<FE>きのみを もってない.<FF>"
     pointer_location: 0
-    translation: "Sasuke doesn’t have any fruit yet."
+    translation: "Sasuke doesn't have any fruit yet."
 
   !!int 0x20182:
     original: "<character>は マルコじいに<FE><item>を わたした.<FF>"
@@ -1098,12 +1098,12 @@ script:
   !!int 0x2024f:
     original: "<var1>は <item>を<FE>そうびできない!<FF>"
     pointer_location: 0x02539
-    translation: "<var1> can’t wear <item>!"
+    translation: "<var1> can't wear <item>!"
 
   !!int 0x2025e:
     original: "「きが つきましたか?<FD> きみは この そとに<FE> たおれて いたのです.<FD>「だれが つれてきたのかって?<FE> それは わたしには わかりません.<FF>"
     pointer_location: 0x1bdbc
-    translation: "Have you recovered? I found you unconscious outside. Who brought you here? That, I don’t know."
+    translation: "Have you recovered? I found you unconscious outside. Who brought you here? That, I don't know."
 
   !!int 0x202a6:
     original: "「あ それから ちりょうひは<FE> いただいときましたよ.<FF>"
@@ -1118,7 +1118,7 @@ script:
   !!int 0x202db:
     original: "<character>は とびらを しらべた.<FD>とびらには のろいが かかっていて<FE>ひらかない!!<FF>"
     pointer_location: 0x0e99d
-    translation: "<character> checked the door. It is sealed by a curse and won’t open!"
+    translation: "<character> checked the door. It is sealed by a curse and won't open!"
 
   !!int 0x20303:
     original: "<var1>は <item>の<FE>そうびを はずした!<FF>"
@@ -1168,7 +1168,7 @@ script:
   !!int 0x20386:
     original: "たいまつは まだ もえている.<FF>"
     pointer_location: 0x16847
-    translation: "The torch’s still lit."
+    translation: "The torch's still lit."
 
   !!int 0x20396:
     original: "<var1>は<FE><item>を ふいた.<FF>"
@@ -1268,7 +1268,7 @@ script:
   !!int 0x204e3:
     original: "<character>は てがみを よんだ.<FE>「あいする ボーイ.<FD> おまえが このてがみを よむときは<FE> わたしの みに なにかが<FD> おこった ときだろう.<FD> だが この きけんな ジャングルで<FE> へいわを まもりつづけるには<FD> そのくらいの ことには くじけない<FE> ゆうかんな こころが ひつようだ.<FD> おまえは わたしの むすこ<FD> ジャングルパパの むすこ<FD> ジャングルボーイだ!!<FD> おまえは ジャングルのへいわのため<FE> たたかいつづけねば ならない.<FD> くるしく つらい たたかいだろうが<FE> ボーイ!<FD> あとのことは たのんだぞ!!<FF>"
     pointer_location: 0x16acc
-    translation: "<character> read the letter<br>「Dear Boy. If you’re reading this, it will mean something bad has happened to me. To keep protecting this ruthless jungle, you’ll need a strong heart that isn’t crushed by adversity. You’re my son, Jungle Papa’s son, no less! You must continue fighting to keep peace in the jungle, at any cost. I leave it to you, my son!"
+    translation: "<character> read the letter<br>「Dear Boy. If you're reading this, it will mean something bad has happened to me. To keep protecting this ruthless jungle, you'll need a strong heart that isn't crushed by adversity. You're my son, Jungle Papa's son, no less! You must continue fighting to keep peace in the jungle, at any cost. I leave it to you, my son!"
 
   !!int 0x205e9:
     original: "<character>たちは<FE>いずみのみずをのんだ.<FD>うほうほ! げんきになった!<FF>"
@@ -1283,7 +1283,7 @@ script:
   !!int 0x20627:
     original: "<character>たちは<FE>いわを うごかそうとした.<FD>しかし ふたりでは うごかない!<FF>"
     pointer_location: 0x0eb79
-    translation: "<character>’s party try to move the boulder. However, it’s too heavy for them alone to move!"
+    translation: "<character>’s party try to move the boulder. However, it's too heavy for them alone to move!"
 
   !!int 0x2064b:
     original: "ロープが かかっています.<FE>わたりますか?<FC>"
@@ -1303,7 +1303,7 @@ script:
   !!int 0x206ec:
     original: "<character>は パパのメモを よんだ.<FD>「ゴートだんの ほんきょちは<FD> とかいの ちかくの しま<FE> サークラルとうに ある.<FD> わたしは いま<FE> そこに つれて いかれるようだ.<FD> ボーイ!<FD> サークラルとうに いくみちを<FE> みつけだしてくれ.<FF>"
     pointer_location: 0x16ad8
-    translation: "<character> read Papa’s note<br>「The Goat Gang’s headquarters is in Sacral, an island just near the city. I’m being taken there right now. Boy! You must find your way to Sacral island!"
+    translation: "<character> read Papa's note<br>「The Goat Gang's headquarters is in Sacral, an island just near the city. I'm being taken there right now. Boy! You must find your way to Sacral island!"
 
   !!int 0x20762:
     original: "<var1>は ラッパをふいた.<FF>"
@@ -1323,7 +1323,7 @@ script:
   !!int 0x207ae:
     original: "<character>は てがみを よんだ.<FD>「*?!/***.*!!./?<FE> ****!?PP..<FD><character>には よめなかった!<FF>"
     pointer_location: 0x16aee
-    translation: "<character> read the letter<br>「*?!/***.*!!./? ****!?PP..<br><character> couldn’t read it!"
+    translation: "<character> read the letter<br>「*?!/***.*!!./? ****!?PP..<br><character> couldn't read it!"
 
   !!int 0x207e3:
     original: "<character>は こもんじょを よんだ.<FE><FD> かみの ぞうの ならわしは<FE> すべてが ひだりから はじまる.<FD> まえは 2ひきの トラ<FE> すなわち 2つめの かみの ぞう.<FD> うしろは 5ひきの おおかみ<FE> すなわち 5つめの かみの ぞう.<FD> じゅんに ひだりから あいまみえ<FE> きたえた わざの ためしとせん.<FD> たたかいの かみは<FE> われとともに あるのだ.<FF>"
@@ -1343,12 +1343,12 @@ script:
   !!int 0x208c8:
     original: "ミオ<FE>「あっ! パパのこえだわ!<FD>「ねえ <character>! さがして!<FE> おねがい! パパを さがして!<FF>"
     pointer_location: 0
-    translation: "Mio<br>「Oh! That’s Papa’s voice! Hey, <character>! Follow it, please! Follow Papa’s voice!"
+    translation: "Mio<br>「Oh! That's Papa's voice! Hey, <character>! Follow it, please! Follow Papa's voice!"
 
   !!int 0x208f7:
     original: "ミオ<FE>「<character>! そっちじゃないわ!<FF>"
     pointer_location: 0
-    translation: "Mio<br>「<character>! This isn’t the right way!"
+    translation: "Mio<br>「<character>! This isn't the right way!"
 
   !!int 0x20925:
     original: "かいしんの いちげき!<FC>"
@@ -1723,7 +1723,7 @@ script:
   !!int 0x20ddb:
     original: "サスケは ボーイの<FE>あせを ふいた!<FE>「がんばってね!<FF>"
     pointer_location: 0
-    translation: "Sasuke dries Boy’s sweat.<br>「Don’t give up!"
+    translation: "Sasuke dries Boy's sweat.<br>「Don't give up!"
 
   !!int 0x20df7:
     original: "サスケは かみさまに<FE>いのった!!<FF>"
@@ -1748,7 +1748,7 @@ script:
   !!int 0x20e41:
     original: "サスケは<FE>わらいころげている!<FF>"
     pointer_location: 0
-    translation: "Sasuke can’t stop laughing!"
+    translation: "Sasuke can't stop laughing!"
 
   !!int 0x20e51:
     original: "でも サスケは<FE>いねむりを はじめた!<FF>"
@@ -2008,7 +2008,7 @@ script:
   !!int 0x211d8:
     original: "<var1>は<FE>しびれて うごけない!<FF>"
     pointer_location: 0
-    translation: "<var1> couldn’t move!"
+    translation: "<var1> couldn't move!"
 
   !!int 0x211e7:
     original: "ひのたまを<FE>なげつけて きた!<FF>"
@@ -2043,7 +2043,7 @@ script:
   !!int 0x21253:
     original: "ミオは おびえて<FE>じゅもんが つかえない<FF>"
     pointer_location: 0x12738
-    translation: "Mio can’t use spells!"
+    translation: "Mio can't use spells!"
 
   !!int 0x21268:
     original: "<var1>は<FE>ビビった!<FF>"
@@ -2103,7 +2103,7 @@ script:
   !!int 0x21317:
     original: "ミオの じゅもんを<FE>ふうじこめた!!<FF>"
     pointer_location: 0x12c29
-    translation: "Mio’s spells sealed!!"
+    translation: "Mio's spells sealed!!"
 
   !!int 0x2132a:
     original: "しかし じゅもんは<FE>ふうじられている!<FF>"
@@ -2133,7 +2133,7 @@ script:
   !!int 0x21381:
     original: "<var1>には<FE>こうかが なかった!<FF>"
     pointer_location: 0x1349b
-    translation: "Didn’t affect <var1>!!"
+    translation: "Didn't affect <var1>!!"
 
   !!int 0x21390:
     original: "<enemy>は<FE>しゅびりょくが<FE>あがった!!<FF>"
@@ -2183,7 +2183,7 @@ script:
   !!int 0x21411:
     original: "「よいしょ!よいしょ!<FE><enemy>は<FE>しこを ふみだした!<FF>"
     pointer_location: 0
-    translation: "Let’s go! <enemy> attacks forward!"
+    translation: "Let's go! <enemy> attacks forward!"
 
   !!int 0x2142b:
     original: "ちからが たまって<FE>いるようだぞ!<FF>"
