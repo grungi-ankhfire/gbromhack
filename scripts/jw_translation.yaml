@@ -168,47 +168,47 @@ script:
   !!int 0x0456a:
     original: "「<character>! わたしの ことは<FE> しんぱいするな!<FD>「かならず ゴートだんの てから<FE> ジャングルを まもるのだ!<FD>「<character>!! たのんだぞっ!!<FF>"
     pointer_location: 0x0daa6
-    translation: "<character>! Don’t worry about me!<br>「Keep the jungle from falling into the Goat Gang's hands!<br>「<character>!! I beg you!!"
+    translation: "<character>! Don't worry about me!<br>「Keep the jungle from falling into the Goat Gang's hands!<br>「<character>!! I beg you!!"
 
   !!int 0x045af:
     original: "アピーニ<FE>「こどものほうは どうでも いいわ.<FD>「さあ サッサと ふねを<FE> だして ちょうだい!<FF>"
     pointer_location: 0x0dab4
-    translation: "Apini<br>「Don’t worry about him, he’s just a little kid. Well, let’s get going!"
+    translation: "Apini<br>「Don't worry about him, he's just a little kid. Well, let's get going!"
 
   !!int 0x045e0:
     original: "「おお きがついたか.<FD>「おまえは かわに おちて<FE> おぼれて いるところを<FD> みんなに<FE> たすけられたのじゃ.<FD>「パパは さらわれたのじゃな?<FE> うーむ それは こまったのう.<FD>「いだいな パパが いなくなっては<FE> いったい だれが このジャングルを<FD> すくって くれるのじゃ.<FF>"
     pointer_location: 0x0dc9a
-    translation: "「Aah, you’ve recovered.<br>「You nearly drowned, but the villagers saved you.<br>「Papa has been captured? Hmmm, that’s a big problem.<br>「Without Papa, the jungle is defenseless."
+    translation: "「Aah, you've recovered.<br>「You nearly drowned, but the villagers saved you.<br>「Papa has been captured? Hmmm, that's a big problem.<br>「Without Papa, the jungle is defenseless."
 
   !!int 0x0466d:
     original: "「なに? おまえが<FE> パパを たすけに いくとな?<FD>「うーむ*****.<FD>「おまえも ジャングルパパのむすこ.<FD> もってうまれた そのちからを<FE> せいちょう させていけば<FD> もしかしたら ゴートだんに<FE> かてるかも しれん.<FD>「いや きっと かてるように<FE> なるに ちがいない.<FD>「ここに 20ゴールドある.<FE> これを もって<FD> なにか みを まもる<FE> ぶきを かいなさい.<FD>「がんばって くるんだよ.<FD>「うらないオババが<FE> ちからに なって くれるだろう.<FF>"
     pointer_location: 0x0dcae
-    translation: "「What? You’re going to rescue him?<br>「Hmmm...<br>「You really are your father’s son. If you train hard, perhaps you’ll be able to defeat the Goat Gang.<br>「In fact, I’m sure you will.<br>「Here’s 20 gold. Use it to properly equip yourself.<br>「Goodspeed!<br>「And seek advice from the old fortune teller."
+    translation: "「What? You're going to rescue him?<br>「Hmmm...<br>「You really are your father's son. If you train hard, perhaps you'll be able to defeat the Goat Gang.<br>「In fact, I'm sure you will.<br>「Here's 20 gold. Use it to properly equip yourself.<br>「Goodspeed!<br>「And seek advice from the old fortune teller."
 
   !!int 0x04753:
     original: "「おまえも ジャングルパパのむすこ.<FE> がんばって くるんだよ.<FD>「うらないオババが<FE> ちからに なって くれるだろう.<FF>"
     pointer_location: 0
-    translation: "「You’re Jungle Papa’s son. Do your best, and seek advice from the old fortune teller."
+    translation: "「You're Jungle Papa's son. Do your best, and seek advice from the old fortune teller."
 
   !!int 0x04790:
     original: "「ジャングルパパを さがしに<FE> たびに でるって きめたんだって?<FD>「えらいなあ***<FD> でも おかしいよなあ?<FD>「あの ジャングルパパが そんなに<FE> かんたんに やられるもんかなあ.<FF>"
     pointer_location: 0
-    translation: "「So you’re adamant on going to look for your father?<br>「Great! But... It’s strange Jungle Papa could be captured with such a lousy ruse, isn't it?"
+    translation: "「So you're adamant on going to look for your father?<br>「Great! But... It's strange Jungle Papa could be captured with such a lousy ruse, isn't it?"
 
   !!int 0x047ed:
     original: "「ジャングルの なかに さらに<FE> ふかい ジャングルが あって<FD> いろんな たからものが<FE> あるらしいわよ.<FD>「この ジャングルパパの しま<FE> ミシーとうにも<FD> そんな ジャングルが あるって<FE> きいたことが あるわ.<FF>"
     pointer_location: 0
-    translation: "「Inside the jungle, there’s a deeper area. Rumor has it several treasures are kept there.<br>「This very island where Jungle Papa lives, Missy Island, is supposed to have a jungle like that too."
+    translation: "「Inside the jungle, there's a deeper area. Rumor has it several treasures are kept there.<br>「This very island where Jungle Papa lives, Missy Island, is supposed to have a jungle like that too."
 
   !!int 0x0485b:
     original: "「ここは <character>の むらです.<FD>「きたに ながれる かわが<FE> うみまで つながる おおきなかわ<FD> ははなる アスランがわです.<FF>"
     pointer_location: 0
-    translation: "「This is <character>’s village.<br>「The river stream to the north ends in the sea. It’s connected to the Aslan river."
+    translation: "「This is <character>'s village.<br>「The river stream to the north ends in the sea. It's connected to the Aslan river."
 
   !!int 0x04899:
     original: "「あの ジャングルパパが<FE> さらわれちゃったんだって?<FD>「<character> かならず<FE> かたきをとってね.<FD>「ぼくも ゴートだんが きたら<FE> ぶきを そうびして たたかうよ.<FD>「<character>も てにいれた ぶきを<FE> そうびして たたかってね.<FF>"
     pointer_location: 0
-    translation: "「You say Jungle Papa has been abducted?<br>「You have to strike back <character>!「If the Goat Gang comes back, we’ll be ready to fight!「You must fight as well, with any possible weapon."
+    translation: "「You say Jungle Papa has been abducted?<br>「You have to strike back <character>!「If the Goat Gang comes back, we'll be ready to fight!「You must fight as well, with any possible weapon."
 
   !!int 0x04907:
     original: "「へんだよ.へんだよ.<FD>「ひがしの しまに いく<FE> ほらあなが みずびたし なんだ.<FD>「ぼくは はねが あるから<FE> とおって きたけど<FD> あるいては とおれないよ.<FD>「どこかに はしに なるような<FE> ものが あれば いいけどなあ.<FF>"
@@ -218,7 +218,7 @@ script:
   !!int 0x0497b:
     original: "「ぼく りンキーとうから きた<FE> たびの オウムです.<FF>"
     pointer_location: 0
-    translation: "「I came from Linkee Tower.<br>I’m the travelling parrot."
+    translation: "「I came from Linkee Tower.<br>I'm the travelling parrot."
 
   !!int 0x04997:
     original: "サスケ<FE>「にんげんなんて だいきらいだ.<FD> ちくしょう! ちくしょう!<FF>"
@@ -228,687 +228,692 @@ script:
   !!int 0x049bb:
     original: "サスケ<FE>「ちくしょう! ちくしょう!<FD>「サッサと サーカスでも なんでも<FE> うりとばして くれっ!<FD>「わーん! りラー!******<FF>"
     pointer_location: 0x0f106
-    translation: "Sasuke<br>「Damn it!<br>「She’s going to be sold to the circus!<br>「Waaah... Leela…!!!"
+    translation: "Sasuke<br>「Damn it!<br>「She's going to be sold to the circus!<br>「Waaah... Leela…!!!"
 
   !!int 0x049fe:
     original: "「あれっ?<FD>「きみは わるいひとじゃないの?<FD>「なあんだ.しっぱい しちゃった.<FD>「きみは つよいね! えっ?<FE> ジャングルパパの むすこなの?<FD>「じゃあ***おいら***<FE> おねがいが あるんだけど***<FD>「おいらの かわいいりラが<FE> ゴートだんに さらわれちゃったの.<FD>「おいら いっしょうけんめい<FE> たたかったんだけど**<FD> てきは でっかい にんげんたちで<FE> かなわなかったんだ.<FD>「たぶん とかいの サーカスに<FE> うられて いったと おもうんだ.<FD>「あいつら さらって いくとき<FE> そんなことを いってた.<FD>「たのむよ!!<FE> りラを すくいだして くれよ!!<FC>"
     pointer_location: 0x0f111
-    translation: "「What?<br>「You’re not a bad guy?<br>「I see, I misjudged you.<br>「Man, you’re strong! Eh? You’re Jungle Papa’s son? Well, I… I’d have a favor to ask.<br>「My beloved Leela has been captured by the Goat Gang.<br>「If we join forces, we could confront them. I think they plan to sell her to the big city’s circus. I heard they say something about that when they took her away. Please, I beg you! Help me save my Leela!"
+    translation: "「What?<br>「You're not a bad guy?<br>「I see, I misjudged you.<br>「Man, you're strong! Eh? You're Jungle Papa's son? Well, I… I'd have a favor to ask.<br>「My beloved Leela has been captured by the Goat Gang.<br>「If we join forces, we could confront them. I think they plan to sell her to the big city's circus. I heard they say something about that when they took her away. Please, I beg you! Help me save my Leela!"
 
   !!int 0x04b9b:
     original: "「いやいや こまった こまった.<FD>「わたしは せんろの みまわりにん.<FD>「この せんろは<FE> ジャングルてつどうの せんろです.<FD>「いま けんせつちゅう なんですが<FE> わるいモグラたちが あなを ほって<FD> けんせつの ジャマしているんです.<FD>「モグラの わるさを やめさせないと<FE> となりの わたりどりの むらに<FD> てつどうが ひけないんですよ.<FF>"
     pointer_location: 0x0dcbd
-    translation: "No, no, impossible, I’m watching over these tracks. They belong to the Jungle Railroad. They were under construction until some nasty moles began making holes everywhere! Unless we stop them, we won’t be able to reach the neighbouring village of Wataridori."
+    translation: "No, no, impossible, I'm watching over these tracks. They belong to the Jungle Railroad. They were under construction until some nasty moles began making holes everywhere! Unless we stop them, we won't be able to reach the neighbouring village of Wataridori."
 
   !!int 0x04c48:
     original: "「ジャングルてつどうは<FE> げんざい きゅうピッチで<FD> けんせつちゅうです.<FD>「いま しばらく おまちください.<FF>"
     pointer_location: 0
-    translation: "TODO_0x04c48"
+    translation: "The Jungle Railroad is currently under construction. Please, wait until it's finished."
 
   !!int 0x04c80:
     original: "「たいまつは かったかの?<FD>「たいまつのひは<FE> どうぶつたちが いやがるんじゃ.<FD>「ゴートだんの どうぶつたちも<FD> よわいやつらは<FE> でてこなく なるんじゃよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x04c80"
+    translation: "Do you have a torch? Its fire will scare away wild animals. The weakest members of the Goat Gang will stop appearing if you're holding one."
 
   !!int 0x04cd1:
     original: "「まえは まじめに はたらく<FE> モグラたちが いっぱいいたんです.<FD>「モグラは せんろこうふが<FE> とくいですからね.<FD>「しかし アラーニという<FE> でっかいモグラが あらわれてから<FD> このへんは あれほうだい.<FD> こうじは ちゅうしに なりました.<FD>「この アラーニという やつが<FE> ゴートだん カマールパとう しぶの<FD> ボスなんです.<FF>"
     pointer_location: 0
-    translation: "TODO_0x04cd1"
+    translation: "In the past, the moles here worked really hard. Building tracks were our specialty. However, since a big mole called Arani appeared, this area has been neglected. All the work here has been halted. That Arani is the boss of the Goat Gang's division lying at Kamarpa Tower."
 
   !!int 0x04d79:
     original: "「ゴートだんが かいさんして<FE> この カマールパとうも<FD> へいわに なりました.<FD>「いまは アラーニのやつも<FE> ジャングルてつどうの こうじに<FD> さんか してるんですよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x04d79"
+    translation: "The Goat Gang's members have fled and Kamarpa Tower is peaceful again. Arani has been put to work on the Jungle Railroad as well."
 
   !!int 0x04dcf:
     original: "「ぼく とりたちの おうさまの<FE> わしの テンさんと ともだちです.<FD>「ときどき テンさんは このむらにも<FE> みまわりに きます.<FD>「おうさま なんだけど<FE> とても きさくな かたで<FD> ぼくの うちに<FE> あそびに きてくださるんです.<FD>「でも さいきん ぜんぜん<FE> おすがたを みません.<FD>「いったい どう なさったのか<FE> とても しんぱい なんです.<FF>"
     pointer_location: 0
-    translation: "TODO_0x04dcf"
+    translation: "I'm a friend of the eagle named Ten, king of the birds. Sometimes, he patrols over this village. He's very friendly and comes to my house regularly. But I've heard nothing about him for a while. I'm certainly worried about this."
 
   !!int 0x04e80:
     original: "「テンさんは<FE> ケンさんが ゆうかい されてて<FD> そとに でられなかったんですって?<FD>「まったく ゴートだんときたら***<FD>「さあ ケンさん!<FE> えんりょは いりません!<FD>「アラーニ*ゴートを<FE> やっつけて きてください!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x04e80"
+    translation: "Ten said that Ken had been kidnapped and he could not escape? Bloody Goat Gang… Let's go Ken! I'm not going to hold anything back! And we will take care of Alani Goat!!"
 
   !!int 0x04ef1:
     original: "「さすがですね.<FE> ジャングルボーイさん.ケンさん.<FD> あ サスケさんもね.<FD>「これで このむらも<FE> たのしい むらに なるでしょう.<FF>"
     pointer_location: 0
-    translation: "TODO_0x04ef1"
+    translation: "Just as I expected. Jungle Boy. Ken. And Sasuke too… This village's going to be a fun place."
 
   !!int 0x04f35:
     original: "「また テンさんに あそびに きて<FE> いただけるように なりました.<FD> ケンさんも いっしょです.<FD>「ジャングルボーイさんの<FE> おかげだって<FD> おっしゃって おられましたよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x04f35"
+    translation: "Once again, Mr. Ten can come visit us again. And Ken's here too. All this thanks to Jungle Boy."
 
   !!int 0x04f8d:
     original: "「ゆうべ わたりどりの むらのほうで<FE> とりの なきごえが したわよ.<FD>「でも まだ<FE> わたりどりが くるきせつには<FD> すこし はやすぎると おもうの.<FD>「それに あのこえは<FD> テンさんの むすこ ケンくんの<FE> こえだった ような きがするわ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x04f8d"
+    translation: "Last night, in Wataridori village direction, I could heard a voice. But I think it's not yet the season for migratory birds to arrive. Also, that voice I heard looked like that of Ken, Ten's son."
 
   !!int 0x05008:
     original: "「あら ケンくん! げんきだった?<FD> え!? ゴートだんに<FE> つかまってたの!?<FD>「じゃあ テンさん<FE> しんぱい してたでしょう?<FD>「えー!? まだ かえってないのー?<FE> はやく かえって あげなくちゃあ.<FD>「ねえ! ジャングルボーイさん!<FD> ケンを おうちに<FE> つれてかえって あげてください.<FD>「ケンの おうちは このむらを でて<FE> にしへ いった やまのなかです.<FD>「やまの なかに おおきな きが<FE> たってる ところ ですから<FD> すぐ わかりますわ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x05008"
+    translation: "Hey, Ken! Are you ok? Eh? You were held prisoner by the Goat Gang? Ten must have been really worried about you. What? You haven't come back yet? You should do it right away. Jungle boy, please escort Ken back home. To reach there, exit here and go west toward the mountain. Inside it, a great tree stands. You'll see it immediately."
 
   !!int 0x050ee:
     original: "「ケンくん がんばってね!<FE> みんなも がんばって!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x050ee"
+    translation: "Ken, do your best! We'll all do as well!"
 
   !!int 0x0510a:
     original: "「ジャングルボーイさん<FE> いろいろ ありがとうございました.<FD>「たいへんでしょうが<FE> がんばって くださいね.<FD>「はやく おとうさんに<FE> あえると いいですね.<FF>"
     pointer_location: 0
-    translation: "TODO_0x0510a"
+    translation: "Thanks a lot for everything, Jungle Boy! I know you're enduring hardships, but try to persevere! I hope you find your father soon!"
 
   !!int 0x0515b:
     original: "「ゴートだんの モグラたちは<FE> このむらの そとで<FD> メチャメチャに アナを ほって<FE> すみついて います.<FD>「ボスの アラーニも<FE> その アナの ひとつに います.<FD>「でも アラーニは<FE> ひみつの へやを もっていて<FD> きけんな ときは すぐに<FE> そこへ はいって しまうそうです.<FD>「できるだけ たくさんの なかまで<FE> いったほうが いいですね.<FD>「ぼくが つよければ<FE> おとも できたのに ごめんね.<FF>"
     pointer_location: 0
-    translation: "TODO_0x0515b"
+    translation: "The moles of the Goat Gang are outside, breaking havoc and digging holes. In one of those, there's their boss, Arani. He has a secret room where he hides when he senses trouble. You and your friends should go, as soon as possible.  If I were stronger, I'd join you, though. Sorry."
 
   !!int 0x05227:
     original: "「ウンサ! ホイサ!<FD> いま アラーニと たたかうために<FE> からだを きたえて いるんです.<FD>「それ! ウンサ! ホイサ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x05227"
+    translation: "One, two, one, two! I'm working out to be able to defeat that fiend, Arani! Once again! One, two, one, two!"
 
   !!int 0x05265:
     original: "「せんろに そって きたへ いくと<FE> トンネルが あって<FD> となりのしま りンキーじまへ<FE> いけるんです.<FD>「でも いまは ゴートだんが<FE> ボスの アラーニの めいれいで<FD> おおきな アナを ほっていて<FD> とおれないように してるんです.<FD>「みなとまちへは<FE> あそこからしか いけないんですよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x05265"
+    translation: "If you follow the tracks you'll reach a tunnel that leads to the neighbouring island of Linkee. But currently, by Arani's orders, we've caved a big hole to block the path. That's the only way to get to the port town."
 
   !!int 0x052f9:
     original: "「せんろに そって きたへ いき<FE> トンネルを とおって<FD> となりの りンキーじまへ<FE> いって ください.<FD>「とかいへ いくには<FE> そこから きたへ すすみ<FD> みなとまちを さがして<FE> ふねに のっていくしか<FD> ほうほうが ないそうですよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x052f9"
+    translation: "Following the tracks you'll find a tunnel leading to the neighboring island of Linkee. The only way to reach the city is going north and boarding a boat at the port town."
 
   !!int 0x05372:
     original: "「ここは モグラのむら です.<FF>"
     pointer_location: 0
-    translation: "TODO_0x05372"
+    translation: "This is Mole's village."
 
   !!int 0x05382:
     original: "「ひがしの わたりどりのむらが<FE> こまって いるようです.<FD>「なんでも むらが ゴートだんに<FE> おそわれて いるとか.<FD>「でも ゴートだんが<FE> せんろを つくらせないので<FD> むかしながらの モグラの みちを<FE> いくしか ないのです.<FD>「ところが そのみちには<FE> ゴートだんの みはりが いて<FD> だれも たすけに いけないんです.<FF>"
     pointer_location: 0x0dcca
-    translation: "TODO_0x05382"
+    translation: "The eastern Wataridori village is having trouble. 「Are they having problems with the Goat Gang? 「But the Goat Gang is preventing the railroad to be completed, so the old mole path is the only way to go there. 「Also, that road is heavily guarded so nobody could go help them."
 
   !!int 0x05427:
     original: "「ジャングルてつどうの<FE> こうじが さいかいされたので<FD> ほっと ひとあんしんです.<FD>「だってぼく あの モグラのみちが<FE> きらいなんですよ.<FD>「くらくって ジメジメしてて<FE> ながくって.<FD>「モグラのくせに へンですか?<FF>"
     pointer_location: 0x32681
-    translation: "TODO_0x05427"
+    translation: "I am relieved that the Jungle Railroad has been reopened. I really did not like that tunnel. It is so dark, humid and long... Is that a strange thing to say for a mole?"
 
   !!int 0x05496:
     original: "「なにか ようかい?<FE> いま とりこみちゅう なんだよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x05496"
+    translation: "Something's up? Something's brewing up."
 
   !!int 0x054b3:
     original: "「ほら あっちへ いった!<FE> こどもは ここにきちゃ ダメだよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x054b3"
+    translation: "Look, there he is! Don't let the kids come here."
 
   !!int 0x054d4:
     original: "「こらっ! ここは とおせんぞ.<FE> アラーニさまの めいれいじゃ.<FD> かえった かえった.<FF>"
     pointer_location: 0x0eb8f
-    translation: "TODO_0x054d4"
+    translation: "Hey! You can't pass through here! Orders of Mr. Arani! Go back right now!"
 
   !!int 0x05502:
     original: "「ききわけのない やつだな.<FE> いたいめに あわせて やろう.<FF>"
     pointer_location: 0x0edea
-    translation: "TODO_0x05502"
+    translation: "You're not a good listener. You're in for a painful experience."
 
   !!int 0x05522:
     original: "「あれまっ!<FE> どこを とおって きたの?<FD>「ゴートだんが モグラみちを<FE> とうせんぼして なかった?<FF>"
     pointer_location: 0x0dcda
-    translation: "TODO_0x05522"
+    translation: "Oh, my… Where did you come from? Wasn't the Goat Gang blocking the Mole Road?"
 
   !!int 0x05556:
     original: "「ここは わたりどりが たちよる<FE> わたりどりの むらです.<FF>"
     pointer_location: 0
-    translation: "TODO_0x05556"
+    translation: "This is Wataridori village, where migratory birds stop to rest."
 
   !!int 0x05575:
     original: "「ずっと ゴートだんが<FE> つうろを ふさいでいたんです.<FD>「わたしたちに わたりどりたちを<FE> つかまえろって いうんですよ.<FD>「わたりどりたちは<FE> わたしたちの ともだち.<FD>「つかまえて ゴートだんの ために<FE> つかわれるなんて ゆるせません.<FD>「みんなで ことわったら いじわるに<FE> つうろをふさいで しまったんです.<FF>"
     pointer_location: 0x0dceb
-    translation: "TODO_0x05575"
+    translation: "The Goat Gang has been blocking the passageway. We were told to apprehend the migratory birds. But they're our friends. We couldn't allow the Goat Gang to do that. So, when we refused, they got mad and blocked the passageway."
 
   !!int 0x05616:
     original: "「あっ! <character>さん.<FD> つうろの ゴートだんを<FE> やっつけてくれて ありがとう.<FF>"
     pointer_location: 0
-    translation: "TODO_0x05616"
+    translation: "Oh, <character>! Thanks for defeating the Goat Gang at the passageway."
 
   !!int 0x0563e:
     original: "「えっ! つうろの わるものを<FE> たいじして くれたの?<FD>「わーい! これで わしのケンと<FE> また あそべるぞーっ!!<FF>"
     pointer_location: 0x0dcf7
-    translation: "TODO_0x0563e"
+    translation: "Eh? You got rid of the bad guys blocking the corridor? Now Ken will be able to play with me again!"
 
   !!int 0x0567a:
     original: "「でも へんだよ.<FD> ぼく ケンの こえを ちかくで<FE> きいたような きが したんだ.<FD> あそびに きたのかな?<FD>「でも なんか かなしいような<FE> こえだったよ.<FF>"
     pointer_location: 0x0dd03
-    translation: "TODO_0x0567a"
+    translation: "It's so weird. I'd swear I've heard Ken's voice nearby. Has he come to play with me? What that voice… was full of sadness."
 
   !!int 0x056cc:
     original: "「あっ! ケンだ! がんばってねー!<FD> はやく いっしょに<FE> あそべると いいね.<FF>"
     pointer_location: 0x0dd09
-    translation: "TODO_0x056cc"
+    translation: "Ah! It's Ken! I hope we can play together again soon."
 
   !!int 0x056f6:
     original: "「ありがとう! <character>.<FE> はやく ケンと あそびたいなあ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x056f6"
+    translation: "Thank you! I can't wait to play with Ken again!"
 
   !!int 0x05713:
     original: "「わたりどりたちは<FE> このむらを めじるしに して<FD> うみの うえを とんでくるのです.<FD>「わたしたちは わたりどりたちに<FE> いどの みずや たべものを あげて<FD> たびの つかれを<FE> いやして もらってるのです.<FF>"
     pointer_location: 0
-    translation: "TODO_0x05713"
+    translation: "The migratory birds fly over the sea with this village as their landmark. We give them water and food so that they can be relieved of their fatigue."
 
   !!int 0x0577e:
     original: "「ブーメランは<FE> てきの 1グループ ぜんたいに<FD> ダメージを あたえられますよ.<FD>「べんりだから ぜひ<FE> かって いきなさい.<FF>"
     pointer_location: 0
-    translation: "TODO_0x0577e"
+    translation: "The boomerang can deal damage to an entire group of enemies. It's really convenient, so you should buy it."
 
   !!int 0x057bf:
     original: "「もうすぐ わたりどりが<FE> くる きせつだ.<FD>「はるか みなみの しまから<FE> はるか きたの<FD> とかいよりも もっと とおくへ.<FD>「わたりどりたちは<FE> このむらに つくと<FD> みんな テンに あいにいきます.<FD>「とりの おうさまテンも これから<FE> おおいそがしですね.<FF>"
     pointer_location: 0
-    translation: "TODO_0x057bf"
+    translation: "Soon will be the season of the migratory birds. They come from southern islands, the city north of here, and even farthest places. When they arrive, they go meet with Ten, the king of birds. He's going to be pretty busy from now on."
 
   !!int 0x05845:
     original: "「こらあ! どこから はいった?<FE> さっさと でていけっ!<FF>"
     pointer_location: 0x0ee0f
-    translation: "TODO_0x05845"
+    translation: "Oh!? From where did you enter? Leave here at once!"
 
   !!int 0x05863:
     original: "ケン<FE>「たすけてください!<FD> ぼくを たすけてください!<FF>"
     pointer_location: 0
-    translation: "TODO_0x05863"
+    translation: "Ken<br>「Save me! Please save me!"
 
   !!int 0x05880:
     original: "ケン<FE>「ぼくが テンのむすこ ケンです.<FD>「とりをとる わなに やられて<FE> あいつらに つかまっちまいました.<FD>「たすけてくれて ありがとう.<FD> さあ いっしょに アラーニを<FE> やっつけに いきましょう!<FF>"
     pointer_location: 0x0f1b3
-    translation: "TODO_0x05880"
+    translation: "Ken<br>「I'm Ken, Ten's son. I got caught in a bird's trap. Thank you for releasing me. Now let's go defeat Arani!"
 
   !!int 0x058e7:
     original: "「ここは アラーニさまの めいれいで<FE> とおすことは できん.<FD>「さあ もどった もどった.<FF>"
     pointer_location: 0x0ead1
-    translation: "TODO_0x058e7"
+    translation: "By Arani's orders, you can't enter here. Go back, go back!"
 
   !!int 0x05916:
     original: "テン<FE>「おお! ケン! ぶじだったのか?<FD>「それだったら おまえらなんか<FE> こうだ!!<FF>"
     pointer_location: 0x0ebbc
-    translation: "TODO_0x05916"
+    translation: "Ten<br>「Ah, Ken! You're safe and sound? That is a relief!"
 
   !!int 0x05942:
     original: "テン<FE>「おお!<FD> きみは ジャングルパパの むすこ<FE> <character>だね.しっているよ.<FD>「パパのことは ざんねんだった.<FD> たすけて あげられたのだが<FE> わたしは おどされて いて<FD> ここから そとへ でられなかった.<FD>「ゴートだんのやつ!<FE> むすこを ゆうかいし<FD> あろうことか わたしに<FD> ゴートだんへ はいれと<FE> おどして きたのだ.<FD>「それに わたしが ここから<FE> むすこを さがしに でると<FD> むすこは もっと ひどいめに<FE> あうことに なっていた.<FF>"
     pointer_location: 0x0dd4e
-    translation: "TODO_0x05942"
+    translation: "Ten<br>「Aah! You're that boy, Jungle Papa's son! I know you. I'm sorry about what happened to your dad. I tried to help, but they threatened me if I tried to leave this place. Damned you, Goat Gang! They kidnapped my son and forced me into joining them. They said if I tried to save my son, it would only make things worse."
 
   !!int 0x05a24:
     original: "「ありがとう! ジャングルボーイ!<FD>「さあ むすこをつれて<FE> アラーニを たおしてきて くれ!<FD>「モグラの アナは せまくて<FE> わたしには むかない.<FD>「でも ケンだったら じゅうぶんに<FE> たたかって くれる はずだ.<FD>「アラーニを たおしたら<FE> また ここに よってくれ.<FD>「なにか おれいを しないと<FE> わたしのきが おさまらないからね.<FD>「ケン! がんばって<FE> おてつだい させて いただけよ!<FD> とりをとる わなに きをつけろ!<FF>"
     pointer_location: 0x0dd54
-    translation: "TODO_0x05a24"
+    translation: "Thank you, Jungle Boy! Please, help my son bring down Alani! Those holes are too narrow for me, but my son should be able to fight there. Return here afterwards, so I can repay you for your deeds. Ken! Fight with all your might! Watch out for traps!"
 
   !!int 0x05aff:
     original: "テン<FE>「ジャングルボーイ <character>.<FD> ほんとうに よくやってくれた.<FD>「きみは ケンと わたしの<FE> いのちの おんじんだ.<FD>「ジャングルパパが つかまって<FE> ふあんな きもちは よくわかる.<FD>「わたしも <character>に ついていって<FE> ジャングルパパを さがしたいのだが<FD> これからは わたりどりが<FE> くる きせつで いそがしいのだ.<FD>「わたりどりたち すべてに<FE> ゴートだんに きをつけるよう<FD> はなしを せんと いかんからな.<FD>「そうだ.<character>に<FE> これを あげよう.<FD>「この とりのふえは どこでふいても<FE> わたしの みみに とどく ふえだ.<FD>「みちに まよったり<FE> はやく むらに もどりたいときは<FD> このふえを ならしてくれ.<FD>「わたしがむかえに いってあげよう.<FD>「ただし わたしは<FE> とかいには いけないのだ.<FD>「また どうくつの なかにも<FE> はいれないことが ありそうだ.<FD>「でも それいがい だったら<FE> いつでも よんでくれ.まってるよ.<FF>"
     pointer_location: 0x0dd89
-    translation: "TODO_0x05aff"
+    translation: "Ten<br>「Jungle Boy, <character>. You've done an incredible feat. We owe you our lives! I understand your concern about your dad. I'd like to help you on your journey, but the season for migratory birds is upon us. I'll tell everyone to keep an eye on the Goat Gang for you. Here, take this. Whenever you blow this whistle, its sound will reach my ears. If you lose your way and need to go back to a town, use it and I'll come to your aid. But I won't be able to do it either in the city or inside a cave. Otherwise, don't hesitate to use it."
 
   !!int 0x05ca3:
     original: "ケン<FE>「じゃあ ぼくは<FD> おみおくりに いってきます.<FF>"
     pointer_location: 0x0dd7a
-    translation: "TODO_0x05ca3"
+    translation: "Ken<br>「Well, I'll go see you off."
 
   !!int 0x05cbf:
     original: "テン<FE>「ジャングルボーイ<FD> ほんとうに ありがとう.<FD> がんばってくれ!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x05cbf"
+    translation: "Ten<br>「Thanks for everything, Jungle Boy. Good luck on your journey!"
 
   !!int 0x05ce5:
     original: "アラーニ<FE>「よくきたな.ジャングルボーイ.<FD>「わたしが アラーニ*ゴートだ.<FE> わたしの とくいわざは<FD> にげることなのさ.わはははは**<FF>"
     pointer_location: 0x0ee20
-    translation: "TODO_0x05ce5"
+    translation: "Alani<br>「Nice of you to come, Jungle Boy. I am Alani, from the Goat Clan. And my speciality is running. Wahahahah..."
 
   !!int 0x05d2b:
     original: "アラーニ<FE>「\"こめんなさい.ゆるしてく\"たさい.<FD>「もう わるいことは しません.<FE> \"コート\"たんも やめます.<FD>「\"とうか いのち\"はかりは<FE> たすけてく\"たさい.<FF>"
     pointer_location: 0x0f210
-    translation: "TODO_0x05d2b"
+    translation: "Arani<br>「Please, forgive me! I won't do evil things again! I'll quit the Goat Gang! But please spare my life!"
 
   !!int 0x05d80:
     original: "ケン<FE>「きたのしまに つな\"かる つうろも<FD> とうれるように しろ!<FF>"
     pointer_location: 0x0f216
-    translation: "TODO_0x05d80"
+    translation: "Ken<br>「This passage leads to the north island. Let's cross it!"
 
   !!int 0x05da3:
     original: "アラーニ<FE>「はい! さっそく そのように<FD> めいれいします.<FF>"
     pointer_location: 0x0f21c
-    translation: "TODO_0x05da3"
+    translation: "Arani<br>「Yes! I'll carry out the orders without delay!"
 
   !!int 0x05dc2:
     original: "アラーニ<FE>「わたしは かいしんして<FD> せんろの こうじを しています.<FD>「いやー はたらくって<FE> ほんとに たのしいですね.<FD>「じゃ いまから しごとですから.<FF>"
     pointer_location: 0x0dd0e
-    translation: "TODO_0x05dc2"
+    translation: "Arani<br>「I'm working on restoring the Railway tracks. Ah… This job is really gratifying.Well, back to work! "
 
   !!int 0x05e13:
     original: "ケン<FE>「そうはいかの ピー だ!<FF>"
     pointer_location: 0x0ee72
-    translation: "TODO_0x05e13"
+    translation: "Ken<br>「It's a delivery!"
 
   !!int 0x05e24:
     original: "ケン<FE>「<character>さん. ぜひ ちちに<FD> あって やってください.<FD>「でないと ぼくが しかられます.<FF>"
     pointer_location: 0x0ea62
-    translation: "TODO_0x05e24"
+    translation: "Ken<br>「<character>, please, let's go meet with my father. Otherwise, I'll be scolded."
 
   !!int 0x05e54:
     original: "ケン<FE>「じゃあ <character>さん.<FD> おわかれです.<FD>「きをつけて いってくださいね.<FD>「なにか おてつだい できることが<FE> あったときには<FD> なんでも いってください.<FD> おちからに なりますよ.<FD>「では ほんとうに<FE> ありがとう ございました.<FF>"
     pointer_location: 0x0ea70
-    translation: "TODO_0x05e54"
+    translation: "Ken<br>「Well, <character>. This is where we part ways. Take care of yourselves. If there's anything I can do to help, just give me a call. Thank you for everything."
 
   !!int 0x05ecc:
     original: "「いま このしまでは<FE> たいへんなことが おきてんだよ.<FD>「ふりつづくあめで あちこちが<FE> みずびたしに なっているんだぜ.<FD>「いやーもう ホント たいへんだよ.<FD>「せんろは ながされるし<FE> みずうみの そばの むらは<FD> みずに つかっちゃったって<FE> はなしだしねえ.<FF>"
     pointer_location: 0x0dd97
-    translation: "TODO_0x05ecc"
+    translation: "This village is dealing with some problems right now. The continuous rains have caused floods all over the place. Man, it's quite a mess. The railroad will be inoperative and the village near the lake will be entirely flooded."
 
   !!int 0x05f53:
     original: "「あめがやんで よかったよ.<FD> もうすぐ せんろも<FE> つうじる だろうね.<FF>"
     pointer_location: 0
-    translation: "TODO_0x05f53"
+    translation: "How glad it's stopped raining. Soon, the railroad will be open for business again."
 
   !!int 0x05f79:
     original: "「このあめは どうも おかしいね.<FD> いつもの あめと<FE> ちがうと おもうんだよ.<FD>「このあめも ゴートだんの<FE> しわざじゃ ないのかなあ.<FF>"
     pointer_location: 0x0dda3
-    translation: "TODO_0x05f79"
+    translation: "This persistent rain is rather strange. Doesn't look like the kind of rain we usually have. I wonder if the Goat Gang has something to do with this."
 
   !!int 0x05fc0:
     original: "「あめは へビの せいだったんだね.<FE> やっつけてくれて ありがとう!<FF>"
     pointer_location: 0
-    translation: "TODO_0x05fc0"
+    translation: "The snake was causing these rains, isn't it? Thank you for dealing with it!"
 
   !!int 0x05fe4:
     original: "「しまの きたのほうへ いくためには<FE> みずうみの にしを とおる<FD> せんろを わたっていくみちと<FE> ひがしを とおるみちが あります.<FD>「でも ひがしの みちには<FE> どくのぬまちが ひろがっているので<FD> ふだんは とおりたくないのです.<FD>「それなのに にしのみちが<FE> みずのしたに うもれてしまったので<FD> みんな とても くろうしています.<FF>"
     pointer_location: 0x0ddae
-    translation: "TODO_0x05fe4"
+    translation: "To reach the north island, you can either take the road west of the lake, along the railroad tracks, or border the lake through the east. There's a poisonous swamp on the east, so I wouldn't take that route. But the west road is totally flooded, so everyone is enduring lots of hardships."
 
   !!int 0x06090:
     original: "「はやく せんろが<FE> なおらないかなあ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06090"
+    translation: "Soon the railroad tracks will be damaged beyond repair!"
 
   !!int 0x060a5:
     original: "「わたし きょんです.<FD>「おにいちゃんが きたの たんこうへ<FE> しょうばいを しに いったのですが<FD> まだ かえって こないんです.<FD>「どくのぬまちで わるいことに<FE> なってなければ いいんですけど.<FF>"
     pointer_location: 0x0ddb9
-    translation: "TODO_0x060a5"
+    translation: "I'm Kyon.My brother has gone to the mines north of here, but he hasn't come back yet. I hope nothing bad has happened in the poison swamp."
 
   !!int 0x0610a:
     original: "「おにいちゃんに あいました?<FE> ああはやく かえってこないかなあ.<FD> おみやげは なにかしら?<FF>"
     pointer_location: 0x3a8e3
-    translation: "TODO_0x0610a"
+    translation: "Have you met my brother? I hope he comes back soon. I hope he brings me a souvenir."
 
   !!int 0x0613b:
     original: "「どくのぬまちの なかに<FE> すごいゆびわが あるらしいぜ.<FD>「なんでも ちからの ゆびわって<FE> なまえらしいけどな.<FF>"
     pointer_location: 0
-    translation: "TODO_0x0613b"
+    translation: "I've heard there's a wonderful trinket in the poisonous swamp. I think its name is Power Ring."
 
   !!int 0x06176:
     original: "「ちからの ゆびわの ことですか?<FD>「ゆびわは レべルが あがって<FE> ちからが みなぎったときに<FD> こうかのある ゆびわだそうです.<FD>「たいりょくなどが いっきに<FE> かいふくしちゃうんだ そうですよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06176"
+    translation: "The Power Ring? It boosts your strength when your level raises. Your stamina will be restored as well."
 
   !!int 0x061db:
     original: "「おう! きみは<FE> ジャングルパパの むすこかい?<FD>「きみのパパは ロープを つかって<FE> きの あいだを わたるのが<FD> じょうずだった.<FD>「きみも じょうずなんだろうね?<FE> じゃあきみに いいものをあげよう.<FD>「これをつかって とおれないところを<FE> こえて ごらんよ.<FF>"
     pointer_location: 0x021d7
-    translation: "TODO_0x061db"
+    translation: "Whoa! Are you Jungle Papa's son? You dad was skillful at crossing this gap with a rope. You seem to be skillful as well, so let me give you something good. This item will allow you to cross through places you couldn't before."
 
   !!int 0x06262:
     original: "<character>は<FE>みじかいロープを もらった.<FF>"
     pointer_location: 0x0de27
-    translation: "TODO_0x06262"
+    translation: "<character> receives Short Rope."
 
   !!int 0x06274:
     original: "「がんばれよ.ジャングルボーイ.<FF>"
     pointer_location: 0x0de38
-    translation: "TODO_0x06274"
+    translation: "Do your best, Jungle Boy."
 
   !!int 0x06285:
     original: "「たんこうが たいへんだから<FE> おれも たすけに いってくるわ.<FD>「ほいじゃな.<FF>"
     pointer_location: 0x0de3e
-    translation: "TODO_0x06285"
+    translation: "There's trouble at the mines, so I'm going there to help. See you!"
 
   !!int 0x062ae:
     original: "「このさきの しまに<FE> たんこうが あんだけどよ.<FD>「このあめで らくばんが おこって<FE> たくさんの こうふが<FD> いきうめに なったらしいぞ.<FD>「わしは たすけに いってくるで<FE> ほいじゃな.<FF>"
     pointer_location: 0x0ddd9
-    translation: "TODO_0x062ae"
+    translation: "There's a coal mine on the island ahead. But the heavy rain has caused it to collapse, burying alive lots of people. I'm going there right now, to lend them a hand."
 
   !!int 0x0630f:
     original: "「たいへんだ! たいへんだ!<FD> たんこうが くずれて<FE> ひとが うまっちまったよ.<FD>「はやく たすけないと<FE> みんな しんでしまうよ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x0630f"
+    translation: "It's terrible! The coal mine has collapsed and lots of people are trapped inside! If they don't receive help quickly, they're going to die!"
 
   !!int 0x06353:
     original: "「ありがとうございました.<FD> この ごおんは いっしょう<FE> わすれませんよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06353"
+    translation: "A million thanks! We'll never forget your kindness."
 
   !!int 0x0637a:
     original: "「だめだ! あなが ちいさすぎて<FE> おれたちでは はいれない.<FD>「まだ こえが きこえるから<FE> みんな  いきているんだろうが<FD> そのこえも だんだん<FE> ちいさく なってきたぞ!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x0637a"
+    translation: "No way. This hole is too narrow for us to enter. I can hear their voices, so they're still alive, but they're growing weaker by the moment!"
 
   !!int 0x063d5:
     original: "「どうも ありがとう!<FD> きみたちは こどもなのに<FE> ほんとうに ゆうかんだね.<FF>"
     pointer_location: 0
-    translation: "TODO_0x063d5"
+    translation: "Thanks a lot! Even though you're still kids, you're really brave!"
 
   !!int 0x063fe:
     original: "「えっ!? こどもの あんたらが<FE> みんなを たすけに いくとな?<FD> むりじゃ! むりじゃ!<FD>「えっ!? サルもいるし<FD> からだの ちいさいほうが<FE> やくに たつんじゃ ないかじゃと?<FD> それも そうじゃな.<FD>「では この スコップを<FE> かしてあげよう.<FD> すこしは やくに たつじゃろう.<FF>"
     pointer_location: 0x0de95
-    translation: "TODO_0x063fe"
+    translation: "Eh? You kids think you can save them? No, impossible! Oh? There's a monkey with you? He's small enough, that could come in handy. Ok, then. I'll lend you this shovel, it might be of use to you."
 
   !!int 0x06490:
     original: "「たのんだぞ.<FF>"
     pointer_location: 0x0deb9
-    translation: "TODO_0x06490"
+    translation: "I beg you."
 
   !!int 0x06498:
     original: "「スコップを かえすじゃと?<FE> いらん いらん.<FD>「そんなものしか<FE> このむらには ないけど<FD> おれいとして もらってくれ.<FD> なにかの やくに たつじゃろう.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06498"
+    translation: "You're giving me the shovel back? There's no need. We don't have much here, but please hold onto it. It might prove useful."
 
   !!int 0x064e9:
     original: "「たすけてください!<FD> わたしの おっとが あのなかに!<FD>「たすけてください!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x064e9"
+    translation: "Help me, please! My husband is trapped in there! Please!!"
 
   !!int 0x06512:
     original: "「ありがとう ございました.<FE> おっとも すっかりよくなりました.<FF>"
     pointer_location: 0x2ad4c
-    translation: "TODO_0x06512"
+    translation: "Thank you very much! My husband's condition has improved a lot!"
 
   !!int 0x06534:
     original: "「おっ! きたな!<FD> みんなは まだ いきているようだ.<FE>「この むこうへさえ いければなあ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06534"
+    translation: "Ah, you're here! Everyone's still alive. If only we could make it to the other side."
 
   !!int 0x06564:
     original: "「えっ!? もうたすけちゃったって?<FE> きみは モグラ かおまけだね.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06564"
+    translation: "Eh!? You already helped him? You are an honorary mole!"
 
   !!int 0x06588:
     original: "「どこかに ぬけみちが ないかなあ.<FE> コン コン コン.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06588"
+    translation: "There must be a secret passage here somewhere. Toc, toc toc."
 
   !!int 0x065a6:
     original: "「やった! たすかったぞっ!<FD> そっちへ いけば いいんだな?<FF>"
     pointer_location: 0
-    translation: "TODO_0x065a6"
+    translation: "Found it! We're saved! Shall we go?"
 
   !!int 0x065c6:
     original: "「あのときは ほんとに ありがとう!<FE> あんたは いのちの おんじんだよ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x065c6"
+    translation: "Thanks for saving me back there. I owe you my life!"
 
   !!int 0x065ec:
     original: "「みちを つくって くれたのか?<FE> ありがとう! ほんとにありがとう!<FF>"
     pointer_location: 0
-    translation: "TODO_0x065ec"
+    translation: "You cleared the road? Oh, thank you, thank you!"
 
   !!int 0x06610:
     original: "「こどものちからも あなどれんよな.<FD> いい べんきょうを<FE> させてもらったような きがするぜ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06610"
+    translation: "I'll never underestimate children again! You've taught me a valuable lesson."
 
   !!int 0x06641:
     original: "「えっ!? たすかったのか?<FE> ゆめじゃ ねえよな?<FD>「おら もうだめだと おもったよ.<FE> もう しぬしか ないんだろうとな.<FD>「そしたらかあちゃんが ゆめのなかで<FE> あきらめちゃいかんて ないとった.<FD> おら すこーし ゆうきが でたな.<FD>「かあちゃん?<FD> いや おっかさんじゃなくて<FD> おらの さいあいの おくさんの<FE> ことじゃよ.<FF>"
     pointer_location: 0x0dec4
-    translation: "TODO_0x06641"
+    translation: "Oh! I'm saved? This isn't a dream, is it? I thought I was done for.  A lady appeared to me in a dream, telling me not to give up. That gave me courage to resist. The lady? Oh, in the end, it turned out it was my wife."
 
   !!int 0x066ea:
     original: "「もう からだは なんともねえよ.<FE> しんぱいかけたな.<FD> かあちゃんにも いっぱい<FE> しんぱいを かけてしまった.<FD>「でも いいかあちゃんじゃろ?<FE> へっへっへ.<FD>「かあちゃん あいしとるよー!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x066ea"
+    translation: "I'm recovering quite well. I was so concerned. And I've made my lady worry a lot, too. But she's a strong woman, hehehe. I love her so much!"
 
   !!int 0x0674e:
     original: "「きょうは たいへんな ひじゃな.<FD> どくにやられた わかものは くるし<FE> かわで てがみは ひろうし<FD> ほいで こんどは<FE> こどもとサルの おきゃくさんかい?<FF>"
     pointer_location: 0x0ddc4
-    translation: "TODO_0x0674e"
+    translation: "Today's being a tough day. Usually, young ones affected by the poison are my main customers, but… now some kids and a monkey?"
 
   !!int 0x0679f:
     original: "「てがみか?<FE> もうすてて しもうた.<FD> じゃが なかみは おぼえておるぞ.<FE> わしは まだ ボケておらんからな.<FD> えーっと そうそう.<FD>  ボーイよ.とかいへ むかえ.<FD>  わたしは とかいへ<FE>  つれて いかれてるようだ.<FD> じゃったな. <FD>「あっ! しもうた.<FD> さしだしにんの なまえを<FE> わすれて しもうたぞ.<FD>「でも かわにながれとったんじゃから<FD> じゅうような てがみじゃ<FE> ないんじゃ ないかのう.<FF>"
     pointer_location: 0x0ddcf
-    translation: "TODO_0x0679f"
+    translation: "The letter? I've already thrown it. But I remember its contents. I'm not senile yet, you know? Let's see… ' Boy! Head to the city! They seem to be taking me there '. That's it. Oh, damn! I forgot the sender's name! But this letter was found washed ashore, so perhaps it's not that important."
 
   !!int 0x06870:
     original: "「まえに かわで<FE> てがみを ひろったんじゃ.<FD>「もうすてて しもうたし<FE> なかみも わすれて しもうた.<FD> わしも ボケてしもうたのう***<FD>「***<FD> ***<FD>「おおっ!! <FE> とつぜん おもいだしたぞっ!!<FD>  ボーイよ.とかいへ むかえ.<FD>  わたしは とかいへ<FE>  つれて いかれてるようだ.<FD> じゃった. <FD>「でも さしだしにんの なまえは<FE> やっぱり わすれて しもうたのう.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06870"
+    translation: "I picked up a letter, washed up on the shore. But I threw it away and kind of forgot its content. Perhaps I’m starting to go senile. Hmmm… Oh, I remember now! ‘ Boy! Head to the city! They seem to be taking me there ’. I was that. But I forgot the sender’s name."
 
   !!int 0x06934:
     original: "「え? いもうとの きょんに<FE> あったんですか?<FD> しんぱいしていた? そうですか.<FD>「どくのぬまちの なかに<FE> すごい ゆびわが あるときいて<FD> いって みちゃったんですよ.<FD>「きょんへの<FE> おみやげに しようとおもってね.<FD> そしたら このありさまです.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06934"
+    translation: "What? You met my little sister, Kyon? She’s worried about me? I see… I heard there was a fabulous ring in the poison swamp, so I wanted to give it to her as a gift. And this is the result."
 
   !!int 0x069b6:
     original: "「あれ? あんたたち みないかおね.<FE> どこから きたの?<FD>「あ でも それよりさあ<FE> ひどいと おもわない?<FD>「この おおあめの おかげで<FE> わたしのところの おうちと<FD> へビつかいの マルコじいのうちが<FE> みずのなかに つかってしまったの.<FD>「うちには びょうきの おかあさんが<FE> ねてるって いうのにさあ<FD> もう たいへんなのよ.<FD>「でも もっと ひどいのが<FE> マルコじいさんの ところなの.<FD>「カンペキに みずにつかっちゃって<FD> だれも おうちに<FE> いけなく なっちゃったのよ.<FD>「じいさんは ながいあめで<FE> つうふうが わるくなっちゃって<FD> ねこんで いたのよね.<FD>「くすりも もって いけないし<FE> しょくりょうだって<FD> そろそろ なくなるころだって<FE> いうのにさあ.<FF>"
     pointer_location: 0x0df07
-    translation: "TODO_0x069b6"
+    translation: "Ah? I’ve never seen you before. Where are you from? Well, can you believe how terrible things are? Because of the heavy rain, both my mother’s house and the old snake charmer Marco’s are flooded. Mom is sick and was resting at home. But old Marco has it worse. His place’s completely flooded, so no one can access. He suffers from gout, so he’s bed-ridden as well. We can’t bring him medicine and we’re also running out of food."
 
   !!int 0x06b0a:
     original: "ミオ<FE>「ちょっとーっ!!<FD> きぜつしてる おサルさんを<FE> おへやに いれないでよーっ!!<FD>「むらには<FE> びょういんが あるんだから<FD> ちゃんと なおしてから きてよね.<FF>"
     pointer_location: 0x0def7
-    translation: "TODO_0x06b0a"
+    translation: "Mio<br>「Hey! Don’t let that beast enter my room! There’s a hospital in the village where they can be attended appropriately."
 
   !!int 0x06b5f:
     original: "「えー!? マルコじいさんに<FE> しょくりょうと くすりを<FD> とどけて きたのー!?<FD>「すごいじゃん!! どうやったの?<FD> ロープで きから きへ<FE> わたって いった?<FD>「あんた ジャングルパパみたいな<FE> ことすんのね.<FD>「ジャングルパパ? しってるわよ.<FD> いつも おかあさんに<FE> はなしを きいてるもの.<FD>「わたしの おばあさんは<FE> ジャングルパパの すんでいるむらの<FD> すぐちかくに すんでいるのよ.<FD>「うらないオババってきいたことない?<FF>"
     pointer_location: 0x0df13
-    translation: "TODO_0x06b5f"
+    translation: "Eh? You’ve brought food and medicine to grampa Marco? Awesome! How did you do it? Using a rope between the trees? You resemble a lot of Jungle Papa. Yes, I know about him. My mom talks about him a lot. My grandma lives next to Jungle Papa’s village. Have you ever heard about the old fortune teller?"
 
   !!int 0x06c3d:
     original: "サスケ<FE>「そしたら このひとが<FD> アニキが いつもいってた<FE> ミオさんですか?<FF>"
     pointer_location: 0x0df19
-    translation: "TODO_0x06c3d"
+    translation: "Sasuke<br>「So this is Mio, the person big bro is always talking about?"
 
   !!int 0x06c65:
     original: "ミオ<FE>「え? そう わたしが<FD> ここらでは ゆうめいな びじんの<FE> ミオだけど***<FD> なぜ わたしのことを しってんの?<FD>「えー!?<FE> あんたが ジャングルボーイなの!?<FD> まーだ こどもじゃなーい!!<FD>「うーん***かんがえちゃうわね.<FD>「まあ いいわ.<FE>「ジャングルボーイ <character>くん.<FD> わたしを とかいに つれてって.<FD>「おばあちゃんが ジャングルボーイに<FD> とかいまで つれてってもらえって<FE> わたしに いったのよ.<FD>「わたしは とおくでも<FE> おばあちゃんと はなしができるの.<FD>「あんたたちも とかいへ<FE> いきたいんでしょう?<FD>「わたしも とかいで<FE> おとうさんを さがしたいの.<FD>「とかいまで つれてってよ.<FC>"
     pointer_location: 0x0df1f
-    translation: "TODO_0x06c65"
+    translation: "Mio<br>「Yes, I’m the famous, beautiful Mio, but… how come you know about me? What!? You’re Jungle Boy? But you’re still a child! I’d have thought… Well, doesn’t matter. <character>. Let me go with you to the city. Grandma said you’re heading there. Yes, I can speak with her from a long distance. I’m looking for my lost father. Let’s go together!"
 
   !!int 0x06e4c:
     original: "ミオが なかまになった!!<FF>"
     pointer_location: 0x0df33
-    translation: "TODO_0x06e4c"
+    translation: "Mio became an ally!"
 
   !!int 0x06e5a:
     original: "ミオ<FE>「おかあさんの おせわは<FD> もう びょういんの ひとに<FE> たのんで あるの.<FD>「さあ へビおうを<FE> やっつけに いくわよ!!<FF>"
     pointer_location: 0x0df42
-    translation: "TODO_0x06e5a"
+    translation: "Mio<br>「I asked the hospital staff to take care of my mother. So, let’s go defeat that Snake King!"
 
   !!int 0x06e9c:
     original: "「うーん*** うーん***<FE>「あなた*** あなた***<FF>"
     pointer_location: 0
-    translation: "TODO_0x06e9c"
+    translation: "Uuufff, uuufff… You… you..."
 
   !!int 0x06eba:
     original: "「おおあめの おかげで<FD> アスランがわに かかっていたはしが<FE> ながされて しまいました.<FD>「ながいこと じかんを かけて<FE> やっと かんせいしたのに.<FD>「もういちど<FE> あのはしを かけなおすためには<FD> また ながい ねんげつが<FE> かかるでしょう.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06eba"
+    translation: "Because of the heavy rain, the bridge over Aslan river has been destroyed. It took a long time to build. And it will take time to rebuild as well."
 
   !!int 0x06f37:
     original: "「はしが ながされてるから<FE> アスランがわの むこうぎしには<FD> いけないんだよ.<FD>「どこかで ロープを てにいれて<FE> ジャングルパパや サルのように<FD> ロープを つたって<FE> わたるしかないな.<FD>「そういえば このむらにも<FE> ながいロープが あったはずなのに<FD> どこへ いっちゃったんだろう?<FD> ちゃんと はこのなかに<FE> はいっていた はずなんだけどなあ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x06f37"
+    translation: "With the bridge destroyed, there’s no way to cross the Aslan river. With a rope, you could cross it jumping from tree to tree like the monkeys do. Now that we mention it, in this village there was a rope long enough. But where was it? Perhaps inside a box?"
 
   !!int 0x06fe9:
     original: "マルコじい<FE>「おや だれじゃな?<FD> みずは ひいたのか?<FD>「なに? みずの うえを こえて<FE> ここまで きてくれたのか.<FD>「いやー たすかったよ.<FF>"
     pointer_location: 0x0dffd
-    translation: "TODO_0x06fe9"
+    translation: "Old Marco<br>「Uh? Who are you? Did the water get drained? What's that? So you crossed the water and came here? Aah, I'm saved!"
 
   !!int 0x07033:
     original: "マルコじい<FE>「たすかったよ.<FD> おまえさんは<FE> ジャングルボーイじゃな.<FD> パパに よう にとるのう.<FD>「わしは ジャングルパパに<FD> へビつかいの わざを<FE> おしえたことが あるんじゃ.<FD>「おまえさんにも へビつかいのわざを<FE> おしえてやろう.<FD>「なーに むずかしくはないぞ.<FD> この へビつかいのふえを<FE> もっていきさえすれば いいのじゃ.<FD>「このふえは ねるのふえ.<FD> このふえを つかうと<FE> たいていのへビは ねてしまう.<FD>「ほかにも おどるのふえや<FE> まきつくのふえが あるが<FD> あんまりいみは ないじゃろ.<FD>「この ねるのふえが こわくて<FE> へビどもは このマルコのいえを<FD> みずのなかに とじこめて<FE> しまったのじゃよ.<FF>"
     pointer_location: 0x0e00f
-    translation: "TODO_0x07033"
+    translation: ""Old Marco<br>「I’m saved! You’re Jungle Boy, don’t you? I'll teach you like I did your father. Long ago, I taught your father how to be a snake charmer. I’ll teach you too. It’s not that hard, really! You only need a flute like this. This is a Sleeping Flute. Most snakes will fall asleep if you use it on them. There are other flutes, but not as powerful as this one. The snakes fear it so much that they tried to sink my house."
 
   !!int 0x07170:
     original: "マルコじい<FE>「うーん はらがへった.<FD> なにか くえるものかなんか<FE> もっとらんかね?<FF>"
     pointer_location: 0x0dff4
-    translation: "TODO_0x07170"
+    translation: "Old Marco<br>「Ooooh, I’m hungry. Have some food you could spare?"
 
   !!int 0x0719c:
     original: "マルコじい<FE>「へびつかいのふえで<FD> へビおうを やっつけて きてくれ.<FD>「そしたら このむらの みずも<FE> ひくだろうと おもうのじゃ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x0719c"
+    translation: "Old Marco<br>「With the Sleeping Flute you’ll be able to defeat the Snake King. After that, this village flooding won’t last long."
 
   !!int 0x071e0:
     original: "マルコじい<FE>「ありがとう.みずが ひいたので<FD> わしの つうふうも<FE> よくなったような きがするよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x071e0"
+    translation: "Old Marco<br>「Thank you. Now that the water has receded, my gout seems to be getting better."
 
   !!int 0x07213:
     original: "「へビおうが あめを ふらせてるって<FE> じいちゃんが いってたよ.<FD>「でも じいちゃんのいえ<FE> みずのなかに つかっちゃった.<FD>「ながれが はやすぎて<FD> だれも じいちゃんのいえに<FE> いけないんだよ.<FD> びょういんで くすりと<FE> しょくりょうを よういしてるのに.<FD>「おねがい じいちゃんを たすけて!<FF>"
     pointer_location: 0x10900
-    translation: "TODO_0x07213"
+    translation: "The old man told me this rain is caused by the Snake King. But his house is now in the middle of the flood, and the stream is too strong for any of us to go there. We need to provide him with food and medicine. Please, help him!"
 
   !!int 0x072ab:
     original: "「これが ぼくの じいちゃんだよ.<FE> ぼく じいちゃんが だーいすき.<FF>"
     pointer_location: 0
-    translation: "TODO_0x072ab"
+    translation: "This is my grampa. I looooove my grampa a lot!"
 
   !!int 0x072cf:
     original: "「え!? きみが じいさんに<FD> くすりと しょくりょうを<FE> とどけるって? むりだよ! むり!<FF>"
     pointer_location: 0x0e752
-    translation: "TODO_0x072cf"
+    translation: "What!? You’re bringing food and medicine to the old man? That’s impossible!"
 
   !!int 0x072ff:
     original: "「**まあ どうしてもって いうなら<FE> やってみるだけ やってみな.<FD>「ロープが あるんだったら<FD> きと きの あいだを<FE> わたしてみるのが いいかな.<FD>「てごろな きの ところで<FE> ロープを つかって ごらん.<FF>"
     pointer_location: 0x0e75d
-    translation: "TODO_0x072ff"
+    translation: "Well, if you’re sure about it, just try it. If you had a rope, you could cross going from tree to tree. You just have to use it in front of the trees."
 
   !!int 0x0736a:
     original: "<character>は<FE>くすりと しょくりょうの はいった<FD>ナップサックを もらった.<FF>"
     pointer_location: 0x0e773
-    translation: "TODO_0x0736a"
+    translation: "<character> obtained a food and medicine pack."
 
   !!int 0x0738d:
     original: "「みずを こえて いこうっていうのに<FD> そんなに にもつを もってちゃ<FE> きけんだよ.<FD>「あずかりしょに あずけてから<FE> またきておくれ.<FF>"
     pointer_location: 0x0e779
-    translation: "TODO_0x0738d"
+    translation: "It’s dangerous to cross the waters carrying so many things! Leave them here and come back for them later."
 
   !!int 0x073d3:
     original: "「へー とどけて きたのかい?<FE> やるもんだねー.<FF>"
     pointer_location: 0x0e788
-    translation: "TODO_0x073d3"
+    translation: "Oh, you managed to deliver them? I’m impressed."
 
   !!int 0x073ed:
     original: "「へビおうは ジャングルの<FE> みずうみに ちかいところに<FD> すんでいるそうよ.<FD>「しかも ちかの くらーいところに.<FD>「おお いやだ.<FE> わたし へビって だいきらい!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x073ed"
+    translation: "The Snake King seems to live in a place near the lake. It’s quite an eerie place. Oh, how I hate that damn snake!"
 
   !!int 0x07443:
     original: "「へビおうは こころをいれかえたの?<FD>「だったら すこしは すきに<FE> なって あげても いいけどさー.<FF>"
     pointer_location: 0
-    translation: "TODO_0x07443"
+    translation: "Did the Snake King change his ways? Then perhaps I’ll also change my mind about him, too..."
 
   !!int 0x07477:
     original: "「へビおうは まあへビだけど<FD> そんなに わるいやつじゃ<FE> なかったんだよ.<FD>「あいつ おいのりで<FE> あめを ふらせることが できたんで<FD> ずいぶん みんなを<FE> たすけて きたんだ.<FD>「でも あいつ ゴートだんに<FE> はいった らしいんだよな.<FF>"
     pointer_location: 0
-    translation: "TODO_0x07477"
+    translation: "The Snake King wasn’t that bad as a person, after all. He could make the rain fall with his praying, and in the past that helped a lot of people. But it seems he ended up joining that Goat Gang."
 
   !!int 0x074f1:
     original: "「そうか! へビおうは<FE> ゴートだんを やめたのか!!<FD>「じゃ こんど いっしょに<FE> へビおどりでも やるかな.<FF>"
     pointer_location: 0
-    translation: "TODO_0x074f1"
+    translation: "Really? The Snake King has left the Goat Gang? Perhaps we should try doing the Snake Dance."
 
   !!int 0x0752a:
     original: "「きたの たんこうのむらは<FE> どうじゃったかい?<FD>「たんこうは あめが ふると<FE> たいへん じゃろうからなあ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x0752a"
+    translation: "I wonder how things are in the village north of the coal mine. The mine can become dangerous when it rains."
 
   !!int 0x07562:
     original: "「ミオくん.<FE> おかあさんを なおすには<FD> おとうさんの ちからを かりるしか<FE> ほうほうが ないようじゃな.<FD>「るすのあいだ おかあさんの ことは<FE> わしが せきにんを もつよ.<FD>「あんしんして おとうさんを<FE> さがして きてくれよ.<FF>"
     pointer_location: 0x0e79a
-    translation: "TODO_0x07562"
+    translation: "Mio. It seems the only way to help your mother is with your father’s help. I’ll stay here and take care of her. So don’t worry, go look for him."
 
   !!int 0x075d9:
     original: "へビおう<FE>「あめよふれー! あめよふれー!<FD>「はしもながれた.せんろもながれた.<FE> マルコじじいも みずの なかだ.<FD>「あとすこしで みんな おぼれるぞ.<FE> ひっひっひっひ.<FD>「あめよふれー! あめよふれー!<FF>"
     pointer_location: 0x0ee85
-    translation: "TODO_0x075d9"
+    translation: "Snake King<br>「Rain, fall! I command you! Destroy the bridge! Flood the railroad! Even Marco’s house! Soon, everyone will drown! Rain, fall!"
 
   !!int 0x07642:
     original: "ミオ<FE>「ちょっと! そうは させないわよ!<FF>"
     pointer_location: 0x0ee91
-    translation: "TODO_0x07642"
+    translation: "Mio<br>「STOP! We won’t let you do this!"
 
   !!int 0x07658:
     original: "へビおう<FE>「ぎょっ! おまえらは なにもんだ?<FD> じゃまするな! でていけっ!!<FF>"
     pointer_location: 0x0ee99
-    translation: "TODO_0x07658"
+    translation: "Snake King<br>「Uh!? Who are you people? Don’t interfere! Leave!!"
 
   !!int 0x07681:
     original: "へビおう<FE>「すみません.ゆるしてください.<FD>「あんまり マルコじじいが<FE> へビのふえで からかうもんだから<FD> つい にくったらしくなって<FD> アピーニ*ゴートの わるだくみに<FE> のって しまいました.<FD>「むらの みずも<FE> ひかせるように します.<FD>「もう こんなことは しませんので<FE> いのちばかりは おたすけを***.<FF>"
     pointer_location: 0x0f252
-    translation: "TODO_0x07681"
+    translation: "Snake King<br>「I’m sorry! Please forgive me! I felt threatened by the old Marco’s Sleep Flute and fell for the lies of Apini Goat. I’ll repair the damage caused to the village. So please, spare my life!"
 
   !!int 0x07721:
     original: "へビおう<FE>「あっ! <character>さん!<FD>「いまは わたしも<FD> みずうみのむらの ひとたちと<FE> うまく やってます.<FD>「マルコじいさんの つうふうも<FE> だいぶいいようですよ.<FF>"
     pointer_location: 0x0ee9f
-    translation: "TODO_0x07721"
+    translation: "Snake King<br>「Ah, <character>! I’m getting along with the villagers here! Old Marco’s condition seems to be improving, too."
 
   !!int 0x07773:
     original: "ヒフムヒスAナカ<FF>"
     pointer_location: 0x020a1
-    translation: "TODO_0x07773"
+    overworld: true
+    translation: "a"
 
   !!int 0x0777c:
     original: "MBDGCス ススAネコミトカ<FE>ャナルミトスク<FC>"
     pointer_location: 0x0fc3f
-    translation: "TODO_0x0777c"
+    overworld: true
+    translation: "aa"
 
   !!int 0x077be:
     original: "スCタCス ススAネレキ<FF>"
     pointer_location: 0x0e894
-    translation: "TODO_0x077be"
+    overworld: true
+    translation: "aaa"
 
   !!int 0x077cb:
     original: "ヒフム コャヒスAナカ<FF>"
     pointer_location: 0x0e9de
-    translation: "TODO_0x077cb"
+    overworld: true
+    translation: "aaaa"
 
   !!int 0x077d7:
     original: "MBDGCスケAナラ ャナロホサCナキ<FF>"
     pointer_location: 0x0fd01
-    translation: "TODO_0x077d7"
+    overworld: true
+    translation: "aaaaa"
 
   !!int 0x077eb:
     original: "「なにに ついて しらべますか?<FC>"
     pointer_location: 0x0e8fd
-    translation: "TODO_0x077eb"
+    translation: "What do you want to inspect?"
 
   !!int 0x07935:
     original: "    ジャングルの れきし<FE><FD> ジャングルは このまちより ずっと<FD>ふるく 300ねんも まえから さか<FD>えていた.3けんじゃと よばれた 3<FD>びきの かしこい どうぶつに ひきい<FD>られた どうぶつたちは にんげんには<FD>およびも つかない ふしぎな ちから<FD>を もっていた.<FD> それは 1000ねん いじょうも<FD>まえに いまの さばくちほうに すん<FD>でいた でんせつの こだいじんたちの<FD>のこした ちからだと いわれている.<FD> しかし このまちが さかえはじめた<FD>ころから ジャングルでは にんげんと<FD>どうぶつたちとの いざこざが たえな<FD>く なって しまった.<FD> いくにんかの ひとびとは どうぶつ<FD>たちと ともに いきて いくことを<FD>えらび ジャングルに とどまった.<FD> その にんげんたちの なかで いち<FD>ばんの しんらいを にんげんからも<FD>どうぶつからも うけている じんぶつ<FD>が あの ジャングルパパ である.<FF>"
     pointer_location: 0
-    translation: "TODO_0x07935"
+    translation: "History of the jungle<br>More than 300 hundred years ago, a civilization flourished in the jungle. It was ruled by three wise beasts who possessed powers unmatched by humans. It is said to be the legacy of a legendary race of ancient people who lived in a now desertic area, more than 1000 years ago. But, while that civilization was thriving, conflict arose between humans and animals. Some of them decided to flee and settled down in the jungle. Of all them, Jungle Papa is the most cherished person from both humans and animals alike."
 
   !!int 0x07ad1:
     original: "    こだいの ひとびと<FE><FD> いまから 1000ねん いじょうも<FD>まえに さばくで さかえた たみ.<FD> ふしぎな とうや なぞの ちじょう<FD>えや かみの ぞうなどを のこして<FD>ほろびて しまった.<FD> いまとなっては どんな ぶんめいを<FD>つくりあげて いたか わからないが<FD>じゅもんや かずかずの しんぴてきな<FD>わざが はったつして いたらしい.<FF>"
     pointer_location: 0
-    translation: "TODO_0x07ad1"
+    translation: "The Ancient People<br>A civilization that thrived in the desert more than 1000 years ago. They disappeared, leaving behind mysterious towers and puzzling geoglyphs and statues. It is unclear what kind of culture they had but, seemingly, they could use mystical skills and magic."
 
   !!int 0x07b7f:
     original: "「いらっしゃいませ.<FE> どのチケットを おもとめですか?<FC>"
     pointer_location: 0x0e933
-    translation: "TODO_0x07b7f"
+    translation: "Welcome! Which ticket would you like?"
 
   !!int 0x07c0a:
     original: "「またの ごとうじょうを<FE> おまちして おります.<FF>"
     pointer_location: 0x0e96c
-    translation: "TODO_0x07c0a"
+    translation: "We look forward to seeing you again!"
 
   !!int 0x07c24:
     original: "「ジャングルの みなとまちまで<FE> 500Gです.<FD> おのりに なりますか?<FC>"
     pointer_location: 0
-    translation: "TODO_0x07c24"
+    translation: "The fare to Port Town is 500G. Would you like a ride, sir?"
 
   !!int 0x07c77:
     original: "「では いってらっしゃい.<FF>"
     pointer_location: 0x0e7ff
-    translation: "TODO_0x07c77"
+    translation: "Well then, see you!"
 
   !!int 0x20000:
     original: "<var1>は<FE><item>を つかった!<FF>"
@@ -943,7 +948,7 @@ script:
   !!int 0x20067:
     original: "もちものが いっぱいです.<FF>"
     pointer_location: 0x026dc
-    translation: "TODO_0x20067"
+    translation: "Your inventory is full. Please sell or drop some items."
 
   !!int 0x20075:
     original: "<character>は<FE><item>を てにいれた!<FF>"
@@ -953,32 +958,32 @@ script:
   !!int 0x20082:
     original: "<character>は<FE><item>を あきらめた.<FF>"
     pointer_location: 0
-    translation: "TODO_0x20082"
+    translation: "<character> gave up <item>."
 
   !!int 0x2008f:
     original: "<character>は ドアを しらべた!<FD>カギが かかっている!<FF>"
     pointer_location: 0x0e989
-    translation: "TODO_0x2008f"
+    translation: "<character> checked the door. It is closed."
 
   !!int 0x200a8:
     original: "<character>は かべを しらべた!<FD>スコップがあれば くずせそうだ!<FF>"
     pointer_location: 0x0e7a5
-    translation: "TODO_0x200a8"
+    translation: "<character> inspected the wall. It could be torn down with a shovel!"
 
   !!int 0x200c6:
     original: "「<var5>ーー!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x200c6"
+    translation: "「<var5>ーー!!<FF>"
 
   !!int 0x200cd:
     original: "<var1>は <character>に<FE><item>を わたした.<FF>"
     pointer_location: 0x026cf
-    translation: "TODO_0x200cd"
+    translation: "<var1> gave <item> to <character>"
 
   !!int 0x200dc:
     original: "<character>は <var1>に<FE><item>を わたした.<FF>"
     pointer_location: 0x026b6
-    translation: "TODO_0x200dc"
+    translation: "<character> gave <item> to <var1>"
 
   !!int 0x200eb:
     original: "<var1>は<FE><item>を もちなおした.<FF>"
@@ -993,22 +998,22 @@ script:
   !!int 0x20108:
     original: "サスケは きのみを<FE>さがしに でかけた.<FF>"
     pointer_location: 0x02295
-    translation: "TODO_0x20108"
+    translation: "Sasuke started looking for fruits."
 
   !!int 0x2011d:
     original: "[FB]を <var6>コみつけた!<FF>"
     pointer_location: 0x022be
-    translation: "TODO_0x2011d"
+    translation: "<var6> <FB> found!"
 
   !!int 0x20128:
     original: "もう ここは さがしたよ.<FF>"
     pointer_location: 0x022e0
-    translation: "TODO_0x20128"
+    translation: "You’ve already checked this spot."
 
   !!int 0x20136:
     original: "ここには きのみが おちていないよ.<FF>"
     pointer_location: 0x022db
-    translation: "TODO_0x20136"
+    translation: "Didn’t find any fruit here."
 
   !!int 0x20149:
     original: "じゅもんを つかえるひとが<FE>だれも いない.<FF>"
@@ -1023,67 +1028,67 @@ script:
   !!int 0x2016e:
     original: "サスケは まだ<FE>きのみを もってない.<FF>"
     pointer_location: 0
-    translation: "TODO_0x2016e"
+    translation: "Sasuke doesn’t have any fruit yet."
 
   !!int 0x20182:
     original: "<character>は マルコじいに<FE><item>を わたした.<FF>"
     pointer_location: 0x16aba
-    translation: "TODO_0x20182"
+    translation: "<character> gave <item> to Marco."
 
   !!int 0x20195:
     original: "しかし このロープは みじかすぎる.<FF>"
     pointer_location: 0x1697f
-    translation: "TODO_0x20195"
+    translation: "But this rope is too short."
 
   !!int 0x201a8:
     original: "<item>を もらった!!<FF>"
     pointer_location: 0x0dd6e
-    translation: "TODO_0x201a8"
+    translation: "<item> received!!"
 
   !!int 0x201b2:
     original: "<gold>ポイントの けいけんちを<FE>てにいれた!!<FF>"
     pointer_location: 0x0fe15
-    translation: "TODO_0x201b2"
+    translation: "Got <gold> exp. points!!"
 
   !!int 0x201c8:
     original: "<var1>は レべル<var7>になった!!<FF>"
     pointer_location: 0x02ae0
-    translation: "TODO_0x201c8"
+    translation: "<var1> reached level <var7>!!"
 
   !!int 0x201d6:
     original: " HPが <var7>あがった!!<FF>"
     pointer_location: 0x02b00
-    translation: "TODO_0x201d6"
+    translation: "HP rose by <var7>!!"
 
   !!int 0x201e3:
     original: " MPが <var7>あがった!!<FF>"
     pointer_location: 0x02b18
-    translation: "TODO_0x201e3"
+    translation: "MP rose by <var7>!!"
 
   !!int 0x201f0:
     original: " ちからが <var7>あがった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x201f0"
+    translation: "Strength rose by <var7>!!"
 
   !!int 0x201fe:
     original: " かしこさが <var7>あがった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x201fe"
+    translation: "Wisdom rose by <var7>!!"
 
   !!int 0x2020d:
     original: " すばやさが <var7>あがった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2020d"
+    translation: "Agility rose by <var7>!!"
 
   !!int 0x2021c:
     original: " たいりょくが <var7>あがった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2021c"
+    translation: "Stamina rose by <var7>!!"
 
   !!int 0x2022c:
     original: " ちからのゆびわが<FE> ひかりかがやいた!!<FF>"
     pointer_location: 0x02b59
-    translation: "TODO_0x2022c"
+    translation: "The Power Ring started glowing!"
 
   !!int 0x20242:
     original: "<var1>は <item>を<FE>そうびした!<FF>"
@@ -1093,47 +1098,47 @@ script:
   !!int 0x2024f:
     original: "<var1>は <item>を<FE>そうびできない!<FF>"
     pointer_location: 0x02539
-    translation: "TODO_0x2024f"
+    translation: "<var1> can’t wear <item>!"
 
   !!int 0x2025e:
     original: "「きが つきましたか?<FD> きみは この そとに<FE> たおれて いたのです.<FD>「だれが つれてきたのかって?<FE> それは わたしには わかりません.<FF>"
     pointer_location: 0x1bdbc
-    translation: "TODO_0x2025e"
+    translation: "Have you recovered? I found you unconscious outside. Who brought you here? That, I don’t know."
 
   !!int 0x202a6:
     original: "「あ それから ちりょうひは<FE> いただいときましたよ.<FF>"
     pointer_location: 0x1bddd
-    translation: "TODO_0x202a6"
+    translation: "Ah, I already treated you."
 
   !!int 0x202c2:
     original: "つかまっていた ひとたちの<FE>ロープを ほどいた.<FF>"
     pointer_location: 0x0e0cd
-    translation: "TODO_0x202c2"
+    translation: "I untied these people."
 
   !!int 0x202db:
     original: "<character>は とびらを しらべた.<FD>とびらには のろいが かかっていて<FE>ひらかない!!<FF>"
     pointer_location: 0x0e99d
-    translation: "TODO_0x202db"
+    translation: "<character> checked the door. It is sealed by a curse and won’t open!"
 
   !!int 0x20303:
     original: "<var1>は <item>の<FE>そうびを はずした!<FF>"
     pointer_location: 0x0257d
-    translation: "<var1> took <var2> off!"
+    translation: "<var1> took <item> off!"
 
   !!int 0x20314:
     original: "<character>は<FE><gold>Gを てにいれた!<FF>"
     pointer_location: 0x02085
-    translation: "<var0> got <gold>G!"
+    translation: "<character> got <gold>G!"
 
   !!int 0x20322:
     original: "こうげきりょくが<FE><amount>あがった!<FF>"
     pointer_location: 0x025cd
-    translation: "TODO_0x20322"
+    translation: "Attack rose by <amount>!"
 
   !!int 0x20332:
     original: "こうげきりょくが<FE><amount>さがった!<FF>"
     pointer_location: 0x025c8
-    translation: "TODO_0x20332"
+    translation: "Attack dropped  by <amount>!"
 
   !!int 0x20342:
     original: "しゅびりょくが<FE><amount>あがった!<FF>"
@@ -1148,82 +1153,82 @@ script:
   !!int 0x20360:
     original: "すばやさが<FE><amount>あがった!<FF>"
     pointer_location: 0x02609
-    translation: "TODO_0x20360"
+    translation: "Speed rose by <amount>!"
 
   !!int 0x2036d:
     original: "すばやさが<FE><amount>さがった!<FF>"
     pointer_location: 0x025fe
-    translation: "TODO_0x2036d"
+    translation: "Speed dropped by <amount>!"
 
   !!int 0x2037a:
     original: "<var1>は<FE>めを あけた!!<FF>"
     pointer_location: 0x11fae
-    translation: "TODO_0x2037a"
+    translation: "<var1> woke up!"
 
   !!int 0x20386:
     original: "たいまつは まだ もえている.<FF>"
     pointer_location: 0x16847
-    translation: "TODO_0x20386"
+    translation: "The torch’s still lit."
 
   !!int 0x20396:
     original: "<var1>は<FE><item>を ふいた.<FF>"
     pointer_location: 0
-    translation: "TODO_0x20396"
+    translation: "<var1> played <item>."
 
   !!int 0x203a1:
     original: "<item>は<FE>キラりと ひかった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x203a1"
+    translation: "<item> flashed for an instant!!"
 
   !!int 0x203b0:
     original: "<var1>は マントを はおった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x203b0"
+    translation: "<var1> wore the mantle!"
 
   !!int 0x203be:
     original: "<var3>を かいしんさせた!<FF>"
     pointer_location: 0x0f222
-    translation: "TODO_0x203be"
+    translation: "<var3> felt better!"
 
   !!int 0x203ca:
     original: "<var3>を やっつけた!!<FF>"
     pointer_location: 0x0f2db
-    translation: "TODO_0x203ca"
+    translation: "<var3> attacked!!"
 
   !!int 0x203d5:
     original: "<var3>を たおした!!<FF>"
     pointer_location: 0x0f35d
-    translation: "TODO_0x203d5"
+    translation: "<var3> defeated!"
 
   !!int 0x203df:
     original: "ライオンを ジャングルに<FE>かえすことが できた!!<FF>"
     pointer_location: 0x0f315
-    translation: "TODO_0x203df"
+    translation: "The lion has been sent back to the jungle!!"
 
   !!int 0x203f9:
     original: "みんなを たすけることが できた!!<FF>"
     pointer_location: 0x0deca
-    translation: "TODO_0x203f9"
+    translation: "You rescued everyone!!"
 
   !!int 0x2040c:
     original: "ゴンタを たすけることが できた!!<FF>"
     pointer_location: 0x0e32e
-    translation: "TODO_0x2040c"
+    translation: "You rescued Gonta!!"
 
   !!int 0x2041f:
     original: "サスケが なかまに なった!!<FF>"
     pointer_location: 0x0f127
-    translation: "TODO_0x2041f"
+    translation: "Sasuke became an ally!!"
 
   !!int 0x2042f:
     original: "ケンが なかまに なった!!<FF>"
     pointer_location: 0x0f1b9
-    translation: "TODO_0x2042f"
+    translation: "Ken became an ally!!"
 
   !!int 0x2043e:
     original: "たいまつが もえつきた!<FF>"
     pointer_location: 0x01ca1
-    translation: "TODO_0x2043e"
+    translation: "The torch burned out!"
 
   !!int 0x2044b:
     original: "「いいもの みっけ!!<FF>"
@@ -1233,17 +1238,17 @@ script:
   !!int 0x20457:
     original: "ミオは きぜつしている.<FF>"
     pointer_location: 0x0247e
-    translation: "TODO_0x20457"
+    translation: "Mio fainted."
 
   !!int 0x20464:
     original: "<character>は <item>を<FE>ミオから うけとった.<FF>"
     pointer_location: 0x026c6
-    translation: "TODO_0x20464"
+    translation: "<character> got <item> from Mio."
 
   !!int 0x20476:
     original: "<var1>は<FE><item>を すてた.<FF>"
     pointer_location: 0x02723
-    translation: "TODO_0x20476"
+    translation: "<var1> dropped <item>."
 
   !!int 0x20481:
     original: "そこには だれもいない.<FF>"
@@ -1258,12 +1263,12 @@ script:
   !!int 0x20497:
     original: "ジャングルの あさが きました.<FC>"
     pointer_location: 0x1a581
-    translation: "TODO_0x20497"
+    translation: "Morning has broken in the jungle."
 
   !!int 0x204e3:
     original: "<character>は てがみを よんだ.<FE>「あいする ボーイ.<FD> おまえが このてがみを よむときは<FE> わたしの みに なにかが<FD> おこった ときだろう.<FD> だが この きけんな ジャングルで<FE> へいわを まもりつづけるには<FD> そのくらいの ことには くじけない<FE> ゆうかんな こころが ひつようだ.<FD> おまえは わたしの むすこ<FD> ジャングルパパの むすこ<FD> ジャングルボーイだ!!<FD> おまえは ジャングルのへいわのため<FE> たたかいつづけねば ならない.<FD> くるしく つらい たたかいだろうが<FE> ボーイ!<FD> あとのことは たのんだぞ!!<FF>"
     pointer_location: 0x16acc
-    translation: "TODO_0x204e3"
+    translation: "<character> read the letter<br>「Dear Boy. If you’re reading this, it will mean something bad has happened to me. To keep protecting this ruthless jungle, you’ll need a strong heart that isn’t crushed by adversity. You’re my son, Jungle Papa’s son, no less! You must continue fighting to keep peace in the jungle, at any cost. I leave it to you, my son!"
 
   !!int 0x205e9:
     original: "<character>たちは<FE>いずみのみずをのんだ.<FD>うほうほ! げんきになった!<FF>"
@@ -1273,267 +1278,267 @@ script:
   !!int 0x20609:
     original: "<character>は いずみのみずをのんだ.<FD>うほうほ! げんきになった!<FF>"
     pointer_location: 0x0e708
-    translation: "TODO_0x20609"
+    translation: "<character> took a sip from the spring. Whoo-hoo! Health restored!"
 
   !!int 0x20627:
     original: "<character>たちは<FE>いわを うごかそうとした.<FD>しかし ふたりでは うごかない!<FF>"
     pointer_location: 0x0eb79
-    translation: "TODO_0x20627"
+    translation: "<character>’s party try to move the boulder. However, it’s too heavy for them alone to move!"
 
   !!int 0x2064b:
     original: "ロープが かかっています.<FE>わたりますか?<FC>"
     pointer_location: 0x0fc9e
-    translation: "TODO_0x2064b"
+    translation: "The rope is set. Will you cross?"
 
   !!int 0x2069d:
     original: "「おや もちものが いっぱいですね.<FE>「どこかで なにか もちものを<FD> うるか すてるか あずけるか<FE> してきてください.<FF>"
     pointer_location: 0
-    translation: "TODO_0x2069d"
+    translation: "Oh, your inventory is full! Try to sell or drop something and come back again."
 
   !!int 0x206db:
     original: "ロープがあったら わたれそうだ!<FF>"
     pointer_location: 0x0fd06
-    translation: "TODO_0x206db"
+    translation: "You could cross here if you had a rope!"
 
   !!int 0x206ec:
     original: "<character>は パパのメモを よんだ.<FD>「ゴートだんの ほんきょちは<FD> とかいの ちかくの しま<FE> サークラルとうに ある.<FD> わたしは いま<FE> そこに つれて いかれるようだ.<FD> ボーイ!<FD> サークラルとうに いくみちを<FE> みつけだしてくれ.<FF>"
     pointer_location: 0x16ad8
-    translation: "TODO_0x206ec"
+    translation: "<character> read Papa’s note<br>「The Goat Gang’s headquarters is in Sacral, an island just near the city. I’m being taken there right now. Boy! You must find your way to Sacral island!"
 
   !!int 0x20762:
     original: "<var1>は ラッパをふいた.<FF>"
     pointer_location: 0x168de
-    translation: "TODO_0x20762"
+    translation: "<var1> blew the horn."
 
   !!int 0x2076e:
     original: "さばくに<FE>ラッパのおとが ひびきわたる***<FF>"
     pointer_location: 0x168f8
-    translation: "TODO_0x2076e"
+    translation: "The sound of the horn echoed through the desert."
 
   !!int 0x20785:
     original: "きんのクロスと ぎんのクロスが<FE>ひかりを はなった!!<FD>とびらが ひらくぞっ!!<FF>"
     pointer_location: 0x03455
-    translation: "TODO_0x20785"
+    translation: "The Gold Cross and the Silver Cross began to shine! The door is unsealed!"
 
   !!int 0x207ae:
     original: "<character>は てがみを よんだ.<FD>「*?!/***.*!!./?<FE> ****!?PP..<FD><character>には よめなかった!<FF>"
     pointer_location: 0x16aee
-    translation: "TODO_0x207ae"
+    translation: "<character> read the letter<br>「*?!/***.*!!./? ****!?PP..<br><character> couldn’t read it!"
 
   !!int 0x207e3:
     original: "<character>は こもんじょを よんだ.<FE><FD> かみの ぞうの ならわしは<FE> すべてが ひだりから はじまる.<FD> まえは 2ひきの トラ<FE> すなわち 2つめの かみの ぞう.<FD> うしろは 5ひきの おおかみ<FE> すなわち 5つめの かみの ぞう.<FD> じゅんに ひだりから あいまみえ<FE> きたえた わざの ためしとせん.<FD> たたかいの かみは<FE> われとともに あるのだ.<FF>"
     pointer_location: 0x16add
-    translation: "TODO_0x207e3"
+    translation: "<character> read the ancient books.<br>The pattern of the image of the gods is that everything starts from the left. There are two tigers in front, that's the second image of god. In the back are five wolves, or the fifth statue of God. The order is from the left to the right for the purpose of the deed. The god of war is with me."
 
   !!int 0x20894:
     original: "ミオ<FE>「なーに これ?<FF>"
     pointer_location: 0x16ae8
-    translation: "TODO_0x20894"
+    translation: "Mio<br>「W...What the...!?"
 
   !!int 0x208a0:
     original: "なんかいへ いきますか?<FE> ーただいま <var6>かいー<FC>"
     pointer_location: 0x1b104
-    translation: "TODO_0x208a0"
+    translation: "Do you want to come in?<br> -I'm back, floor <var6>.<FC>"
 
   !!int 0x208c8:
     original: "ミオ<FE>「あっ! パパのこえだわ!<FD>「ねえ <character>! さがして!<FE> おねがい! パパを さがして!<FF>"
     pointer_location: 0
-    translation: "TODO_0x208c8"
+    translation: "Mio<br>「Oh! That’s Papa’s voice! Hey, <character>! Follow it, please! Follow Papa’s voice!"
 
   !!int 0x208f7:
     original: "ミオ<FE>「<character>! そっちじゃないわ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x208f7"
+    translation: "Mio<br>「<character>! This isn’t the right way!"
 
   !!int 0x20925:
     original: "かいしんの いちげき!<FC>"
     pointer_location: 0x134c0
-    translation: "TODO_0x20925"
+    translation: "Critical hit!<FC>"
 
   !!int 0x20947:
     original: "<enemy>は<FE>みを かわした!!<FF>"
     pointer_location: 0x13584
-    translation: "TODO_0x20947"
+    translation: "<enemy> dodged!!"
 
   !!int 0x2095f:
     original: "<var1>は <var5>を<FE>となえた!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2095f"
+    translation: "<var1> chanted <var5>!!"
 
   !!int 0x2096c:
     original: "「<var5>ーっ!!<FF>"
     pointer_location: 0x027b7
-    translation: "TODO_0x2096c"
+    translation: "<var5>...!!"
 
   !!int 0x20973:
     original: "ゆびさきから<FE>ひのたまが とぶ!!<FF>"
     pointer_location: 0x1299a
-    translation: "TODO_0x20973"
+    translation: "Spews fireballs!!"
 
   !!int 0x20985:
     original: "てきが ほのおに<FE>つつまれる!!<FF>"
     pointer_location: 0x12fe2
-    translation: "TODO_0x20985"
+    translation: "The foe burns up!!"
 
   !!int 0x20996:
     original: "ふぶきが<FE>てきを おそう!!<FF>"
     pointer_location: 0x123ee
-    translation: "TODO_0x20996"
+    translation: "Blizzard attack!!"
 
   !!int 0x209a5:
     original: "いかづちが<FE>てきを おそう!!<FF>"
     pointer_location: 0x13000
-    translation: "TODO_0x209a5"
+    translation: "Lightning attack!!"
 
   !!int 0x209b5:
     original: "つるりんっ!!<FE>こうげきが はずれた!<FF>"
     pointer_location: 0x13579
-    translation: "TODO_0x209b5"
+    translation: "The attack misses!!"
 
   !!int 0x209c9:
     original: "ミオは <var5>を<FE>となえた!!<FF>"
     pointer_location: 0x12774
-    translation: "TODO_0x209c9"
+    translation: "Mio chanted <var5>!!"
 
   !!int 0x209d7:
     original: "<enemy>は<FE>ねむって しまった!!<FF>"
     pointer_location: 0x12b09
-    translation: "TODO_0x209d7"
+    translation: "<enemy> fell asleep!!"
 
   !!int 0x209e6:
     original: "<enemy>は<FE>ねむっている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x209e6"
+    translation: "<enemy> is sleeping!"
 
   !!int 0x209f1:
     original: "<enemy>は<FE>おきあがった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x209f1"
+    translation: "<enemy> woke up!"
 
   !!int 0x209fc:
     original: "<enemy>の<FE>じゅもんを<FE>ふうじこめた!!<FF>"
     pointer_location: 0x12c2e
-    translation: "TODO_0x209fc"
+    translation: "<enemy>’s magic sealed!"
 
   !!int 0x20a0e:
     original: "でも じゅもんは<FE>ふうじられている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20a0e"
+    translation: "But magic is sealed!"
 
   !!int 0x20a21:
     original: "<var1>は<FE>こうげきりょくが<FE>あがった!!<FF>"
     pointer_location: 0x12cb4
-    translation: "TODO_0x20a21"
+    translation: "<var1>’s attack increased!"
 
   !!int 0x20a34:
     original: "<var1>の<FE>マカチャクが とけた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20a34"
+    translation: "<var1>’s mag. Attack blocked!"
 
   !!int 0x20a43:
     original: "<var1>には<FE>すでに かかっていた!<FF>"
     pointer_location: 0x12c58
-    translation: "TODO_0x20a43"
+    translation: "<var1> has already been spent!"
 
   !!int 0x20a53:
     original: "<enemy>の<FE>しゅびりょくを<FE>さげた!!<FF>"
     pointer_location: 0x11cfc
-    translation: "TODO_0x20a53"
+    translation: "<enemy>’s defense down!"
 
   !!int 0x20a64:
     original: "<var1>は<FE>しゅびりょくが<FE>あがった!!<FF>"
     pointer_location: 0x12e03
-    translation: "TODO_0x20a64"
+    translation: "<var1>’s defense up!"
 
   !!int 0x20a76:
     original: "<enemy>の<FE>MPを <var6>すいとった!<FF>"
     pointer_location: 0x12ed5
-    translation: "TODO_0x20a76"
+    translation: "Stolen <enemy>’s MP!"
 
   !!int 0x20a85:
     original: "<enemy>には<FE>MPが ない!<FF>"
     pointer_location: 0x12edb
-    translation: "TODO_0x20a85"
+    translation: "<enemy>’s MP ran out!"
 
   !!int 0x20a91:
     original: "<enemy>は<FE>こんらんした!!<FF>"
     pointer_location: 0x12f5f
-    translation: "TODO_0x20a91"
+    translation: "<enemy>’s dazed!"
 
   !!int 0x20a9d:
     original: "<enemy>は<FE><enemy>を<FE>こうげきした!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20a9d"
+    translation: "<enemy> attacked <enemy>!"
 
   !!int 0x20aac:
     original: "<enemy>は<FE><var5>をとなえた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20aac"
+    translation: "<enemy> cast <var5>!"
 
   !!int 0x20ab7:
     original: "<var1>の<FE>HPが かいふくした!<FF>"
     pointer_location: 0x13169
-    translation: "TODO_0x20ab7"
+    translation: "Restored <var1> HP!"
 
   !!int 0x20ac6:
     original: "<enemy>の<FE>HPが かいふくした!<FF>"
     pointer_location: 0x12631
-    translation: "TODO_0x20ac6"
+    translation: "<enemy> restored <var1> HP!"
 
   !!int 0x20ad5:
     original: "<enemy>は<FE>とつぜんおどりだした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20ad5"
+    translation: "<enemy> began dancing!"
 
   !!int 0x20ae4:
     original: "<enemy>は<FE>おどりまくっている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20ae4"
+    translation: "<enemy>’s dancing madly!"
 
   !!int 0x20afc:
     original: "<character>たちは<FE><item>を<FE>てにいれた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20afc"
+    translation: "<character>’s group got <item>!"
 
   !!int 0x20b0b:
     original: "<var1>の まわりが<FE>あかく ひかっている!<FF>"
     pointer_location: 0x12f8e
-    translation: "TODO_0x20b0b"
+    translation: "<var1>’s engulfed by red haze!"
 
   !!int 0x20b1f:
     original: "<var1>は じゅもんを<FE>はねかえした!!<FF>"
     pointer_location: 0x12fc6
-    translation: "TODO_0x20b1f"
+    translation: "<var1> deflects the spell!"
 
   !!int 0x20b31:
     original: "<var1>の<FE>アナクが とけた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20b31"
+    translation: "<var1>’s Anak blocked!"
 
   !!int 0x20b3e:
     original: "しかし なにも<FE>おこらなかった!<FF>"
     pointer_location: 0x11d86
-    translation: "TODO_0x20b3e"
+    translation: "But nothing happened!"
 
   !!int 0x20b4f:
     original: "<var1>は<FE>ぜんかいした!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20b4f"
+    translation: "<var1> recovered!"
 
   !!int 0x20b5b:
     original: "<var1>から どくが<FE>きえさった!!<FF>"
     pointer_location: 0x11f79
-    translation: "TODO_0x20b5b"
+    translation: "<var1>’s poison removed!"
 
   !!int 0x20b6b:
     original: "サスケは[FB]を<FE>なげた!!<FF>"
     pointer_location: 0x13c26
-    translation: "TODO_0x20b6b"
+    translation: "Sasuke tossed <FB>!"
 
   !!int 0x20b78:
     original: "<enemy>は<FE>よって しまった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20b78"
+    translation: "<enemy>’s fuddled!"
 
   !!int 0x20b86:
     original: "<enemy>は<FE>マタタビに よっている<FF>"
@@ -1543,577 +1548,577 @@ script:
   !!int 0x20b95:
     original: "<enemy>は<FE>とびあがった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20b95"
+    translation: "<enemy> jumped!"
 
   !!int 0x20ba1:
     original: "<enemy>は<FE>くちを おさえている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20ba1"
+    translation: "<enemy> is muted!!"
 
   !!int 0x20bb0:
     original: "<enemy>は<FE>すべった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20bb0"
+    translation: "<enemy> slipped!!"
 
   !!int 0x20bba:
     original: "<enemy>は<FE>ころんでいる!<FF>"
     pointer_location: 0x1246c
-    translation: "TODO_0x20bba"
+    translation: "<enemy> is on the floor!!"
 
   !!int 0x20bc5:
     original: "サスケは[FB]を<FE>つかった!!<FF>"
     pointer_location: 0x11f83
-    translation: "TODO_0x20bc5"
+    translation: "Sasuke used <FB>!!"
 
   !!int 0x20bd3:
     original: "<item>を<FE>つかった!!<FF>"
     pointer_location: 0x11d73
-    translation: "TODO_0x20bd3"
+    translation: "Used <item>!!"
 
   !!int 0x20bdd:
     original: "<var1>は<FE>さけびごえを あげた!<FC>"
     pointer_location: 0x11c68
-    translation: "TODO_0x20bdd"
+    translation: "<var1> yelled!!"
 
   !!int 0x20bf5:
     original: "<gold>の ゴールドを<FE>てにいれた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20bf5"
+    translation: "Got <gold> G!!"
 
   !!int 0x20c05:
     original: "<enemy>は<FE>こうげきりょくが<FE><amount>さがった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20c05"
+    translation: "<enemy>’s attack <amount> down!!"
 
   !!int 0x20c18:
     original: "<enemy>は<FE>ビビっている!<FF>"
     pointer_location: 0x11ced
-    translation: "TODO_0x20c18"
+    translation: "<enemy> is shocked!!"
 
   !!int 0x20c23:
     original: "<enemy>は<FE>げんきを とりもどした<FF>"
     pointer_location: 0
-    translation: "TODO_0x20c23"
+    translation: "<enemy>’s condition regained!!"
 
   !!int 0x20c32:
     original: "「まかせてちょっ!!<FF>"
     pointer_location: 0x1372b
-    translation: "TODO_0x20c32"
+    translation: "「I got this!!"
 
   !!int 0x20c3d:
     original: "サスケは<FE>てきの あしもとに<FE>はしりこんだ!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20c3d"
+    translation: "Sasuke tripped the foe!!"
 
   !!int 0x20c55:
     original: "<enemy>は<FE>ころんでしまった!!<FF>"
     pointer_location: 0x13889
-    translation: "TODO_0x20c55"
+    translation: "<enemy> falls down!!"
 
   !!int 0x20c63:
     original: "サスケは ミオのまえに<FE>たちふさがった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20c63"
+    translation: "Sasuke stands in front of Mio!!"
 
   !!int 0x20c79:
     original: "<enemy>の<FE>こうげき!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20c79"
+    translation: "<enemy> attacks!!"
 
   !!int 0x20c83:
     original: "サスケは ミオを<FE>かばった!!<FF>"
     pointer_location: 0x13308
-    translation: "TODO_0x20c83"
+    translation: "Sasuke protected Mio!!"
 
   !!int 0x20c93:
     original: "どとうの<FE>れんぞくこうげき!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20c93"
+    translation: "A continued attack!!"
 
   !!int 0x20ca3:
     original: "サスケは きのみを<FE>さがしに でかけた!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20ca3"
+    translation: "Sasuke starts looking for fruits!!"
 
   !!int 0x20cb9:
     original: "[FB]を<FE><var6>コみつけた!<FF>"
     pointer_location: 0x138ba
-    translation: "TODO_0x20cb9"
+    translation: "Found <var6> <FB>!"
 
   !!int 0x20cc4:
     original: "きのみは<FE>みつからなかった!<FF>"
     pointer_location: 0x138bf
-    translation: "TODO_0x20cc4"
+    translation: "No fruits found!"
 
   !!int 0x20cd3:
     original: "サスケは<FE><enemy>の<FE>くちを ふさいだ!<FF>"
     pointer_location: 0x12575
-    translation: "TODO_0x20cd3"
+    translation: "Sasuke was muted!"
 
   !!int 0x20ce5:
     original: "でも サスケが<FE>くちを ふさいでいる!<FF>"
     pointer_location: 0x12580
-    translation: "TODO_0x20ce5"
+    translation: "But Sasuke is muted!"
 
   !!int 0x20cf9:
     original: "サスケは てきの<FE>サルまねを した!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20cf9"
+    translation: "Sasuke mimics the enemy!"
 
   !!int 0x20d0d:
     original: "サスケは いしを<FE>けとばした!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20d0d"
+    translation: "Sasuke kicked a rock!"
 
   !!int 0x20d1e:
     original: "サスケは ルパを<FE>となえた!!<FF>"
     pointer_location: 0x1254c
-    translation: "TODO_0x20d1e"
+    translation: "Sasuke chanted rupa!"
 
   !!int 0x20d2e:
     original: "サスケは<FE>なかまを よんだ!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20d2e"
+    translation: "Sasuke calls out a fellow!"
 
   !!int 0x20d3e:
     original: "サルの なかまが<FE>あらわれた!!<FF>"
     pointer_location: 0x1394c
-    translation: "TODO_0x20d3e"
+    translation: "Fellow monkey appeared!"
 
   !!int 0x20d4f:
     original: "サルの なかまの<FE>こうげき!!<FF>"
     pointer_location: 0x1396a
-    translation: "TODO_0x20d4f"
+    translation: "Fellow monkey attacks!"
 
   !!int 0x20d5f:
     original: "「ありがとうっ!!<FE>なかまたちは<FE>かえって いった!<FF>"
     pointer_location: 0x1397a
-    translation: "TODO_0x20d5f"
+    translation: "Thanks! The characters came back!!"
 
   !!int 0x20d7a:
     original: "サスケは いきなり<FE>ころんだ!!<FE>「いってー!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20d7a"
+    translation: "Sasuke falls down!!<br>「Ouch!"
 
   !!int 0x20d93:
     original: "サスケは ブツクサ<FE>もんくを いった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20d93"
+    translation: "Sasuke complained!"
 
   !!int 0x20da7:
     original: "サスケは<FE>みを かくした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20da7"
+    translation: "Sasuke hid!"
 
   !!int 0x20db5:
     original: "しかし サスケは<FE>みを かくしている<FF>"
     pointer_location: 0
-    translation: "TODO_0x20db5"
+    translation: "Sasuke is hidden!"
 
   !!int 0x20dc8:
     original: "サスケは クムムを<FE>となえてみた!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20dc8"
+    translation: "Sasuke chants Kumumu!"
 
   !!int 0x20ddb:
     original: "サスケは ボーイの<FE>あせを ふいた!<FE>「がんばってね!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20ddb"
+    translation: "Sasuke dries Boy’s sweat.<br>「Don’t give up!"
 
   !!int 0x20df7:
     original: "サスケは かみさまに<FE>いのった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20df7"
+    translation: "Sasuke prays!"
 
   !!int 0x20e09:
     original: "サスケは<FE>しんだふりを した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20e09"
+    translation: "Sasuke plays dead!"
 
   !!int 0x20e19:
     original: "しかし サスケは<FE>しんだふりを している<FF>"
     pointer_location: 0
-    translation: "TODO_0x20e19"
+    translation: "But Sasuke is playing dead!"
 
   !!int 0x20e2e:
     original: "サスケは いきなり<FE>わらいだした!!<FF>"
     pointer_location: 0x01032
-    translation: "TODO_0x20e2e"
+    translation: "Sasuke bursted into laughter!"
 
   !!int 0x20e41:
     original: "サスケは<FE>わらいころげている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20e41"
+    translation: "Sasuke can’t stop laughing!"
 
   !!int 0x20e51:
     original: "でも サスケは<FE>いねむりを はじめた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20e51"
+    translation: "But Sasuke began dozing!"
 
   !!int 0x20e65:
     original: "サスケは はなうたを<FE>うたいはじめた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20e65"
+    translation: "Sasuke began to hum!"
 
   !!int 0x20e79:
     original: "でも サスケは<FE>いきなり ビビった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20e79"
+    translation: "But Sasuke was in shock!"
 
   !!int 0x20e8c:
     original: "<var1>は<FE>にげだした!!<FF>"
     pointer_location: 0x11921
-    translation: "TODO_0x20e8c"
+    translation: "<var1> fled!!"
 
   !!int 0x20e97:
     original: "「スタコラサッサッサー<FC>"
     pointer_location: 0x115d1
-    translation: "TODO_0x20e97"
+    translation: "「Kekekekee-<FC>"
 
   !!int 0x20ee4:
     original: "<var1>は すばやく<FE>みを かわした!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20ee4"
+    translation: "<var1> swapped fruits fast!!"
 
   !!int 0x20ef6:
     original: "<var1>は<FE>きを うしなった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20ef6"
+    translation: "<var1> loses will!!"
 
   !!int 0x20f04:
     original: "するどい つめで<FE>ひっかいた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f04"
+    translation: "Used its sharp claws!!"
 
   !!int 0x20f14:
     original: "<enemy>は<FE>かみついて きた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f14"
+    translation: "<enemy> bit!"
 
   !!int 0x20f21:
     original: "<enemy>は<FE>ひっぱたいた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f21"
+    translation: "<enemy> slapped!"
 
   !!int 0x20f38:
     original: "<enemy>は<FE>パンチを くらわした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f38"
+    translation: "<enemy> threw a punch!"
 
   !!int 0x20f47:
     original: "<enemy>は<FE>とびかかって きた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f47"
+    translation: "<enemy> jumped forward!"
 
   !!int 0x20f55:
     original: "<enemy>は<FE>しっぽをふりまわした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f55"
+    translation: "<enemy> swang his tail!"
 
   !!int 0x20f64:
     original: "<enemy>の<FE>たいあたりっ!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f64"
+    translation: "<enemy>’s ramming attack!"
 
   !!int 0x20f70:
     original: "<enemy>は<FE>まきついて きた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f70"
+    translation: "<enemy> twined around!"
 
   !!int 0x20f7d:
     original: "たけやりで<FE>つんつん した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f7d"
+    translation: "Poked with a bamboo spear!"
 
   !!int 0x20f8c:
     original: "はものを<FE>ふりまわした!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f8c"
+    translation: "Wielded cutlery!!"
 
   !!int 0x20f9a:
     original: "<enemy>は<FE>ムチを ふるった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20f9a"
+    translation: "<enemy> wielded a whip!"
 
   !!int 0x20fa7:
     original: "<enemy>の<FE>せおいなげ!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20fa7"
+    translation: "<enemy> used a judo hold!"
 
   !!int 0x20fb2:
     original: "<enemy>は<FE>くさりをブンまわした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20fb2"
+    translation: "<enemy> spun a chain!"
 
   !!int 0x20fc1:
     original: "<enemy>の<FE>きょうき こうげきっ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20fc1"
+    translation: "<enemy>’s deadly attack!"
 
   !!int 0x20fd0:
     original: "じゅうを<FE>ぶっぱなした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20fd0"
+    translation: "Fires a rifle!"
 
   !!int 0x20fdd:
     original: "ジャブ! ストレート!<FE>れんぞくパンチだ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x20fdd"
+    translation: "Yaah! Shower of punches!"
 
   !!int 0x20ff3:
     original: "つうこんの いちげき!<FF>"
     pointer_location: 0x134c5
-    translation: "TODO_0x20ff3"
+    translation: "A fatal blow!"
 
   !!int 0x2100c:
     original: "<var1>は<FE>まきつかれて<FE>うごけない!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2100c"
+    translation: "<var1> is immobilized!"
 
   !!int 0x2101d:
     original: "<var1>は<FE>てきを ふりほどいた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2101d"
+    translation: "<var1> has been released!"
 
   !!int 0x2102c:
     original: "あしもとの つちが<FE>アりじごくに なった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2102c"
+    translation: "A sandpit has formed!!"
 
   !!int 0x21042:
     original: "<var1>は<FE>アりじごくに<FE>はまって しまった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21042"
+    translation: "<var1> falls into the sandpit!"
 
   !!int 0x21057:
     original: "<var1>は<FE>アりじごくに<FE>はまって うごけない!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21057"
+    translation: "<var1> is stuck in the sandpit!"
 
   !!int 0x2106d:
     original: "<var1>は<FE>アりじごくから<FE>ぬけだした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2106d"
+    translation: "<var1> frees from the sandpit!"
 
   !!int 0x2107f:
     original: "いきなり じめんに<FE>あなを ほりはじめた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2107f"
+    translation: "The hole opens!"
 
   !!int 0x21095:
     original: "<var1>は あなに<FE>はまって しまった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21095"
+    translation: "<var1> falls into the hole!"
 
   !!int 0x210a7:
     original: "<var1>は あなに<FE>はまって うごけない!<FF>"
     pointer_location: 0
-    translation: "TODO_0x210a7"
+    translation: "<var1> is stuck in the hole!"
 
   !!int 0x210ba:
     original: "<var1>は あなから<FE>ぬけだした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x210ba"
+    translation: "<var1> frees from the hole!"
 
   !!int 0x210c9:
     original: "どくの きばで<FE>かみついた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x210c9"
+    translation: "Bit with poison fangs!"
 
   !!int 0x210d8:
     original: "<var1>は<FE>どくに おかされた!<FF>"
     pointer_location: 0x122f8
-    translation: "TODO_0x210d8"
+    translation: "<var1> has been poisoned!"
 
   !!int 0x210e6:
     original: "どくばりで<FE>つんつん した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x210e6"
+    translation: "Stabbed with a stinger!"
 
   !!int 0x210f5:
     original: "<enemy>は<FE>どくぎりを<FE>まきちらした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x210f5"
+    translation: "<enemy> spewed poison mist!"
 
   !!int 0x21106:
     original: "<enemy>は<FE>あぶない しせんで<FE>ゆうわく してきた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21106"
+    translation: "<enemy> glares menacingly!"
 
   !!int 0x2111e:
     original: "<var1>は<FE>ねむって しまった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2111e"
+    translation: "<var1> got sleepy!"
 
   !!int 0x2112c:
     original: "つるりんオイルの<FE>こうかが なくなった!<FF>"
     pointer_location: 0x13548
-    translation: "TODO_0x2112c"
+    translation: "Tsururin oil effects wane!"
 
   !!int 0x21141:
     original: "<var1>は<FE>ねむって いる!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21141"
+    translation: "<var1> is sleepy!"
 
   !!int 0x2114d:
     original: "<var1>は<FE>おきあがった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2114d"
+    translation: "<var1> wakes up!"
 
   !!int 0x21158:
     original: "<enemy>は<FE>ぶんしん した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21158"
+    translation: "<enemy> multiplies!"
 
   !!int 0x21164:
     original: "<enemy>は<FE>おならを した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21164"
+    translation: "<enemy> farted!"
 
   !!int 0x21170:
     original: "<var1>は<FE>あまりの くささに<FE>マヒして しまった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21170"
+    translation: "<var1> is numbed by the smell!"
 
   !!int 0x21188:
     original: "<var1>は<FE>マヒして いる!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21188"
+    translation: "<var1> is numb!"
 
   !!int 0x21194:
     original: "<enemy>は<FE>しっぽのはりで<FE>つんつん した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21194"
+    translation: "<enemy> used needle tail!"
 
   !!int 0x211a8:
     original: "<var1>は<FE>マヒして しまった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x211a8"
+    translation: "<var1> got numbed!"
 
   !!int 0x211b6:
     original: "<enemy>の<FE>でんげき こうげきっ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x211b6"
+    translation: "<enemy> strikes with bolt!"
 
   !!int 0x211c5:
     original: "ゆびから いなびかりを<FE>はっした!!<FF>"
     pointer_location: 0x12377
-    translation: "TODO_0x211c5"
+    translation: "Lightning attack!"
 
   !!int 0x211d8:
     original: "<var1>は<FE>しびれて うごけない!<FF>"
     pointer_location: 0
-    translation: "TODO_0x211d8"
+    translation: "<var1> couldn’t move!"
 
   !!int 0x211e7:
     original: "ひのたまを<FE>なげつけて きた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x211e7"
+    translation: "Ball of fire thrown!"
 
   !!int 0x211f7:
     original: "<enemy>は<FE>ほのおを はいた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x211f7"
+    translation: "<enemy> spewed flames!"
 
   !!int 0x21204:
     original: "こおりの いきを<FE>はきかけて きた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21204"
+    translation: "Spat ice shards!"
 
   !!int 0x21217:
     original: "<enemy>は<FE>ふぶきを おこした!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21217"
+    translation: "<enemy> caused blizzard!"
 
   !!int 0x21226:
     original: "「ガアウー!!<FE><enemy>は<FE>おおごえで ほえた!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21226"
+    translation: "Gaaw! <enemy> cried!!"
 
   !!int 0x2123d:
     original: "<var1>への<FE>じゅもんの ききめが<FE>なくなった!<FF>"
     pointer_location: 0x12439
-    translation: "TODO_0x2123d"
+    translation: "<var1> spell was ineffective!"
 
   !!int 0x21253:
     original: "ミオは おびえて<FE>じゅもんが つかえない<FF>"
     pointer_location: 0x12738
-    translation: "TODO_0x21253"
+    translation: "Mio can’t use spells!"
 
   !!int 0x21268:
     original: "<var1>は<FE>ビビった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21268"
+    translation: "<var1> gets shocked!"
 
   !!int 0x21271:
     original: "<var1>は<FE>ビビっている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21271"
+    translation: "<var1> is in shock!"
 
   !!int 0x2127c:
     original: "<var1>は<FE>げんきを とりもどした<FF>"
     pointer_location: 0x12744
-    translation: "TODO_0x2127c"
+    translation: "<var1>’s condition regained!"
 
   !!int 0x2128b:
     original: "「へンシーン!<FE><enemy>は<FE>あくやくタイガーに<FE>へんしん した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2128b"
+    translation: "Change! <enemy> turned into Bad Tiger!"
 
   !!int 0x212a9:
     original: "「へンシーン!<FE><enemy>は<FE>パンチカンガルーに<FE>へんしん した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x212a9"
+    translation: "Change! <enemy> turned into Boxer Kang.!"
 
   !!int 0x212c7:
     original: "<enemy>は<FE>なかまを よびだした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x212c7"
+    translation: "<enemy> called for help!"
 
   !!int 0x212d6:
     original: "<enemy>が<FE>あらわれた!!<FF>"
     pointer_location: 0x124bd
-    translation: "TODO_0x212d6"
+    translation: "<enemy> appeared!"
 
   !!int 0x212e1:
     original: "しかし なかまは<FE>こなかった!<FF>"
     pointer_location: 0x124c5
-    translation: "TODO_0x212e1"
+    translation: "But no one came!"
 
   !!int 0x212f1:
     original: "こぶんが<FE>あらわれた!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x212f1"
+    translation: "Kobun appeared!!"
 
   !!int 0x212fe:
     original: "あにやんさそりが<FE>あらわれた!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x212fe"
+    translation: "scorpion appeared!"
 
   !!int 0x2130f:
     original: "<var5>をとなえた!<FF>"
     pointer_location: 0x12555
-    translation: "TODO_0x2130f"
+    translation: "Chanted <var5>!"
 
   !!int 0x21317:
     original: "ミオの じゅもんを<FE>ふうじこめた!!<FF>"
     pointer_location: 0x12c29
-    translation: "TODO_0x21317"
+    translation: "Mio’s spells sealed!!"
 
   !!int 0x2132a:
     original: "しかし じゅもんは<FE>ふうじられている!<FF>"
     pointer_location: 0x127b1
-    translation: "TODO_0x2132a"
+    translation: "But spells are sealed!!"
 
   !!int 0x2133e:
     original: "<enemy>は<FE>こうげきりょくが<FE>あがった!!<FF>"
     pointer_location: 0x12cb9
-    translation: "TODO_0x2133e"
+    translation: "<enemy>’s attack up!!"
 
   !!int 0x21351:
     original: "<enemy>の<FE>マカチャクが とけた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21351"
+    translation: "<enemy>’s Mg.Atk. dispelled!"
 
   !!int 0x21360:
     original: "<enemy>には<FE>すでに かかっていた!<FF>"
@@ -2123,27 +2128,27 @@ script:
   !!int 0x21370:
     original: "<var1>の<FE>しゅびりょくを<FE>さげた!!<FF>"
     pointer_location: 0x12d8c
-    translation: "TODO_0x21370"
+    translation: "<var1>’s defense down!!"
 
   !!int 0x21381:
     original: "<var1>には<FE>こうかが なかった!<FF>"
     pointer_location: 0x1349b
-    translation: "TODO_0x21381"
+    translation: "Didn’t affect <var1>!!"
 
   !!int 0x21390:
     original: "<enemy>は<FE>しゅびりょくが<FE>あがった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21390"
+    translation: "<enemy>’s defense up!!"
 
   !!int 0x213a2:
     original: "<enemy>の<FE>アナクが とけた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x213a2"
+    translation: "<enemy>’s ANAK dispelled!!"
 
   !!int 0x213af:
     original: "<var1>は<FE>こんらんした!!<FF>"
     pointer_location: 0x12f64
-    translation: "TODO_0x213af"
+    translation: "<var1> made a ruckus!!"
 
   !!int 0x213bb:
     original: "<var1>はE<var1>をEこうげきした!!<FF>"
@@ -2153,62 +2158,62 @@ script:
   !!int 0x213ca:
     original: "ドングりを<FE>なげつけて きた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x213ca"
+    translation: "Acorn thrown!!"
 
   !!int 0x213da:
     original: "[FB]を<FE>なげつけて きた!<FF>"
     pointer_location: 0x12602
-    translation: "TODO_0x213da"
+    translation: "<FB> thrown!!"
 
   !!int 0x213e7:
     original: "<var1>は<FE>とびあがった!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x213e7"
+    translation: "<var1> jumped!!"
 
   !!int 0x213f3:
     original: "<var1>は<FE>くちを おさえている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x213f3"
+    translation: "<var1> shuts mouth!"
 
   !!int 0x21402:
     original: "<enemy>は<FE>やくそうを つかった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21402"
+    translation: "<enemy> used an herb!!"
 
   !!int 0x21411:
     original: "「よいしょ!よいしょ!<FE><enemy>は<FE>しこを ふみだした!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21411"
+    translation: "Let’s go! <enemy> attacks forward!"
 
   !!int 0x2142b:
     original: "ちからが たまって<FE>いるようだぞ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2142b"
+    translation: "Seems to be pilling up strength!"
 
   !!int 0x2143d:
     original: "<enemy>は<FE>ようすを するどく<FE>うかがって いる!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2143d"
+    translation: "<enemy> is aware of the situation!"
 
   !!int 0x21454:
     original: "<enemy>は<FE>まっかな かおをして<FE>ちからを ためている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21454"
+    translation: "<enemy>’s face is bright red!"
 
   !!int 0x2146e:
     original: "<enemy>は<FE>ようすを みている!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2146e"
+    translation: "<enemy>’s assessing the situation!"
 
   !!int 0x2147c:
     original: "<enemy>は<FE>しおを まいた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2147c"
+    translation: "<enemy> sprinkled salt!"
 
   !!int 0x21488:
     original: "<enemy>は<FE>みを まもった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21488"
+    translation: "<enemy> covers the eyes!"
 
   !!int 0x21494:
     original: "<enemy>は<FE>けを さかだて<FE>みを まもった!<FF>"
@@ -2218,37 +2223,37 @@ script:
   !!int 0x214a8:
     original: "<var1>も<FE><amount>ダメージうけた!<FF>"
     pointer_location: 0x132d6
-    translation: "TODO_0x214a8"
+    translation: "<var1> got <amount> dmg, too!"
 
   !!int 0x214b5:
     original: "めにも とまらぬ<FE>はやわざ!<FF>"
     pointer_location: 0
-    translation: "TODO_0x214b5"
+    translation: "Unstoppable strike!"
 
   !!int 0x214c4:
     original: "<price>G<FE>かすめとられた!<FF>"
     pointer_location: 0x12704
-    translation: "TODO_0x214c4"
+    translation: "<price>G stolen!"
 
   !!int 0x214d0:
     original: "<enemy>は<FE>きもちの わるい<FE>おどりを おどった!<FF>"
     pointer_location: 0
-    translation: "TODO_0x214d0"
+    translation: "<enemy> did an ugly dance!"
 
   !!int 0x214e7:
     original: "カキーン!<FE><enemy>は<FE>なげられれた きのみを<FE>うちかえした!<FF>"
     pointer_location: 0x13d83
-    translation: "TODO_0x214e7"
+    translation: "<enemy> repelled the thrown fruit!"
 
   !!int 0x21504:
     original: "バシッ!<FE><enemy>は<FE>きのみを うけとめた!<FF>"
     pointer_location: 0x13d88
-    translation: "TODO_0x21504"
+    translation: "<enemy> catched the fruit!"
 
   !!int 0x21518:
     original: "きのみを<FE>なげかえして きた!<FF>"
     pointer_location: 0x13d94
-    translation: "TODO_0x21518"
+    translation: "The fruit bounced back!"
 
   !!int 0x21528:
     original: "<var3>たちは<FE>こうさんした!!<FC>"
