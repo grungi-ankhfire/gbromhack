@@ -552,7 +552,7 @@ script:
 
   !!int 0x061db:
     original: "「おう! きみは<FE> ジャングルパパの むすこかい?<FD>「きみのパパは ロープを つかって<FE> きの あいだを わたるのが<FD> じょうずだった.<FD>「きみも じょうずなんだろうね?<FE> じゃあきみに いいものをあげよう.<FD>「これをつかって とおれないところを<FE> こえて ごらんよ.<FF>"
-    pointer_location: 0x021d7
+    pointer_location: 0
     translation: "Whoa! Are you Jungle Papa's son? You dad was skillful at crossing this gap with a rope. You seem to be skillful as well, so let me give you something good. This item will allow you to cross through places you couldn't before."
 
   !!int 0x06262:
@@ -609,6 +609,8 @@ script:
     original: "「スコップを かえすじゃと?<FE> いらん いらん.<FD>「そんなものしか<FE> このむらには ないけど<FD> おれいとして もらってくれ.<FD> なにかの やくに たつじゃろう.<FF>"
     pointer_location: 0
     translation: "You're giving me the shovel back? There's no need. We don't have much here, but please hold onto it. It might prove useful."
+
+
 
   !!int 0x064e9:
     original: "「たすけてください!<FD> わたしの おっとが あのなかに!<FD>「たすけてください!!<FF>"
@@ -720,6 +722,8 @@ script:
     pointer_location: 0x0df42
     translation: "Mio<br>「I asked the hospital staff to take care of my mother. So, let's go defeat that Snake King!"
 
+
+
   !!int 0x06e9c:
     original: "「うーん*** うーん***<FE>「あなた*** あなた***<FF>"
     pointer_location: 0
@@ -804,6 +808,8 @@ script:
     original: "「へビおうは こころをいれかえたの?<FD>「だったら すこしは すきに<FE> なって あげても いいけどさー.<FF>"
     pointer_location: 0
     translation: "Did the Snake King change his ways? Then perhaps I'll also change my mind about him, too..."
+
+
 
   !!int 0x07477:
     original: "「へビおうは まあへビだけど<FD> そんなに わるいやつじゃ<FE> なかったんだよ.<FD>「あいつ おいのりで<FE> あめを ふらせることが できたんで<FD> ずいぶん みんなを<FE> たすけて きたんだ.<FD>「でも あいつ ゴートだんに<FE> はいった らしいんだよな.<FF>"
@@ -928,11 +934,11 @@ script:
   !!int 0x2001b:
     original: "<item>をみつけた!<FF>"
     pointer_location: 0x0205e
-    translation: "<var2> was inside!"
+    translation: "<item> was inside!"
 
   !!int 0x20023:
     original: "しかし なにも おこらなかった!<FF>"
-    pointer_location: 0x16809
+    pointer_location: 0
     translation: "But nothing happened!"
 
   !!int 0x20034:
@@ -943,11 +949,11 @@ script:
   !!int 0x2005b:
     original: "<item>は すてられません.<FF>"
     pointer_location: 0x02478
-    translation: "Cannot throw <var2> away."
+    translation: "Cannot throw <item> away."
 
   !!int 0x20067:
     original: "もちものが いっぱいです.<FF>"
-    pointer_location: 0x026dc
+    pointer_location: 0
     translation: "Your inventory is full. Please sell or drop some items."
 
   !!int 0x20075:
@@ -993,7 +999,7 @@ script:
   !!int 0x200f9:
     original: "<character>は<FE>きのみを さがせない.<FF>"
     pointer_location: 0x022e5
-    translation: "<var0> could not find any fruit."
+    translation: "<character> could not find any fruit."
 
   !!int 0x20108:
     original: "サスケは きのみを<FE>さがしに でかけた.<FF>"
@@ -1032,12 +1038,12 @@ script:
 
   !!int 0x20182:
     original: "<character>は マルコじいに<FE><item>を わたした.<FF>"
-    pointer_location: 0x16aba
+    pointer_location: 0
     translation: "<character> gave <item> to Marco."
 
   !!int 0x20195:
     original: "しかし このロープは みじかすぎる.<FF>"
-    pointer_location: 0x1697f
+    pointer_location: 0
     translation: "But this rope is too short."
 
   !!int 0x201a8:
@@ -1167,7 +1173,7 @@ script:
 
   !!int 0x20386:
     original: "たいまつは まだ もえている.<FF>"
-    pointer_location: 0x16847
+    pointer_location: 0
     translation: "The torch's still lit."
 
   !!int 0x20396:
@@ -1227,7 +1233,7 @@ script:
 
   !!int 0x2043e:
     original: "たいまつが もえつきた!<FF>"
-    pointer_location: 0x01ca1
+    pointer_location: 0
     translation: "The torch burned out!"
 
   !!int 0x2044b:
@@ -1267,7 +1273,7 @@ script:
 
   !!int 0x204e3:
     original: "<character>は てがみを よんだ.<FE>「あいする ボーイ.<FD> おまえが このてがみを よむときは<FE> わたしの みに なにかが<FD> おこった ときだろう.<FD> だが この きけんな ジャングルで<FE> へいわを まもりつづけるには<FD> そのくらいの ことには くじけない<FE> ゆうかんな こころが ひつようだ.<FD> おまえは わたしの むすこ<FD> ジャングルパパの むすこ<FD> ジャングルボーイだ!!<FD> おまえは ジャングルのへいわのため<FE> たたかいつづけねば ならない.<FD> くるしく つらい たたかいだろうが<FE> ボーイ!<FD> あとのことは たのんだぞ!!<FF>"
-    pointer_location: 0x16acc
+    pointer_location: 0
     translation: "<character> read the letter<br>「Dear Boy. If you're reading this, it will mean something bad has happened to me. To keep protecting this ruthless jungle, you'll need a strong heart that isn't crushed by adversity. You're my son, Jungle Papa's son, no less! You must continue fighting to keep peace in the jungle, at any cost. I leave it to you, my son!"
 
   !!int 0x205e9:
@@ -1302,17 +1308,17 @@ script:
 
   !!int 0x206ec:
     original: "<character>は パパのメモを よんだ.<FD>「ゴートだんの ほんきょちは<FD> とかいの ちかくの しま<FE> サークラルとうに ある.<FD> わたしは いま<FE> そこに つれて いかれるようだ.<FD> ボーイ!<FD> サークラルとうに いくみちを<FE> みつけだしてくれ.<FF>"
-    pointer_location: 0x16ad8
+    pointer_location: 0
     translation: "<character> read Papa's note<br>「The Goat Gang's headquarters is in Sacral, an island just near the city. I'm being taken there right now. Boy! You must find your way to Sacral island!"
 
   !!int 0x20762:
     original: "<var1>は ラッパをふいた.<FF>"
-    pointer_location: 0x168de
+    pointer_location: 0
     translation: "<var1> blew the horn."
 
   !!int 0x2076e:
     original: "さばくに<FE>ラッパのおとが ひびきわたる***<FF>"
-    pointer_location: 0x168f8
+    pointer_location: 0
     translation: "The sound of the horn echoed through the desert."
 
   !!int 0x20785:
@@ -1322,17 +1328,17 @@ script:
 
   !!int 0x207ae:
     original: "<character>は てがみを よんだ.<FD>「*?!/***.*!!./?<FE> ****!?PP..<FD><character>には よめなかった!<FF>"
-    pointer_location: 0x16aee
+    pointer_location: 0
     translation: "<character> read the letter<br>「*?!/***.*!!./? ****!?PP..<br><character> couldn't read it!"
 
   !!int 0x207e3:
     original: "<character>は こもんじょを よんだ.<FE><FD> かみの ぞうの ならわしは<FE> すべてが ひだりから はじまる.<FD> まえは 2ひきの トラ<FE> すなわち 2つめの かみの ぞう.<FD> うしろは 5ひきの おおかみ<FE> すなわち 5つめの かみの ぞう.<FD> じゅんに ひだりから あいまみえ<FE> きたえた わざの ためしとせん.<FD> たたかいの かみは<FE> われとともに あるのだ.<FF>"
-    pointer_location: 0x16add
+    pointer_location: 0
     translation: "<character> read the ancient books.<br>The pattern of the image of the gods is that everything starts from the left. There are two tigers in front, that's the second image of god. In the back are five wolves, or the fifth statue of God. The order is from the left to the right for the purpose of the deed. The god of war is with me."
 
   !!int 0x20894:
     original: "ミオ<FE>「なーに これ?<FF>"
-    pointer_location: 0x16ae8
+    pointer_location: 0
     translation: "Mio<br>「W...What the...!?"
 
   !!int 0x208a0:
@@ -1742,7 +1748,7 @@ script:
 
   !!int 0x20e2e:
     original: "サスケは いきなり<FE>わらいだした!!<FF>"
-    pointer_location: 0x01032
+    pointer_location: 0x0276f
     translation: "Sasuke bursted into laughter!"
 
   !!int 0x20e41:

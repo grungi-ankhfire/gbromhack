@@ -90,7 +90,6 @@ def insert_windows_code(rom_file):
     rom_file.write(b'\x00\x40')
 
 
-
     # Change cursor positions
     # ID 0x2A
     rom_file.seek(0x4000 * 0x6 + 0x2510)
