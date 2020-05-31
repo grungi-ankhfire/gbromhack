@@ -4,6 +4,7 @@
           jw_translation.py merge <existing> <inputfile> [<outputfile>]
           jw_translation.py insert_windows [--no-backup] <romfile> <inputfile> <tablefile>
           jw_translation.py insert_enemies [--no-backup] <romfile> <inputfile> <tablefile>
+          jw_translation.py insert_signs [--no-backup] <romfile> <inputfile> <tablefile>
 
 
 Helping script for manipulating Jungle Wars text.
@@ -25,17 +26,11 @@ import yaml
 import shutil
 import datetime
 from jw_win import JWWindow
+from hexint import HexInt, hexint_representer
+from jw_memorymap import SIGNS_DATA_ALLOCATED_SPACE, ENNEMIES_DATA_ALLOCATED_SPACE, SIGNS_DATA_POINTERS_START
 
 
-class HexInt(int):
-    pass
-
-
-def representer(dumper, data):
-    return yaml.ScalarNode('tag:yaml.org,2002:int', "{0:#0{1}x}".format(data, 7))
-
-
-pyaml.add_representer(HexInt, representer)
+pyaml.add_representer(HexInt, hexint_representer)
 
 
 MAX_LENGTH = 17
@@ -137,37 +132,6 @@ class TextString:
             cur_line_length = 0
         # print(prepared_text)
         return prepared_text
-
-        cur_line_length = 0
-        prepared_text = ""
-        self.length = 0
-        line_num = 0
-        for word in words:
-            if len(word) + cur_line_length + 1 >= self.max_length:
-                if line_num % 2 == 0:
-                    prepared_text += "<FE>"
-                else:
-                    prepared_text += "<FD>"
-                line_num += 1
-                self.length += 1
-                cur_line_length = 0
-
-            prepared_text += word
-            cur_line_length += len(word)
-            if(word != words[-1]):
-                cur_line_length += 1
-                prepared_text += " "
-                self.length += 1
-            self.length += len(word)
-
-        prepared_text += "<FF>"
-        self.length += 1
-        # print(prepared_text)
-        return prepared_text
-
-
-rom = None
-table = None
 
 
 def insert_translation(rom_file, translation_data, table):
@@ -285,10 +249,7 @@ def insert_enemies(rom_file, enemies_data, table):
 
     POINTERS_START = 0x0C * 0x4000
 
-    DATA_RANGES = [
-        (0x30086, 0x3082b),
-        (0x3336a, 0x33feb)
-    ]
+    DATA_RANGES = ENNEMIES_DATA_ALLOCATED_SPACE
 
     total_size = 0
     current_data_range = 0
@@ -317,6 +278,45 @@ def insert_enemies(rom_file, enemies_data, table):
         rom.seek(base_offset + total_size)
         rom.write(data["original_header"].to_bytes(22, "big"))
         rom.write(translation)
+
+        total_size += data_size
+
+
+def insert_signs(rom_file, signs_data, table):
+
+    POINTERS_START = SIGNS_DATA_POINTERS_START
+
+    DATA_RANGES = SIGNS_DATA_ALLOCATED_SPACE
+
+    total_size = 0
+    current_data_range = 0
+    base_offset = DATA_RANGES[0][0]
+
+    for id in signs_data["signs"]:
+        data = signs_data["signs"][id]
+
+        pointer_location = POINTERS_START + id * 2
+        
+        translations = [table.convert_script(data[f'line{l}_translated_text']) for l in range(3)]
+        
+        data_size = 3 + sum([len(line) for line in translations])
+        
+        if total_size + data_size > DATA_RANGES[current_data_range][1] - DATA_RANGES[current_data_range][0]:
+            current_data_range += 1
+            if current_data_range >= len(DATA_RANGES):
+                print('ERROR - Not enough space to save signs data!')
+                break
+            base_offset = DATA_RANGES[current_data_range][0]
+            total_size = 0
+
+        pointer_value = base_offset - (0xC - 1) * 0x4000 + total_size
+        rom_file.seek(pointer_location)
+        rom.write((pointer_value).to_bytes(2, 'little'))
+
+        rom.seek(base_offset + total_size)
+        for translation in translations:
+            rom.write(len(translation).to_bytes(1, 'big'))
+            rom.write(translation)
 
         total_size += data_size
 
@@ -380,6 +380,26 @@ if __name__ == '__main__':
         insert_enemies(rom, data, table)
 
         rom.close()
+
+    elif arguments["insert_signs"]:
+
+        table = TranslationTable(arguments['<tablefile>'])
+
+        if not arguments["--no-backup"]:
+            # Make a backup of the rom file in case...
+            now = datetime.datetime.now().strftime(format="%Y%m%d_%H_%M_%S")
+            shutil.copy(arguments["<romfile>"], arguments["<romfile>"] + ".backup." + now)
+
+        rom = open(arguments["<romfile>"], 'rb+')
+
+        translation_file = open(arguments["<inputfile>"], encoding='utf-8')
+        data = yaml.load(translation_file, Loader=yaml.FullLoader)
+        translation_file.close()
+
+        insert_signs(rom, data, table)
+
+        rom.close()
+
 
     elif arguments["merge"]:
 

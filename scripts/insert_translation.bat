@@ -24,7 +24,6 @@ python jw_patcher.py apply_windows roms/jw_patched.gb
 echo Patching in code [5/5]
 python jw_patcher.py apply_enemies roms/jw_patched.gb
 
-
 echo Inserting windows translation...
 python jw_translation.py insert_windows --no-backup roms/jw_patched.gb jw_windows.yaml ..\tbl\jw-py-en.tbl 
 
@@ -33,6 +32,9 @@ python jw_translation.py insert --no-backup roms/jw_patched.gb jw_translation.ya
 
 echo Inserting enemy translation...
 python jw_translation.py insert_enemies --no-backup roms/jw_patched.gb jw_enemies.yaml ..\tbl\jw-py-en.tbl 
+
+echo Inserting sign translation...
+python jw_translation.py insert_signs --no-backup roms/jw_patched.gb translation/jw_signs.yaml ..\tbl\jw-py-en.tbl 
 
 
 echo All done!
