@@ -1,0 +1,6 @@
+npcs:
+
+  !!int 0x00:
+    location: 0x37345
+    name_original: "パパ"
+    name_translated: "Papa"

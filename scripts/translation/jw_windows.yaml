@@ -288,14 +288,14 @@ fullscreen:
 
   !!int 0x1a:
     bg_map: 1
-    dim_x: 0x0a
+    dim_x: 0x08
     dim_y: 0x09
     location: 0x338de
     original_header: 0x0609cb9dc69c
     original_text: " つかう<FE> そうび<FE> わたす<FE> すてる<FE> はい<FE><FE> いいえ<FF>"
     pos_x: 6
     pos_y: 6
-    translation: " Use<FE><FE> Equip<FE><FE> Give<FE><FE> Discard<FE> Yes<FE> No<FE><FF><FF>"
+    translation: " Use<FE><FE> Equip<FE> Give<FE><FE> Drop<FE><FE> Yes<FE> No<FE><FF><FF>"
 
   !!int 0x1b:
     bg_map: 1
@@ -350,7 +350,7 @@ fullscreen:
     original_text: "いいかな?<FE> いいよ<FE><FE> やだよ<FE><FF>"
     pos_x: 9
     pos_y: 9
-    translation: "TODO_0x33931<FF>"
+    translation: "Sure?<FE> Yes<FE><FE> No!<FE><FF>"
 
   !!int 0x20:
     bg_map: 0

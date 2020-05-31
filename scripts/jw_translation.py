@@ -5,6 +5,7 @@
           jw_translation.py insert_windows [--no-backup] <romfile> <inputfile> <tablefile>
           jw_translation.py insert_enemies [--no-backup] <romfile> <inputfile> <tablefile>
           jw_translation.py insert_signs [--no-backup] <romfile> <inputfile> <tablefile>
+          jw_translation.py insert_npcs [--no-backup] <romfile> <inputfile> <tablefile>
 
 
 Helping script for manipulating Jungle Wars text.
@@ -320,6 +321,18 @@ def insert_signs(rom_file, signs_data, table):
 
         total_size += data_size
 
+def insert_npcs(rom_file, npc_data, table):
+
+    for id in npc_data["npcs"]:
+        data = npc_data["npcs"][id]
+
+        translation = table.convert_script(data['name_translated'])
+
+        rom_file.seek(data['location'] + (0x1C - 0x0D) * 0x4000)
+
+        rom.write(translation)
+        rom.write(b'\xFF')
+
 
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
@@ -400,17 +413,35 @@ if __name__ == '__main__':
 
         rom.close()
 
+    elif arguments["insert_npcs"]:
+
+        table = TranslationTable(arguments['<tablefile>'])
+
+        if not arguments["--no-backup"]:
+            # Make a backup of the rom file in case...
+            now = datetime.datetime.now().strftime(format="%Y%m%d_%H_%M_%S")
+            shutil.copy(arguments["<romfile>"], arguments["<romfile>"] + ".backup." + now)
+
+        rom = open(arguments["<romfile>"], 'rb+')
+
+        translation_file = open(arguments["<inputfile>"], encoding='utf-8')
+        data = yaml.load(translation_file, Loader=yaml.FullLoader)
+        translation_file.close()
+
+        insert_npcs(rom, data, table)
+
+        rom.close()
 
     elif arguments["merge"]:
 
         # jw_translation.py merge <existing> <inputfile> [<outputfile>]
 
         file1 = open(arguments["<existing>"], encoding='utf-8')
-        data_existing = yaml.load_safe(file1, Loader=yaml.FullLoader)
+        data_existing = yaml.load(file1, Loader=yaml.FullLoader)
         file1.close()
 
         file2 = open(arguments["<inputfile>"], encoding='utf-8')
-        data_new = yaml.load_safe(file2, Loader=yaml.FullLoader)
+        data_new = yaml.load(file2, Loader=yaml.FullLoader)
         file2.close()
 
         for section2 in data_new:

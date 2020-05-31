@@ -6,6 +6,7 @@
           jw_patcher.py apply --font <patchfile> <romfile>
           jw_patcher.py apply_windows <romfile>
           jw_patcher.py apply_enemies <romfile>
+          jw_patcher.py apply_npcs <romfile>
 
 Tool to create and apply Jungle Wars patches. This just overrides everything
 in the ROM, and is not intended for final patching. The goal is to help during
@@ -125,6 +126,22 @@ def insert_enemy_name_loading_redirection_code(rom_file):
     rom_file.write(b'\xC3\x98\x0F')         # jp $0f98
 
 
+def insert_npc_name_reading_code(rom_file):
+    rom_file.seek((0x0D - 1) * 0x4000 + 0x72FB)
+    rom_file.write(b'\x3E\x1C')     # ld a, $0D
+    rom_file.write(b'\xC7')         # rst $00
+
+    rom_file.seek((0x1C - 1) * 0x4000 + 0x72FE)
+    rom_file.write(b'\x18\x01')     # jr $7301
+    rom_file.write(b'\xC7')         # rst $00
+    rom_file.write(b'\x0A')         # ld a, [bc]
+    rom_file.write(b'\x03')         # inc bc
+    rom_file.write(b'\x22')         # ldi [hl], a
+    rom_file.write(b'\x3C')         # inc a
+    rom_file.write(b'\x20\xFA')     # jr nz, $7301
+    rom_file.write(b'\x3E\x0D')     # ld a, $0D
+    rom_file.write(b'\x18\xF5')     # jr $7300
+
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
 
@@ -168,4 +185,9 @@ if __name__ == '__main__':
     elif arguments['apply_enemies']:
         rom = open(arguments["<romfile>"], 'rb+')
         insert_enemy_name_loading_redirection_code(rom)
+        rom.close()
+
+    elif arguments['apply_npcs']:
+        rom = open(arguments["<romfile>"], 'rb+')
+        insert_npc_name_reading_code(rom)
         rom.close()
