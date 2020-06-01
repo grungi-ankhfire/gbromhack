@@ -9,6 +9,7 @@ pylint = "*"
 [packages]
 docopt = "*"
 pyaml = "*"
+ips-util = "*"
 
 [requires]
 python_version = "3.8"

@@ -13,7 +13,7 @@ combat:
   !!int 0x20954:
     original: "<enemy>は<FE>ちからつきた!<FF>"
     pointer_location: 0x13e71
-    translation: "<enemy><br>defeated!"
+    translation: "Defeated<br><enemy>!"
 
   !!int 0x20af2:
     original: "<enemy>は<FE>にげだした!<FF>"
@@ -27,7 +27,7 @@ combat:
 
   !!int 0x20f2c:
     original: "<enemy>は<FE>けりを いれた!<FF>"
-    pointer_location: 0x1348f
+    pointer_location: 0x17131
     translation: "<enemy><br>hits!"
 
   !!int 0x20fff:
@@ -47,10 +47,29 @@ combat:
 
 combat_wide:
 
-  !!int 0x2159f:
+  !!int 0x215a0:
     original: "<var3>が あらわれたっ!<FF>"
     pointer_location: 0x10fbe
     translation: "<var3> appears!"
+
+in_place:
+
+  !!int 0x108b3:
+    original: "ぼうきれ<FF>"
+    translation: "Club<FF>"
+
+  !!int 0x10976:
+    original: "もののパンツ<FF>"
+    translation: "Pants<FF>"
+
+  !!int 0x10b70:
+    original: "やくそう<FF>"
+    translation: "Herb<FF>"
+
+  !!int 0x10b7a:
+    original: "どくけし<FF>"
+    translation: "Cure<FF>"
+
 
 script:
 
@@ -1268,7 +1287,7 @@ script:
 
   !!int 0x20497:
     original: "ジャングルの あさが きました.<FC>"
-    pointer_location: 0x1a581
+    pointer_location: 0
     translation: "Morning has broken in the jungle."
 
   !!int 0x204e3:
@@ -1359,12 +1378,12 @@ script:
   !!int 0x20925:
     original: "かいしんの いちげき!<FC>"
     pointer_location: 0x134c0
-    translation: "Critical hit!<FC>"
+    translation: "Critical<br>hit!<FC>"
 
   !!int 0x20947:
     original: "<enemy>は<FE>みを かわした!!<FF>"
     pointer_location: 0x13584
-    translation: "<enemy> dodged!!"
+    translation: "<enemy><br>dodged!!"
 
   !!int 0x2095f:
     original: "<var1>は <var5>を<FE>となえた!!<FF>"
@@ -1579,12 +1598,12 @@ script:
   !!int 0x20bd3:
     original: "<item>を<FE>つかった!!<FF>"
     pointer_location: 0x11d73
-    translation: "Used <item>!!"
+    translation: "Used<br><item>!!"
 
   !!int 0x20bdd:
     original: "<var1>は<FE>さけびごえを あげた!<FC>"
     pointer_location: 0x11c68
-    translation: "<var1> yelled!!"
+    translation: "<var1><FE>yelled!!"
 
   !!int 0x20bf5:
     original: "<gold>の ゴールドを<FE>てにいれた!<FF>"
@@ -1861,10 +1880,10 @@ script:
     pointer_location: 0
     translation: "<enemy>’s deadly attack!"
 
-  !!int 0x20fd0:
+  !!int 0x20fd1:
     original: "じゅうを<FE>ぶっぱなした!<FF>"
-    pointer_location: 0
-    translation: "Fires a rifle!"
+    pointer_location: 0x17149
+    translation: "Fires a<FE>rifle!"
 
   !!int 0x20fdd:
     original: "ジャブ! ストレート!<FE>れんぞくパンチだ!<FF>"
@@ -2208,8 +2227,8 @@ script:
 
   !!int 0x2146e:
     original: "<enemy>は<FE>ようすを みている!<FF>"
-    pointer_location: 0
-    translation: "<enemy>’s assessing the situation!"
+    pointer_location: 0x171B3
+    translation: "<enemy>'s<FE>watching!"
 
   !!int 0x2147c:
     original: "<enemy>は<FE>しおを まいた!<FF>"
@@ -2309,17 +2328,17 @@ script:
   !!int 0x2161d:
     original: "しかし<FE>にげられなかった!!<FF>"
     pointer_location: 0x1193d
-    translation: "TODO_0x2161d"
+    translation: "But can't<br>get away!!"
 
   !!int 0x2162c:
     original: "<enemy>には<FE>こうかがなかった!!<FF>"
     pointer_location: 0x1348f
-    translation: "TODO_0x2162c"
+    translation: "Useless on<br><enemy>!!"
 
   !!int 0x2163b:
     original: "<var1>は<FE>みを かわした!!<FF>"
     pointer_location: 0x13574
-    translation: "TODO_0x2163b"
+    translation: "<var1><br>dodged!!"
 
   !!int 0x21648:
     original: "「へンシーン!<FE><enemy>は<FE>どすこいカバに<FE>へんしん した!<FF>"
@@ -2329,7 +2348,7 @@ script:
   !!int 0x2166d:
     original: "<var1>は<FE>みを まもった!<FF>"
     pointer_location: 0x118bf
-    translation: "TODO_0x2166d"
+    translation: "<var1><br>defends!"
 
   !!int 0x21679:
     original: "ケンは くちばしで<FE>つっついた!!<FF>"

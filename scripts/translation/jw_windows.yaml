@@ -20,7 +20,7 @@ fullscreen:
     original_text: "<FE> こうげき<FE> もちもの<FE> さけぶ <FE> そのほか<FF>"
     pos_x: 0
     pos_y: 0
-    translation: "<FE> Atk <FE> Item<FE> Drnk<FE> More<FF>"
+    translation: "<FE> Atk <FE> Item<FE> Yell<FE> More<FF>"
 
   !!int 0x02:
     bg_map: 1
@@ -75,18 +75,18 @@ fullscreen:
     original_text: "<FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD><FD><FF>"
     pos_x: 6
     pos_y: 0
-    translation: "<FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD><FD><FF>"
+    translation: "<FD> <enemy>*<var5><FD><FD> <enemy>*<var5><FD><FD> <enemy>*<var5><FD><FD><FD><FF>"
 
   !!int 0x07:
     bg_map: 1
-    dim_x: 0x07
+    dim_x: 0x09
     dim_y: 0x0a
     location: 0x33585
     original_header: 0x070a2a9d049c
     original_text: "<FE> にげる<FE><FE> ぼうぎょ<FE> つよさ<FE><FE> スピード<FF>"
     pos_x: 4
     pos_y: 0
-    translation: "<FE> Run<FE><FE> Defn<FE> Stat<FE> Sped<FF>"
+    translation: "<FE> Run<FE><FE> Guard<FE><FE> Status<FE> Speed<FF>"
 
   !!int 0x08:
     bg_map: 1
