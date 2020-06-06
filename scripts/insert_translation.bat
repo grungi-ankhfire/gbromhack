@@ -1,7 +1,7 @@
 @echo off
 
 echo Copying original ROM before patching...
-cp roms/jw_original.gb roms/jw_patched.gb
+xcopy .\roms\jw_original.gb .\roms\jw_patched.gb /Y
 
 echo Patching in font...
 python jw_patcher.py apply --font patches/font.patch roms/jw_patched.gb

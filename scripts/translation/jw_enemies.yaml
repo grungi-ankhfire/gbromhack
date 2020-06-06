@@ -12,7 +12,7 @@ enemies:
     location: 0x300a5
     original_header: 0x1c3c001e0605905f7d830001821e0004060606160606
     original_name: "どくどくトカゲ<FF>"
-    translated_name: "Psn Lizrd<FF>"
+    translated_name: "PsnLizrd<FF>"
 
   !!int 0x02:
     id: 2
@@ -40,14 +40,14 @@ enemies:
     location: 0x30116
     original_header: 0x082000100a01825f1d81800180000000460147010547
     original_name: "ハりせんぼん<FF>"
-    translated_name: "TODO0x05<FF>"
+    translated_name: "Porcupin<FF>"
 
   !!int 0x06:
     id: 6
     location: 0x30133
     original_header: 0x0414000e0402025f7d81000080000080050101010101
     original_name: "キ-キ-ねずみ<FF>"
-    translated_name: "TODO0x06<FF>"
+    translated_name: "SqueakRat<FF>"
 
   !!int 0x07:
     id: 7
@@ -187,7 +187,7 @@ enemies:
     location: 0x3037e
     original_header: 0x0c1800100402825f7d810001011d8080490549050548
     original_name: "スりがらす<FF>"
-    translated_name: "TODO0x1a<FF>"
+    translated_name: "Crow<FF>"
 
   !!int 0x1b:
     id: 27

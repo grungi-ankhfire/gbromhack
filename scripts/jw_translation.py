@@ -70,6 +70,8 @@ class TextString:
         self.binary_text = None
         self.length = 0
         self.max_length = max_length
+        self.overworld = False
+        self.additional_pointers = []
 
     def prepare(self):
         """ Returns the text, ready to be written in the ROM.
@@ -142,16 +144,22 @@ def insert_translation(rom_file, translation_data, table):
     combat_wide = translation_data["combat_wide"]
     in_place = translation_data.get("in_place", [])
 
+    OVERWORLD_TABLEFILE = "../tbl/jw-py-en-overworld.tbl"
+    overworld_table = TranslationTable(OVERWORLD_TABLEFILE)
+
     messages = [TextString(0x1A581, "A morning in the Jungle.<FC>")]
 
     for msg_set in [(script, 17), (combat, 10), (combat_wide, 17)]:
         msg_len = msg_set[1]
         for m in msg_set[0].values():
             if m["translation"][0:4] != 'TODO' and m['pointer_location'] != 0:
-                messages.append(TextString(m['pointer_location'],
-                                           m['translation'],
-                                           max_length=msg_len)
-                                )
+                ts = TextString(m['pointer_location'],
+                                m['translation'],
+                                max_length=msg_len)
+                if m.get('overworld', False):
+                    ts.overworld = True
+                ts.additional_pointers = m.get('additional_pointers', [])
+                messages.append(ts)
 
     for m in in_place:
         offset = m
@@ -164,7 +172,11 @@ def insert_translation(rom_file, translation_data, table):
     data_bank = 0x11
 
     for m in messages:
-        m.binary_text = table.convert_script(m.prepare())
+        if m.overworld:
+            print("Overworld message!")
+            m.binary_text = overworld_table.convert_script(m.prepare())
+        else:
+            m.binary_text = table.convert_script(m.prepare())
 
         m.new_bank = data_bank
         m.new_pointer = total_length
@@ -179,7 +191,9 @@ def insert_translation(rom_file, translation_data, table):
 
         rom_file.seek(m.pointer_address)
         rom_file.write((message_index * 3).to_bytes(2, "little"))
-
+        for p in m.additional_pointers:
+            rom_file.seek(p)
+            rom_file.write((message_index * 3).to_bytes(2, "little"))  
         rom_file.seek(0x10 * 0x4000 + 0x1000 + message_index * 0x03)
         rom_file.write((m.new_bank).to_bytes(1, "little"))
         rom_file.write((m.new_pointer).to_bytes(2, "little"))

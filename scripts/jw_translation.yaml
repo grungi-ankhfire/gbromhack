@@ -133,15 +133,19 @@ script:
     pointer_location: 0x26c9a
     translation: "「The Goat Gang is scary, aren't they?<br>「But with Jungle Papa and <var0> we should be ok, right?<br>「If the Goat Gang comes, I'll hit them with my bombs.<br>「And <var0> will also get bombs and throw them, right?"
 
-  !!int 0x0431a:
+  !!int 0x0431b:
     original: "「このさきに あるのは<FE> かいふくの いずみ.<FD>「のむと たいりょくが<FE> まんたんに なるよ.<FD>「いずみの まえで<FE> しらべて みると いいよ.<FF>"
     pointer_location: 0x26c35
+    additional_pointers:
+      - 0x26c5c
     translation: "「Ahead lies a recovery spring.<br>「Drink from it to fully recover.<br>「Just go and check it out."
 
   !!int 0x04363:
     original: "うらないオババ<FE>「うらないは<FD> ウラからじゃ こたえられんぞ!<FD>「ウラナイって いうじゃろ.<FF>"
     pointer_location: 0x0d9c3
-    translation: "Old fortune teller<br>「I'll answer your questions from the other side of the counter!"
+    additional_pointers:
+      - 0x26cc2
+    translation: "Fortune teller<br>「I'll answer your questions from the other side of the counter!"
 
   !!int 0x04392:
     original: "うらないオババ<FE>「あ まて もうひとつ<FD> はなしが あるぞ.<FD>「ぼうけんの とちゅうで<FE> やすみたく なったら<FD> どこでも いいから<FE> スタートボタンを おしなさい.<FD>「そこまでの ぼうけんが<FD> ジャングルの しょに<FE> きろく できるぞ.<FD>「やすんで ちからを たくわえるのも<FE> ひとつの ほうほう じゃからな.<FF>"
@@ -155,7 +159,7 @@ script:
 
   !!int 0x04459:
     original: "「そこの ドアをあけると<FE> ひみつの ジャングルが あるんだ.<FD>「でも カギは<FE> どこに あるんだろう?<FF>"
-    pointer_location: 0
+    pointer_location: 0x26cc4
     translation: "「Beyond this door lies the Secret Jungle.<br>「But... Where could the key be?"
 
   !!int 0x0448e:
@@ -163,15 +167,15 @@ script:
     pointer_location: 0x0d99f
     translation: "「So you've been in the Secret Jungle?<br>「How is it like?"
 
-  !!int 0x044b9:
+  !!int 0x044ba:
     original: "「はい! いらっしゃい!<FE> さあ のった のった!<FD>「りンキーじま けいゆで<FE> みなとまち まで いくよ.<FF>"
-    pointer_location: 0x2b6fc
+    pointer_location: 0x26ccd
     translation: "「Welcome!<br>Please, get aboard!<br>「We're departing to the port city of Linkee Island."
 
-  !!int 0x044ef:
+  !!int 0x044f0:
     original: "アピーニ<FE>「ホホホ***ひっかかったわね!<FF>"
     pointer_location: 0x0d9ec
-    translation: "Apini<br>「Ho ho ho ho… Gotcha!"
+    translation: "Apini<br>「Haha! Gotcha!<FF>"
 
 
   !!int 0x04505:
@@ -204,39 +208,39 @@ script:
     pointer_location: 0x0dcae
     translation: "「What? You're going to rescue him?<br>「Hmmm...<br>「You really are your father's son. If you train hard, perhaps you'll be able to defeat the Goat Gang.<br>「In fact, I'm sure you will.<br>「Here's 20 gold. Use it to properly equip yourself.<br>「Goodspeed!<br>「And seek advice from the old fortune teller."
 
-  !!int 0x04753:
+  !!int 0x04754:
     original: "「おまえも ジャングルパパのむすこ.<FE> がんばって くるんだよ.<FD>「うらないオババが<FE> ちからに なって くれるだろう.<FF>"
-    pointer_location: 0
+    pointer_location: 0x26caf
     translation: "「You're Jungle Papa's son. Do your best, and seek advice from the old fortune teller."
 
-  !!int 0x04790:
+  !!int 0x04791:
     original: "「ジャングルパパを さがしに<FE> たびに でるって きめたんだって?<FD>「えらいなあ***<FD> でも おかしいよなあ?<FD>「あの ジャングルパパが そんなに<FE> かんたんに やられるもんかなあ.<FF>"
-    pointer_location: 0
+    pointer_location: 0x26c58
     translation: "「So you're adamant on going to look for your father?<br>「Great! But... It's strange Jungle Papa could be captured with such a lousy ruse, isn't it?"
 
-  !!int 0x047ed:
+  !!int 0x047ee:
     original: "「ジャングルの なかに さらに<FE> ふかい ジャングルが あって<FD> いろんな たからものが<FE> あるらしいわよ.<FD>「この ジャングルパパの しま<FE> ミシーとうにも<FD> そんな ジャングルが あるって<FE> きいたことが あるわ.<FF>"
-    pointer_location: 0
+    pointer_location: 0x26cb3
     translation: "「Inside the jungle, there's a deeper area. Rumor has it several treasures are kept there.<br>「This very island where Jungle Papa lives, Missy Island, is supposed to have a jungle like that too."
 
-  !!int 0x0485b:
+  !!int 0x0485c:
     original: "「ここは <character>の むらです.<FD>「きたに ながれる かわが<FE> うみまで つながる おおきなかわ<FD> ははなる アスランがわです.<FF>"
-    pointer_location: 0
+    pointer_location: 0x26c56
     translation: "「This is <character>'s village.<br>「The river stream to the north ends in the sea. It's connected to the Aslan river."
 
-  !!int 0x04899:
+  !!int 0x0489a:
     original: "「あの ジャングルパパが<FE> さらわれちゃったんだって?<FD>「<character> かならず<FE> かたきをとってね.<FD>「ぼくも ゴートだんが きたら<FE> ぶきを そうびして たたかうよ.<FD>「<character>も てにいれた ぶきを<FE> そうびして たたかってね.<FF>"
-    pointer_location: 0
+    pointer_location: 0x26cb1
     translation: "「You say Jungle Papa has been abducted?<br>「You have to strike back <character>!「If the Goat Gang comes back, we'll be ready to fight!「You must fight as well, with any possible weapon."
 
   !!int 0x04907:
     original: "「へんだよ.へんだよ.<FD>「ひがしの しまに いく<FE> ほらあなが みずびたし なんだ.<FD>「ぼくは はねが あるから<FE> とおって きたけど<FD> あるいては とおれないよ.<FD>「どこかに はしに なるような<FE> ものが あれば いいけどなあ.<FF>"
     pointer_location: 0x0d9dc
-    translation: "「How weird.<br>「The cave leading to the east island is flooded.<br>「I have wings, so I can go there, but going on foot is impossible.「If only there was something that could be used as a bridge..."
+    translation: "「How weird.<br>「The cave leading to the east island is flooded.<br>「I have wings, so I can go there, but going on foot is impossible.<br>「If only there was something that could be used as a bridge..."
 
-  !!int 0x0497b:
+  !!int 0x0497c:
     original: "「ぼく りンキーとうから きた<FE> たびの オウムです.<FF>"
-    pointer_location: 0
+    pointer_location: 0x26c5a
     translation: "「I came from Linkee Tower.<br>I'm the travelling parrot."
 
   !!int 0x04997:
@@ -879,31 +883,31 @@ script:
     original: "ヒフムヒスAナカ<FF>"
     pointer_location: 0x020a1
     overworld: true
-    translation: "a"
+    translation: "T.ere .as not..ng t.ere.<FF>"
 
   !!int 0x0777c:
     original: "MBDGCス ススAネコミトカ<FE>ャナルミトスク<FC>"
     pointer_location: 0x0fc3f
     overworld: true
-    translation: "aa"
+    translation: "aa<FC>"
 
   !!int 0x077be:
     original: "スCタCス ススAネレキ<FF>"
     pointer_location: 0x0e894
     overworld: true
-    translation: "aaa"
+    translation: "aaa<FF>"
 
   !!int 0x077cb:
     original: "ヒフム コャヒスAナカ<FF>"
     pointer_location: 0x0e9de
     overworld: true
-    translation: "aaaa"
+    translation: "aaaa<FF>"
 
   !!int 0x077d7:
     original: "MBDGCスケAナラ ャナロホサCナキ<FF>"
     pointer_location: 0x0fd01
     overworld: true
-    translation: "aaaaa"
+    translation: "aaaaa<FF>"
 
   !!int 0x077eb:
     original: "「なにに ついて しらべますか?<FC>"
@@ -1289,6 +1293,12 @@ script:
     original: "ジャングルの あさが きました.<FC>"
     pointer_location: 0
     translation: "Morning has broken in the jungle."
+
+  !!int 0x204a9:
+    original: '<var0>は あしもとを しらベた.<FE>みずが ながれていて とおれない!<FD>どこかに
+    はしに なるような<FE>ものは ないかなあ.<FF>'
+    pointer_location: 0xe5ca
+    translation: "<character> looked at his feet. The water is flowing with force! Wonder if there could be something to help cross it?"
 
   !!int 0x204e3:
     original: "<character>は てがみを よんだ.<FE>「あいする ボーイ.<FD> おまえが このてがみを よむときは<FE> わたしの みに なにかが<FD> おこった ときだろう.<FD> だが この きけんな ジャングルで<FE> へいわを まもりつづけるには<FD> そのくらいの ことには くじけない<FE> ゆうかんな こころが ひつようだ.<FD> おまえは わたしの むすこ<FD> ジャングルパパの むすこ<FD> ジャングルボーイだ!!<FD> おまえは ジャングルのへいわのため<FE> たたかいつづけねば ならない.<FD> くるしく つらい たたかいだろうが<FE> ボーイ!<FD> あとのことは たのんだぞ!!<FF>"
@@ -1810,74 +1820,79 @@ script:
     pointer_location: 0
     translation: "<var1> loses will!!"
 
-  !!int 0x20f04:
+  !!int 0x20f05:
     original: "するどい つめで<FE>ひっかいた!<FF>"
-    pointer_location: 0
+    pointer_location: 0x1712b
     translation: "Used its sharp claws!!"
 
-  !!int 0x20f14:
+  !!int 0x20f15:
     original: "<enemy>は<FE>かみついて きた!<FF>"
-    pointer_location: 0
-    translation: "<enemy> bit!"
+    pointer_location: 0x1712d
+    translation: "<enemy><br>bit!"
 
   !!int 0x20f21:
     original: "<enemy>は<FE>ひっぱたいた!<FF>"
-    pointer_location: 0
+    pointer_location: 0x1712f
     translation: "<enemy> slapped!"
 
-  !!int 0x20f38:
+  !!int 0x20f2d:
+    original: "<enemy>は<FE>けりを いれた!<FF>"
+    pointer_location: 0x17131
+    translation: "<enemy> kicked!"
+
+  !!int 0x20f39:
     original: "<enemy>は<FE>パンチを くらわした!<FF>"
-    pointer_location: 0
+    pointer_location: 0x17133
     translation: "<enemy> threw a punch!"
 
-  !!int 0x20f47:
+  !!int 0x20f48:
     original: "<enemy>は<FE>とびかかって きた!<FF>"
-    pointer_location: 0
-    translation: "<enemy> jumped forward!"
+    pointer_location: 0x17135
+    translation: "<enemy><br>lunged!"
 
-  !!int 0x20f55:
+  !!int 0x20f56:
     original: "<enemy>は<FE>しっぽをふりまわした!<FF>"
-    pointer_location: 0
+    pointer_location: 0x17137
     translation: "<enemy> swang his tail!"
 
   !!int 0x20f64:
     original: "<enemy>の<FE>たいあたりっ!!<FF>"
-    pointer_location: 0
+    pointer_location: 0x17139
     translation: "<enemy>’s ramming attack!"
 
-  !!int 0x20f70:
+  !!int 0x20f71:
     original: "<enemy>は<FE>まきついて きた!<FF>"
-    pointer_location: 0
+    pointer_location: 0x1713b
     translation: "<enemy> twined around!"
 
   !!int 0x20f7d:
     original: "たけやりで<FE>つんつん した!<FF>"
-    pointer_location: 0
+    pointer_location: 0x1713d
     translation: "Poked with a bamboo spear!"
 
-  !!int 0x20f8c:
+  !!int 0x20f8d:
     original: "はものを<FE>ふりまわした!!<FF>"
-    pointer_location: 0
+    pointer_location: 0x1713f
     translation: "Wielded cutlery!!"
 
-  !!int 0x20f9a:
+  !!int 0x20f9b:
     original: "<enemy>は<FE>ムチを ふるった!<FF>"
-    pointer_location: 0
+    pointer_location: 0x17141
     translation: "<enemy> wielded a whip!"
 
-  !!int 0x20fa7:
+  !!int 0x20fa8:
     original: "<enemy>の<FE>せおいなげ!!<FF>"
-    pointer_location: 0
+    pointer_location: 0x17143
     translation: "<enemy> used a judo hold!"
 
-  !!int 0x20fb2:
+  !!int 0x20fb3:
     original: "<enemy>は<FE>くさりをブンまわした!<FF>"
-    pointer_location: 0
+    pointer_location: 0x17145
     translation: "<enemy> spun a chain!"
 
-  !!int 0x20fc1:
+  !!int 0x20fc2:
     original: "<enemy>の<FE>きょうき こうげきっ!<FF>"
-    pointer_location: 0
+    pointer_location: 0x17147
     translation: "<enemy>’s deadly attack!"
 
   !!int 0x20fd1:
@@ -1885,9 +1900,9 @@ script:
     pointer_location: 0x17149
     translation: "Fires a<FE>rifle!"
 
-  !!int 0x20fdd:
+  !!int 0x20fde:
     original: "ジャブ! ストレート!<FE>れんぞくパンチだ!<FF>"
-    pointer_location: 0
+    pointer_location: 0x1714b
     translation: "Yaah! Shower of punches!"
 
   !!int 0x20ff3:
@@ -2238,13 +2253,13 @@ script:
   !!int 0x21488:
     original: "<enemy>は<FE>みを まもった!<FF>"
     pointer_location: 0
-    translation: "<enemy> covers the eyes!"
+    translation: "<senemy> covers the eyes!"
 
-  !!int 0x21494:
+  !!int 0x21495:
     original: "<enemy>は<FE>けを さかだて<FE>みを まもった!<FF>"
-    pointer_location: 0
-    translation: "TODO_0x21494"
-
+    pointer_location: 0x171b9
+    translation: "<enemy><br>guards with<br>its hair!"
+                             
   !!int 0x214a8:
     original: "<var1>も<FE><amount>ダメージうけた!<FF>"
     pointer_location: 0x132d6
@@ -2775,14 +2790,26 @@ script:
     pointer_location: 0x1b8f1
     translation: "TODO_0x22359"
 
-  !!int 0x223b6:
+  !!int 0x223b7:
     original: " 1さいきんのこと 3ほんきょち<FE> 2ゴートだん   4そのたのこと<FC>"
     pointer_location: 0x1affb
     translation: "_1_Main___3_HQ<br>_2_Goat___4Current"
 
-  !!int 0x2242b:
+  !!int 0x223da:
+    original: ' 1パパのこと   3ほんきょち<FE> 2ゴー85ムん   4そのたのこと[FC]'
+    pointer_location: 0
+    translation: "TODO_0x223da"
+
+  !!int 0x223fd:
+      original: '「しかし せっかく<FE> きてくれたんフゃから<FD> いいものを やろう.<FD><var0>は 2Gを もらった.<FF>'
+      pointer_location: 0xd9c9
+      translation: "But since you came all this way, let's give you something nice.<br><character> got 2G."
+
+  !!int 0x2242c:
     original: "うらないオババ<FE>「なんの はなしを ききたいかね?<FF>"
     pointer_location: 0x1b90a
+    additional_pointers:
+      - 0x1bf77
     translation: "Fortune teller<br>「What would you like to know?"
 
   !!int 0x22445:
