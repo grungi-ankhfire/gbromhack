@@ -129,7 +129,8 @@ class TextString:
                 else:
                     prepared_text += "<FD>"
             else:
-                prepared_text += "<FF>"
+                if prepared_text[-4:] not in ['<FF>', '<FC>']:
+                    prepared_text += "<FF>"
             self.length += 1
             line_num += 1
             cur_line_length = 0

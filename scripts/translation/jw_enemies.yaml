@@ -236,7 +236,7 @@ enemies:
     location: 0x3044e
     original_header: 0x102400140803125f7d820002009d0084010305280103
     original_name: "ズルぎつね<FF>"
-    translated_name: "TODO0x21<FF>"
+    translated_name: "CheatyFox<FF>"
 
   !!int 0x22:
     id: 34

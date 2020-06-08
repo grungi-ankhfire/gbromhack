@@ -1077,7 +1077,7 @@ script:
   !!int 0x201b2:
     original: "<gold>ポイントの けいけんちを<FE>てにいれた!!<FF>"
     pointer_location: 0x0fe15
-    translation: "Got <gold> exp. points!!"
+    translation: "Got <gold> xp!!"
 
   !!int 0x201c8:
     original: "<var1>は レべル<var7>になった!!<FF>"
@@ -1096,22 +1096,22 @@ script:
 
   !!int 0x201f0:
     original: " ちからが <var7>あがった!!<FF>"
-    pointer_location: 0
+    pointer_location: 0x2de4
     translation: "Strength rose by <var7>!!"
 
   !!int 0x201fe:
     original: " かしこさが <var7>あがった!!<FF>"
-    pointer_location: 0
+    pointer_location: 0x2de6
     translation: "Wisdom rose by <var7>!!"
 
   !!int 0x2020d:
     original: " すばやさが <var7>あがった!!<FF>"
-    pointer_location: 0
+    pointer_location: 0x2dea
     translation: "Agility rose by <var7>!!"
 
   !!int 0x2021c:
     original: " たいりょくが <var7>あがった!!<FF>"
-    pointer_location: 0
+    pointer_location: 0x2de8
     translation: "Stamina rose by <var7>!!"
 
   !!int 0x2022c:
@@ -2295,15 +2295,40 @@ script:
     pointer_location: 0x13d94
     translation: "The fruit bounced back!"
 
-  !!int 0x21528:
+  !!int 0x21529:
     original: "<var3>たちは<FE>こうさんした!!<FC>"
     pointer_location: 0x115c2
-    translation: "TODO_0x21528"
+    translation: "<var3> and<br>co surrendered!<FC>"
+
+  !!int 0x21537:
+    original: "<var3>は こうさんした!!<FC>"
+    pointer_location: 0x115bd
+    translation: "<var3><br>surrendered!<FC>"
+
+  !!int 0x21543:
+    original: "<FC><var8>ポイントの けいけんちと<FC>"
+    pointer_location: 0x11614
+    translation: "Got <var8> xp!<FC>"
+
+  !!int 0x2155d:
+    original: "<varA>Gを てにいれた!!<FF>"
+    pointer_location: 0x11646
+    translation: "Got <varA>G!"
 
   !!int 0x2155c:
     original: "<var3>は あやまって<FC>"
     pointer_location: 0x11664
-    translation: "TODO_0x2155c"
+    translation: "<var3><br>apologized<FC>"
+
+  !!int 0x21566:
+    original: "<var3>たちは あやまって<FE>ジャングルへ かえっていった.<FF>"
+    pointer_location: 0x1165b
+    translation: "<var3> and co apologized<br>and returned to the jungle."
+
+  !!int 0x21571:
+    original: "ジャングルへ かえっていった.<FF>"
+    pointer_location: 0x1166a
+    translation: "and returned to the jungle."
 
   !!int 0x21580:
     original: "しかし<FE><enemy>は<FE>きがつかない!!<FF>"
