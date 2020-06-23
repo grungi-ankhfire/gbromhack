@@ -616,10 +616,11 @@ overlay:
     dim_y: 0x05
     location: 0x33ccd
     original_header: 0x060538381810
+    force_header: 0x060538381810
     original_text: " いいよ<FE> やだよ<FE><FF>"
     pos_x: 24
     pos_y: -1088
-    translation: "TODO_0x33ccd<FF>"
+    translation: " Yes<FE> No!<FE><FF>"
 
   !!int 0x84:
     bg_map: 0

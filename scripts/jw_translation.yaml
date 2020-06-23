@@ -1321,7 +1321,7 @@ script:
   !!int 0x20627:
     original: "<character>たちは<FE>いわを うごかそうとした.<FD>しかし ふたりでは うごかない!<FF>"
     pointer_location: 0x0eb79
-    translation: "<character>’s party try to move the boulder. However, it's too heavy for them alone to move!"
+    translation: "<character>'s party try to move the boulder. However, it's too heavy for them alone to move!"
 
   !!int 0x2064b:
     original: "ロープが かかっています.<FE>わたりますか?<FC>"
@@ -1456,7 +1456,7 @@ script:
   !!int 0x209fc:
     original: "<enemy>の<FE>じゅもんを<FE>ふうじこめた!!<FF>"
     pointer_location: 0x12c2e
-    translation: "<enemy>’s magic sealed!"
+    translation: "<enemy>'s magic sealed!"
 
   !!int 0x20a0e:
     original: "でも じゅもんは<FE>ふうじられている!<FF>"
@@ -1466,12 +1466,12 @@ script:
   !!int 0x20a21:
     original: "<var1>は<FE>こうげきりょくが<FE>あがった!!<FF>"
     pointer_location: 0x12cb4
-    translation: "<var1>’s attack increased!"
+    translation: "<var1>'s attack increased!"
 
   !!int 0x20a34:
     original: "<var1>の<FE>マカチャクが とけた!<FF>"
     pointer_location: 0
-    translation: "<var1>’s mag. Attack blocked!"
+    translation: "<var1>'s mag. Attack blocked!"
 
   !!int 0x20a43:
     original: "<var1>には<FE>すでに かかっていた!<FF>"
@@ -1481,27 +1481,27 @@ script:
   !!int 0x20a53:
     original: "<enemy>の<FE>しゅびりょくを<FE>さげた!!<FF>"
     pointer_location: 0x11cfc
-    translation: "<enemy>’s defense down!"
+    translation: "<enemy>'s defense down!"
 
   !!int 0x20a64:
     original: "<var1>は<FE>しゅびりょくが<FE>あがった!!<FF>"
     pointer_location: 0x12e03
-    translation: "<var1>’s defense up!"
+    translation: "<var1>'s defense up!"
 
   !!int 0x20a76:
     original: "<enemy>の<FE>MPを <var6>すいとった!<FF>"
     pointer_location: 0x12ed5
-    translation: "Stolen <enemy>’s MP!"
+    translation: "Stolen <enemy>'s MP!"
 
   !!int 0x20a85:
     original: "<enemy>には<FE>MPが ない!<FF>"
     pointer_location: 0x12edb
-    translation: "<enemy>’s MP ran out!"
+    translation: "<enemy>'s MP ran out!"
 
   !!int 0x20a91:
     original: "<enemy>は<FE>こんらんした!!<FF>"
     pointer_location: 0x12f5f
-    translation: "<enemy>’s dazed!"
+    translation: "<enemy>'s dazed!"
 
   !!int 0x20a9d:
     original: "<enemy>は<FE><enemy>を<FE>こうげきした!!<FF>"
@@ -1531,17 +1531,17 @@ script:
   !!int 0x20ae4:
     original: "<enemy>は<FE>おどりまくっている!<FF>"
     pointer_location: 0
-    translation: "<enemy>’s dancing madly!"
+    translation: "<enemy>'s dancing madly!"
 
   !!int 0x20afc:
     original: "<character>たちは<FE><item>を<FE>てにいれた!<FF>"
     pointer_location: 0
-    translation: "<character>’s group got <item>!"
+    translation: "<character>'s group got <item>!"
 
   !!int 0x20b0b:
     original: "<var1>の まわりが<FE>あかく ひかっている!<FF>"
     pointer_location: 0x12f8e
-    translation: "<var1>’s engulfed by red haze!"
+    translation: "<var1>'s engulfed by red haze!"
 
   !!int 0x20b1f:
     original: "<var1>は じゅもんを<FE>はねかえした!!<FF>"
@@ -1551,7 +1551,7 @@ script:
   !!int 0x20b31:
     original: "<var1>の<FE>アナクが とけた!<FF>"
     pointer_location: 0
-    translation: "<var1>’s Anak blocked!"
+    translation: "<var1>'s Anak blocked!"
 
   !!int 0x20b3e:
     original: "しかし なにも<FE>おこらなかった!<FF>"
@@ -1566,7 +1566,7 @@ script:
   !!int 0x20b5b:
     original: "<var1>から どくが<FE>きえさった!!<FF>"
     pointer_location: 0x11f79
-    translation: "<var1>’s poison removed!"
+    translation: "<var1>'s poison removed!"
 
   !!int 0x20b6b:
     original: "サスケは[FB]を<FE>なげた!!<FF>"
@@ -1576,7 +1576,7 @@ script:
   !!int 0x20b78:
     original: "<enemy>は<FE>よって しまった!!<FF>"
     pointer_location: 0
-    translation: "<enemy>’s fuddled!"
+    translation: "<enemy>'s fuddled!"
 
   !!int 0x20b86:
     original: "<enemy>は<FE>マタタビに よっている<FF>"
@@ -1626,7 +1626,7 @@ script:
   !!int 0x20c05:
     original: "<enemy>は<FE>こうげきりょくが<FE><amount>さがった!<FF>"
     pointer_location: 0
-    translation: "<enemy>’s attack <amount> down!!"
+    translation: "<enemy>'s attack <amount> down!!"
 
   !!int 0x20c18:
     original: "<enemy>は<FE>ビビっている!<FF>"
@@ -1636,7 +1636,7 @@ script:
   !!int 0x20c23:
     original: "<enemy>は<FE>げんきを とりもどした<FF>"
     pointer_location: 0
-    translation: "<enemy>’s condition regained!!"
+    translation: "<enemy>'s condition regained!!"
 
   !!int 0x20c32:
     original: "「まかせてちょっ!!<FF>"
@@ -1881,7 +1881,7 @@ script:
   !!int 0x20f64:
     original: "<enemy>の<FE>たいあたりっ!!<FF>"
     pointer_location: 0x17139
-    translation: "<enemy>’s ramming attack!"
+    translation: "<enemy>'s ramming attack!"
 
   !!int 0x20f71:
     original: "<enemy>は<FE>まきついて きた!<FF>"
@@ -1916,7 +1916,7 @@ script:
   !!int 0x20fc2:
     original: "<enemy>の<FE>きょうき こうげきっ!<FF>"
     pointer_location: 0x17147
-    translation: "<enemy>’s deadly attack!"
+    translation: "<enemy>'s deadly attack!"
 
   !!int 0x20fd1:
     original: "じゅうを<FE>ぶっぱなした!<FF>"
@@ -2110,18 +2110,18 @@ script:
 
   !!int 0x21268:
     original: "<var1>は<FE>ビビった!<FF>"
-    pointer_location: 0
+    pointer_location: 0x1731f
     translation: "<var1> gets shocked!"
 
   !!int 0x21271:
     original: "<var1>は<FE>ビビっている!<FF>"
-    pointer_location: 0
+    pointer_location: 0x172a7
     translation: "<var1> is in shock!"
 
   !!int 0x2127c:
     original: "<var1>は<FE>げんきを とりもどした<FF>"
     pointer_location: 0x12744
-    translation: "<var1>’s condition regained!"
+    translation: "<var1>'s condition regained!"
 
   !!int 0x2128b:
     original: "「へンシーン!<FE><enemy>は<FE>あくやくタイガーに<FE>へんしん した!<FF>"
@@ -2179,12 +2179,12 @@ script:
   !!int 0x2133e:
     original: "<enemy>は<FE>こうげきりょくが<FE>あがった!!<FF>"
     pointer_location: 0x12cb9
-    translation: "<enemy>’s attack up!!"
+    translation: "<enemy>'s attack up!!"
 
   !!int 0x21351:
     original: "<enemy>の<FE>マカチャクが とけた!<FF>"
     pointer_location: 0
-    translation: "<enemy>’s Mg.Atk. dispelled!"
+    translation: "<enemy>'s Mg.Atk. dispelled!"
 
   !!int 0x21360:
     original: "<enemy>には<FE>すでに かかっていた!<FF>"
@@ -2194,7 +2194,7 @@ script:
   !!int 0x21370:
     original: "<var1>の<FE>しゅびりょくを<FE>さげた!!<FF>"
     pointer_location: 0x12d8c
-    translation: "<var1>’s defense down!!"
+    translation: "<var1>'s defense down!!"
 
   !!int 0x21381:
     original: "<var1>には<FE>こうかが なかった!<FF>"
@@ -2204,12 +2204,12 @@ script:
   !!int 0x21390:
     original: "<enemy>は<FE>しゅびりょくが<FE>あがった!!<FF>"
     pointer_location: 0
-    translation: "<enemy>’s defense up!!"
+    translation: "<enemy>'s defense up!!"
 
   !!int 0x213a2:
     original: "<enemy>の<FE>アナクが とけた!<FF>"
     pointer_location: 0
-    translation: "<enemy>’s ANAK dispelled!!"
+    translation: "<enemy>'s ANAK dispelled!!"
 
   !!int 0x213af:
     original: "<var1>は<FE>こんらんした!!<FF>"
@@ -2264,7 +2264,7 @@ script:
   !!int 0x21454:
     original: "<enemy>は<FE>まっかな かおをして<FE>ちからを ためている!<FF>"
     pointer_location: 0
-    translation: "<enemy>’s face is bright red!"
+    translation: "<enemy>'s face is bright red!"
 
   !!int 0x2146e:
     original: "<enemy>は<FE>ようすを みている!<FF>"
@@ -2379,7 +2379,7 @@ script:
   !!int 0x215d7:
     original: "<var1>は<FE>ちからつきた!<FF>"
     pointer_location: 0x13eb1
-    translation: "TODO_0x215d7"
+    translation: "<var1> is<FE>KO'd."
 
   !!int 0x215e2:
     original: "<var3>たちは<FE>いなくなった!![FC]<var3>は いなくなった!![FC]ボーイたちの<FE>せんせい こうげき!!<FF>"
@@ -2439,12 +2439,12 @@ script:
   !!int 0x216b8:
     original: "<character>たちは ちからつきた***<FF>"
     pointer_location: 0x1bd00
-    translation: "TODO_0x216b8"
+    translation: "<character>'s team fell..."
 
   !!int 0x216c7:
     original: "<character>は ちからつきた***<FF>"
     pointer_location: 0x1bd09
-    translation: "TODO_0x216c7"
+    translation: "<character> fell..."
 
   !!int 0x216d4:
     original: "<var1>は<FE>こんらんしている!!<FF>"
