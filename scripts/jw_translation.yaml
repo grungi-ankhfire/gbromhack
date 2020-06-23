@@ -70,6 +70,9 @@ in_place:
     original: "どくけし<FF>"
     translation: "Cure<FF>"
 
+  !!int 0x10c12:
+    original: "obaba no kagi<FF>"
+    translation: "Key<FF>"
 
 script:
 
@@ -961,7 +964,7 @@ script:
 
   !!int 0x20023:
     original: "しかし なにも おこらなかった!<FF>"
-    pointer_location: 0
+    pointer_location: 0x16809
     translation: "But nothing happened!"
 
   !!int 0x20034:
@@ -1808,7 +1811,27 @@ script:
   !!int 0x20e97:
     original: "「スタコラサッサッサー<FC>"
     pointer_location: 0x115d1
-    translation: "「Kekekekee-<FC>"
+    translation: "「Kekekekee*<FC>"
+
+  !!int 0x20ea4:
+    original: "<var0>たちはにげのびた!!<FC>"
+    pointer_location: 0x115e2
+    translation: "<var0>'s team ran!<FC>"
+
+  !!int 0x20eb0:
+    original: "<var0>は にげのびた!!<FC>"
+    pointer_location: 0x115dd
+    translation: "<var0> ran!!<FC>"
+
+  !!int 0x20ebb:
+    original: '「そうは 7073のピー<FE><var0>たちは<FE>つかまって しまった!<FF>'
+    pointer_location: 0
+    translation: TODO_0x20ebb
+
+  !!int 0x20ed7:
+    original: '<var1>は<FE><var8>ダメージうけた!<FF>'
+    pointer_location: 0
+    translation: TODO_0x20ed7
 
   !!int 0x20ee4:
     original: "<var1>は すばやく<FE>みを かわした!!<FF>"
@@ -2102,17 +2125,20 @@ script:
 
   !!int 0x2128b:
     original: "「へンシーン!<FE><enemy>は<FE>あくやくタイガーに<FE>へんしん した!<FF>"
-    pointer_location: 0
-    translation: "Change! <enemy> turned into Bad Tiger!"
+    pointer_location: 0x1717b
+    translation: "Change!<FE><enemy><FE>turned into<FE>Bad Tiger!"
 
   !!int 0x212a9:
     original: "「へンシーン!<FE><enemy>は<FE>パンチカンガルーに<FE>へんしん した!<FF>"
-    pointer_location: 0
-    translation: "Change! <enemy> turned into Boxer Kang.!"
+    pointer_location: 0x1717d
+    translation: "Change!<FE><enemy><FE>turned into<FE>Boxer Kang!"
 
   !!int 0x212c7:
     original: "<enemy>は<FE>なかまを よびだした!<FF>"
-    pointer_location: 0
+    pointer_location: 0x1717f
+    additional_pointers:
+      - 0x17181
+      - 0x17183
     translation: "<enemy> called for help!"
 
   !!int 0x212d6:
@@ -2267,13 +2293,13 @@ script:
 
   !!int 0x214b5:
     original: "めにも とまらぬ<FE>はやわざ!<FF>"
-    pointer_location: 0
-    translation: "Unstoppable strike!"
+    pointer_location: 0x171bd
+    translation: "Impressive<FE>trick!"
 
   !!int 0x214c4:
     original: "<price>G<FE>かすめとられた!<FF>"
     pointer_location: 0x12704
-    translation: "<price>G stolen!"
+    translation: "<price>G<FE>stolen!"
 
   !!int 0x214d0:
     original: "<enemy>は<FE>きもちの わるい<FE>おどりを おどった!<FF>"
@@ -2803,27 +2829,29 @@ script:
   !!int 0x222ae:
     original: "うらないオババ<FE>「また きておくれ.<FD> おまえさん じゃったら<FE> なんでも おしえてやろう.<FF>"
     pointer_location: 0x1b92c
-    translation: "TODO_0x222ae"
+    translation: "Fortune teller<br>「Come again. I will tell you anything you want to know."
 
   !!int 0x222dd:
     original: "「そうじゃ!!<FE> パパの でんごんが あったのじゃ.<FD>「そのドアを とおって<FE> おくまで あるいて いくがいい.<FD>「ひみつのジャングルの なかに<FE> パパの てがみが<FD> かくされてる はずじゃ.<FD>「この オババのカギで<FE> そのドアは ひらくのじゃ.<FF>"
     pointer_location: 0x1b8e0
-    translation: "TODO_0x222dd"
+    translation: "By the way! I got a message from your dad.<br>You should cross that door over there. In the secret jungle, you'll find a letter written by your father. You can open that door using this key."
 
   !!int 0x22359:
     original: "「パパは まだ ぶじじゃ.<FD>「じゃが かわぞいに うみへと<FE> つれて いかれた ようじゃな.<FD>「アスランがわに そって<FE> まずひがしへ パパを おっていけ.<FD>「ないとるひまは ないぞ!<FF>"
     pointer_location: 0x1b8f1
-    translation: "TODO_0x22359"
+    additional_pointers:
+      - 0x1bc43
+    translation: "Papa's unharmed. He's been taken through the river, into the sea. To follow him, first go east and follow the Aslan River. Hurry up!!"
 
   !!int 0x223b7:
     original: " 1さいきんのこと 3ほんきょち<FE> 2ゴートだん   4そのたのこと<FC>"
     pointer_location: 0x1affb
-    translation: "_1_Main___3_HQ<br>_2_Goat___4Current"
+    translation: "_1_Main___3_HQ<br>_2_Goat___4Current<FC>"
 
   !!int 0x223da:
-    original: ' 1パパのこと   3ほんきょち<FE> 2ゴー85ムん   4そのたのこと[FC]'
-    pointer_location: 0
-    translation: "TODO_0x223da"
+    original: ' 1パパのこと   3ほんきょち<FE> 2ゴー85ムん   4そのたのこと<FC>'
+    pointer_location: 0x1b004
+    translation: "_1_Papa___3_HQ<br>_2_Goat___4Current<FC>"
 
   !!int 0x223fd:
       original: '「しかし せっかく<FE> きてくれたんフゃから<FD> いいものを やろう.<FD><var0>は 2Gを もらった.<FF>'
