@@ -75,7 +75,7 @@ fullscreen:
     original_text: "<FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD><FD><FF>"
     pos_x: 6
     pos_y: 0
-    translation: "<FD> <enemy>*<var5><FD><FD> <enemy>*<var5><FD><FD> <enemy>*<var5><FD><FD><FD><FF>"
+    translation: "<FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD><FD><FF>"
 
   !!int 0x07:
     bg_map: 1

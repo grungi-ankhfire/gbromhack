@@ -9,7 +9,7 @@ signs:
     line1_translated_text: "Ha<space>ha<space>ha!"
     line2_original_length: 9
     line2_original_text: "<space><space>コ\"-トた\"ん"
-    line2_translated_text: "*Goat<space>Gang"
+    line2_translated_text: "-Goat<space>Gang"
     pointer_location: 0x31e73
 
   !!int 0x01:

@@ -6,8 +6,8 @@ xcopy .\roms\jw_original.gb .\roms\jw_patched.gb /Y
 echo Patching in font...
 python jw_patcher.py apply --font patches/font.patch roms/jw_patched.gb
 
-echo Patching in overworld font...
-python jw_patcher.py apply patches/overworld_font.patch roms/jw_patched.gb 0x1EDAD
+:: echo Patching in overworld font...
+:: python jw_patcher.py apply patches/overworld_font.patch roms/jw_patched.gb 0x1EDAD
 
 echo Patching in code [1/6]
 python jw_patcher.py apply patches/extension_jump.patch roms/jw_patched.gb 0x0BAD

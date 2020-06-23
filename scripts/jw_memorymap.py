@@ -13,3 +13,6 @@ ENNEMIES_DATA_ALLOCATED_SPACE = [
     (0x30086, 0x3082B),  # Original block
     (0x33A01, 0x33FEB),  # Window data block, second part
 ]
+
+FONT_DATA_START = 0x1EDAD
+FONT_DATA_END = 0x1F254

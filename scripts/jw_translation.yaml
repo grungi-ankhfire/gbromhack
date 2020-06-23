@@ -886,7 +886,7 @@ script:
     original: "ヒフムヒスAナカ<FF>"
     pointer_location: 0x020a1
     overworld: true
-    translation: "T.ere .as not..ng t.ere.<FF>"
+    translation: "There was nothing there.<FF>"
 
   !!int 0x0777c:
     original: "MBDGCス ススAネコミトカ<FE>ャナルミトスク<FC>"

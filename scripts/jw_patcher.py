@@ -23,9 +23,7 @@ Options
     --font       Use precomputed Jungle Wars font offsets
 """
 from docopt import docopt
-
-FONT_AREA_START = 0x1EDAD
-FONT_AREA_END = 0x1F254
+from jw_memorymap import FONT_DATA_START, FONT_DATA_END
 
 # python jw_patcher.py create roms\jw_patched.gb 0x1EF0B 0x1EFC5 patches\overworld_font.patch
 
@@ -150,8 +148,8 @@ if __name__ == '__main__':
         end_offset = 0x00
 
         if arguments['--font']:
-            offset = FONT_AREA_START
-            end_offset = FONT_AREA_END
+            offset = FONT_DATA_START
+            end_offset = FONT_DATA_END
         else:
             offset = int(arguments["<start>"], base=16)
             end_offset = int(arguments["<end>"], base=16)
@@ -165,7 +163,7 @@ if __name__ == '__main__':
         offset = 0x00
 
         if arguments['--font']:
-            offset = FONT_AREA_START
+            offset = FONT_DATA_START
         else:
             offset = int(arguments['<start>'], base=16)
 
