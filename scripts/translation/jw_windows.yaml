@@ -748,7 +748,7 @@ overlay:
     pos_x: 0
     pos_y: -573
     overworld: true
-    translation: "Save yourprogress?<FE> Yes<FE><FE> No!<FF>"
+    translation: "Save yourprogress?<FE> yes<FE><FE> no!<FF>"
 
   !!int 0x8f:
     bg_map: 0
