@@ -4,3 +4,8 @@ npcs:
     location: 0x37345
     name_original: "パパ"
     name_translated: "Papa"
+
+  !!int 0x01:
+    location: 0x3733b
+    name_original: "サスケ"
+    name_translated: "Sasuke"

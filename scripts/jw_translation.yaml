@@ -1535,7 +1535,9 @@ script:
   !!int 0x20ab7:
     original: "<var1>の<FE>HPが かいふくした!<FF>"
     pointer_location: 0x13169
-    translation: "Restored <var1> HP!"
+    additional_pointers:
+      - 0x13f77
+    translation: "Restored<br><var1>'s HP!"
 
   !!int 0x20ac6:
     original: "<enemy>の<FE>HPが かいふくした!<FF>"
