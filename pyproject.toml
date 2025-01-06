@@ -1,0 +1,12 @@
+[project]
+name = "gbromhack"
+version = "0.1.0"
+description = "Rom hacking scripts for Jungle Wars"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "docopt>=0.6.2",
+    "ips-util>=1.0",
+    "pyaml>=24.12.1",
+    "pyyaml>=6.0.2",
+]
