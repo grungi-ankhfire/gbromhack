@@ -14,24 +14,14 @@ import pyaml
 import yaml
 from docopt import docopt
 from translation_table import TranslationTable
+from hexint import HexInt, hexint_representer
+
 
 # Example invocation :
 # 
 # python jw_enemy.py extract roms\jw_original.gb 0x30000 0x30085 ..\tbl\jw-py.tbl jw_enemies.yaml
 
-
-class HexInt(int):
-    def __new__(cls, value, digits=2):
-        obj = int.__new__(cls, int(value))
-        obj.digits = digits
-        return obj
-
-
-def representer(dumper, data):
-    return yaml.ScalarNode('tag:yaml.org,2002:int', "{0:#0{1}x}".format(data, data.digits + 2))
-
-
-pyaml.add_representer(HexInt, representer)
+pyaml.add_representer(HexInt, hexint_representer)
 
 
 class JWEnemy:

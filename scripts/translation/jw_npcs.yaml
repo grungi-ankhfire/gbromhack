@@ -8,4 +8,4 @@ npcs:
   !!int 0x01:
     location: 0x3733b
     name_original: "サスケ"
-    name_translated: "Sasuke"
+    name_translated: "Ssk"

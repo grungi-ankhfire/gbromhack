@@ -5,6 +5,7 @@ description = "Rom hacking scripts for Jungle Wars"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "click>=8.1.8",
     "docopt>=0.6.2",
     "ips-util>=1.0",
     "pyaml>=24.12.1",

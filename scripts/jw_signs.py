@@ -16,12 +16,9 @@ Arguments
 
 import pyaml
 from docopt import docopt
-from hexint import HexInt, hexint_representer
+from hexint import HexInt
 from translation_table import TranslationTable
 from jw_memorymap import SIGNS_DATA_POINTERS_START, SIGNS_DATA_POINTERS_END
-
-pyaml.add_representer(HexInt, hexint_representer)
-
 
 class PointerTableExtractor:
 
@@ -104,5 +101,5 @@ if __name__ == '__main__':
         rom.close()
 
         f = open(arguments['--output'], 'w', encoding='utf-8')
-        f.write(pyaml.dump(res, indent=2, vspacing=[2, 1], width=float("inf"), string_val_style='"'))
+        f.write(pyaml.dump(res, indent=2, width=float("inf"), string_val_style='"'))
         f.close()

@@ -7,6 +7,7 @@
           jw_patcher.py apply_windows <romfile>
           jw_patcher.py apply_enemies <romfile>
           jw_patcher.py apply_npcs <romfile>
+          jw_patcher.py apply_intro <romfile>
 
 Tool to create and apply Jungle Wars patches. This just overrides everything
 in the ROM, and is not intended for final patching. The goal is to help during
@@ -24,8 +25,16 @@ Options
 """
 from docopt import docopt
 from jw_memorymap import FONT_DATA_START, FONT_DATA_END
+from opcodes import opcodes
+import opcodes as asm
 
 # python jw_patcher.py create roms\jw_patched.gb 0x1EF0B 0x1EFC5 patches\overworld_font.patch
+
+def get_bank_offset(bank: int) -> int:
+    return (bank-1) * 0x4000
+
+def b(hex_string: str) -> bytes:
+    return bytes.fromhex(hex_string)
 
 
 def create_patch(rom_file, output_path, start, end):
@@ -126,7 +135,7 @@ def insert_enemy_name_loading_redirection_code(rom_file):
 
 def insert_npc_name_reading_code(rom_file):
     rom_file.seek((0x0D - 1) * 0x4000 + 0x72FB)
-    rom_file.write(b'\x3E\x1C')     # ld a, $0D
+    rom_file.write(b'\x3E\x1C')     # ld a, $1C
     rom_file.write(b'\xC7')         # rst $00
 
     rom_file.seek((0x1C - 1) * 0x4000 + 0x72FE)
@@ -140,8 +149,43 @@ def insert_npc_name_reading_code(rom_file):
     rom_file.write(b'\x3E\x0D')     # ld a, $0D
     rom_file.write(b'\x18\xF5')     # jr $7300
 
+
+def insert_code(rom_file, bank: int,  position: int, instructions: list[bytes] ) -> None:
+    offset = position
+    if bank > 0x00:
+        offset += get_bank_offset(bank)
+    rom_file.seek(offset)
+    rom_file.write(b''.join(instructions))
+
+def insert_title_credits_code(rom_file):
+    
+    instructions = [
+        asm.ld_a(0x10),
+        asm.rst_0(),
+        asm.nop() * 16
+    ]
+
+    insert_code(rom_file, 0x06, 0x5f79, instructions)
+
+    instructions = [
+        asm.jr(0x01),
+        asm.rst_0(),
+        asm.ld_de(0x4020),
+        asm.ld_hl(0x9cc3),
+        asm.ld_b(0x0e),
+        asm.call(0x38fe),
+        asm.ld_hl(0x9d23),
+        asm.ld_b(0x0e),
+        asm.call(0x38fe),
+        asm.ld_a(0x06),
+        asm.jp(0x5f7e)
+    ]
+
+    insert_code(rom_file, 0x10, 0x5f7c, instructions)
+
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
+
 
     if arguments['create']:
         offset = 0x00
@@ -189,3 +233,7 @@ if __name__ == '__main__':
         rom = open(arguments["<romfile>"], 'rb+')
         insert_npc_name_reading_code(rom)
         rom.close()
+
+    elif arguments['apply_intro']:
+        with open(arguments['<romfile>'], 'rb+') as rom:
+            insert_title_credits_code(rom)

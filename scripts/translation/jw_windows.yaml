@@ -42,7 +42,7 @@ fullscreen:
     original_text: "<FE> おまかせ<FE> きのみ<FE><FE> そのほか<FE><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x334e6<FF>"
+    translation: "<FE> Let <FE> Nut<FE><FE> More<FE><FF>"
 
   !!int 0x04:
     bg_map: 1
