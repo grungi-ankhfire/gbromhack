@@ -7,13 +7,11 @@ The info is taken from the "PAN Doc" and other sources.
 Arguments
     <romfile>   The rom file to open
 """
-from math import floor
-from docopt import docopt
+import click
+from jw_config import config
 
-rom = None
-
-
-def check_nintendo_logo():
+    
+def check_nintendo_logo(rom):
     nintendo_logo = 'CE ED 66 66 CC 0D 00 0B 03 73 00 83 00 0C 00 0D '\
                     '00 08 11 1F 88 89 00 0E DC CC 6E E6 DD DD D9 99 '\
                     'BB BB 67 63 6E 0E EC CC DD DC 99 9F BB B9 33 3E'
@@ -27,13 +25,13 @@ def check_nintendo_logo():
         return 'ERROR'
 
 
-def get_cartridge_name():
+def get_cartridge_name(rom):
     rom.seek(0x0134)
     name = rom.read(16)
     return (name.decode('ascii'))
 
 
-def get_cartridge_type():
+def get_cartridge_type(rom):
     cartridge_types = {
         b'\x00': 'ROM Only',
         b'\x01': 'MBC1',
@@ -68,7 +66,7 @@ def get_cartridge_type():
     return (cartridge_types[rom.read(1)])
 
 
-def get_rom_size():
+def get_rom_size(rom):
     rom_sizes = {
         b'\x00': ' 32KB (no ROM banking)',
         b'\x01': ' 64KB (4 banks)',
@@ -86,7 +84,7 @@ def get_rom_size():
     return (rom_sizes[rom.read(1)])
 
 
-def get_ram_size():
+def get_ram_size(rom):
     ram_sizes = {
         b'\x00': 'None',
         b'\x01': '2KB',
@@ -97,7 +95,7 @@ def get_ram_size():
     return (ram_sizes[rom.read(1)])
 
 
-def get_destination_code():
+def get_destination_code(rom):
     destination_codes = {
         b'\x00': 'Japanese',
         b'\x01': 'Non-Japanese',
@@ -106,13 +104,13 @@ def get_destination_code():
     return (destination_codes[rom.read(1)])
 
 
-def header_checksum():
+def header_checksum(rom):
     rom.seek(0x014D)
     header_rom_checksum = '%X' % int.from_bytes(rom.read(1), byteorder='big')
 
     rom.seek(0x0134)
     checksum = 0
-    for b in range(25):
+    for _ in range(25):
         checksum = checksum - int.from_bytes(rom.read(1), byteorder='big') - 1
     header_computed_checksum = '%X' % (checksum & 0xff)
     if (header_rom_checksum == header_computed_checksum):
@@ -122,19 +120,24 @@ def header_checksum():
     return header_rom_checksum, header_computed_checksum, header_checksum_result
 
 
+@click.command(context_settings={"show_default": True})
+@click.argument("romfile", default=config["original_rom"])
+def rominfo(romfile):
+    with open(romfile, 'rb') as rom:
+
+        print(f'Cartridge name ................ {get_cartridge_name(rom)}')
+        print(f'Nintendo logo ................. {check_nintendo_logo(rom)}')
+        print(f'Cartridge type ................ {get_cartridge_type(rom)}')
+        print(f'ROM size ...................... {get_rom_size(rom)}')
+        print(f'RAM size ...................... {get_ram_size(rom)}')
+        print(f'Destination code .............. {get_destination_code(rom)}')
+
+        header_rom_checksum, header_computed_checksum, header_checksum_result = header_checksum(rom)
+        print(f'Header checksum (ROM) ......... {header_rom_checksum}')
+        print(f'Header checksum (computed) .... {header_computed_checksum}')
+        print(f'Header checksum result ........ {header_checksum_result}')
+
+
 if __name__ == '__main__':
-    arguments = docopt(__doc__, version='1.0')
+    rominfo()
 
-    rom = open(arguments['<romfile>'], 'rb')
-
-    print('Cartridge name ................ %s' % get_cartridge_name())
-    print('Nintendo logo ................. %s' % check_nintendo_logo())
-    print('Cartridge type ................ %s' % get_cartridge_type())
-    print('ROM size ...................... %s' % get_rom_size())
-    print('RAM size ...................... %s' % get_ram_size())
-    print('Destination code .............. %s' % get_destination_code())
-    header_rom_checksum, header_computed_checksum, header_checksum_result = header_checksum(
-    )
-    print('Header checksum (ROM) ......... %s' % header_rom_checksum)
-    print('Header checksum (computed) .... %s' % header_computed_checksum)
-    print('Header checksum result ........ %s' % header_checksum_result)
