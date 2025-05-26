@@ -45,20 +45,20 @@ class TranslationTable(object):
                 self.table[hexcode] = symbol
                 self.inverse_table[symbol] = hexcode
 
-    def convert_byte(self, b):
+    def convert_byte(self, b) -> str:
         if b in self.table:
-            print(f"{hex(b)} gives {self.table[b]}")
+            # print(f"{hex(b)} gives {self.table[b]}")
             return self.table[b]
         else:
             return str(b)
 
-    def convert_bytearray(self, ba):
+    def convert_bytearray(self, ba: bytearray) -> str:
         result = ""
         for b in ba:
             result += self.convert_byte(b)
         return result
 
-    def convert_script(self, script):
+    def convert_script(self, script) -> str:
         result = b''
         token = ''
         for character in script:

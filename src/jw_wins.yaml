@@ -1,0 +1,870 @@
+windows:
+
+  !!int 0x00:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33499
+    original_header: 0x140a339d009c
+    original_text: "<FE><FE><FE><FE><FE><FE><FE><FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33499<FF>"
+
+  !!int 0x01:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x334a8
+    original_header: 0x070a269d009c
+    original_text: "<FE> こうげき<FE> もちもの<FE> さけぶ <FE> そのほか<FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x334a8<FF>"
+
+  !!int 0x02:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x334c7
+    original_header: 0x070a269d009c
+    original_text: "<FE> こうげき<FE> もちもの<FE> じゅもん<FE> そのほか<FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x334c7<FF>"
+
+  !!int 0x03:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x334e6
+    original_header: 0x070a269d009c
+    original_text: "<FE> おまかせ<FE> きのみ<FE><FE> そのほか<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x334e6<FF>"
+
+  !!int 0x04:
+    bg_map: 1
+    dim_x: 0x0e
+    dim_y: 0x0a
+    location: 0x33500
+    original_header: 0x0e0a339d069c
+    original_text: "<FD><character> L<var1> <var3>HP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD>MP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD><FD><FF>"
+    pos_x: 6
+    pos_y: 0
+    translation: "TODO_0x33500<FF>"
+
+  !!int 0x05:
+    bg_map: 1
+    dim_x: 0x0d
+    dim_y: 0x04
+    location: 0x3355a
+    original_header: 0x0d04709c049c
+    original_text: "<FE><var1>はどうする?<FE><FF>"
+    pos_x: 4
+    pos_y: 0
+    translation: "TODO_0x3355a<FF>"
+
+  !!int 0x06:
+    bg_map: 1
+    dim_x: 0x0e
+    dim_y: 0x0a
+    location: 0x3356a
+    original_header: 0x0e0a339d069c
+    original_text: "<FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD> <enemy>-<var5><FD><FD><FD><FF>"
+    pos_x: 6
+    pos_y: 0
+    translation: "TODO_0x3356a<FF>"
+
+  !!int 0x07:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x33585
+    original_header: 0x070a2a9d049c
+    original_text: "<FE> にげる<FE><FE> ぼうぎょ<FE> つよさ<FE><FE> スピ-ド<FF>"
+    pos_x: 4
+    pos_y: 0
+    translation: "TODO_0x33585<FF>"
+
+  !!int 0x08:
+    bg_map: 1
+    dim_x: 0x08
+    dim_y: 0x0a
+    location: 0x33673
+    original_header: 0x080a339d0c9c
+    original_text: "<FD><character><FD> HP<item><FE><character><FD> HP<item><FD><FD><FD><FD><FD><FF>"
+    pos_x: 12
+    pos_y: 0
+    translation: "TODO_0x33673<FF>"
+
+  !!int 0x09:
+    bg_map: 1
+    dim_x: 0x0b
+    dim_y: 0x0a
+    location: 0x335a4
+    original_header: 0x0b0a339d099c
+    original_text: "<FE>もじひょうじそくど<FE> はやい<FE><FE> ふつう<FE><FE> おそい<FE><FF>"
+    pos_x: 9
+    pos_y: 0
+    translation: "TODO_0x335a4<FF>"
+
+  !!int 0x0a:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x335c7
+    original_header: 0x140a339d009c
+    original_text: "<FD> <amount> <amount><FD> <amount> <amount><FD> <amount> <amount><FD> <amount> つぎへ<FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x335c7<FF>"
+
+  !!int 0x0b:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x335e5
+    original_header: 0x140a339d009c
+    original_text: "<FD> <FC> <FC><FD> <FC> <FC><FD> <FC> <FC><FD> <FC> まえへ<FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x335e5<FF>"
+
+  !!int 0x0c:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33603
+    original_header: 0x140a339d009c
+    original_text: "<FD> <var7> <var7><FD> <var7> <var7><FD> <var7> <var7><FD> <var7> <var7><FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33603<FF>"
+
+  !!int 0x0d:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x05
+    location: 0x3361f
+    original_header: 0x0705869c009c
+    original_text: " つかう<FE><FE> そうび<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x3361f<FF>"
+
+  !!int 0x0e:
+    bg_map: 1
+    dim_x: 0x0a
+    dim_y: 0x04
+    location: 0x33631
+    original_header: 0x0a046e9c059c
+    original_text: "<FE>よしいくぞう!<FE><FF>"
+    pos_x: 5
+    pos_y: 0
+    translation: "TODO_0x33631<FF>"
+
+  !!int 0x0f:
+    bg_map: 1
+    dim_x: 0x0d
+    dim_y: 0x0a
+    location: 0x33641
+    original_header: 0x0d0a2c9d009c
+    original_text: "<FE><FE><FE><FE><FE><FE><FE><FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33641<FF>"
+
+  !!int 0x10:
+    bg_map: 1
+    dim_x: 0x08
+    dim_y: 0x0a
+    location: 0x33650
+    original_header: 0x080a339d0c9c
+    original_text: "<FD><character><FD> HP<item><FE><character><FD> HP<item> MP<item><FE><character><FD> HP<item><FD><FD><FD><FF>"
+    pos_x: 12
+    pos_y: 0
+    translation: "TODO_0x33650<FF>"
+
+  !!int 0x11:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x3368d
+    original_header: 0x140a339e009d
+    original_text: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1> MP<item>/<item><var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FD><FF>"
+    pos_x: 0
+    pos_y: 8
+    translation: "TODO_0x3368d<FF>"
+
+  !!int 0x12:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x09
+    location: 0x33713
+    original_header: 0x0709069d009c
+    original_text: " もちもの<FE> つよさ<FE><FE> じゅもん<FE> さがす<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33713<FF>"
+
+  !!int 0x13:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x33731
+    original_header: 0x070a4a9d249c
+    original_text: "<FD>だれの?<FD><FD><character><FE><FD><FD><character><FE><FD><FD><character><FD><FF>"
+    pos_x: 4
+    pos_y: 1
+    translation: "TODO_0x33731<FF>"
+
+  !!int 0x14:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x12
+    location: 0x33749
+    original_header: 0x1412339e009c
+    original_text: "<FD><character>  レべル <var1>  <var3><FD>HP <item>/<item>  ちから<FD>MP <item>/<item>     <var6>            ちりょく<FD>               <var6>こうげきりょく     たいりょく<FD>     <item>       <var6>しゅびりょく      すばやさ<FD>     <item>       <var6><FD><var7>  <var7><FD><var7>  <var7><FD>   けいけんち <gold><FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33749<FF>"
+
+  !!int 0x15:
+    bg_map: 1
+    dim_x: 0x0b
+    dim_y: 0x0e
+    location: 0x337eb
+    original_header: 0x0b0eb29d089c
+    original_text: "<FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD><FF>"
+    pos_x: 8
+    pos_y: 0
+    translation: "TODO_0x337eb<FF>"
+
+  !!int 0x16:
+    bg_map: 1
+    dim_x: 0x0c
+    dim_y: 0x12
+    location: 0x3380b
+    original_header: 0x0c12339e089c
+    original_text: "<FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>  <amount><FD>      つぎへ<FD><FF>"
+    pos_x: 8
+    pos_y: 0
+    translation: "TODO_0x3380b<FF>"
+
+  !!int 0x17:
+    bg_map: 1
+    dim_x: 0x0c
+    dim_y: 0x12
+    location: 0x33839
+    original_header: 0x0c12339e089c
+    original_text: "<FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>      まえへ<FD><FF>"
+    pos_x: 8
+    pos_y: 0
+    translation: "TODO_0x33839<FF>"
+
+  !!int 0x18:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x12
+    location: 0x33867
+    original_header: 0x1412339e009c
+    original_text: "<FD>きのみ      <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount><FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33867<FF>"
+
+  !!int 0x19:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x12
+    location: 0x3389b
+    original_header: 0x1412339e009c
+    original_text: "<FD>じゅもん  <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x3389b<FF>"
+
+  !!int 0x1a:
+    bg_map: 1
+    dim_x: 0x06
+    dim_y: 0x09
+    location: 0x338de
+    original_header: 0x0609cb9dc69c
+    original_text: " つかう<FE> そうび<FE> わたす<FE> すてる<FE> はい<FE><FE> いいえ<FF>"
+    pos_x: 6
+    pos_y: 6
+    translation: "TODO_0x338de<FF>"
+
+  !!int 0x1b:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x0a
+    location: 0x33902
+    original_header: 0x070a2f9e099d
+    original_text: "<FD>だれに?<FD><FD> <character><FE><FD> <character><FE><FD> <character><FD><FF>"
+    pos_x: 9
+    pos_y: 8
+    translation: "TODO_0x33902<FF>"
+
+  !!int 0x1c:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x3368d
+    original_header: 0x140a339e009d
+    original_text: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1> MP<item>/<item><var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FD><FF>"
+    pos_x: 0
+    pos_y: 8
+    translation: "TODO_0x3368d<FF>"
+
+  !!int 0x1d:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x08
+    location: 0x3391b
+    original_header: 0x1408339e409d
+    original_text: "<FE><FE><FE><FE><FE><FE><FF>"
+    pos_x: 0
+    pos_y: 10
+    translation: "TODO_0x3391b<FF>"
+
+  !!int 0x1e:
+    bg_map: 1
+    dim_x: 0x0a
+    dim_y: 0x03
+    location: 0x33928
+    original_header: 0x0a03539c0a9c
+    original_text: "<price>G<FF>"
+    pos_x: 10
+    pos_y: 0
+    translation: "TODO_0x33928<FF>"
+
+  !!int 0x1f:
+    bg_map: 1
+    dim_x: 0x07
+    dim_y: 0x08
+    location: 0x33931
+    original_header: 0x07080f9e299d
+    original_text: "いいかな?<FE> いいよ<FE><FE> やだよ<FE><FF>"
+    pos_x: 9
+    pos_y: 9
+    translation: "TODO_0x33931<FF>"
+
+  !!int 0x20:
+    bg_map: 0
+    dim_x: 0x10
+    dim_y: 0x04
+    location: 0x33949
+    original_header: 0x10046f980098
+    original_text: "<FE> ジャングルのしょを つくる<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33949<FF>"
+
+  !!int 0x21:
+    bg_map: 0
+    dim_x: 0x10
+    dim_y: 0x08
+    location: 0x33960
+    original_header: 0x1008ef980098
+    original_text: "<FE> ぼうけんを する<FE><FE> ジャングルのしょを けす<FE><FE> そくどを かえる<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33960<FF>"
+
+  !!int 0x22:
+    bg_map: 0
+    dim_x: 0x10
+    dim_y: 0x0c
+    location: 0x3398c
+    original_header: 0x100c6f990098
+    original_text: "<FE> ぼうけんを する<FE><FE> ジャングルのしょを つくる<FE> ジャングルのしょを うつす<FE> ジャングルのしょを けす<FE><FE> そくどを かえる<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x3398c<FF>"
+
+  !!int 0x23:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x04
+    location: 0x339d6
+    original_header: 0x0d04b3994799
+    original_text: "<FD> ジャングルのしょ <character><FD><FF>"
+    pos_x: 7
+    pos_y: 10
+    translation: "TODO_0x339d6<FF>"
+
+  !!int 0x24:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x06
+    location: 0x339ea
+    original_header: 0x0d06f3994799
+    original_text: "<FD> ジャングルのしょ <character><FD> ジャングルのしょ <character><FD><FF>"
+    pos_x: 7
+    pos_y: 10
+    translation: "TODO_0x339ea<FF>"
+
+  !!int 0x25:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x08
+    location: 0x33a0a
+    original_header: 0x0d08339a4799
+    original_text: "<FD> ジャングルのしょ <character><FD> ジャングルのしょ <character><FD> ジャングルのしょ <character><FD><FF>"
+    pos_x: 7
+    pos_y: 10
+    translation: "TODO_0x33a0a<FF>"
+
+  !!int 0x26:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x06
+    location: 0x33a36
+    original_header: 0x0d0610996498
+    original_text: "<FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD><FF>"
+    pos_x: 4
+    pos_y: 3
+    translation: "TODO_0x33a36<FF>"
+
+  !!int 0x27:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x0a
+    location: 0x33a52
+    original_header: 0x0d0a90996498
+    original_text: "<FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD><FF>"
+    pos_x: 4
+    pos_y: 3
+    translation: "TODO_0x33a52<FF>"
+
+  !!int 0x28:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x0e
+    location: 0x33a82
+    original_header: 0x0d0e109a6498
+    original_text: "<FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD> ジャングルのしょ <var1><FD>  <item>  L<var3><FD><FF>"
+    pos_x: 4
+    pos_y: 3
+    translation: "TODO_0x33a82<FF>"
+
+  !!int 0x29:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x07
+    location: 0x33ac6
+    original_header: 0x07079299cc98
+    original_text: "いいかな?<FE> いいよ<FE><FE> やだよ<FE><FF>"
+    pos_x: 12
+    pos_y: 6
+    translation: "TODO_0x33ac6<FF>"
+
+  !!int 0x2a:
+    bg_map: 0
+    dim_x: 0x0b
+    dim_y: 0x0a
+    location: 0x33ade
+    original_header: 0x0b0a339a0999
+    original_text: "<FE>もじひょうじそくど<FE> はやい<FE><FE> ふつう<FE><FE> おそい<FE><FF>"
+    pos_x: 9
+    pos_y: 8
+    translation: "TODO_0x33ade<FF>"
+
+  !!int 0x2b:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x04
+    location: 0x33b01
+    original_header: 0x140473980098
+    original_text: "<FE> なまえをいれてく\"たさい ****<FE><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33b01<FF>"
+
+  !!int 0x2c:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x0e
+    location: 0x33b1c
+    original_header: 0x140e339a8098
+    original_text: "<FE> あいうえお はひふへほ ゃゅょっ<FE><FE> かきくけこ まみむめも<FE><FE> さしすせそ や ゆ よ \" ° <FE><FE> たちつてと らりるれろ !?-*<FE><FE> なにぬねの わ を ん 133143133148<FE><FE> 0123456789  おわり<FE><FF>"
+    pos_x: 0
+    pos_y: 4
+    translation: "TODO_0x33b1c<FF>"
+
+  !!int 0x2d:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x0e
+    location: 0x33b8f
+    original_header: 0x140e339a8098
+    original_text: "<FE> 128129130131132 ござじへず べぼ174175<FE><FE> 133134135136137 ぜぞだぢづ 176177178<FE><FE> 138139140141142 で ど 164 \" ° <FE><FE> 143144145146147 165り166167168 !?-*<FE><FE> 148がぎぐげ ば び ぶ ひら\"かな<FE><FE> 0123456789  おわり<FE><FF>"
+    pos_x: 0
+    pos_y: 4
+    translation: "TODO_0x33b8f<FF>"
+
+  !!int 0x2e:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33c07
+    original_header: 0x140a339d009c
+    original_text: "<FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> つぎへ<FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33c07<FF>"
+
+  !!int 0x2f:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33c2d
+    original_header: 0x140a339d009c
+    original_text: "<FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> まえへ<FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33c2d<FF>"
+
+  !!int 0x30:
+    bg_map: 1
+    dim_x: 0x0b
+    dim_y: 0x10
+    location: 0x33c53
+    original_header: 0x0b10ea9d009c
+    original_text: "<FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD>  つぎへ<FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33c53<FF>"
+
+  !!int 0x31:
+    bg_map: 1
+    dim_x: 0x0b
+    dim_y: 0x10
+    location: 0x33c73
+    original_header: 0x0b10ea9d009c
+    original_text: "<FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD>  まえへ<FD><FF>"
+    pos_x: 0
+    pos_y: 0
+    translation: "TODO_0x33c73<FF>"
+
+  !!int 0x32:
+    bg_map: 1
+    dim_x: 0x0e
+    dim_y: 0x0a
+    location: 0x33535
+    original_header: 0x0e0a339d069c
+    original_text: "<FD><character> L<var1> <var3>HP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD><FD><FD><FD><FD><FF>"
+    pos_x: 6
+    pos_y: 0
+    translation: "TODO_0x33535<FF>"
+
+  !!int 0x33:
+    bg_map: 1
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x336d8
+    original_header: 0x140a339e009d
+    original_text: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><FD><FD><FD><FF>"
+    pos_x: 0
+    pos_y: 8
+    translation: "TODO_0x336d8<FF>"
+
+  !!int 0x34:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x06
+    location: 0x33c93
+    original_header: 0x070698401868
+    original_text: "<FE> テラCマレ<FE> ELPCH<FF>"
+    pos_x: 24
+    pos_y: -384
+    translation: "TODO_0x33c93<FF>"
+
+  !!int 0x35:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x07
+    location: 0x33ca8
+    original_header: 0x070798481868
+    original_text: " はなす<FE><FE> しらべる<FE> コマンド<FF>"
+    pos_x: 24
+    pos_y: -384
+    translation: "TODO_0x33ca8<FF>"
+
+  !!int 0x36:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x08
+    location: 0x33cc0
+    original_header: 0x1408a0986008
+    original_text: "<FE><FE><FE><FE><FE><FE><FF>"
+    pos_x: 0
+    pos_y: -1149
+    translation: "TODO_0x33cc0<FF>"
+
+  !!int 0x37:
+    bg_map: 0
+    dim_x: 0x06
+    dim_y: 0x05
+    location: 0x33ccd
+    original_header: 0x060538381810
+    original_text: " いいよ<FE> やだよ<FE><FF>"
+    pos_x: 24
+    pos_y: -1088
+    translation: "TODO_0x33ccd<FF>"
+
+  !!int 0x38:
+    bg_map: 0
+    dim_x: 0x0a
+    dim_y: 0x03
+    location: 0x33cde
+    original_header: 0x0a0398201050
+    original_text: "<price>G<FF>"
+    pos_x: 16
+    pos_y: -576
+    translation: "TODO_0x33cde<FF>"
+
+  !!int 0x39:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x05
+    location: 0x33ce7
+    original_header: 0x070540381810
+    original_text: " かうよ<FE><FE> うるよ<FF>"
+    pos_x: 24
+    pos_y: -1088
+    translation: "TODO_0x33ce7<FF>"
+
+  !!int 0x3a:
+    bg_map: 0
+    dim_x: 0x12
+    dim_y: 0x10
+    location: 0x33cf8
+    original_header: 0x121090982008
+    original_text: "<FD> [FB]G<FE><FD> [FB]G<FE><FD> [FB]G<FE><FD> [FB]G<FE><FD> [FB]G<FE><FD> [FB]G<FE><FD> [FB]G<FD><FD><FD><FD><FD><FF>"
+    pos_x: 0
+    pos_y: -1151
+    translation: "TODO_0x33cf8<FF>"
+
+  !!int 0x3b:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33d26
+    original_header: 0x140aa0581008
+    original_text: "<FD> <amount> <amount><FD> <amount> <amount><FD> <amount> <amount><FD> <amount> つぎへ<FD><FD><FD><FD><FD><FF>"
+    pos_x: 16
+    pos_y: -1152
+    translation: "TODO_0x33d26<FF>"
+
+  !!int 0x3c:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33d48
+    original_header: 0x140aa0581008
+    original_text: "<FD> <FC> <FC><FD> <FC> <FC><FD> <FC> <FC><FD> <FC> まえへ<FD><FD><FD><FD><FD><FF>"
+    pos_x: 16
+    pos_y: -1152
+    translation: "TODO_0x33d48<FF>"
+
+  !!int 0x3d:
+    bg_map: 0
+    dim_x: 0x0c
+    dim_y: 0x0a
+    location: 0x33d6a
+    original_header: 0x0c0a60581008
+    original_text: "<FD> きぜつの ちりょう<FD> けがの  ちりょう<FD> どくの  ちりょう<FD> けんさ<FE><FD><FF>"
+    pos_x: 16
+    pos_y: -1152
+    translation: "TODO_0x33d6a<FF>"
+
+  !!int 0x3e:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x06
+    location: 0x33d99
+    original_header: 0x070640401810
+    original_text: "<FD><FE> <character><FE><FD> <character><FD><FF>"
+    pos_x: 24
+    pos_y: -1088
+    translation: "TODO_0x33d99<FF>"
+
+  !!int 0x3f:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x08
+    location: 0x33da9
+    original_header: 0x070840501810
+    original_text: "<FD> <character><FE><FD> <character><FE><FD> <character><FD><FF>"
+    pos_x: 24
+    pos_y: -1088
+    translation: "TODO_0x33da9<FF>"
+
+  !!int 0x40:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x07
+    location: 0x33dbc
+    original_header: 0x070740401810
+    original_text: "<FD>サスケ<FE><FD><FE><FD><FD><FD><FF>"
+    pos_x: 24
+    pos_y: -1088
+    translation: "TODO_0x33dbc<FF>"
+
+  !!int 0x41:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x09
+    location: 0x33dcd
+    original_header: 0x070940501810
+    original_text: "<FD><character><FD>ミオ<FD><FD>サスケ<FD><FF>"
+    pos_x: 24
+    pos_y: -1088
+    translation: "TODO_0x33dcd<FF>"
+
+  !!int 0x42:
+    bg_map: 0
+    dim_x: 0x0b
+    dim_y: 0x08
+    location: 0x33ddf
+    original_header: 0x0b08a0986050
+    original_text: "<FE>タンチ テミトスク<FE> ココモ<FE><FE> メCナモ<FF>"
+    pos_x: 0
+    pos_y: -573
+    translation: "TODO_0x33ddf<FF>"
+
+  !!int 0x43:
+    bg_map: 0
+    dim_x: 0x0b
+    dim_y: 0x08
+    location: 0x33dfc
+    original_header: 0x0b08a0986050
+    original_text: "<FE>きろく しますか?<FE> いいよ<FE><FE> やだよ<FF>"
+    pos_x: 0
+    pos_y: -573
+    translation: "TODO_0x33dfc<FF>"
+
+  !!int 0x44:
+    bg_map: 0
+    dim_x: 0x06
+    dim_y: 0x05
+    location: 0x33e18
+    original_header: 0x060538381810
+    original_text: " ココモ<FE> メCナモ<FE><FF>"
+    pos_x: 24
+    pos_y: -1088
+    translation: "TODO_0x33e18<FF>"
+
+  !!int 0x45:
+    bg_map: 0
+    dim_x: 0x07
+    dim_y: 0x06
+    location: 0x33e2a
+    original_header: 0x070640401810
+    original_text: "<FE> あずける<FE> ひきとる<FF>"
+    pos_x: 24
+    pos_y: -1088
+    translation: "TODO_0x33e2a<FF>"
+
+  !!int 0x46:
+    bg_map: 0
+    dim_x: 0x14
+    dim_y: 0x0a
+    location: 0x33e3d
+    original_header: 0x140aa0581008
+    original_text: "<FD> <FC> <FC><FD> <FC> <FC><FD> <FC> <FC><FD> <FC> つぎへ P [FB]<FD><FD><FD><FD><FD><FF>"
+    pos_x: 16
+    pos_y: -1152
+    translation: "TODO_0x33e3d<FF>"
+
+  !!int 0x47:
+    bg_map: 0
+    dim_x: 0x11
+    dim_y: 0x08
+    location: 0x33e63
+    original_header: 0x1108a0481020
+    original_text: "<FD> にゅ-たうんえき  100G<FD> くうこうえき    200G<FD> としょかんまええき 200G<FD><FF>"
+    pos_x: 16
+    pos_y: -960
+    translation: "TODO_0x33e63<FF>"
+
+  !!int 0x48:
+    bg_map: 0
+    dim_x: 0x11
+    dim_y: 0x08
+    location: 0x33e9b
+    original_header: 0x1108a0481020
+    original_text: "<FD> くうこうえき    100G<FD> みなとえき     100G<FD> としょかんまええき 100G<FD><FF>"
+    pos_x: 16
+    pos_y: -960
+    translation: "TODO_0x33e9b<FF>"
+
+  !!int 0x49:
+    bg_map: 0
+    dim_x: 0x11
+    dim_y: 0x08
+    location: 0x33ed3
+    original_header: 0x1108a0481020
+    original_text: "<FD> にゅ-たうんえき  100G<FD> みなとえき     200G<FD> としょかんまええき 100G<FD><FF>"
+    pos_x: 16
+    pos_y: -960
+    translation: "TODO_0x33ed3<FF>"
+
+  !!int 0x4a:
+    bg_map: 0
+    dim_x: 0x11
+    dim_y: 0x08
+    location: 0x33f0b
+    original_header: 0x1108a0481020
+    original_text: "<FD> にゅ-たうんえき  100G<FD> みなとえき     200G<FD> くうこうえき    100G<FD><FF>"
+    pos_x: 16
+    pos_y: -960
+    translation: "TODO_0x33f0b<FF>"
+
+  !!int 0x4b:
+    bg_map: 0
+    dim_x: 0x0c
+    dim_y: 0x06
+    location: 0x33f43
+    original_header: 0x0c0698401840
+    original_text: "<FD> ジャングルくうこう<FD> ゆうらんひこう<FD><FF>"
+    pos_x: 24
+    pos_y: -704
+    translation: "TODO_0x33f43<FF>"
+
+  !!int 0x4c:
+    bg_map: 0
+    dim_x: 0x0d
+    dim_y: 0x08
+    location: 0x33f5f
+    original_header: 0x0d0868582008
+    original_text: "<FD> このまちの れきし<FD><FD> ジャングルの れきし<FD> こだいの ひとびと<FD><FF>"
+    pos_x: 0
+    pos_y: -1151
+    translation: "TODO_0x33f5f<FF>"
+
+  !!int 0x4d:
+    bg_map: 0
+    dim_x: 0x0e
+    dim_y: 0x0a
+    location: 0x33f8a
+    original_header: 0x0e0a70581008
+    original_text: "<FD> くりのみ   600G<FD> バナナ    700G<FD> マンゴ-   900G<FD> パパイア  1100G<FD><FF>"
+    pos_x: 16
+    pos_y: -1152
+    translation: "TODO_0x33f8a<FF>"
+
+  !!int 0x4e:
+    bg_map: 0
+    dim_x: 0x06
+    dim_y: 0x0c
+    location: 0x33fc6
+    original_header: 0x060c98701870
+    original_text: "<FD> 1かい<FD><FE> 2かい<FD><FE> 3かい<FD><FE> 4かい<FD><FE> 5かい<FD><FD><FF>"
+    pos_x: 24
+    pos_y: -320
+    translation: "TODO_0x33fc6<FF>"

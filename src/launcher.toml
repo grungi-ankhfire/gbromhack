@@ -1,0 +1,6 @@
+[roms]
+original = "roms/jw_original.gb"
+patched  = "roms/jw_patched.gb"
+
+[tools]
+emulator = "../../bgb/bgb64.exe"

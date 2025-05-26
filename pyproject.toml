@@ -9,5 +9,11 @@ dependencies = [
     "docopt>=0.6.2",
     "ips-util>=1.0",
     "pyaml>=24.12.1",
+    "pylint>=3.3.7",
     "pyyaml>=6.0.2",
 ]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+

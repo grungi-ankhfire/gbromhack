@@ -7,8 +7,8 @@ class YamlWriter:
         self.output_file = output_file
 
     def dump(self, data: Any):
-        with open(self.output_file, 'w', encoding='utf-8') as f:
-            f.write(pyaml.dump(data, indent=2, width=float("inf"), string_val_style='"'))
+        with open(self.output_file, 'wb', encoding='utf-8') as f:
+            f.write(pyaml.dump(data, indent=2, width=-1, string_val_style='"'))
 
     def __repr__(self) -> str:
         return f"YamlWriter for {self.output_file}"

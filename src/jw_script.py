@@ -1,5 +1,6 @@
 #!/usr/bin/python
-# -*- coding:utf-8 -*-
+# -*- c
+# coding:utf-8 -*-
 """Usage: jw_script.py dump <romfile> <start> <end> [<tablefile>] [<outputfile>]
           jw_script.py yaml_dump <romfile> <start>  <end>  [<tablefile>] [<outputfile>]
           jw_script.py insert <scriptfile> <romfile> <start> <end> <tablefile>
@@ -17,19 +18,20 @@ Arguments
     <outputfile> File in which to dump the script
     <oldfile>    File using the old YAML schema to convert
 """
-import sys
+from typing import BinaryIO, TextIO
+import click
 from docopt import docopt
 from translation_table import TranslationTable
 import pyaml
 import yaml
-
+from jw_config import config, path
+from hexint import HexInt
+import translation_table
+from yaml_writer import YamlWriter
+from click_param_types import BASED_INT
 
 rom = None
 table = None
-
-
-class HexInt(int):
-    pass
 
 
 def representer(dumper, data):
@@ -55,20 +57,9 @@ def my_construct_mapping(self, node, deep=False):
 yaml.SafeLoader.construct_mapping_org = yaml.SafeLoader.construct_mapping
 yaml.SafeLoader.construct_mapping = my_construct_mapping
 
-
-def dump_script(offset, end_offset):
-    rom.seek(offset)
-    script = bytearray()
-    cur_byte = rom.read(1)
-    while(offset != end_offset):
-        script += cur_byte
-        cur_byte = rom.read(1)
-        offset += 1
-
-    if table:
-        script = table.convert_bytearray(script)
-
-    return script
+@click.group()
+def cli():
+    pass
 
 
 def yaml_dump_script(offset, end_offset):
@@ -111,7 +102,76 @@ def insert_script(offset, end_offset, script):
     rom.write(binary_script)
 
 
+@cli.command(context_settings={'show_default':True})
+@click.argument("offset", type=BASED_INT)
+@click.argument("end_offset", type=BASED_INT)
+@click.argument("romfile", type=click.File('rb'), default=path(config["original_rom"]))
+@click.option("--table", type=click.Path(), default=path(config["script"]["table"]))
+@click.option('--outputfile', type=click.File('wb'), default=None, help='File to write the script to')
+def dump(offset: int, end_offset: int, romfile: BinaryIO, table: click.Path, outputfile: BinaryIO|None):
+    translation_table = TranslationTable(table) if table else None
+
+    romfile.seek(offset)
+    script = bytearray()
+    cur_byte = romfile.read(1)
+    while(offset != end_offset):
+        script += cur_byte
+        cur_byte = romfile.read(1)
+        offset += 1
+
+    if translation_table:
+        script = translation_table.convert_bytearray(script).encode()
+    if outputfile is not None:
+        outputfile.write(script)
+    else:
+        click.echo(script)
+
+
+@cli.command(context_settings={'show_default':True})
+@click.argument("offset", type=BASED_INT)
+@click.argument("end_offset", type=BASED_INT)
+@click.argument("romfile", type=click.File('rb'), default=path(config["original_rom"]))
+@click.option("--table", type=click.Path(), default=path(config["script"]["table"]))
+@click.option('--outputfile', type=click.File('w', encoding="utf-8"), default=None, help='File to write the script to')
+def yaml_dump(offset: int, end_offset: int, romfile: BinaryIO, table: click.Path, outputfile: TextIO|None):
+    translation_table = TranslationTable(table) if table else None
+
+    script = dict()
+    messages = dict()
+
+    romfile.seek(offset)
+    message_bytes = bytearray()
+
+    cur_byte = romfile.read(1)
+    message_offset = HexInt(offset)
+    message = dict()
+    while(offset != end_offset):
+        message_bytes += cur_byte
+        if int.from_bytes(cur_byte, 'little') == int('FF', base=16) or int.from_bytes(cur_byte, 'little') == int('FC', base=16) :
+            if translation_table:
+                message["original"] = translation_table.convert_bytearray(message_bytes)
+            else:
+                message["original"] = message_bytes.copy()
+            message["translation"] = "TODO_" + "{0:#0{1}x}".format(message_offset, 7)
+            message["pointer_location"] = 0
+            messages[message_offset] = message.copy()
+            message_bytes.clear()
+            message_offset = HexInt(offset)
+
+        cur_byte = romfile.read(1)
+        offset += 1
+
+    script["script"] = messages
+ 
+    if outputfile is not None:
+        outputfile.write(pyaml.dump(script, indent=2, vspacing=True, width=-1, string_val_style='"'))
+    else:
+        click.echo(pyaml.dump(script, indent=2, vspacing=True, width=-1, string_val_style='"'))
+
+
 if __name__ == '__main__':
+    cli()
+
     arguments = docopt(__doc__, version='1.0')
 
     offset = None
@@ -123,16 +183,6 @@ if __name__ == '__main__':
         end_offset = int(arguments["<end>"], base=16)
     if (arguments['<tablefile>']):
         table = TranslationTable(arguments['<tablefile>'])
-
-    if arguments['dump']:
-        rom = open(arguments["<romfile>"], 'rb')
-        script = dump_script(offset, end_offset)
-        if arguments['<outputfile>']:
-            f = open(arguments['<outputfile>'], 'w', encoding='utf-8')
-            f.write(script)
-            f.close()
-        else:
-            print(script)
 
     if arguments['yaml_dump']:
         rom = open(arguments["<romfile>"], 'rb')
