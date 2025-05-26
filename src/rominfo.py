@@ -8,7 +8,7 @@ Arguments
     <romfile>   The rom file to open
 """
 import click
-from jw_config import config
+from jw_config import config, path
 
     
 def check_nintendo_logo(rom):
@@ -121,21 +121,19 @@ def header_checksum(rom):
 
 
 @click.command(context_settings={"show_default": True})
-@click.argument("romfile", default=config["original_rom"])
+@click.argument("romfile", type=click.File('rb'), default=path(config["original_rom"]))
 def rominfo(romfile):
-    with open(romfile, 'rb') as rom:
+    print(f'Cartridge name ................ {get_cartridge_name(romfile)}')
+    print(f'Nintendo logo ................. {check_nintendo_logo(romfile)}')
+    print(f'Cartridge type ................ {get_cartridge_type(romfile)}')
+    print(f'ROM size ...................... {get_rom_size(romfile)}')
+    print(f'RAM size ...................... {get_ram_size(romfile)}')
+    print(f'Destination code .............. {get_destination_code(romfile)}')
 
-        print(f'Cartridge name ................ {get_cartridge_name(rom)}')
-        print(f'Nintendo logo ................. {check_nintendo_logo(rom)}')
-        print(f'Cartridge type ................ {get_cartridge_type(rom)}')
-        print(f'ROM size ...................... {get_rom_size(rom)}')
-        print(f'RAM size ...................... {get_ram_size(rom)}')
-        print(f'Destination code .............. {get_destination_code(rom)}')
-
-        header_rom_checksum, header_computed_checksum, header_checksum_result = header_checksum(rom)
-        print(f'Header checksum (ROM) ......... {header_rom_checksum}')
-        print(f'Header checksum (computed) .... {header_computed_checksum}')
-        print(f'Header checksum result ........ {header_checksum_result}')
+    header_rom_checksum, header_computed_checksum, header_checksum_result = header_checksum(romfile)
+    print(f'Header checksum (ROM) ......... {header_rom_checksum}')
+    print(f'Header checksum (computed) .... {header_computed_checksum}')
+    print(f'Header checksum result ........ {header_checksum_result}')
 
 
 if __name__ == '__main__':

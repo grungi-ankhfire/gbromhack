@@ -1,0 +1,12 @@
+original_rom = "roms/jw_original.gb"
+output_dir = "out"
+
+[script]
+table = "tbl/jw-py.tbl"
+
+[signs]
+table = "tbl/jw-py.tbl"
+output = "test_output_signs.yaml"
+offset_start = 0x31E73
+offset_end = 0x31EA0
+
