@@ -859,7 +859,7 @@ script:
   131270:
     original: 「<var5>ーー!!<FF>
     pointer_location: 0
-    translation: 「<var5>ーー!!<FF>
+    translation: 「<var5>!!<FF>
   131277:
     original: <var1>は <character>に<FE><item>を わたした.<FF>
     pointer_location: 9935
@@ -1900,7 +1900,7 @@ script:
   136328:
     original: <enemy>は<FE>みを まもった!<FF>
     pointer_location: 0
-    translation: <senemy> covers the eyes!
+    translation: <enemy><br>defends!<FF>
   136341:
     original: <enemy>は<FE>けを さかだて<FE>みを まもった!<FF>
     pointer_location: 94649
@@ -1992,7 +1992,7 @@ script:
   136674:
     original: <var3>たちは<FE>いなくなった!![FC]<var3>は いなくなった!![FC]ボーイたちの<FE>せんせい こうげき!!<FF>
     pointer_location: 71158
-    translation: <var3> and others<FE>gone!![FC]<var3> gone!![FC]Boy's team<FE>preemptive atk!!
+    translation: <var3> and others<FE>gone!!<FC><var3> gone!!<FC>Boy's team<FE>preemptive atk!!<FF>
   136689:
     original: <var3>は いなくなった!!<FC>
     pointer_location: 0
