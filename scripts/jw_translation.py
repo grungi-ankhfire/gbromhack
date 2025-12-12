@@ -144,6 +144,7 @@ def insert_translation(rom_file, translation_data, table):
     script = translation_data["script"]
     combat = translation_data["combat"]
     combat_wide = translation_data["combat_wide"]
+    in_place = translation_data.get("in_place", {})
     OVERWORLD_TABLEFILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../tbl/jw-py-en-overworld.tbl")
     overworld_table = TranslationTable(OVERWORLD_TABLEFILE)
 

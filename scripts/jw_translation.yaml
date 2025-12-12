@@ -600,15 +600,13 @@ script:
     pointer_location: 57119
     translation: Mio<br>「Yes, I'm the famous, beautiful Mio, but... how come you know about me? What!? You're Jungle Boy? But you're still a child! I'd have thought... Well, doesn't matter. <character>. Let me go with you to the city. Grandma said you're heading there. Yes, I can speak with her from a long distance. I'm looking for my lost father. Let's go together!
   28061:
-        original: 「おかあさんは とかいにいる<FE> わたしの おとうさんに あいたくて<FD> びょうきに なっちゃった
-    のよ.<FD>「わたし とかいで おとうさんを<FE> さがしたいの! たのむわよ!<FC>
-        pointer_location: 0
-        translation: "Mom is sick because<FE>she misses Dad<FD>who is in the city.<FD>I want to go find him!<FE>Please help me!<FC>"
+    original: 「おかあさんは とかいにいる<FE> わたしの おとうさんに あいたくて<FD> びょうきに なっちゃったのよ.<FD>「わたし とかいで おとうさんを<FE> さがしたいの! たのむわよ!<FC>
+    pointer_location: 0
+    translation: "Mom is sick because<FE>she misses Dad<FD>who is in the city.<FD>I want to go find him!<FE>Please help me!<FC>"
   28145:
-        original: 「ありがとう!!<FD>「わたし おばあちゃんにならった<FE> じゅもんが つかえるわ.<FD>「ゴ-トだん
-    の わるいうわさは<FE> きいているけど<FD> そんなの わたしの じゅもんなら<FE> へっちゃらよ!<FF>
-        pointer_location: 0
-        translation: "Thanks!!<FD>I can use magic<FE>Grandma taught me.<FD>I heard bad rumors<FE>about the Goat Gang,<FD>but with my magic,<FE>it'll be a breeze!<FF>"
+    original: 「ありがとう!!<FD>「わたし おばあちゃんにならった<FE> じゅもんが つかえるわ.<FD>「ゴ-トだんの わるいうわさは<FE> きいているけど<FD> そんなの わたしの じゅもんなら<FE> へっちゃらよ!<FF>
+    pointer_location: 0
+    translation: "Thanks!!<FD>I can use magic<FE>Grandma taught me.<FD>I heard bad rumors<FE>about the Goat Gang,<FD>but with my magic,<FE>it'll be a breeze!<FF>"
   28236:
     original: ミオが なかまになった!!<FF>
     pointer_location: 57139
@@ -759,14 +757,9 @@ script:
     pointer_location: 59645
     translation: What do you want to inspect?
   30717:
-        original: '    このまちの れきし<FE><FD> いまから 80ねんほどまえ このま<FD>ちの ちかくにある サ-クラル
-    とうで<FD>きんが はっけんされた.<FD> にんげんたちは きそって そのきん<FD>を ほり このまちに はこんだ.<FD> 
-    このまちは きんの おかげで さか<FD>え みるみる おおきなまちに なって<FD>いったのだ.<FD> サ-クラルとうには 
-    たくさんの ど<FD>うぶつたちが すんでいたが あるもの<FD>は そのすを おわれ あるものは き<FD>んを はこぶ ど
-    うぐに つかわれた.<FD> きんに つかれた おろかな にんげ<FD>んたちの しわざとはいえ かなしい<FD>れきしが こ
-    のまちには あるのだ.<FD> いまは もう サ-クラルとうでは<FD>きんは とれないと されている.<FF>'
-        pointer_location: 0
-        translation: "    Town History<FE><FD>80 years ago,<FD>gold was found on<FE>Sacral Island.<FD>Humans rushed to<FD>dig it and brought<FE>it here.<FD>The town grew<FD>rapidly thanks<FE>to the gold.<FD>Many animals<FD>on Sacral were<FE>chased away<FD>or used as<FE>slaves to carry<FD>the gold.<FD>It is a sad<FD>history caused<FE>by foolish humans.<FD>Now, they say<FD>no gold is left<FE>on Sacral.<FF>"
+    original: '    このまちの れきし<FE><FD> いまから 80ねんほどまえ このま<FD>ちの ちかくにある サ-クラルとうで<FD>きんが はっけんされた.<FD> にんげんたちは きそって そのきん<FD>を ほり このまちに はこんだ.<FD> このまちは きんの おかげで さか<FD>え みるみる おおきなまちに なって<FD>いったのだ.<FD> サ-クラルとうには たくさんの ど<FD>うぶつたちが すんでいたが あるもの<FD>は そのすを おわれ あるものは き<FD>んを はこぶ どうぐに つかわれた.<FD> きんに つかれた おろかな にんげ<FD>んたちの しわざとはいえ かなしい<FD>れきしが このまちには あるのだ.<FD> いまは もう サ-クラルとうでは<FD>きんは とれないと されている.<FF>'
+    pointer_location: 0
+    translation: "    Town History<FE><FD>80 years ago,<FD>gold was found on<FE>Sacral Island.<FD>Humans rushed to<FD>dig it and brought<FE>it here.<FD>The town grew<FD>rapidly thanks<FE>to the gold.<FD>Many animals<FD>on Sacral were<FE>chased away<FD>or used as<FE>slaves to carry<FD>the gold.<FD>It is a sad<FD>history caused<FE>by foolish humans.<FD>Now, they say<FD>no gold is left<FE>on Sacral.<FF>"
   31029:
     original: '    ジャングルの れきし<FE><FD> ジャングルは このまちより ずっと<FD>ふるく 300ねんも まえから さか<FD>えていた.3けんじゃと よばれた 3<FD>びきの かしこい どうぶつに ひきい<FD>られた どうぶつたちは にんげんには<FD>およびも つかない ふしぎな ちから<FD>を もっていた.<FD> それは 1000ねん いじょうも<FD>まえに いまの さばくちほうに すん<FD>でいた でんせつの こだいじんたちの<FD>のこした ちからだと いわれている.<FD> しかし このまちが さかえはじめた<FD>ころから ジャングルでは にんげんと<FD>どうぶつたちとの いざこざが たえな<FD>く なって しまった.<FD> いくにんかの ひとびとは どうぶつ<FD>たちと ともに いきて いくことを<FD>えらび ジャングルに とどまった.<FD> その にんげんたちの なかで いち<FD>ばんの しんらいを にんげんからも<FD>どうぶつからも うけている じんぶつ<FD>が あの ジャングルパパ である.<FF>'
     pointer_location: 0
