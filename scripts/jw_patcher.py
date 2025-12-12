@@ -109,20 +109,40 @@ def insert_windows_moved_routine(rom_file):
 
 
 def insert_enemy_name_loading_redirection_code(rom_file):
-    rom_file.seek(0x0f95)
-    rom_file.write(b'\x3E\x1F')             # ld a, $1F
-    rom_file.write(b'\xC7')                 # rst $00
-    rom_file.write(b'\xC3\x00\x41')         # jp $4100
+    # The original routine at 0x0F95 runs from fixed bank but is typically
+    # called from banked code (e.g., battle engine). If we change banks and
+    # don't restore them, returning to banked code will crash immediately.
+    #
+    # Fix: trampoline that saves current bank (HRAM $FFA5), switches to bank
+    # $1F to run a helper at $4100, then restores the previous bank and jumps
+    # back to the original continuation at $0FA4.
+    rom_file.seek(0x0F95)
+    rom_file.write(
+        b'\xF0\xA5'         # ldh a, [$FFA5]
+        b'\x47'             # ld b, a
+        b'\x3E\x1F'         # ld a, $1F
+        b'\xC7'             # rst $00 (switch bank)
+        b'\xCD\x00\x41'     # call $4100
+        b'\x78'             # ld a, b
+        b'\xC7'             # rst $00 (restore bank)
+        b'\xC3\xA4\x0F'     # jp $0FA4
+        b'\x00'             # nop (pad to overwrite full original block)
+    )
 
+    # Bank $1F helper routine at $4100 (file offset 0x7C100).
+    # Replays the original bytes we overwrote (increment $C59B, load E from [HL],
+    # then set HL=$4000 and call $3A71), then returns to fixed bank trampoline.
     rom_file.seek(0x1F * 0x4000 + 0x100)
-    rom_file.write(b'\xFA\x9B\xC5')         # ld a, [$c59b]
-    rom_file.write(b'\x3C')                 # inc a
-    rom_file.write(b'\xEA\x9B\xC5')         # ld [$c59b], a
-    rom_file.write(b'\x7E')                 # ld a, [hl]
-    rom_file.write(b'\x5F')                 # ld e, a
-    rom_file.write(b'\x3E\x0C')             # ld a, $0C
-    rom_file.write(b'\xC7')                 # rst $00
-    rom_file.write(b'\xC3\x9B\x0F')         # jp $0f9b
+    rom_file.write(
+        b'\xFA\x9B\xC5'     # ld a, [$c59b]
+        b'\x3C'             # inc a
+        b'\xEA\x9B\xC5'     # ld [$c59b], a
+        b'\x7E'             # ld a, [hl]
+        b'\x5F'             # ld e, a
+        b'\x21\x00\x40'     # ld hl, $4000
+        b'\xCD\x71\x3A'     # call $3A71
+        b'\xC9'             # ret
+    )
 
 
 def insert_npc_name_reading_code(rom_file):
