@@ -31,7 +31,7 @@ fullscreen:
     original_text: "<FE> こうげき<FE> もちもの<FE> じゅもん<FE> そのほか<FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x334c7<FF>"
+    translation: "<FE> Attack<FE> Item<FE> Magic<FE> More<FF>"
 
   !!int 0x03:
     bg_map: 1
@@ -42,7 +42,7 @@ fullscreen:
     original_text: "<FE> おまかせ<FE> きのみ<FE><FE> そのほか<FE><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x334e6<FF>"
+    translation: "<FE> Auto<FE> Berry<FE><FE> More<FE><FF>"
 
   !!int 0x04:
     bg_map: 1
@@ -53,7 +53,7 @@ fullscreen:
     original_text: "<FD><character> L<var1> <var3>HP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD>MP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD><FD><FF>"
     pos_x: 6
     pos_y: 0
-    translation: "TODO_0x33500<FF>"
+    translation: "<FD><character> L<var1> <var3>HP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD>MP<item>/<item><FE><FD><character> L<var1> <var3>HP<item>/<item><FD><FD><FF>"
 
   !!int 0x05:
     bg_map: 1
@@ -130,7 +130,7 @@ fullscreen:
     original_text: "<FD> <FC> <FC><FD> <FC> <FC><FD> <FC> <FC><FD> <FC> まえへ<FD><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x335e5<FF>"
+    translation: "<FD> <FC> <FC><FD> <FC> <FC><FD> <FC> <FC><FD> <FC> Prv<FD><FF>"
 
   !!int 0x0c:
     bg_map: 1
@@ -141,7 +141,7 @@ fullscreen:
     original_text: "<FD> <var7> <var7><FD> <var7> <var7><FD> <var7> <var7><FD> <var7> <var7><FD><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x33603<FF>"
+    translation: "<FD> <var7> <var7><FD> <var7> <var7><FD> <var7> <var7><FD> <var7> <var7><FD><FF>"
 
   !!int 0x0d:
     bg_map: 1
@@ -185,7 +185,7 @@ fullscreen:
     original_text: "<FD><character><FD> HP<item><FE><character><FD> HP<item> MP<item><FE><character><FD> HP<item><FD><FD><FD><FF>"
     pos_x: 12
     pos_y: 0
-    translation: "TODO_0x33650<FF>"
+    translation: "<FD><character><FD> HP<item><FE><character><FD> HP<item> MP<item><FE><character><FD> HP<item><FD><FD><FD><FF>"
 
   !!int 0x11:
     bg_map: 1
@@ -196,7 +196,7 @@ fullscreen:
     original_text: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1> MP<item>/<item><var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FD><FF>"
     pos_x: 0
     pos_y: 8
-    translation: "TODO_0x3368d<FF>"
+    translation: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1> MP<item>/<item><var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FD><FF>"
 
   !!int 0x12:
     bg_map: 1
@@ -240,7 +240,7 @@ fullscreen:
     original_text: "<FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD><FF>"
     pos_x: 8
     pos_y: 0
-    translation: "TODO_0x337eb<FF>"
+    translation: "<FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD> <enemy><FD><FD><FF>"
 
   !!int 0x16:
     bg_map: 1
@@ -262,7 +262,7 @@ fullscreen:
     original_text: "<FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>      まえへ<FD><FF>"
     pos_x: 8
     pos_y: 0
-    translation: "TODO_0x33839<FF>"
+    translation: "<FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>  <FC><FD>      Prv<FD><FF>"
 
   !!int 0x18:
     bg_map: 1
@@ -273,7 +273,7 @@ fullscreen:
     original_text: "<FD>きのみ      <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount><FD><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x33867<FF>"
+    translation: "<FD>Berries     <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount> <amount><FD><FD><amount><FD><FF>"
 
   !!int 0x19:
     bg_map: 1
@@ -284,7 +284,7 @@ fullscreen:
     original_text: "<FD>じゅもん  <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x3389b<FF>"
+    translation: "<FD>Magic     <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FD><var6> <var6> <var6><FD><FF>"
 
   !!int 0x1a:
     bg_map: 1
@@ -317,7 +317,7 @@ fullscreen:
     original_text: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1> MP<item>/<item><var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FD><FF>"
     pos_x: 0
     pos_y: 8
-    translation: "TODO_0x3368d<FF>"
+    translation: "<FD><character> HP<item>/<item><FD>L <var1>          <var3><FE><FD><character> HP<item>/<item><FD>L <var1> MP<item>/<item><var3><FE><FD><character> HP<item>/<item><FD>L <var1>          <var3><FD><FF>"
 
   !!int 0x1d:
     bg_map: 1
@@ -515,7 +515,7 @@ fullscreen:
     original_text: "<FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> つぎへ<FD><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x33c07<FF>"
+    translation: "<FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> Next<FD><FF>"
 
   !!int 0x2f:
     bg_map: 1
@@ -526,7 +526,7 @@ fullscreen:
     original_text: "<FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> まえへ<FD><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x33c2d<FF>"
+    translation: "<FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> <var5><FD> <var5> <var5> Prv<FD><FF>"
 
   !!int 0x30:
     bg_map: 1
@@ -537,7 +537,7 @@ fullscreen:
     original_text: "<FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD>  つぎへ<FD><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x33c53<FF>"
+    translation: "<FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD>  Next<FD><FF>"
 
   !!int 0x31:
     bg_map: 1
@@ -548,7 +548,7 @@ fullscreen:
     original_text: "<FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD>  まえへ<FD><FF>"
     pos_x: 0
     pos_y: 0
-    translation: "TODO_0x33c73<FF>"
+    translation: "<FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD> <price><FD>  Prv<FD><FF>"
 
   !!int 0x32:
     bg_map: 1
@@ -691,7 +691,7 @@ overlay:
     original_text: "<FD> きぜつの ちりょう<FD> けがの  ちりょう<FD> どくの  ちりょう<FD> けんさ<FE><FD><FF>"
     pos_x: 16
     pos_y: -1152
-    translation: "TODO_0x33d6a<FF>"
+    translation: "<FD> Cure Faint<FD> Cure Injury<FD> Cure Poison<FD> Checkup<FE><FD><FF>"
 
   !!int 0x8a:
     bg_map: 0
@@ -702,7 +702,7 @@ overlay:
     original_text: "<FD><FE> <character><FE><FD> <character><FD><FF>"
     pos_x: 24
     pos_y: -1088
-    translation: "TODO_0x33d99<FF>"
+    translation: "<FD><FE> <character><FE><FD> <character><FD><FF>"
 
   !!int 0x8b:
     bg_map: 0
@@ -713,7 +713,7 @@ overlay:
     original_text: "<FD> <character><FE><FD> <character><FE><FD> <character><FD><FF>"
     pos_x: 24
     pos_y: -1088
-    translation: "TODO_0x33da9<FF>"
+    translation: "<FD> <character><FE><FD> <character><FE><FD> <character><FD><FF>"
 
   !!int 0x8c:
     bg_map: 0
@@ -724,7 +724,7 @@ overlay:
     original_text: "<FD>サスケ<FE><FD><FE><FD><FD><FD><FF>"
     pos_x: 24
     pos_y: -1088
-    translation: "TODO_0x33dbc<FF>"
+    translation: "<FD>Sasuke<FE><FD><FE><FD><FD><FD><FF>"
 
   !!int 0x8d:
     bg_map: 0
@@ -735,7 +735,7 @@ overlay:
     original_text: "<FD><character><FD>ミオ<FD><FD>サスケ<FD><FF>"
     pos_x: 24
     pos_y: -1088
-    translation: "TODO_0x33dcd<FF>"
+    translation: "<FD><character><FD>Mio<FD><FD>Sasuke<FD><FF>"
 
   !!int 0x8e:
     bg_map: 0
@@ -771,7 +771,7 @@ overlay:
     original_text: " ココモ<FE> メCナモ<FE><FF>"
     pos_x: 24
     pos_y: -1088
-    translation: "TODO_0x33e18<FF>"
+    translation: " Kokomo<FE> Mecnamo<FE><FF>"
 
   !!int 0x91:
     bg_map: 0
@@ -782,7 +782,7 @@ overlay:
     original_text: "<FE> あずける<FE> ひきとる<FF>"
     pos_x: 24
     pos_y: -1088
-    translation: "TODO_0x33e2a<FF>"
+    translation: "<FE> Deposit<FE> Withdraw<FF>"
 
   !!int 0x92:
     bg_map: 0
@@ -793,7 +793,7 @@ overlay:
     original_text: "<FD> <FC> <FC><FD> <FC> <FC><FD> <FC> <FC><FD> <FC> つぎへ P [FB]<FD><FD><FD><FD><FD><FF>"
     pos_x: 16
     pos_y: -1152
-    translation: "TODO_0x33e3d<FF>"
+    translation: "<FD> <FC> <FC><FD> <FC> <FC><FD> <FC> <FC><FD> <FC> Next P [FB]<FD><FD><FD><FD><FD><FF>"
 
   !!int 0x93:
     bg_map: 0
@@ -804,7 +804,7 @@ overlay:
     original_text: "<FD> にゅ-たうんえき  100G<FD> くうこうえき    200G<FD> としょかんまええき 200G<FD><FF>"
     pos_x: 16
     pos_y: -960
-    translation: "TODO_0x33e63<FF>"
+    translation: "<FD> Newtown St.  100G<FD> Airport St.  200G<FD> Library St.  200G<FD><FF>"
 
   !!int 0x94:
     bg_map: 0
@@ -815,7 +815,7 @@ overlay:
     original_text: "<FD> くうこうえき    100G<FD> みなとえき     100G<FD> としょかんまええき 100G<FD><FF>"
     pos_x: 16
     pos_y: -960
-    translation: "TODO_0x33e9b<FF>"
+    translation: "<FD> Airport St.  100G<FD> Port St.     100G<FD> Library St.  100G<FD><FF>"
 
   !!int 0x95:
     bg_map: 0
@@ -826,7 +826,7 @@ overlay:
     original_text: "<FD> にゅ-たうんえき  100G<FD> みなとえき     200G<FD> としょかんまええき 100G<FD><FF>"
     pos_x: 16
     pos_y: -960
-    translation: "TODO_0x33ed3<FF>"
+    translation: "<FD> Newtown St.  100G<FD> Port St.     200G<FD> Library St.  100G<FD><FF>"
 
   !!int 0x96:
     bg_map: 0
@@ -837,7 +837,7 @@ overlay:
     original_text: "<FD> にゅ-たうんえき  100G<FD> みなとえき     200G<FD> くうこうえき    100G<FD><FF>"
     pos_x: 16
     pos_y: -960
-    translation: "TODO_0x33f0b<FF>"
+    translation: "<FD> Newtown St.  100G<FD> Port St.     200G<FD> Airport St.  100G<FD><FF>"
 
   !!int 0x97:
     bg_map: 0
@@ -848,7 +848,7 @@ overlay:
     original_text: "<FD> ジャングルくうこう<FD> ゆうらんひこう<FD><FF>"
     pos_x: 24
     pos_y: -704
-    translation: "TODO_0x33f43<FF>"
+    translation: "<FD> Jungle Airpt<FD> Sightseeing<FD><FF>"
 
   !!int 0x98:
     bg_map: 0
@@ -859,7 +859,7 @@ overlay:
     original_text: "<FD> このまちの れきし<FD><FD> ジャングルの れきし<FD> こだいの ひとびと<FD><FF>"
     pos_x: 0
     pos_y: -1151
-    translation: "TODO_0x33f5f<FF>"
+    translation: "<FD> Town History<FD><FD> Jungle Hist.<FD> Ancient Ppl<FD><FF>"
 
   !!int 0x99:
     bg_map: 0
@@ -870,7 +870,7 @@ overlay:
     original_text: "<FD> くりのみ   600G<FD> バナナ    700G<FD> マンゴ-   900G<FD> パパイア  1100G<FD><FF>"
     pos_x: 16
     pos_y: -1152
-    translation: "TODO_0x33f8a<FF>"
+    translation: "<FD> Chestnut  600G<FD> Banana    700G<FD> Mango     900G<FD> Papaya   1100G<FD><FF>"
 
   !!int 0x9a:
     bg_map: 0
@@ -881,4 +881,4 @@ overlay:
     original_text: "<FD> 1かい<FD><FE> 2かい<FD><FE> 3かい<FD><FE> 4かい<FD><FE> 5かい<FD><FD><FF>"
     pos_x: 24
     pos_y: -320
-    translation: "TODO_0x33fc6<FF>"
+    translation: "<FD> 1F<FD><FE> 2F<FD><FE> 3F<FD><FE> 4F<FD><FE> 5F<FD><FD><FF>"

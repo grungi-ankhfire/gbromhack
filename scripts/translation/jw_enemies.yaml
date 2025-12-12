@@ -334,7 +334,7 @@ enemies:
     location: 0x305eb
     original_header: 0xa370294ecd15206b6474018c809d028c430735431239
     original_name: "ばっふあろう<FF>"
-    translated_name: "TODO0x2f<FF>"
+    translated_name: "Buffalo<FF>"
 
   !!int 0x30:
     id: 48
@@ -348,7 +348,7 @@ enemies:
     location: 0x30624
     original_header: 0xca592d1478407aefb7a003740c0043030b321903240c
     original_name: "アンカ-ルゴ-ト<FF>"
-    translated_name: "TODO0x31<FF>"
+    translated_name: "Ancar Gt<FF>"
 
   !!int 0x32:
     id: 50

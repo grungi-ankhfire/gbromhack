@@ -989,7 +989,7 @@ script:
   !!int 0x20034:
     original: "しかし もちものが いっぱいです.<FD>どこかで うるか<FE>すてるかしてください.<FF>"
     pointer_location: 0x02098
-    translation: "TODO_0x20034"
+    translation: "Inventory full. Sell or drop items."
 
   !!int 0x2005b:
     original: "<item>は すてられません.<FF>"
@@ -1602,7 +1602,7 @@ script:
   !!int 0x20b86:
     original: "<enemy>は<FE>マタタビに よっている<FF>"
     pointer_location: 0
-    translation: "TODO_0x20b86"
+    translation: "<enemy> is<FE>drunk on catnip."
 
   !!int 0x20b95:
     original: "<enemy>は<FE>とびあがった!!<FF>"
@@ -1847,12 +1847,12 @@ script:
   !!int 0x20ebb:
     original: '「そうは 7073のピー<FE><var0>たちは<FE>つかまって しまった!<FF>'
     pointer_location: 0
-    translation: TODO_0x20ebb
+    translation: "That won't work!<FE><var0> and friends<FE>were caught!<FF>"
 
   !!int 0x20ed7:
     original: '<var1>は<FE><var8>ダメージうけた!<FF>'
     pointer_location: 0
-    translation: TODO_0x20ed7
+    translation: "<var1> took<FE><var8> damage!<FF>"
 
   !!int 0x20ee4:
     original: "<var1>は すばやく<FE>みを かわした!!<FF>"
@@ -2210,7 +2210,7 @@ script:
   !!int 0x21360:
     original: "<enemy>には<FE>すでに かかっていた!<FF>"
     pointer_location: 0x12c5d
-    translation: "TODO_0x21360"
+    translation: "<enemy> already<FE>affected!<FF>"
 
   !!int 0x21370:
     original: "<var1>の<FE>しゅびりょくを<FE>さげた!!<FF>"
@@ -2240,7 +2240,7 @@ script:
   !!int 0x213bb:
     original: "<var1>はE<var1>をEこうげきした!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x213bb"
+    translation: "<var1> attacked<FE><var1>!!<FF>"
 
   !!int 0x213ca:
     original: "ドングりを<FE>なげつけて きた!<FF>"
@@ -2380,22 +2380,22 @@ script:
   !!int 0x21580:
     original: "しかし<FE><enemy>は<FE>きがつかない!!<FF>"
     pointer_location: 0x13380
-    translation: "TODO_0x21580"
+    translation: "But <enemy><FE>didn't notice!!"
 
   !!int 0x21590:
     original: "<enemy>は<FE>いまごろ きがついた!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21590"
+    translation: "<enemy> just<FE>noticed!"
 
   !!int 0x215aa:
     original: "<var3>たちは<FE>とつぜん おそいかかってきたっ!<FF>"
     pointer_location: 0x10fdb
-    translation: "TODO_0x215aa"
+    translation: "<var3>'s team<FE>suddenly attacked!"
 
   !!int 0x215c0:
     original: "<var3>たちは<FE>まだ こちらに きづいていないっ!<FF>"
     pointer_location: 0x10fd6
-    translation: "TODO_0x215c0"
+    translation: "<var3>'s team<FE>hasn't noticed us!"
 
   !!int 0x215d7:
     original: "<var1>は<FE>ちからつきた!<FF>"
@@ -2405,12 +2405,12 @@ script:
   !!int 0x215e2:
     original: "<var3>たちは<FE>いなくなった!![FC]<var3>は いなくなった!![FC]ボーイたちの<FE>せんせい こうげき!!<FF>"
     pointer_location: 0x115f6
-    translation: "TODO_0x215e2"
+    translation: "<var3> and others<FE>gone!![FC]<var3> gone!![FC]Boy's team<FE>preemptive atk!!"
 
   !!int 0x2160f:
     original: "<enemy>は<FE>もう いなかった!!<FF>"
     pointer_location: 0x1391f
-    translation: "TODO_0x2160f"
+    translation: "<enemy> was<FE>already gone!!"
 
   !!int 0x2161d:
     original: "しかし<FE>にげられなかった!!<FF>"
@@ -2430,7 +2430,7 @@ script:
   !!int 0x21648:
     original: "「へンシーン!<FE><enemy>は<FE>どすこいカバに<FE>へんしん した!<FF>"
     pointer_location: 0
-    translation: "TODO_0x21648"
+    translation: "Transform!<FE><enemy> became<FE>Dosukoi Hippo!"
 
   !!int 0x2166d:
     original: "<var1>は<FE>みを まもった!<FF>"
@@ -2440,22 +2440,22 @@ script:
   !!int 0x21679:
     original: "ケンは くちばしで<FE>つっついた!!<FF>"
     pointer_location: 0x1326b
-    translation: "TODO_0x21679"
+    translation: "Ken pecked<FE>with beak!!"
 
   !!int 0x2168b:
     original: "りラは<FE>つめで ひっかいた!!<FF>"
     pointer_location: 0x13274
-    translation: "TODO_0x2168b"
+    translation: "Lila scratched<FE>with claws!!"
 
   !!int 0x2169b:
     original: "ゴンタは あしをあげた<FF>"
     pointer_location: 0x11a0e
-    translation: "TODO_0x2169b"
+    translation: "Gonta raised leg<FF>"
 
   !!int 0x216a7:
     original: "ゴンタは<FE>あしを ふみおろした!<FF>"
     pointer_location: 0x11a20
-    translation: "TODO_0x216a7"
+    translation: "Gonta stomped<FE>down!"
 
   !!int 0x216b8:
     original: "<character>たちは ちからつきた***<FF>"
@@ -2470,12 +2470,12 @@ script:
   !!int 0x216d4:
     original: "<var1>は<FE>こんらんしている!!<FF>"
     pointer_location: 0x1189a
-    translation: "TODO_0x216d4"
+    translation: "<var1> is<FE>confused!!"
 
   !!int 0x216e2:
     original: "<enemy>は<FE>こんらんしている!!<FF>"
     pointer_location: 0x1207e
-    translation: "TODO_0x216e2"
+    translation: "<enemy> is<FE>confused!!"
 
   !!int 0x216f0:
     original: "<var1>の<FE>こんらんが とけた!!<FF>"
@@ -2490,22 +2490,22 @@ script:
   !!int 0x2170e:
     original: "サスケは<FE>みがまえている!!<FF>"
     pointer_location: 0
-    translation: "TODO_0x2170e"
+    translation: "Sasuke is<FE>poised!!"
 
   !!int 0x2171d:
     original: "ステッキから かすかな<FE>かおりが ただよった!<FF>"
     pointer_location: 0x11dab
-    translation: "TODO_0x2171d"
+    translation: "A faint scent<FE>drifted from the cane!"
 
   !!int 0x21735:
     original: "ステッキから ほのおが<FE>ふきだした!!<FF>"
     pointer_location: 0x133fe
-    translation: "TODO_0x21735"
+    translation: "Flames erupted<FE>from the cane!!"
 
   !!int 0x21749:
     original: "うでわが しずかな<FE>おとを かなでた!<FF>"
     pointer_location: 0x11db4
-    translation: "TODO_0x21749"
+    translation: "The bracelet made<FE>a quiet sound!"
 
   !!int 0x2175d:
     original: "<enemy>に<FE>つめが つきささった!<FF>"
@@ -3309,62 +3309,64 @@ script:
   !!int 0x2e52c:
     original: "「でんせつのひょう ランバじいさんの<FE> はなしは きいたかね?<FD>「このむらの きたの ウルクやまの<FE> ちょうじょうに すんでいるんだ.<FD>「もう 200さいぐらいの としだが<FE> まだ ピンピンしてるよ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x2e52c"
+    translation: "Heard of<FE>legendary leopard Lamba?<FD>He lives atop<FE>Mt. Uruk to the north.<FD>He's 200 years old<FE>but still kicking.<FF>"
 
   !!int 0x2e590:
     original: "「ランバじいさんは ひょうだけど<FE> やさしい おじいさんだ.<FD>「ウルクやまでは<FE> まぼろしに きを つけろ!<FD>「ウルクやまが あまりに たかいので<FD> くうきが うすすぎて<FE> へんな まぼろしを みるんだよ.<FD>「それから いざというときの ために<FE> ロープも あったほうが いいな.<FF>"
     pointer_location: 0
-    translation: "TODO_0x2e590"
+    translation: "Lamba is a leopard<FE>but very kind.<FD>Watch for illusions<FE>on Mt. Uruk!<FD>The air is so thin<FE>you see things.<FD>Also, bring a rope<FE>just in case.<FF>"
 
   !!int 0x2e61d:
     original: "「ランバじいさんと カメのナンさんが<FE> しんゆうだって きいたことがある.<FD>「なんでも 3にんで ジャングルを<FE> きりひらいた らしいよ.<FD>「うん? ということは もうひとり<FE> しんゆうが いるはずだね.<FD>「そのひとは いったい だれだろう?<FF>"
+    pointer_location: 0
+    translation: "I heard Lamba and<FE>Nan the Turtle are friends.<FD>They say the 3 of them<FE>opened the jungle.<FD>Hmm? That means<FE>there is one more.<FD>Who could that be?<FF>"
     pointer_location: 0
     translation: "TODO_0x2e61d"
 
   !!int 0x2e697:
     original: "「ウルクやまには<FE> いりぐちが 3つあるんだ.<FD>「どの いりぐちから はいっても<FE> おたからが いっぱいだって.<FD>「ウルクやまには<FE> まぼろしが でるから<FD> みんな おっかながって<FD> おたからを なげすてて<FE> にげるんだってさ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x2e697"
+    translation: "Mt. Uruk has<FE>three entrances.<FD>Lots of treasure<FE>in all of them.<FD>But illusions appear<FE>on Mt. Uruk.<FD>Everyone gets scared,<FD>throws the loot away<FE>and runs.<FF>"
 
   !!int 0x2e70a:
     original: "「わるいうわさを きいたんだ.<FE> あの ジャングルパパが<FD> ゴートだんに つかまって<FE> ころされて しまったって.<FD>「え? きみ<FE> ジャングルパパの むすこかい?<FD>「ひ ひどいこと いっちゃたな***<FE> だ だいじょうぶだよ.<FD>「ジャングルパパは そう かんたんに<FE> しんだり しないさ.<FD>「ただの うわさだろ.<FE> うわさ うわさ.<FF>"
     pointer_location: 0
-    translation: "TODO_0x2e70a"
+    translation: "I heard a bad rumor.<FE>Jungle Papa was<FD>caught by the Goat Gang<FE>and killed.<FD>Eh? You're<FE>Papa's son?<FD>T-That was terrible<FE>of me to say...<FD>I-It's okay.<FD>Papa won't die<FE>that easily.<FD>Just a rumor.<FE>Just a rumor.<FF>"
 
   !!int 0x2e7b1:
     original: "ランバじいさん<FE>「きたな! ジャングルボーイ!<FD> まっとったぞ!<FD>「いま おまえも しっとる<FE> わしの テンを ここへ よんだ.<FD>「この てがみを もって<FD> テンと いっしょに<FE> カメのしまの ナンに あいにいけ.<FD>「そしたら あいつが<FE> なんとかして くれるだろう.<FD>「ほんとうは これは わしらが<FE> やらねば ならんことなのだ.<FD>「だが としよりの わしらには<FE> もう どうすることも できん.<FD>「ジャングルパパに<FE> たのもうとも おもったが<FD> たのめんように なってしもうた.<FD>「ジャングルボーイ!! いまや<FE> おまえの わかさと ちからだけが<FD> すべての たよりじゃ.<FF>"
     pointer_location: 0x0e400
-    translation: "TODO_0x2e7b1"
+    translation: "Lamba<br>「You're here! Boy!<FD>I was waiting!<FD>I called Ten here.<FE>You know him.<FD>Take this letter<FD>and go with Ten<FE>to meet Nan<FE>on Turtle Island.<FD>He'll work<FE>something out.<FD>Ideally, we should<FE>do this ourselves.<FD>But we old folks<FE>can't do much now.<FD>I thought about<FE>asking Papa,<FD>but I can't anymore.<FD>Jungle Boy!! Now<FE>your youth and power<FD>are our only hope.<FF>"
 
   !!int 0x2e8d2:
     original: "ケン<FE>「ハーッ ハーッ ハーッ<FD>「ランバじいさん!<FD> ここは くうきが うすくて<FE> たいへんだって いって<FD> とうさんは このごようを<FE> ぼくに たのみました.<FD>「ぼくで おやくに たてますか?<FF>"
     pointer_location: 0x0e429
-    translation: "TODO_0x2e8d2"
+    translation: "Ken<br>「Huff... huff... huff...<FD>Grandpa Lamba!<FD>Dad said the air<FE>is too thin here<FD>and asked me to<FE>do this errand.<FD>Can I be of help?<FF>"
 
   !!int 0x2e934:
     original: "ランバじいさん<FE>「おう! ケンが きたか.<FD>「おまえさん この 3にんを<FE> カメじままで おくって いけるか?<FD>「なら けっこうじゃ.<FE> さっそく とんでいって くれ.<FF>"
     pointer_location: 0x0e436
-    translation: "TODO_0x2e934"
+    translation: "Lamba<br>「Oh! Ken is here.<FD>Can you take these 3<FE>to Turtle Island?<FD>Good then.<FE>Fly there at once.<FF>"
 
   !!int 0x2e989:
     original: "ケン<FE>「<character>さん<FD> また おあいできて うれしいです.<FD>「じゃ さっそく のってください.<FE> いきますよ.<FF>"
     pointer_location: 0x0e444
-    translation: "TODO_0x2e989"
+    translation: "Ken<br>「<character>!<FD>Happy to see you.<FD>Hop on!<FE>Here we go.<FF>"
 
   !!int 0x2e9be:
     original: "ランバじいさん<FE>「ケン!! ボーイを おろしたら<FD> すぐに とびたって かえるんだぞ.<FD>「かめの しまは いま<FE> ゴートだんで いっぱいじゃ.<FD>「やつらの てっぽうで ねらわれたら<FE> ちょっと めんどうに なるからな.<FF>"
     pointer_location: 0x0e44a
-    translation: "TODO_0x2e9be"
+    translation: "Lamba<br>「Ken! Drop Boy off<FD>and fly back<FE>immediately.<FD>Turtle Island is<FE>full of Goat Gang.<FD>It'll be trouble<FE>if they shoot you.<FF>"
 
   !!int 0x2ea2c:
     original: "「じゃあ <character> よろしくたのむ!<FF>"
     pointer_location: 0x0e458
-    translation: "TODO_0x2ea2c"
+    translation: "So <character>,<FE>good luck!<FF>"
 
   !!int 0x2ea3c:
     original: "ランバじいさん<FE>「ごくろうじゃったな<FD>「では この てがみを もって<FD> テンと いっしょに<FE> カメのしまの ナンに あいにいけ<FD>「そしたら あいつが<FE> なんとかして くれるだろう.<FF>"
     pointer_location: 0x0e475
-    translation: "TODO_0x2ea3c"
+    translation: "Lamba<br>「Good work.<FD>Take this letter<FD>and go with Ten<FE>to see Nan<FE>on Turtle Island.<FD>He will help you.<FF>"
 
   !!int 0x2ea97:
     original: "ランバじいさん<FD>「うーむ どうしたんじゃ?<FE> また ケンを よぶかね?<FC>"
