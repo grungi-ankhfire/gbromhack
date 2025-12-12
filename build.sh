@@ -16,8 +16,8 @@ def must(path, size, prefix_hex):
         raise SystemExit(f"Error: {path} has unexpected header bytes (expected {prefix_hex}).")
 
 must("scripts/patches/extension_jump.patch", 8, "3e10c7cd0040181f")
-must("scripts/patches/extension_new_code.patch", 0x4000, "facac13deacac13c")
-must("scripts/patches/win_moved_code.patch", 160, "7cc650672a5e2356")
+must("scripts/patches/extension_new_code.patch", 0x4000, "7cc650672a5e2356")
+must("scripts/patches/win_moved_code.patch", 160, "facac13deacac13c")
 PY
 
 # Check original ROM
@@ -46,8 +46,8 @@ def at(off, prefix_hex):
     if got != prefix:
         raise SystemExit(f"Error: ROM bytes at {hex(off)} mismatch; expected {prefix_hex}, got {got.hex()}.")
 at(0x0BAD, "3e10c7cd0040181f")
-at(0x40000, "facac13deacac13c")
-at(0x7C700, "7cc650672a5e2356")
+at(0x40000, "7cc650672a5e2356")
+at(0x7C700, "facac13deacac13c")
 PY
 
 # 3. Logic Patches
