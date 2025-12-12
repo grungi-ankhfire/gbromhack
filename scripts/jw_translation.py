@@ -21,6 +21,7 @@ Options
     --no-backup  Disable the automatic backup before patching
 """
 from docopt import docopt
+import os
 from translation_table import TranslationTable
 import pyaml
 import yaml
@@ -143,9 +144,7 @@ def insert_translation(rom_file, translation_data, table):
     script = translation_data["script"]
     combat = translation_data["combat"]
     combat_wide = translation_data["combat_wide"]
-    in_place = translation_data.get("in_place", [])
-
-    OVERWORLD_TABLEFILE = "../tbl/jw-py-en-overworld.tbl"
+    OVERWORLD_TABLEFILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../tbl/jw-py-en-overworld.tbl")
     overworld_table = TranslationTable(OVERWORLD_TABLEFILE)
 
     messages = [TextString(0x1A581, "A morning in the Jungle.<FC>")]
@@ -212,7 +211,7 @@ def insert_windows(rom_file, windows_data, table):
     POINTERS_START_OVERLAY = 0x1F * 0x4000 + 0x500
     DATA_START = 0x1F * 0x4000 + 0x1000
 
-    OVERWORLD_TABLEFILE = "../tbl/jw-py-en-overworld.tbl"
+    OVERWORLD_TABLEFILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../tbl/jw-py-en-overworld.tbl")
     overworld_table = TranslationTable(OVERWORLD_TABLEFILE)
 
     total_size = 0

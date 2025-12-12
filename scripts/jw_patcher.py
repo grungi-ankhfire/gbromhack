@@ -110,10 +110,9 @@ def insert_windows_moved_routine(rom_file):
 
 def insert_enemy_name_loading_redirection_code(rom_file):
     rom_file.seek(0x0f95)
-    rom_file.write(b'\xC3\x00\x41')         # jp $4100
-    rom_file.write(b'\x3E\x0C')             # ld a, $0C
+    rom_file.write(b'\x3E\x1F')             # ld a, $1F
     rom_file.write(b'\xC7')                 # rst $00
-    rom_file.write(b'\x00\x00\x00')         # nop; nop; nop;
+    rom_file.write(b'\xC3\x00\x41')         # jp $4100
 
     rom_file.seek(0x1F * 0x4000 + 0x100)
     rom_file.write(b'\xFA\x9B\xC5')         # ld a, [$c59b]
@@ -121,7 +120,9 @@ def insert_enemy_name_loading_redirection_code(rom_file):
     rom_file.write(b'\xEA\x9B\xC5')         # ld [$c59b], a
     rom_file.write(b'\x7E')                 # ld a, [hl]
     rom_file.write(b'\x5F')                 # ld e, a
-    rom_file.write(b'\xC3\x98\x0F')         # jp $0f98
+    rom_file.write(b'\x3E\x0C')             # ld a, $0C
+    rom_file.write(b'\xC7')                 # rst $00
+    rom_file.write(b'\xC3\x9B\x0F')         # jp $0f9b
 
 
 def insert_npc_name_reading_code(rom_file):
