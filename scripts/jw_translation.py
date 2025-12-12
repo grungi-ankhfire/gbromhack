@@ -487,7 +487,7 @@ if __name__ == '__main__':
                                 print(hex(loc2) + " - Changes in the original string:")
                                 print("1 OLD : " + element1["original"])
                                 print("2 NEW : " + element2["original"])
-                                keep = input("Which to keep? (1/[2]) ")
+                                keep = "1"
                                 if keep.strip() == "1":
                                     pass
                                 else:
@@ -500,7 +500,7 @@ if __name__ == '__main__':
                                 print(hex(loc2) + " - Different pointer locations found:")
                                 print("1 OLD : " + element1["original"])
                                 print("2 NEW : " + element2["original"])
-                                keep = input("Which to keep? (1/[2]) ")
+                                keep = "1"
                                 if keep.strip() == "1":
                                     pass
                                 else:
@@ -513,15 +513,16 @@ if __name__ == '__main__':
                                 print(hex(loc2) + " - Different translations found:")
                                 print("1 OLD : " + element1["original"])
                                 print("2 NEW : " + element2["original"])
-                                keep = input("Which to keep? (1/[2]) ")
+                                keep = "1"
                                 if keep.strip() == "1":
                                     pass
                                 else:
                                     element1["translation"] = element2["translation"]
 
                 else:
-                    pass
-                    # data_existing["script"][loc2] = section2[loc2]
+                    if "script" not in data_existing:
+                        data_existing["script"] = {}
+                    data_existing["script"][loc2] = data_new[section2][loc2]
 
         outfile = None
         if arguments["<outputfile>"]:
