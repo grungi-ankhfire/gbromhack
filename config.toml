@@ -1,5 +1,8 @@
 original_rom = "roms/jw_original.gb"
 output_dir = "out"
+emulator = "../bgb/bgb64"
+patched_rom = "roms/jw_patched.gb"
+patch_version = "0.2.1"
 
 [script]
 table = "tbl/jw-py.tbl"

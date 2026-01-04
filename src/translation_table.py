@@ -17,15 +17,14 @@ class TranslationTableEntry:
 class TranslationTableV2:
 
     def __init__(self, filename):
-        self.entries = []
-        
+        self.entries = []        
         with open(filename, 'r', encoding="utf8") as f:
         
             for line in f:
                 tokens = line.split('=')
                 hex_value = int(tokens[0], base=16)
                 symbol = tokens[1].rstrip('\n')
-                self.table.entries.append(TranslationTableEntry(hex_value, symbol))
+                self.entries.append(TranslationTableEntry(hex_value, symbol))
 
     
 
@@ -58,7 +57,7 @@ class TranslationTable(object):
             result += self.convert_byte(b)
         return result
 
-    def convert_script(self, script) -> str:
+    def convert_script(self, script) -> bytes:
         result = b''
         token = ''
         for character in script:

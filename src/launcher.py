@@ -2,10 +2,12 @@ import click
 import subprocess
 import platform
 import sys
+from ips_util import Patch
+from jw_config import config, path
 
-emulator = "../../bgb/bgb64.exe"
-original_rom = "roms/jw_original.gb"
-patched_rom = "roms/jw_patched.gb"
+emulator = path(config["emulator"])
+original_rom = path(config["original_rom"])
+patched_rom = path(config["patched_rom"])
 
 # set system/version dependent "start_new_session" analogs
 run_kwargs = {}
@@ -37,6 +39,21 @@ def run_original():
 def run_patched():
     print("Launching patched rom...")
     subprocess.Popen([emulator, patched_rom], **run_kwargs)
+
+
+@cli.command
+def make_patch():
+    print("Making patch...")
+    print("└─Step 1 : Fixing header using RGBDS")
+    subprocess.run(["rgbfix", "-p 0x00", patched_rom])
+    print("└─Step 2 : Outputting file")
+    # subprocess.run(["ips_util", "create", "rom", original_rom, patched_rom, "-o", f"JungleWars_EnglishPatch_{config["patch_version"]}.ips"])
+    with open(original_rom, 'rb') as original:
+        with open(patched_rom, 'rb') as patched:
+            patch = Patch.create(original.read(), patched.read())
+
+    with open(path(config["output_dir"]) / f"JungleWars_EnglishPatch_{config['patch_version']}.ips", "wb") as output:
+        output.write(patch.encode())
 
 
 if __name__ == "__main__":

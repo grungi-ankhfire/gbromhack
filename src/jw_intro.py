@@ -34,7 +34,6 @@ def insert_intro(romfile, tablefile):
             msg = table.convert_script(line.text)
             rom_file.seek(line.location)
             rom_file.write(msg)
-            
 
 
 if __name__ == "__main__":

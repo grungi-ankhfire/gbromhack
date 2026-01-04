@@ -123,17 +123,17 @@ def header_checksum(rom):
 @click.command(context_settings={"show_default": True})
 @click.argument("romfile", type=click.File('rb'), default=path(config["original_rom"]))
 def rominfo(romfile):
-    print(f'Cartridge name ................ {get_cartridge_name(romfile)}')
-    print(f'Nintendo logo ................. {check_nintendo_logo(romfile)}')
-    print(f'Cartridge type ................ {get_cartridge_type(romfile)}')
-    print(f'ROM size ...................... {get_rom_size(romfile)}')
-    print(f'RAM size ...................... {get_ram_size(romfile)}')
-    print(f'Destination code .............. {get_destination_code(romfile)}')
+    click.echo(f'Cartridge name ................ {get_cartridge_name(romfile)}')
+    click.echo(f'Nintendo logo ................. {check_nintendo_logo(romfile)}')
+    click.echo(f'Cartridge type ................ {get_cartridge_type(romfile)}')
+    click.echo(f'ROM size ...................... {get_rom_size(romfile)}')
+    click.echo(f'RAM size ...................... {get_ram_size(romfile)}')
+    click.echo(f'Destination code .............. {get_destination_code(romfile)}')
 
     header_rom_checksum, header_computed_checksum, header_checksum_result = header_checksum(romfile)
-    print(f'Header checksum (ROM) ......... {header_rom_checksum}')
-    print(f'Header checksum (computed) .... {header_computed_checksum}')
-    print(f'Header checksum result ........ {header_checksum_result}')
+    click.echo(f'Header checksum (ROM) ......... {header_rom_checksum}')
+    click.echo(f'Header checksum (computed) .... {header_computed_checksum}')
+    click.echo(f'Header checksum result ........ {header_checksum_result}')
 
 
 if __name__ == '__main__':
